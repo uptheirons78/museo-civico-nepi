@@ -1,0 +1,58 @@
+{
+  "name": "museo-civico-nepi",
+  "private": true,
+  "description": "Sito web del Museo Civico del Comune di Nepi",
+  "version": "0.0.1",
+  "author": "Mauro Bono <mauro@maurobono.com>",
+  "dependencies": {
+    "babel-plugin-styled-components": "^1.10.7",
+    "gatsby": "^2.19.7",
+    "gatsby-background-image": "^0.10.0",
+    "gatsby-image": "^2.2.39",
+    "gatsby-plugin-google-analytics": "^2.1.35",
+    "gatsby-plugin-manifest": "^2.2.39",
+    "gatsby-plugin-netlify": "^2.1.32",
+    "gatsby-plugin-netlify-cms": "^4.1.40",
+    "gatsby-plugin-offline": "^3.0.32",
+    "gatsby-plugin-react-helmet": "^3.1.21",
+    "gatsby-plugin-sharp": "^2.4.3",
+    "gatsby-plugin-sitemap": "^2.2.27",
+    "gatsby-plugin-styled-components": "^3.1.19",
+    "gatsby-source-filesystem": "^2.1.46",
+    "gatsby-transformer-sharp": "^2.3.13",
+    "netlify-cms-app": "^2.11.19",
+    "prop-types": "^15.7.2",
+    "react": "^16.12.0",
+    "react-cookie-consent": "^3.0.0",
+    "react-dom": "^16.12.0",
+    "react-google-maps": "^9.4.5",
+    "react-helmet": "^5.2.1",
+    "react-icons": "^3.9.0",
+    "react-share": "^4.0.1",
+    "react-slick": "^0.25.2",
+    "react-spring": "^8.0.27",
+    "react-visibility-sensor": "^5.1.1",
+    "slick-carousel": "^1.8.1",
+    "styled-components": "^5.0.1"
+  },
+  "devDependencies": {
+    "prettier": "^1.19.1"
+  },
+  "keywords": [
+    "gatsby"
+  ],
+  "license": "MIT",
+  "scripts": {
+    "build": "gatsby build",
+    "develop": "gatsby develop",
+    "format": "prettier --write \"**/*.{js,jsx,json,md}\"",
+    "start": "npm run develop",
+    "serve": "gatsby serve",
+    "clean": "gatsby clean",
+    "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/uptheirons78/museo-civico-nepi"
+  }
+}
