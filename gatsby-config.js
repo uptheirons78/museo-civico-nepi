@@ -3,6 +3,20 @@ module.exports = {
     title: `Museo Civico di Nepi`,
     description: `Sito Web del Museo Civico del Comune di Nepi`,
     author: `@uptheirons78`,
+    siteUrl: `https://www.museociviconepi.it/`,
+    keywords: [
+      `comune di nepi`,
+      `nepi`,
+      `museo di nepi`,
+      `museo civico di nepi`,
+    ],
+    contacts: {
+      address: "Via Falisca n. 26",
+      city: "Nepi",
+      cap: "01036",
+      telephone: "0761 570604",
+      email: "museo@comune.nepi.vt.it",
+    },
   },
   plugins: [
     `gatsby-plugin-react-helmet`,
@@ -32,4 +46,4 @@ module.exports = {
     // To learn more, visit: https://gatsby.dev/offline
     // `gatsby-plugin-offline`,
   ],
-}
+};

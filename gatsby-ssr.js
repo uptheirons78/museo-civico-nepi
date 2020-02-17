@@ -1,7 +1,6 @@
-/**
- * Implement Gatsby's SSR (Server Side Rendering) APIs in this file.
- *
- * See: https://www.gatsbyjs.org/docs/ssr-apis/
- */
-
-// You can delete this file if you're not using it
+// Import Fonts
+import "typeface-open-sans";
+import "typeface-source-sans-pro";
+// Import Slick Slider CSS
+import "slick-carousel/slick/slick.css";
+import "slick-carousel/slick/slick-theme.css";
