@@ -32,7 +32,8 @@ const StyledTitleSection = styled.section`
     width: 400px;
     height: 100%;
     background: #fff;
-    clip-path: polygon(0 0, 100% 0, 95% 100%, 0% 100%);
+    clip-path: polygon(0 0, 95% 0, 100% 100%, 0% 100%);
+    /* clip-path: polygon(0 0, 100% 0, 95% 100%, 0% 100%); */
 
     &:before {
       content: "";
@@ -42,7 +43,8 @@ const StyledTitleSection = styled.section`
       width: 398px;
       height: 100%;
       background: ${props => props.theme.primaryColor};
-      clip-path: polygon(0 0, 100% 0, 95% 100%, 0% 100%);
+      clip-path: polygon(0 0, 95% 0, 100% 100%, 0% 100%);
+      /* clip-path: polygon(0 0, 100% 0, 95% 100%, 0% 100%); */
       z-index: -1;
     }
   }

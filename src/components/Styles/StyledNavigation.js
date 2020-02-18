@@ -58,13 +58,16 @@ export const Navigation = styled.nav`
     opacity: 0;
     top: 0;
     left: 50%;
-    width: 90%;
+    z-index: 100;
+    width: 100%;
     margin-top: 2rem;
     padding: 0.5rem 0.3rem;
     text-align: left;
     background: ${props => props.theme.primaryColor};
     transition: all 0.5s ease;
     transform: translateX(-50%);
+    box-shadow: 18px 0 22px -4px rgba(0, 0, 0, 0.4),
+      -18px 0 22px -4px rgba(0, 0, 0, 0.4);
     .dropdown__item {
       border: none;
       a {
