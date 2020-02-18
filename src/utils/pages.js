@@ -1,19 +1,12 @@
 export const it_pages = [
   {
     url: "/",
-    name: "info e biglietti",
+    name: "il museo",
     subpages: [
-      { url: "/", name: "orari e tariffe" },
-      { url: "/", name: "come arrivare" },
-      { url: "/", name: "indicazioni" },
-    ],
-  },
-  {
-    url: "/",
-    name: "servizi",
-    subpages: [
-      { url: "/", name: "visite guidate" },
-      { url: "/", name: "attività didattiche" },
+      { url: "/", name: "la sede" },
+      { url: "/", name: "storia" },
+      { url: "/", name: "organizzazione" },
+      { url: "/", name: "eventi" },
     ],
   },
   {
@@ -26,20 +19,27 @@ export const it_pages = [
   },
   {
     url: "/",
-    name: "il museo",
-    subpages: [
-      { url: "/", name: "la sede" },
-      { url: "/", name: "storia" },
-      { url: "/", name: "organizzazione" },
-      { url: "/", name: "eventi" },
-    ],
-  },
-  {
-    url: "/",
     name: "monumenti",
     subpages: [
       { url: "/", name: "forte dei borgia" },
       { url: "/", name: "catacombe" },
+    ],
+  },
+  {
+    url: "/",
+    name: "servizi",
+    subpages: [
+      { url: "/", name: "visite guidate" },
+      { url: "/", name: "attività didattiche" },
+    ],
+  },
+  {
+    url: "/",
+    name: "info e biglietti",
+    subpages: [
+      { url: "/", name: "orari e tariffe" },
+      { url: "/", name: "come arrivare" },
+      { url: "/", name: "indicazioni" },
     ],
   },
   { url: "/", name: "contatti", subpages: [] },
