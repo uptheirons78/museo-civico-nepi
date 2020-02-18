@@ -4,7 +4,7 @@ import GlobalStyle from "../Styles/GlobalStyles";
 import Theme from "../Styles/Theme";
 import { ThemeProvider } from "styled-components";
 import Header from "./header";
-import Credits from "./credits";
+import Footer from "./footer";
 
 const Layout = ({ children }) => {
   return (
@@ -13,7 +13,7 @@ const Layout = ({ children }) => {
         <GlobalStyle />
         <Header />
         <main>{children}</main>
-        <Credits />
+        <Footer />
       </MainWrapper>
     </ThemeProvider>
   );

@@ -53,3 +53,54 @@ export const uk_pages = [
   { url: "/", name: "monuments" },
   { url: "/", name: "contact" },
 ];
+
+export const footer_pages = {
+  it: {
+    museo_links: [
+      { name: "Sede", url: "/" },
+      { name: "Storia", url: "/" },
+      { name: "Organizzazione", url: "/" },
+      { name: "Eventi", url: "/" },
+    ],
+    info_links: [
+      { name: "Orari e tariffe", url: "/" },
+      { name: "Come arrivare", url: "/" },
+      { name: "Indicazioni", url: "/" },
+    ],
+    collezioni_links: [
+      { name: "Opere", url: "/" },
+      { name: "Percorsi di visita", url: "/" },
+      { name: "Eventi", url: "/" },
+    ],
+    site_links: [
+      { name: "Privacy Policy", url: "/" },
+      { name: "Cookies Policy", url: "/" },
+      { name: "Accessibilità del sito", url: "/" },
+      { name: "Credits", url: "/" },
+    ],
+  },
+  uk: {
+    museo_links: [
+      { name: "Address", url: "/" },
+      { name: "History", url: "/" },
+      { name: "Organization", url: "/" },
+      { name: "Events", url: "/" },
+    ],
+    info_links: [
+      { name: "Orari e tariffe", url: "/" },
+      { name: "Come arrivare", url: "/" },
+      { name: "Indicazioni", url: "/" },
+    ],
+    collezioni_links: [
+      { name: "Opere", url: "/" },
+      { name: "Percorsi di visita", url: "/" },
+      { name: "Eventi", url: "/" },
+    ],
+    site_links: [
+      { name: "Privacy Policy", url: "/" },
+      { name: "Cookies Policy", url: "/" },
+      { name: "Accessibilità del sito", url: "/" },
+      { name: "Credits", url: "/" },
+    ],
+  },
+};
