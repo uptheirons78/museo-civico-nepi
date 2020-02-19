@@ -38,6 +38,7 @@ export const Content = styled.div`
 
       &:before {
         content: "• ";
+        font-weight: bold;
         color: ${props => props.theme.primaryColor};
       }
     }

@@ -1,7 +1,39 @@
-/**
- * Implement Gatsby's Node APIs in this file.
- *
- * See: https://www.gatsbyjs.org/docs/node-apis/
- */
+const path = require(`path`);
 
-// You can delete this file if you're not using it
+exports.createPages = async ({ actions, graphql, reporter }) => {
+  const { createPage } = actions;
+  // Templates
+  const monumentTemplate = path.resolve(`./src/templates/monument.js`);
+  const monumentsResult = await graphql(`
+    query {
+      allMarkdownRemark(
+        filter: { frontmatter: { templateKey: { eq: "monumenti" } } }
+      ) {
+        edges {
+          node {
+            frontmatter {
+              slug
+            }
+          }
+        }
+      }
+    }
+  `);
+  // Check for errors
+  if (monumentsResult.errors) {
+    reporter.panic("Failed to create posts", monumentsResult.errors);
+  }
+  // Arrays
+  const monuments = monumentsResult.data.allMarkdownRemark.edges;
+
+  // Create Pages
+  monuments.forEach(post => {
+    createPage({
+      path: `/monumenti/${post.node.frontmatter.slug}`,
+      component: monumentTemplate,
+      context: {
+        slug: post.node.frontmatter.slug,
+      },
+    });
+  });
+};
