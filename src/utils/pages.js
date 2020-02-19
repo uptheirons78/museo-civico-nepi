@@ -73,7 +73,7 @@ export const footer_pages = {
       { name: "Eventi", url: "/" },
     ],
     site_links: [
-      { name: "Privacy Policy", url: "/" },
+      { name: "Privacy Policy", url: "/privacy-policy" },
       { name: "Cookies Policy", url: "/" },
       { name: "Accessibilità del sito", url: "/" },
       { name: "Credits", url: "/" },

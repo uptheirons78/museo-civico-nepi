@@ -1,0 +1,39 @@
+backend:
+  name: github
+  repo: uptheirons78/museo-civico-nepi
+  commit_messages:
+    create: 'Create {{collection}} “{{slug}}”'
+    update: 'Update {{collection}} “{{slug}}”'
+    delete: 'Delete {{collection}} “{{slug}}”'
+    uploadMedia: '[skip ci] Upload “{{path}}”'
+    deleteMedia: '[skip ci] Delete “{{path}}”'
+
+media_folder: static/assets
+public_folder: /assets
+
+collections:
+  # Blog Post Type
+  - name: "monumenti"
+    label: "Monumenti"
+    folder: "content/monuments"
+    create: true
+    slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
+    editor:
+     preview: false
+    fields:
+      - {label: "Template Key", name: "templateKey", widget: "hidden", default: "monumenti"}
+      - { label: "Titolo", name: "title", widget: "string" }
+      - { label: "Slug", name: "slug", widget: "string" }
+      - { label: "Data di pubblicazione", name: "date", widget: "datetime" }
+      - { label: "Descrizione", name: "description", widget: "string" }
+      - { label: "Categoria",
+          name: "category",
+          widget: "string",
+          default: "monumenti"
+        }
+      - {label: "In Evidenza", name: "featured", widget: "boolean", default: false}
+      - { label: "Thumbnail",
+          name: "image",
+          widget: "image"
+        }
+      - { label: "Body", name: "body", widget: "markdown" }

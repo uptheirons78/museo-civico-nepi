@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "gatsby";
 import styled from "styled-components";
 import bgImg from "../../images/nepi_01.jpg";
 
@@ -6,7 +7,9 @@ const TitleSection = () => {
   return (
     <StyledTitleSection className="title-section">
       <div className="inner-section">
-        <h2>Museo Civico di Nepi</h2>
+        <Link className="home-page__link" to="/">
+          <h2>Museo Civico di Nepi</h2>
+        </Link>
       </div>
     </StyledTitleSection>
   );
@@ -46,6 +49,11 @@ const StyledTitleSection = styled.section`
       clip-path: polygon(0 0, 95% 0, 100% 100%, 0% 100%);
       /* clip-path: polygon(0 0, 100% 0, 95% 100%, 0% 100%); */
       z-index: -1;
+    }
+
+    .home-page__link {
+      text-decoration: none;
+      color: ${props => props.theme.white};
     }
   }
 `;

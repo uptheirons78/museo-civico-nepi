@@ -7,6 +7,7 @@ description: >-
   La Chiesa di Santa Maria Assunta, denominata "Duomo" dai nepesini, si erge sull'area di un antico foro romano. L'attuale edificio è risultato di una serie di rifacimenti. La cripta al suo interno e l'altare maggiore con le sue decorazioni scultoree sono sicuramente gli elementi di maggior pregio.
 category: monumenti
 featured: true
+image: /assets/img-01.jpg
 ---
 Secondo la tradizione locale il Duomo, intitolato a Santa Maria Assunta, fu edificato sopra un tempio pagano. In effetti la chiesa sorge in un’area occupata anticamente dal foro romano.
 L’edificio visibile attualmente è il risultato di una serie rifacimenti che hanno interessato la struttura sino al secolo scorso. Le prime notizie dell’esistenza di una cattedrale a Nepi   vengono fatte risalire al V secolo, quando le fonti citano per la prima volta un vescovo nepesino.

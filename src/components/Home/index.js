@@ -1,16 +1,11 @@
 import React from "react";
-import { Content } from "../Styles/StyledContent";
-import HeadingSection from "../Shared/HeadingSection";
+import Slider from "./slider";
 
-const Home = ({ data }) => {
+const Home = () => {
   return (
     <>
-      <HeadingSection title={data.markdownRemark.frontmatter.title} />
-      <Content
-        dangerouslySetInnerHTML={{
-          __html: data.markdownRemark.html,
-        }}
-      ></Content>
+      <h1>Home Page</h1>
+      <Slider />
     </>
   );
 };
