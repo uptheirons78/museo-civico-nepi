@@ -1,11 +1,15 @@
 import React from "react";
 import MonumentiSlider from "./slider";
+import Activities from "./activities";
 
 const Home = () => {
   return (
     <>
       <MonumentiSlider />
-      <div style={{ marginTop: "3rem" }}>
+      <Activities />
+      <div
+        style={{ marginTop: "1rem", marginBottom: "1rem", padding: "0 1rem" }}
+      >
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate
         mollitia odit omnis delectus. Incidunt excepturi libero autem, sed quod,
         dolorem nesciunt quasi id atque harum dolores. Assumenda exercitationem
