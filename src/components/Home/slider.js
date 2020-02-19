@@ -1,7 +1,11 @@
 import React from "react";
 import { useStaticQuery, graphql } from "gatsby";
+import Slider from "react-slick";
 
-const Slider = () => {
+// Components
+import SliderCard from "./sliderCard";
+
+const MonumentiSlider = () => {
   const data = useStaticQuery(graphql`
     query FeaturedQuery {
       allMarkdownRemark(
@@ -11,11 +15,13 @@ const Slider = () => {
             templateKey: { eq: "monumenti" }
           }
         }
+        sort: { fields: frontmatter___date, order: DESC }
       ) {
         edges {
           node {
             frontmatter {
               title
+              description
               image
             }
           }
@@ -24,20 +30,32 @@ const Slider = () => {
     }
   `);
 
+  const settings = {
+    dots: true,
+    speed: 1250,
+    autoplay: true,
+    autoplaySpeed: 7000,
+    slidesToShow: 1,
+    slidesToScroll: 1,
+    infinite: true,
+  };
+
   const featuredMonuments = data.allMarkdownRemark.edges;
 
   return (
-    <div>
+    <Slider {...settings}>
       {featuredMonuments.map(monument => {
         return (
-          <div key={monument.node.id}>
-            <h4>{monument.node.frontmatter.title}</h4>
-            <p>{monument.node.frontmatter.image}</p>
-          </div>
+          <SliderCard
+            key={monument.node.id}
+            image={monument.node.frontmatter.image}
+            title={monument.node.frontmatter.title}
+            description={monument.node.frontmatter.description}
+          />
         );
       })}
-    </div>
+    </Slider>
   );
 };
 
-export default Slider;
+export default MonumentiSlider;

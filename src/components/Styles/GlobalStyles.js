@@ -20,6 +20,36 @@ const GlobalStyle = createGlobalStyle`
     font-family: 'Source Sans Pro', sans-serif;
     font-weight: 900;
   }
+
+  /** Slider Styles */
+
+  /** Arrows Styles */
+  .slick-arrow {
+    visibility: hidden;
+    opacity: 0;
+    display: none;
+  }
+  /** Dots Styles */
+  .slick-dots {
+    li {
+      button {
+        &::before {
+          font-size: 8px !important;
+          color: black;
+        }
+      }
+
+      &:hover, &.slick-active {
+        button {
+          &::before {
+            color: ${props => props.theme.primaryColor};
+          }
+        }
+      }
+    }
+  }
+
+
 `;
 
 export default GlobalStyle;
