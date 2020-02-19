@@ -11,7 +11,7 @@ module.exports = {
       `museo civico di nepi`,
     ],
     contacts: {
-      address: "Via Falisca n. 26",
+      address: "Via Falisca n. 31",
       city: "Nepi",
       cap: "01036",
       telephone: "0761 570604",
@@ -48,6 +48,13 @@ module.exports = {
       options: {
         name: `monuments`,
         path: `${__dirname}/content/monuments`,
+      },
+    },
+    {
+      resolve: `gatsby-source-filesystem`,
+      options: {
+        name: `monuments`,
+        path: `${__dirname}/content/events`,
       },
     },
     `gatsby-transformer-remark`,

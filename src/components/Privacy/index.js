@@ -5,7 +5,9 @@ import HeadingSection from "../Shared/HeadingSection";
 const Privacy = ({ data }) => {
   return (
     <>
-      <HeadingSection title={data.markdownRemark.frontmatter.title} />
+      <HeadingSection>
+        <h2>{data.markdownRemark.frontmatter.title}</h2>
+      </HeadingSection>
       <Content
         dangerouslySetInnerHTML={{
           __html: data.markdownRemark.html,

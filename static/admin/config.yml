@@ -12,7 +12,7 @@ media_folder: static/assets
 public_folder: /assets
 
 collections:
-  # Blog Post Type
+  # Blog Post Types
   - name: "monumenti"
     label: "Monumenti"
     folder: "content/monuments"
@@ -36,4 +36,26 @@ collections:
           name: "image",
           widget: "image"
         }
+      - { label: "Body", name: "body", widget: "markdown" }
+  - name: "eventi"
+    label: "Eventi"
+    folder: "content/events"
+    create: true
+    slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
+    editor:
+     preview: false
+    fields:
+      - {label: "Template Key", name: "templateKey", widget: "hidden", default: "eventi"}
+      - { label: "Titolo", name: "title", widget: "string" }
+      - { label: "Slug", name: "slug", widget: "string" }
+      - { label: "Data di pubblicazione", name: "date", widget: "datetime" }
+      - { label: "Data di inizio evento", name: "start", widget: "datetime" }
+      - { label: "Data di fine evento", name: "end", widget: "datetime" }
+      - { label: "Descrizione", name: "description", widget: "string" }
+      - { label: "Categoria",
+          name: "category",
+          widget: "string",
+          default: "eventi"
+        }
+      - {label: "In Evidenza", name: "featured", widget: "boolean", default: false}
       - { label: "Body", name: "body", widget: "markdown" }
