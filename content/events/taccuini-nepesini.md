@@ -1,18 +1,27 @@
 ---
 templateKey: eventi
-title: 'Taccuini Nepesini'
-slug: 'taccuini-nepesini'
+title: Taccuini Nepesini
+slug: taccuini-nepesini
 date: 2020-02-18T21:00:00.000Z
 start: 2020-04-23T12:00:00.000Z
 end: 2020-07-07T12:00:00.000Z
 description: >-
-  Una fantastica serie di 76 piccoli dipinti a olio su carta, cartone e legno, eseguiti fra il 1885 e il 1936, costituiscono un corpus di grande interesse delle collezioni del Museo Civico di Nepi.
+  Una fantastica serie di 76 piccoli dipinti a olio su carta, cartone e legno,
+  eseguiti fra il 1885 e il 1936, costituiscono un corpus di grande interesse
+  delle collezioni del Museo Civico di Nepi.
 category: eventi
 featured: true
 place: Museo Civico di Nepi
 access: Da martedì a domenica ore 10.00 - 20.00. Chiuso il lunedì
-ticket: Biglietto Unico € 6,50. Gratuito per minori di anni 14
+ticket: 'Biglietto Unico € 6,50. Gratuito per minori di anni 14'
 type: Mostra Fotografica
+gallery:
+  - alt: santa maria assunta
+    image: /assets/events-01.jpg
+  - alt: la bottata
+    image: /assets/events-02.jpg
+  - alt: il bosco incantato
+    image: /assets/events-03.jpg
 ---
 Lucido osservatore della storia e società turca, **Güler ha lasciato in eredità un archivio di oltre due milioni di foto**, di cui una selezione di circa 80 immagini è in mostra, una grande **retrospettiva dedicata** in particolare alla città di Istanbul, una sezione è riservata ai ritratti di personaggi famosi tra i quali, Federico Fellini, Pablo Picasso, Salvator Dalì, Sophia Loren.
 
