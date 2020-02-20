@@ -1,11 +1,13 @@
 import styled from "styled-components";
 
-export const Content = styled.div`
+export const Content = styled.section`
   padding: 2rem 1rem;
 
   p {
     font-size: 0.9rem;
     line-height: 1.5;
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
   }
 
   h4 {
@@ -46,5 +48,39 @@ export const Content = styled.div`
 
   a {
     text-decoration: none;
+  }
+`;
+
+export const Description = styled.section`
+  margin-top: 2rem;
+  padding: 0 1rem;
+  h4 {
+    line-height: 1.5;
+    color: ${props => props.theme.black};
+    font-weight: 600;
+    font-size: 1.3rem;
+    font-style: italic;
+  }
+`;
+
+export const Info = styled.section`
+  margin-top: 1rem;
+  padding: 0 1rem;
+
+  h2 {
+    color: ${props => props.theme.primaryColor};
+    font-weight: 700;
+  }
+
+  .info-section {
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+    h3 {
+      margin-top: 0.5rem;
+      font-size: 1.2rem;
+    }
+    p {
+      font-size: 0.9rem;
+    }
   }
 `;

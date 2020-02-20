@@ -58,4 +58,8 @@ collections:
           default: "eventi"
         }
       - {label: "In Evidenza", name: "featured", widget: "boolean", default: false}
+      - { label: "Luogo Evento", name: "place", widget: "string" }
+      - { label: "Orario", name: "access", widget: "string" }
+      - { label: "Info Biglietti", name: "ticket", widget: "string" }
+      - { label: "Tipologia Evento", name: "type", widget: "string" }
       - { label: "Body", name: "body", widget: "markdown" }

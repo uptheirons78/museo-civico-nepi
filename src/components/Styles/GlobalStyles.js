@@ -19,6 +19,7 @@ const GlobalStyle = createGlobalStyle`
   h1,h2,h3,h4,h5,h6 {
     font-family: 'Source Sans Pro', sans-serif;
     font-weight: 900;
+    letter-spacing: 1px;
   }
 
   /** Slider Styles */
