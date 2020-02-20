@@ -2,16 +2,16 @@
 import React, { useState } from "react";
 import styled from "styled-components";
 
-const images = ["mountain", "space", "beach"];
-
-const ImageGrid = () => {
+const ImageGrid = ({ gallery }) => {
   const [lightboxOpen, setLightboxOpen] = useState({
     active: false,
     src: null,
   });
+
   const addLightboxOpen = e => {
     setLightboxOpen({ ...lightboxOpen, active: true, src: e.target.src });
   };
+
   const removeLightboxOpen = () => {
     setLightboxOpen({ ...lightboxOpen, active: false, src: null });
   };
@@ -22,14 +22,15 @@ const ImageGrid = () => {
     <>
       <StyledImageGrid>
         <div className="grid">
-          {images.map(image => (
-            <img
-              src={`https://source.unsplash.com/400x400?${image}`}
-              key={image}
-              alt={image}
-              onClick={addLightboxOpen}
-            />
-          ))}
+          {gallery &&
+            gallery.map(image => (
+              <img
+                src={image.image}
+                key={image.alt}
+                alt={image.alt}
+                onClick={addLightboxOpen}
+              />
+            ))}
         </div>
       </StyledImageGrid>
       <Lightbox className={LightboxClass} onClick={removeLightboxOpen}>

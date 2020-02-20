@@ -74,7 +74,6 @@ export const Info = styled.section`
 
   .info-section {
     margin-top: 1rem;
-    margin-bottom: 2rem;
     h3 {
       margin-top: 0.5rem;
       font-size: 1.2rem;

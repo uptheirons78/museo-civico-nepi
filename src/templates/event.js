@@ -7,9 +7,11 @@ import SEO from "../components/seo";
 import HeadingSection from "../components/Shared/HeadingSection";
 import { Content, Description, Info } from "../components/Styles/StyledContent";
 import ImageGrid from "../components/Shared/ImageGrid";
+import SocialShare from "../components/Shared/socialShare";
 
 const event = ({ data }) => {
   const {
+    slug,
     title,
     description,
     start,
@@ -18,6 +20,7 @@ const event = ({ data }) => {
     access,
     ticket,
     type,
+    gallery,
   } = data.markdownRemark.frontmatter;
 
   return (
@@ -37,7 +40,7 @@ const event = ({ data }) => {
           __html: data.markdownRemark.html,
         }}
       ></Content>
-      <ImageGrid />
+      <ImageGrid gallery={gallery} />
       <Info>
         <h2>Informazioni</h2>
         <div className="info-section">
@@ -50,6 +53,14 @@ const event = ({ data }) => {
           <h3>Tipologia Evento</h3>
           <p>{type}</p>
         </div>
+        <SocialShare
+          socialConfig={{
+            config: {
+              title: { title },
+              url: `https://museo-civico-nepi.netlify.com/eventi/${slug}`,
+            },
+          }}
+        />
       </Info>
     </Layout>
   );
@@ -62,6 +73,7 @@ export const pageQuery = graphql`
   query EventsBySlug($slug: String!) {
     markdownRemark(frontmatter: { slug: { eq: $slug } }) {
       frontmatter {
+        slug
         title
         description
         start(formatString: "DD MMM YYYY", locale: "it")
@@ -70,6 +82,10 @@ export const pageQuery = graphql`
         access
         ticket
         type
+        gallery {
+          image
+          alt
+        }
       }
       html
     }
