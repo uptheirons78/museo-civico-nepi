@@ -67,7 +67,10 @@ collections:
           name: "galleryImages",
           widget: "list",
           fields:
-            - {{label: "Immagine", name: "image", widget: "image"}}
-            - {{label: "Nome Immagine", name: "alt", widget: "string"}}
+            [
+              { label: "Immagine", name: "image", widget: "image" },
+              { label: "Nome Immagine", name: "alt", widget: "string" },
+            ]
         }
       - { label: "Body", name: "body", widget: "markdown" }
+      -
