@@ -1,18 +1,20 @@
 ---
 templateKey: eventi
-title: 'Frammenti. Fotografie di Giggi o Lungo'
-slug: 'frammenti-fotografie-di-giggi-o-lungo'
-date: 2020-02-18T21:00:00.000Z
-start: 2020-03-01T12:00:00.000Z
-end: 2020-04-15T12:00:00.000Z
+title: Notte al Museo
+slug: notte-al-museo
+date: 2020-02-21T21:00:00.000Z
+start: 2020-08-23T12:00:00.000Z
+end: 2020-09-07T12:00:00.000Z
 description: >-
-  La mostra presenta 21 preziose stampe che raccontano la passione del fotoreporter Stefano Cigada per l’archeologia e la sua ricerca di far “palpitare” le statue antiche.
+  Una fantastica serie di 76 piccoli dipinti a olio su carta, cartone e legno,
+  eseguiti fra il 1885 e il 1936, costituiscono un corpus di grande interesse
+  delle collezioni del Museo Civico di Nepi.
 category: eventi
 featured: false
-image: /assets/events-01.jpg
+image: /assets/events-02.jpg
 place: Museo Civico di Nepi
 access: Da martedì a domenica ore 10.00 - 20.00. Chiuso il lunedì
-ticket: Biglietto Unico € 6,50. Gratuito per minori di anni 14
+ticket: 'Biglietto Unico € 6,50. Gratuito per minori di anni 14'
 type: Mostra Fotografica
 gallery:
   - alt: santa maria assunta
@@ -29,3 +31,5 @@ Nominato uno dei sette fotografi migliori al mondo dal British Journal of Photog
 La mostra è composta in gran parte dalle fotografie di Istanbul scattate da Ara Güler a partire dagli anni ’50, periodo fondamentale in cui fu reclutato da Henri Cartier-Bresson per l’Agenzia Magnum e divenne corrispondente per il Vicino Oriente prima per Time Life nel 1956, e poi per Paris Match e Stern nel 1958. Le 45 vedute in bianco e nero della città presenti in mostra costituiranno una preziosa testimonianza di un’umanità ormai quasi cancellata dalla memoria e si affiancheranno ad una sezione, composta da 37 immagini in tutto, dedicata ai ritratti di personaggi importanti del mondo dell’arte, della letteratura, della scienza e della politica: da Federico Fellini a Sophia Loren, da Bernardo Bertolucci ad Antonio Tabucchi, da Papa Paolo VI a Winston Churchill.
 
 Ara Güler era **“un marchio globale”** per la sua professione a tutti gli effetti – dichiara il Presidente Recep Tayyip Erdoğan – La sua maestria è comprovata dal fatto che tutti i personaggi più importanti degli ultimi 65 anni, che hanno lasciato un segno indelebile nella nostra memoria collettiva con le loro lotte politiche, la loro leadership come uomini di Stato, le loro idee, la loro arte e la loro sensibilità, furono immortalati dal suo obiettivo. È un motivo di grande orgoglio per l’intera nazione vedere le sue fotografie, scattate nel corso di una lunga carriera, che inizia nel 1950 e dura fino al suo ultimo respiro, esposte ancora oggi nelle sezioni più prestigiose di mostre, collezioni e raccolte in ogni angolo del mondo.
+
+Il viaggio artistico di **Ara Güler**, che mise Istanbul, dove fu nato e cresciuto, al **centro della sua vita e della sua arte**, racchiude in sé una sintesi della nostra storia recente. Lo ricorderemo sempre con profondo rispetto come una delle più edificanti testimonianze della figura del “vero artista” nel nostro Paese, con il suo linguaggio originale, avvincente e prolifico, libero da ogni forma di bigottismo.

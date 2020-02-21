@@ -10,7 +10,7 @@ description: >-
   eseguiti fra il 1885 e il 1936, costituiscono un corpus di grande interesse
   delle collezioni del Museo Civico di Nepi.
 category: eventi
-featured: true
+featured: false
 image: /assets/events-02.jpg
 place: Museo Civico di Nepi
 access: Da martedì a domenica ore 10.00 - 20.00. Chiuso il lunedì
