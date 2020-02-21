@@ -11,7 +11,7 @@ description: >-
   delle collezioni del Museo Civico di Nepi.
 category: eventi
 featured: false
-image: /assets/events-02.jpg
+image: /assets/events-03.jpg
 place: Museo Civico di Nepi
 access: Da martedì a domenica ore 10.00 - 20.00. Chiuso il lunedì
 ticket: 'Biglietto Unico € 6,50. Gratuito per minori di anni 14'
