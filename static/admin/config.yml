@@ -36,7 +36,20 @@ collections:
           name: "image",
           widget: "image"
         }
+      - { label: "Indirizzo", name: "place", widget: "string" }
+      - { label: "Orario", name: "access", widget: "string" }
+      - { label: "Info Biglietti", name: "ticket", widget: "string" }
       - { label: "Body", name: "body", widget: "markdown" }
+      - {
+          label: "Gallery",
+          name: "gallery",
+          widget: "list",
+          fields:
+            [
+              { label: "Foto", name: "image", widget: "image" },
+              { label: "Descrizione Foto", name: "alt", widget: "string" },
+            ],
+        }
   - name: "eventi"
     label: "Eventi"
     folder: "content/events"
@@ -58,6 +71,10 @@ collections:
           default: "eventi"
         }
       - {label: "In Evidenza", name: "featured", widget: "boolean", default: false}
+      - { label: "Thumbnail",
+          name: "image",
+          widget: "image"
+        }
       - { label: "Luogo Evento", name: "place", widget: "string" }
       - { label: "Orario", name: "access", widget: "string" }
       - { label: "Info Biglietti", name: "ticket", widget: "string" }

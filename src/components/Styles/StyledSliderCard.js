@@ -30,6 +30,21 @@ export const StyledSliderCard = styled.section`
       padding: 1rem 1.5rem 0 0;
     }
 
+    .slider-link {
+      align-self: flex-start;
+      margin-top: 0.5rem;
+      color: #fff;
+      text-decoration: none;
+      font-size: 0.7rem;
+      letter-spacing: 1px;
+      border-bottom: 1px solid transparent;
+      padding-bottom: 0.1rem;
+      transition: all 0.5s linear;
+      &:hover {
+        border-bottom: 1px solid #fff;
+      }
+    }
+
     &:before {
       content: "";
       position: absolute;

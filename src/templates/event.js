@@ -14,6 +14,7 @@ const event = ({ data }) => {
     slug,
     title,
     description,
+    image,
     start,
     end,
     place,
@@ -26,7 +27,7 @@ const event = ({ data }) => {
   return (
     <Layout>
       <SEO title={title} />
-      <HeadingSection>
+      <HeadingSection thumbnail={image}>
         <h2>{title}</h2>
         <p style={{ textTransform: "capitalize" }}>
           {start} - {end}
@@ -76,6 +77,7 @@ export const pageQuery = graphql`
         slug
         title
         description
+        image
         start(formatString: "DD MMM YYYY", locale: "it")
         end(formatString: "DD MMM YYYY", locale: "it")
         place

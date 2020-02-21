@@ -9,6 +9,7 @@ description: >-
   La mostra presenta 21 preziose stampe che raccontano la passione del fotoreporter Stefano Cigada per l’archeologia e la sua ricerca di far “palpitare” le statue antiche.
 category: eventi
 featured: true
+image: /assets/events-01.jpg
 place: Museo Civico di Nepi
 access: Da martedì a domenica ore 10.00 - 20.00. Chiuso il lunedì
 ticket: Biglietto Unico € 6,50. Gratuito per minori di anni 14

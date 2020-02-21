@@ -20,6 +20,7 @@ const MonumentiSlider = () => {
         edges {
           node {
             frontmatter {
+              slug
               title
               description
               image
@@ -51,6 +52,7 @@ const MonumentiSlider = () => {
             image={monument.node.frontmatter.image}
             title={monument.node.frontmatter.title}
             description={monument.node.frontmatter.description}
+            slug={monument.node.frontmatter.slug}
           />
         );
       })}

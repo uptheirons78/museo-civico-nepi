@@ -37,5 +37,20 @@ export const StyledHeadingSection = styled.section`
       font-size: 0.7rem;
       padding: 0.3rem 0;
     }
+
+    .heading-section-link {
+      align-self: flex-start;
+      margin-top: 0.5rem;
+      color: #fff;
+      text-decoration: none;
+      font-size: 0.9rem;
+      letter-spacing: 1px;
+      border-bottom: 1px solid transparent;
+      padding-bottom: 0.1rem;
+      transition: all 0.5s linear;
+      &:hover {
+        border-bottom: 1px solid #fff;
+      }
+    }
   }
 `;

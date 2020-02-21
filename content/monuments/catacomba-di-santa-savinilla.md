@@ -8,6 +8,16 @@ description: >-
 category: monumenti
 featured: true
 image: /assets/img-03.jpg
+place: Museo Civico di Nepi
+access: Da martedì a domenica ore 10.00 - 20.00. Chiuso il lunedì
+ticket: 'Biglietto Unico € 6,50. Gratuito per minori di anni 14'
+gallery:
+  - alt: santa maria assunta
+    image: /assets/events-01.jpg
+  - alt: la bottata
+    image: /assets/events-02.jpg
+  - alt: il bosco incantato
+    image: /assets/events-03.jpg
 ---
 Con il progressivo diffondersi del Cristianesimo, le prime comunità cristiane ebbero la necessità di dotarsi di proprie aree funerarie, separate da quelle pagane. Questi cimiteri, chiamati “catacombe”, si svilupparono a Roma a partire dalla fine del II secolo caratterizzandosi per la presenza di gallerie scavate nel sottosuolo.
 

@@ -8,6 +8,16 @@ description: >-
 category: monumenti
 featured: true
 image: /assets/img-02.jpg
+place: Museo Civico di Nepi
+access: Da martedì a domenica ore 10.00 - 20.00. Chiuso il lunedì
+ticket: 'Biglietto Unico € 6,50. Gratuito per minori di anni 14'
+gallery:
+  - alt: santa maria assunta
+    image: /assets/events-01.jpg
+  - alt: la bottata
+    image: /assets/events-02.jpg
+  - alt: il bosco incantato
+    image: /assets/events-03.jpg
 ---
 Secondo la tradizione locale il Duomo, intitolato a Santa Maria Assunta, fu edificato sopra un tempio pagano. In effetti la chiesa sorge in un’area occupata anticamente dal foro romano.
 L’edificio visibile attualmente è il risultato di una serie rifacimenti che hanno interessato la struttura sino al secolo scorso. Le prime notizie dell’esistenza di una cattedrale a Nepi   vengono fatte risalire al V secolo, quando le fonti citano per la prima volta un vescovo nepesino.
