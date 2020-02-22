@@ -75,11 +75,19 @@ export const StyledNews = styled.section`
       }
 
       .news-secondary__article-link {
-        display: block;
+        display: inline-block;
         text-decoration: none;
         font-size: 0.9rem;
+        font-weight: 700;
         color: ${props => props.theme.primaryColor};
         margin-top: 0.5rem;
+        border-bottom: 2px solid transparent;
+        transition: all .5s ease;
+
+        &:hover {
+        border-bottom: 2px solid ${props => props.theme.primaryColor};
+
+        }
       }
 
       /* .news-secondary__article-info {
