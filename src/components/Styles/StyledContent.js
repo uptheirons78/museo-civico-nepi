@@ -83,3 +83,10 @@ export const Info = styled.section`
     }
   }
 `;
+
+export const SectionTitle = styled.h1`
+  padding: 1rem;
+  color: ${props => props.theme.primaryColor};
+  font-size: 1.8rem;
+  text-transform: uppercase;
+`;

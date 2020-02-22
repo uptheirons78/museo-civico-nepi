@@ -44,7 +44,7 @@ const MonumentiSlider = () => {
   const featuredMonuments = data.allMarkdownRemark.edges;
 
   return (
-    <Slider {...settings}>
+    <Slider {...settings} style={{ marginBottom: "2rem" }}>
       {featuredMonuments.map(monument => {
         return (
           <SliderCard

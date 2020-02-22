@@ -1,7 +1,7 @@
 import styled from "styled-components";
 
 export const StyledActivities = styled.section`
-  padding: 4rem 1rem 2rem 1rem;
+  padding: 0 1rem 2rem 1rem;
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   grid-gap: 1rem;
