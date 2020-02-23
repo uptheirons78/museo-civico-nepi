@@ -6,7 +6,7 @@ import { StyledCredits } from "../Styles/StyledCredits";
 // Images
 import tripAdvisorImage from "../../images/tripadvisorbianco.png";
 
-const Credits = () => {
+const Credits = props => {
   const { title, contacts } = useSiteMetadata();
   const { address, city, cap, telephone, email } = contacts;
   const year = new Date().getFullYear();
