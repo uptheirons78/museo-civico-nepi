@@ -12,9 +12,9 @@ const Layout = props => {
     <ThemeProvider theme={Theme}>
       <MainWrapper>
         <GlobalStyle />
-        <Header lang={props.lang} />
+        <Header language={props.language} />
         <main>{props.children}</main>
-        <Footer lang={props.lang} />
+        <Footer language={props.language} />
       </MainWrapper>
     </ThemeProvider>
   );

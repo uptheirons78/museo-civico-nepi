@@ -1,6 +1,5 @@
 import React from "react";
 import { Link } from "gatsby";
-
 // Styled Components
 import { StyledFooterGridMenu } from "../Styles/StyledFooterGridMenu";
 
@@ -19,30 +18,35 @@ const FooterNav = ({ links }) => {
   );
 };
 
-const FooterMenu = () => {
-  const language = "it";
+const FooterMenu = ({ language }) => {
   const {
     museo_links,
     info_links,
     collezioni_links,
     site_links,
-  } = footer_pages[language];
+  } = footer_pages[`${language}`];
+
+  const titles = {
+    it: ["museo", "info", "collezioni", "privacy"],
+    en: ["museum", "info", "collections", "privacy"],
+  };
+
   return (
     <StyledFooterGridMenu className="footer-grid-menu">
       <div className="footer-grid-menu__item one">
-        <h1>museo</h1>
+        <h1>{titles[`${language}`][0]}</h1>
         <FooterNav links={museo_links} />
       </div>
       <div className="footer-grid-menu__item two">
-        <h1>info</h1>
+        <h1>{titles[`${language}`][1]}</h1>
         <FooterNav links={info_links} />
       </div>
       <div className="footer-grid-menu__item three">
-        <h1>collezioni</h1>
+        <h1>{titles[`${language}`][2]}</h1>
         <FooterNav links={collezioni_links} />
       </div>
       <div className="footer-grid-menu__item four">
-        <h1>sito e privacy</h1>
+        <h1>{titles[`${language}`][3]}</h1>
         <FooterNav links={site_links} />
       </div>
     </StyledFooterGridMenu>

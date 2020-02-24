@@ -7,11 +7,10 @@ import Layout from "../../components/Layout/layout";
 import Home from "../../components/Home";
 
 const enIndexPage = ({ data }) => {
-  const lang = "en";
   return (
-    <Layout lang={lang}>
-      <SEO title="Home" lang={lang} />
-      <Home data={data} lang={lang} />
+    <Layout language="en">
+      <SEO title="Home" lang="en" />
+      <Home data={data} language="en" />
     </Layout>
   );
 };

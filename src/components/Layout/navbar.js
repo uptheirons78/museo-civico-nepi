@@ -6,11 +6,11 @@ import { Single, Dropdown } from "./navigationLinks";
 // Styled Components
 import { Navigation } from "../Styles/StyledNavigation";
 
-const Navbar = ({ lang }) => {
+const Navbar = ({ language }) => {
   return (
     <Navigation className="navigation" role="navigation">
       <ul className="navigation__list">
-        {pages[`${lang}`].map(page => {
+        {pages[`${language}`].map(page => {
           if (page.subpages.length === 0) {
             return <Single key={page.name} url={page.url} name={page.name} />;
           } else {

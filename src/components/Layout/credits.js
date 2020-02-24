@@ -6,6 +6,8 @@ import { StyledCredits } from "../Styles/StyledCredits";
 // Images
 import tripAdvisorImage from "../../images/tripadvisorbianco.png";
 
+import * as translate from "../../utils/translate.json";
+
 const Credits = props => {
   const { title, contacts } = useSiteMetadata();
   const { address, city, cap, telephone, email } = contacts;
@@ -19,7 +21,8 @@ const Credits = props => {
           alt="TripAdvisor Logo"
         />
         <p className="credits__text">
-          Leggi le recensioni su: <a href="/">{title}</a>
+          {translate.default.recensioni[props.language]}
+          <a href="/">{title}</a>
         </p>
       </div>
       <div className="credits__section-right">

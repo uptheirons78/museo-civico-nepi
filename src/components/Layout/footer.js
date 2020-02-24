@@ -3,11 +3,11 @@ import styled from "styled-components";
 import FooterMenu from "./footerMenu";
 import Credits from "./credits";
 
-const Footer = () => {
+const Footer = ({ language }) => {
   return (
     <StyledFooter>
-      <FooterMenu />
-      <Credits />
+      <FooterMenu language={language} />
+      <Credits language={language} />
     </StyledFooter>
   );
 };

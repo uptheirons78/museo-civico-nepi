@@ -4,12 +4,12 @@ import TitleSection from "./titleSection";
 import Navbar from "./navbar";
 import Intro from "./intro";
 
-const Header = ({ lang }) => {
+const Header = ({ language }) => {
   return (
     <StyledHeader>
-      <Intro />
+      <Intro language={language} />
       <TitleSection />
-      <Navbar lang={lang} />
+      <Navbar language={language} />
     </StyledHeader>
   );
 };

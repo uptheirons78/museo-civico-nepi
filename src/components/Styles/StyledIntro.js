@@ -39,4 +39,20 @@ export const StyledIntro = styled.section`
       }
     }
   }
+
+  .language-btn {
+    text-decoration: none;
+    border: 1px solid ${props => props.theme.primaryColor};
+    padding: 0.1rem 0.6rem;
+    background: ${props => props.theme.primaryColor};
+    color: ${props => props.theme.white};
+    font-size: 0.7rem;
+    font-weight: bold;
+    transition: all 0.5s ease;
+
+    &:hover {
+      background: ${props => props.theme.white};
+      color: ${props => props.theme.primaryColor};
+    }
+  }
 `;
