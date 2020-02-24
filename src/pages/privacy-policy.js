@@ -7,7 +7,7 @@ import Layout from "../components/Layout/layout";
 import Privacy from "../components/Privacy";
 
 const PrivacyPolicyPage = ({ data }) => (
-  <Layout>
+  <Layout language="it">
     <SEO title="Privacy Policy" />
     <Privacy data={data} />
   </Layout>

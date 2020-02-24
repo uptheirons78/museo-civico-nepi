@@ -21,8 +21,8 @@ const monument = ({ data }) => {
     gallery,
   } = data.markdownRemark.frontmatter;
   return (
-    <Layout>
-      <SEO title={title} />
+    <Layout language="it">
+      <SEO title={title} lang="it" />
       <HeadingSection thumbnail={image}>
         <h2>{title}</h2>
         <a className="heading-section-link" href="#info">

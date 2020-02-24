@@ -10,11 +10,26 @@ export const Content = styled.section`
     margin-bottom: 0.5rem;
   }
 
+  h1,
+  h2,
+  h3 {
+    color: ${props => props.theme.primaryColor};
+    font-size: 1.4rem;
+    text-transform: uppercase;
+  }
+
   h4 {
     font-size: 1.4rem;
     color: ${props => props.theme.primaryColor};
     margin-top: 0.5rem;
     margin-bottom: 0.2rem;
+  }
+
+  img {
+    display: block;
+    margin: 1rem auto;
+    max-width: 600px;
+    width: 100%;
   }
   em {
     font-weight: 600;

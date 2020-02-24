@@ -9,29 +9,25 @@ import { Content, Description, Info } from "../components/Styles/StyledContent";
 import ImageGrid from "../components/Shared/ImageGrid";
 import SocialShare from "../components/Shared/socialShare";
 
-const event = ({ data }) => {
+const enMonumentTemplate = ({ data }) => {
   const {
     slug,
     title,
     description,
     image,
-    start,
-    end,
     place,
     access,
     ticket,
-    type,
     gallery,
   } = data.markdownRemark.frontmatter;
-
   return (
-    <Layout language="it">
-      <SEO title={title} lang="it" />
+    <Layout language="en">
+      <SEO title={title} lang="en" />
       <HeadingSection thumbnail={image}>
         <h2>{title}</h2>
-        <p style={{ textTransform: "capitalize" }}>
-          {start} - {end}
-        </p>
+        <a className="heading-section-link" href="#info">
+          More Informations
+        </a>
       </HeadingSection>
       <Description>
         <h4>{description}</h4>
@@ -43,16 +39,14 @@ const event = ({ data }) => {
       ></Content>
       <ImageGrid gallery={gallery} />
       <Info>
-        <h2>Informazioni</h2>
+        <h2 id="info">Informazioni</h2>
         <div className="info-section">
-          <h3>Luogo</h3>
+          <h3>Indirizzo</h3>
           <p>{place}</p>
           <h3>Orario</h3>
           <p>{access}</p>
           <h3>Biglietto d'ingresso</h3>
           <p>{ticket}</p>
-          <h3>Tipologia Evento</h3>
-          <p>{type}</p>
         </div>
         <SocialShare
           socialConfig={{
@@ -67,23 +61,20 @@ const event = ({ data }) => {
   );
 };
 
-export default event;
+export default enMonumentTemplate;
 
 // Gatsby Query
 export const pageQuery = graphql`
-  query EventsBySlug($slug: String!) {
+  query EnMonumentsBySlug($slug: String!) {
     markdownRemark(frontmatter: { slug: { eq: $slug } }) {
       frontmatter {
         slug
         title
         description
         image
-        start(formatString: "DD MMM YYYY", locale: "it")
-        end(formatString: "DD MMM YYYY", locale: "it")
         place
         access
         ticket
-        type
         gallery {
           image
           alt
