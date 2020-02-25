@@ -1,12 +1,14 @@
-import React from "react";
+import React, { useContext } from "react";
 import { Link } from "gatsby";
 import { StyledIntro } from "../Styles/StyledIntro";
 
 import Logo from "../../images/comune.png";
 import Social from "../Shared/social";
+import { GlobalContext } from "../../context/GlobalContext";
 
 const Intro = ({ language }) => {
-  const menuText = "Menu";
+  const { toggle, handleToggle } = useContext(GlobalContext);
+  const menuText = toggle ? "Close" : "Menu";
   return (
     <StyledIntro className="intro-section">
       <div className="intro-section__left">
@@ -29,7 +31,9 @@ const Intro = ({ language }) => {
       </div>
       <div className="intro-section__right">
         <Social socialClassName="intro" />
-        <button className="mobileToggler">{menuText}</button>
+        <button className="mobileToggler" onClick={handleToggle}>
+          {menuText}
+        </button>
       </div>
     </StyledIntro>
   );

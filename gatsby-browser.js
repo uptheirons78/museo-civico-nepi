@@ -6,7 +6,7 @@ import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 
 import React from "react";
-import LanguageContextProvider from "./src/context/LanguageContext";
+import GlobalContextProvider from "./src/context/GlobalContext";
 export const wrapRootElement = ({ element }) => (
-  <LanguageContextProvider>{element}</LanguageContextProvider>
+  <GlobalContextProvider>{element}</GlobalContextProvider>
 );

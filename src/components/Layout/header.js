@@ -3,6 +3,7 @@ import styled from "styled-components";
 import TitleSection from "./titleSection";
 import Navbar from "./navbar";
 import Intro from "./intro";
+import MobileNavigation from "./mobileNavigation";
 
 const Header = ({ language }) => {
   return (
@@ -10,6 +11,7 @@ const Header = ({ language }) => {
       <Intro language={language} />
       <TitleSection />
       <Navbar language={language} />
+      <MobileNavigation language={language} />
     </StyledHeader>
   );
 };
