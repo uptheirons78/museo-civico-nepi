@@ -22,33 +22,36 @@ export const Navigation = styled.nav`
         text-transform: uppercase;
         font-weight: 700;
         font-size: 1.1rem;
-        @media screen and (max-width: 900px) {
-          font-size: 0.9rem !important;
+
+        @media screen and (max-width: 800px) {
+          font-size: 0.9rem;
+        }
+        @media screen and (max-width: 650px) {
+          font-size: 0.7rem;
         }
       }
     }
   }
   @media screen and (max-width: 600px) {
     li {
-      &:nth-child(1) {
-        display: none;
-      }
       &:nth-child(2) {
         display: none;
       }
       &:nth-child(3) {
         display: none;
       }
-      &:nth-child(4) {
-        display: none;
-      }
     }
   }
+
   .navigation__item:hover .dropdown {
     display: flex;
     visibility: visible;
     opacity: 1;
     transition: all 0.5s ease;
+
+    @media screen and (max-width: 600px) {
+      display: none;
+    }
   }
   .dropdown {
     visibility: hidden;
@@ -68,6 +71,10 @@ export const Navigation = styled.nav`
     transform: translateX(-50%);
     box-shadow: 18px 0 22px -4px rgba(0, 0, 0, 0.4),
       -18px 0 22px -4px rgba(0, 0, 0, 0.4);
+
+    @media screen and (max-width: 600px) {
+      display: none;
+    }
     .dropdown__item {
       border: none;
       a {
@@ -76,6 +83,10 @@ export const Navigation = styled.nav`
         margin-top: 0.3rem;
         margin-bottom: 0.3rem;
         font-weight: 600;
+
+        @media screen and (max-width: 800px) {
+          font-size: 0.6rem;
+        }
       }
     }
   }

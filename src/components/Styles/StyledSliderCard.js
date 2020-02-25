@@ -1,10 +1,15 @@
 import styled from "styled-components";
 
 export const StyledSliderCard = styled.section`
+  width: 100%;
   height: 320px;
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
+
+  @media screen and (max-width: 600px) {
+    height: 280px;
+  }
 
   .inner-section {
     display: flex;
@@ -20,12 +25,19 @@ export const StyledSliderCard = styled.section`
     background: #fff;
     clip-path: polygon(0 0, 100% 0, 95% 100%, 0% 100%);
 
-    h2 {
-      text-transform: uppercase;
-      letter-spacing: 1px;
+    @media screen and (max-width: 600px) {
+      width: 280px;
     }
 
-    p {
+    .slider-title {
+      text-transform: uppercase;
+      letter-spacing: 1px;
+      @media screen and (max-width: 600px) {
+        font-size: 1.2rem;
+      }
+    }
+
+    .slider-text {
       font-size: 0.7rem;
       padding: 1rem 1.5rem 0 0;
     }
@@ -55,6 +67,10 @@ export const StyledSliderCard = styled.section`
       background: ${props => props.theme.primaryColor};
       clip-path: polygon(0 0, 100% 0, 95% 100%, 0% 100%);
       z-index: -1;
+
+      @media screen and (max-width: 600px) {
+        width: 278px;
+      }
     }
   }
 `;

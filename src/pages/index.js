@@ -25,6 +25,8 @@ export const homeQuery = graphql`
         heading
         descriptionLeft
         descriptionRight
+        enDescriptionLeft
+        enDescriptionRight
       }
     }
   }

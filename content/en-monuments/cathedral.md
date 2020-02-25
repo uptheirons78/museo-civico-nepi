@@ -4,7 +4,7 @@ title: 'Cathedral'
 slug: 'cathedral'
 date: 2020-02-18T21:00:00.000Z
 description: >-
-  La Chiesa di Santa Maria Assunta, denominata "Duomo" dai nepesini, si erge sull'area di un antico foro romano. L'attuale edificio è risultato di una serie di rifacimenti. La cripta al suo interno e l'altare maggiore con le sue decorazioni scultoree sono sicuramente gli elementi di maggior pregio.
+  The Church of Santa Maria Assunta, called "Duomo", stands on the area of ​​an ancient Roman forum. It is the result of a series of remakes. The crypt and the high altar, with its decorations, are the most valuable elements.
 category: monumenti
 featured: true
 image: /assets/img-02.jpg

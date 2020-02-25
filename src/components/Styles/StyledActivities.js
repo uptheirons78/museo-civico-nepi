@@ -5,6 +5,10 @@ export const StyledActivities = styled.section`
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   grid-gap: 1rem;
+
+  @media screen and (max-width: 580px) {
+    grid-template-columns: 1fr;
+  }
   .museum-activities__single-activity {
     min-height: 200px;
     background-position: center;
@@ -30,6 +34,9 @@ export const StyledActivities = styled.section`
       opacity: 1;
       visibility: visible;
       transition: all 0.75s ease-in-out;
+      @media screen and (max-width: 600px) {
+        font-size: 1rem;
+      }
     }
 
     &:hover {
@@ -61,6 +68,10 @@ export const StyledActivities = styled.section`
 
       p {
         color: #fff;
+
+        @media screen and (max-width: 800px) {
+          text-align: center;
+        }
       }
     }
   }

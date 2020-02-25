@@ -1,14 +1,22 @@
 import React from "react";
 import styled from "styled-components";
 
-const Presentation = ({ data }) => {
+const Presentation = ({ data, language }) => {
+  const {
+    descriptionLeft,
+    descriptionRight,
+    enDescriptionLeft,
+    enDescriptionRight,
+  } = data.markdownRemark.frontmatter;
+  const left = language === "it" ? descriptionLeft : enDescriptionLeft;
+  const right = language === "it" ? descriptionRight : enDescriptionRight;
   return (
     <StyledPresentation className="presentation">
       <div className="presentation__container presentation__container-left">
-        {data.markdownRemark.frontmatter.descriptionLeft}
+        {left}
       </div>
       <div className="presentation__container presentation__container-right">
-        {data.markdownRemark.frontmatter.descriptionRight}
+        {right}
       </div>
     </StyledPresentation>
   );
@@ -28,7 +36,23 @@ const StyledPresentation = styled.section`
     text-align: justify;
     line-height: 1.5;
     padding-right: 2rem;
+
+    @media screen and (max-width: 650px) {
+      padding-right: 0;
+    }
     &.presentation__container-left {
+      grid-column: span 1;
+
+      @media screen and (max-width: 650px) {
+        grid-column: span 2;
+      }
+    }
+    &.presentation__container-right {
+      grid-column: span 1;
+
+      @media screen and (max-width: 650px) {
+        grid-column: span 2;
+      }
     }
   }
 `;

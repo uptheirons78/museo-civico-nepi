@@ -10,11 +10,13 @@ import * as translate from "../../utils/translate.json";
 const Home = ({ data, language }) => {
   return (
     <>
-      <MonumentiSlider />
+      <div className="slider-container">
+        <MonumentiSlider language={language} />
+      </div>
       <SectionTitle>{translate.default.home_title_one[language]}</SectionTitle>
-      <Presentation data={data} />
+      <Presentation data={data} language={language} />
       <SectionTitle>{translate.default.home_title_two[language]}</SectionTitle>
-      <Activities />
+      <Activities language={language} />
       <SectionTitle>
         {translate.default.home_title_three[language]}
       </SectionTitle>

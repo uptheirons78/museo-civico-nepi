@@ -4,7 +4,7 @@ title: 'S. Savinilla Catacomb'
 slug: 'savinilla- catacomb'
 date: 2020-02-18T21:00:00.000Z
 description: >-
-  Le catacombe sono aree funerarie cristiane, separate da quelle pagane. Si svilupparono a Roma a partire dalla fine del II secolo caratterizzandosi per la presenza di gallerie scavate nel sottosuolo. Le Catacombe di Santa Savinilla presenti a Nepi sono tra le più straordinarie del Lazio.
+  Catacombs are Christian funerary areas developed in Rome from the end of the II Century A.D. Characterized by large underground tunnels, those here in Nepi are among the most extraordinary you can find in Lazio.
 category: monumenti
 featured: true
 image: /assets/img-03.jpg
@@ -19,7 +19,7 @@ gallery:
   - alt: il bosco incantato
     image: /assets/events-03.jpg
 ---
-Con il progressivo diffondersi del Cristianesimo, le prime comunità cristiane ebbero la necessità di dotarsi di proprie aree funerarie, separate da quelle pagane. Questi cimiteri, chiamati “catacombe”, si svilupparono a Roma a partire dalla fine del II secolo caratterizzandosi per la presenza di gallerie scavate nel sottosuolo.
+ENGLISH VERSION Con il progressivo diffondersi del Cristianesimo, le prime comunità cristiane ebbero la necessità di dotarsi di proprie aree funerarie, separate da quelle pagane. Questi cimiteri, chiamati “catacombe”, si svilupparono a Roma a partire dalla fine del II secolo caratterizzandosi per la presenza di gallerie scavate nel sottosuolo.
 
 Nel territorio laziale le catacombe fanno la loro comparsa non prima della fine del III secolo. Fra quelle ancora esistenti, la catacomba di Nepi appare come una fra le più monumentali.
 

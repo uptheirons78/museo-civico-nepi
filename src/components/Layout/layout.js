@@ -29,4 +29,8 @@ const MainWrapper = styled.div`
   margin: 0 auto;
   box-shadow: 18px 0 22px -4px rgba(0, 0, 0, 0.6),
     -18px 0 22px -4px rgba(0, 0, 0, 0.6);
+
+  @media screen and (max-width: 1049px) {
+    box-shadow: none;
+  }
 `;

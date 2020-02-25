@@ -2,6 +2,7 @@ import React from "react";
 import { Link } from "gatsby";
 import styled from "styled-components";
 import bgImg from "../../images/nepi_01.jpg";
+import mobileBgImg from "../../images/mobile-title-section.jpg";
 
 const TitleSection = () => {
   return (
@@ -24,6 +25,10 @@ const StyledTitleSection = styled.section`
   background-size: cover;
   background-repeat: no-repeat;
 
+  @media screen and (max-width: 600px) {
+    background-image: url(${mobileBgImg});
+  }
+
   .inner-section {
     display: flex;
     align-items: center;
@@ -36,7 +41,14 @@ const StyledTitleSection = styled.section`
     height: 100%;
     background: #fff;
     clip-path: polygon(0 0, 95% 0, 100% 100%, 0% 100%);
-    /* clip-path: polygon(0 0, 100% 0, 95% 100%, 0% 100%); */
+
+    @media screen and (max-width: 600px) {
+      width: 280px;
+
+      h2 {
+        font-size: 1.3rem;
+      }
+    }
 
     &:before {
       content: "";
@@ -47,8 +59,10 @@ const StyledTitleSection = styled.section`
       height: 100%;
       background: ${props => props.theme.primaryColor};
       clip-path: polygon(0 0, 95% 0, 100% 100%, 0% 100%);
-      /* clip-path: polygon(0 0, 100% 0, 95% 100%, 0% 100%); */
       z-index: -1;
+      @media screen and (max-width: 600px) {
+        width: 278px;
+      }
     }
 
     .home-page__link {

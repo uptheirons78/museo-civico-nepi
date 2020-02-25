@@ -14,5 +14,31 @@
   "recensioni": {
     "it": "Leggi le recensioni: ",
     "en": "Read reviews on: "
+  },
+  "activities": {
+    "cardOne" : {
+      "it": "visite guidate",
+      "en": "guided tours",
+      "link": {
+        "it": "/visite-guidate",
+        "en": "/en/guided-tours"
+      }
+    },
+    "cardTwo" : {
+      "it": "percorsi di visita",
+      "en": "itineraries",
+      "link": {
+        "it": "/percorsi-di-visita",
+        "en": "/en/itineraries"
+      }
+    },
+    "cardThree" : {
+      "it": "attività didattica",
+      "en": "educational activities",
+      "link": {
+        "it": "/attività-didattica",
+        "en": "/en/educational-activities"
+      }
+    }
   }
 }

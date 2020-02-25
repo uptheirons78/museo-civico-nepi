@@ -4,7 +4,7 @@ title: 'Il Duomo'
 slug: 'il-duomo'
 date: 2020-02-18T21:00:00.000Z
 description: >-
-  La Chiesa di Santa Maria Assunta, denominata "Duomo" dai nepesini, si erge sull'area di un antico foro romano. L'attuale edificio è risultato di una serie di rifacimenti. La cripta al suo interno e l'altare maggiore con le sue decorazioni scultoree sono sicuramente gli elementi di maggior pregio.
+  La Chiesa di Santa Maria Assunta, denominata "Duomo", si erge sull'area di un antico foro romano. E' il risultato di una serie di rifacimenti. La cripta e l'altare maggiore con le sue decorazioni ne sono gli elementi di maggior pregio.
 category: monumenti
 featured: true
 image: /assets/img-02.jpg

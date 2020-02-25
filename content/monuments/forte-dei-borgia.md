@@ -4,7 +4,7 @@ title: 'La Rocca dei Borgia'
 slug: 'la-rocca-dei-borgia'
 date: 2020-02-19T10:00:00.000Z
 description: >-
-  Sicuramente il monumento più caratterizzante di Nepi. Questo castello ha assunto il nome di “Forte dei Borgia” perché legato all’importante famiglia catalana. Quanto oggi visibile è il risultato di sovrapposizioni che testimoniano della lunga continuità storica che caratterizza la cittadina di Nepi.
+  Il “Forte dei Borgia”, monumento principale di Nepi, legato all’importante famiglia catalana è, oggi, il risultato di sovrapposizioni che testimoniano la continuità storica della nostra meravigliosa cittadina.
 category: monumenti
 featured: true
 image: /assets/img-01.jpg

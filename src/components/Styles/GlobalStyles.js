@@ -11,6 +11,10 @@ const GlobalStyle = createGlobalStyle`
   html {
     box-sizing: border-box;
     font-size: 16px;
+
+    @media screen and (max-width: 650px) {
+    font-size: 15px;
+    }
   }
   body {
     font-family: 'Open Sans', sans-serif;
@@ -48,6 +52,13 @@ const GlobalStyle = createGlobalStyle`
         }
       }
     }
+  }
+
+  .slider-container {
+    position: relative;
+    max-width: 1050px;
+    width: 100%;
+    overflow: hidden;
   }
 
 

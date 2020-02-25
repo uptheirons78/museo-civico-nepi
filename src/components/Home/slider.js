@@ -1,35 +1,18 @@
 import React from "react";
-import { useStaticQuery, graphql } from "gatsby";
 import Slider from "react-slick";
 
 // Components
 import SliderCard from "./sliderCard";
 
-const MonumentiSlider = () => {
-  const data = useStaticQuery(graphql`
-    query FeaturedQuery {
-      allMarkdownRemark(
-        filter: {
-          frontmatter: {
-            featured: { eq: true }
-            templateKey: { eq: "monumenti" }
-          }
-        }
-        sort: { fields: frontmatter___date, order: DESC }
-      ) {
-        edges {
-          node {
-            frontmatter {
-              slug
-              title
-              description
-              image
-            }
-          }
-        }
-      }
-    }
-  `);
+// Queries
+import useMonumenti from "../Shared/monumentiQuery";
+import useMonuments from "../Shared/monumentsQuery";
+
+const MonumentiSlider = ({ language }) => {
+  const monumenti = useMonumenti();
+  const monuments = useMonuments();
+
+  const featuredMonuments = language === "it" ? monumenti : monuments;
 
   const settings = {
     dots: true,
@@ -39,12 +22,15 @@ const MonumentiSlider = () => {
     slidesToShow: 1,
     slidesToScroll: 1,
     infinite: true,
+    mobileFirst: true,
   };
 
-  const featuredMonuments = data.allMarkdownRemark.edges;
-
   return (
-    <Slider {...settings} style={{ marginBottom: "2rem" }}>
+    <Slider
+      {...settings}
+      style={{ marginBottom: "2rem" }}
+      className="home-slider"
+    >
       {featuredMonuments.map(monument => {
         return (
           <SliderCard

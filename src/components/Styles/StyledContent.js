@@ -104,4 +104,8 @@ export const SectionTitle = styled.h1`
   color: ${props => props.theme.primaryColor};
   font-size: 1.8rem;
   text-transform: uppercase;
+
+  @media screen and (max-width: 600px) {
+    font-size: 1.6rem;
+  }
 `;
