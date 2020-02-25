@@ -2,18 +2,25 @@ import React from "react";
 import { Link } from "gatsby";
 // Import Static Queries
 import useFeaturedEvent from "../Shared/featuredEventQuery";
+import useEnFeaturedEvent from "../Shared/enFeaturedEventQuery";
 import useEvents from "../Shared/eventsQuery";
+import useEnglishEvents from "../Shared/enEventsQuery";
 // Import Styled Component
 import { StyledNews } from "../Styles/StyledNews";
 
-const News = () => {
-  const featured = useFeaturedEvent().slice(0, 1);
-  const events = useEvents();
+const News = ({ language }) => {
+  const itEventsFeatured = useFeaturedEvent();
+  const enEventsFeatured = useEnFeaturedEvent();
+  const featured = language === "it" ? itEventsFeatured : enEventsFeatured;
+
+  const itEvents = useEvents();
+  const enEvents = useEnglishEvents();
+  const events = language === "it" ? itEvents : enEvents;
 
   return (
     <StyledNews>
       <section className="news-main">
-        {featured.map(event => {
+        {featured.slice(0, 1).map(event => {
           const {
             title,
             image,
@@ -28,7 +35,13 @@ const News = () => {
                 <img className="featured-event__img" src={image} alt={title} />
               </div>
               <div className="featured-event__info-container">
-                <Link to={`/eventi/${slug}/`}>
+                <Link
+                  to={
+                    language === "it"
+                      ? `/eventi/${slug}/`
+                      : `/en/events/${slug}/`
+                  }
+                >
                   <h3 className="featured-event__info-title">{title}</h3>
                 </Link>
                 <h3 className="featured-event__info-date">{start}</h3>
@@ -66,9 +79,13 @@ const News = () => {
                 )} ...`}</p>
                 <Link
                   className="news-secondary__article-link"
-                  to={`/eventi/${slug}`}
+                  to={
+                    language === "it"
+                      ? `/eventi/${slug}/`
+                      : `/en/events/${slug}/`
+                  }
                 >
-                  Scopri di più
+                  {language === "it" ? "Scopri di più" : "Read more"}
                 </Link>
               </div>
             </article>

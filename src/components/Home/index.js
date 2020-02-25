@@ -20,7 +20,7 @@ const Home = ({ data, language }) => {
       <SectionTitle>
         {translate.default.home_title_three[language]}
       </SectionTitle>
-      <News />
+      <News language={language} />
     </>
   );
 };

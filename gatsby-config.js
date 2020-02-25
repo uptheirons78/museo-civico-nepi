@@ -46,7 +46,7 @@ module.exports = {
     {
       resolve: `gatsby-source-filesystem`,
       options: {
-        name: `monuments`,
+        name: `monumenti`,
         path: `${__dirname}/content/monuments`,
       },
     },
@@ -60,7 +60,14 @@ module.exports = {
     {
       resolve: `gatsby-source-filesystem`,
       options: {
-        name: `monuments`,
+        name: `events`,
+        path: `${__dirname}/content/en-events`,
+      },
+    },
+    {
+      resolve: `gatsby-source-filesystem`,
+      options: {
+        name: `eventi`,
         path: `${__dirname}/content/events`,
       },
     },
