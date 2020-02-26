@@ -41,6 +41,36 @@ export const Content = styled.section`
     color: ${props => props.theme.primaryColor};
   }
 
+  ol {
+    list-style: none;
+    counter-reset: li;
+    font-size: 0.9rem;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 20px;
+
+    li::before {
+      content: counter(li);
+      color: ${props => props.theme.primaryColor};
+      font-weight: bold;
+      display: inline-block;
+      width: 1em;
+      margin-left: -1em;
+      margin-left: -1.5em;
+      margin-right: 0.5em;
+      text-align: right;
+      direction: rtl;
+    }
+
+    li {
+      counter-increment: li;
+      margin-top: 0.5rem;
+      margin-bottom: 0.5rem;
+    }
+  }
+
   ul {
     list-style: none;
     font-size: 0.9rem;
@@ -63,6 +93,8 @@ export const Content = styled.section`
 
   a {
     text-decoration: none;
+    color: ${props => props.theme.primaryColor};
+    font-weight: 600;
   }
 `;
 
