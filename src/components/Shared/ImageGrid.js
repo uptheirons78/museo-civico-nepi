@@ -53,10 +53,20 @@ const StyledImageGrid = styled.section`
     align-content: center;
     grid-gap: 10px;
 
+    @media screen and (max-width: 650px) {
+      grid-template-columns: 1fr;
+    }
+
     img {
       width: 200px;
       height: 200px;
       cursor: pointer;
+
+      @media screen and (max-width: 650px) {
+        width: 60%;
+        height: auto;
+        margin: 0 auto;
+      }
     }
   }
 `;

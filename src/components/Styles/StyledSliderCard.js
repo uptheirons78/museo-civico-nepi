@@ -11,6 +11,10 @@ export const StyledSliderCard = styled.section`
     height: 280px;
   }
 
+  @media screen and (max-width: 400px) {
+    height: 210px;
+  }
+
   .inner-section {
     display: flex;
     flex-direction: column;
@@ -28,12 +32,18 @@ export const StyledSliderCard = styled.section`
     @media screen and (max-width: 600px) {
       width: 280px;
     }
+    @media screen and (max-width: 400px) {
+      width: 220px;
+    }
 
     .slider-title {
       text-transform: uppercase;
       letter-spacing: 1px;
       @media screen and (max-width: 600px) {
         font-size: 1.2rem;
+      }
+      @media screen and (max-width: 400px) {
+        font-size: 1.1rem;
       }
     }
 
@@ -70,6 +80,9 @@ export const StyledSliderCard = styled.section`
 
       @media screen and (max-width: 600px) {
         width: 278px;
+      }
+      @media screen and (max-width: 400px) {
+        width: 218px;
       }
     }
   }

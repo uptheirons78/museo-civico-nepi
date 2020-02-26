@@ -22,7 +22,7 @@ const monument = ({ data }) => {
   } = data.markdownRemark.frontmatter;
   return (
     <Layout language="it">
-      <SEO title={title} lang="it" />
+      <SEO title={title} lang="it" description={description} />
       <HeadingSection thumbnail={image}>
         <h2>{title}</h2>
         <a className="heading-section-link" href="#info">

@@ -22,7 +22,13 @@ const Credits = props => {
         />
         <p className="credits__text">
           {translate.default.recensioni[props.language]}
-          <a href="/">{title}</a>
+          <a
+            href="https://bit.ly/2T2qtQh"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            {title}
+          </a>
         </p>
       </div>
       <div className="credits__section-right">

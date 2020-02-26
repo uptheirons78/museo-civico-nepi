@@ -15,6 +15,10 @@ const GlobalStyle = createGlobalStyle`
     @media screen and (max-width: 650px) {
     font-size: 15px;
     }
+
+    @media screen and (max-width: 480px) {
+    font-size: 14px;
+    }
   }
   body {
     font-family: 'Open Sans', sans-serif;

@@ -75,6 +75,10 @@ export const Description = styled.section`
     font-weight: 600;
     font-size: 1.3rem;
     font-style: italic;
+
+    @media screen and (max-width: 600px) {
+      font-size: 1.1rem;
+    }
   }
 `;
 
@@ -92,9 +96,16 @@ export const Info = styled.section`
     h3 {
       margin-top: 0.5rem;
       font-size: 1.2rem;
+
+      @media screen and (max-width: 600px) {
+        font-size: 1.1rem;
+      }
     }
     p {
       font-size: 0.9rem;
+      @media screen and (max-width: 600px) {
+        font-size: 0.8rem;
+      }
     }
   }
 `;
@@ -107,5 +118,8 @@ export const SectionTitle = styled.h1`
 
   @media screen and (max-width: 600px) {
     font-size: 1.6rem;
+  }
+  @media screen and (max-width: 400px) {
+    font-size: 1.3rem;
   }
 `;

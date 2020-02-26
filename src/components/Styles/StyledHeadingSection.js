@@ -20,6 +20,10 @@ export const StyledHeadingSection = styled.section`
     background: #fff;
     clip-path: polygon(0 0, 100% 0, 95% 100%, 0% 100%);
 
+    @media screen and (max-width: 600px) {
+      width: 280px;
+    }
+
     &:before {
       content: "";
       position: absolute;
@@ -29,8 +33,11 @@ export const StyledHeadingSection = styled.section`
       height: 100%;
       background: ${props => props.theme.primaryColor};
       clip-path: polygon(0 0, 100% 0, 95% 100%, 0% 100%);
-      /* clip-path: polygon(0 0, 90% 0, 100% 100%, 0% 100%); */
       z-index: -1;
+
+      @media screen and (max-width: 600px) {
+        width: 278px;
+      }
     }
 
     p {

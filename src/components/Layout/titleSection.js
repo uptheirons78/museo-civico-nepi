@@ -29,6 +29,10 @@ const StyledTitleSection = styled.section`
     background-image: url(${mobileBgImg});
   }
 
+  @media screen and (max-width: 400px) {
+    height: 150px;
+  }
+
   .inner-section {
     display: flex;
     align-items: center;
@@ -50,6 +54,14 @@ const StyledTitleSection = styled.section`
       }
     }
 
+    @media screen and (max-width: 400px) {
+      width: 220px;
+
+      h2 {
+        font-size: 1.2rem;
+      }
+    }
+
     &:before {
       content: "";
       position: absolute;
@@ -62,6 +74,9 @@ const StyledTitleSection = styled.section`
       z-index: -1;
       @media screen and (max-width: 600px) {
         width: 278px;
+      }
+      @media screen and (max-width: 400px) {
+        width: 218px;
       }
     }
 
