@@ -24,7 +24,7 @@ export const pages = {
       subpages: [
         { url: "/monumenti/forte-dei-borgia", name: "forte dei borgia" },
         {
-          url: "/monumenti/catacombe-di-santa-savinilla",
+          url: "/monumenti/la-catacomba-di-santa-savinilla",
           name: "catacombe",
         },
       ],
@@ -71,12 +71,12 @@ export const pages = {
       name: "monuments",
       subpages: [
         {
-          url: "/en/monuments/forte-dei-borgia",
-          name: "forte dei borgia",
+          url: "/en/monuments/borgia-castle",
+          name: "borgia's castle",
         },
         {
-          url: "/en/monuments/catacombe-di-santa-savinilla",
-          name: "catacombe",
+          url: "/en/monuments/savinilla-catacomb",
+          name: "catacombs",
         },
       ],
     },
@@ -123,7 +123,6 @@ export const footer_pages = {
     site_links: [
       { name: "Privacy Policy", url: "/privacy-policy" },
       { name: "Cookies Policy", url: "/cookies-policy" },
-      { name: "Accessibilità del sito", url: "/accessibilità" },
       { name: "Credits", url: "/credits" },
     ],
   },
@@ -146,7 +145,6 @@ export const footer_pages = {
     site_links: [
       { name: "Privacy Policy", url: "/en/privacy-policy" },
       { name: "Cookies Policy", url: "/en/cookies-policy" },
-      { name: "Accessibility", url: "/en/accessibility" },
       { name: "Credits", url: "/en/credits" },
     ],
   },

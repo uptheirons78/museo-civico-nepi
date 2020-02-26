@@ -1,7 +1,7 @@
 ---
 templateKey: monumenti
-title: 'La Rocca dei Borgia'
-slug: 'la-rocca-dei-borgia'
+title: 'Il Forte dei Borgia'
+slug: 'forte-dei-borgia'
 date: 2020-02-19T10:00:00.000Z
 description: >-
   Il “Forte dei Borgia”, monumento principale di Nepi, legato all’importante famiglia catalana è, oggi, il risultato di sovrapposizioni che testimoniano la continuità storica della nostra meravigliosa cittadina.
