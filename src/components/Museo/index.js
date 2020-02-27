@@ -40,7 +40,7 @@ const query = graphql`
 `;
 
 const Museo = ({ data }) => {
-  const { museoA, museoB, museoC, museoD } = useStaticQuery(query);
+  const { museoA, museoC, museoD } = useStaticQuery(query);
   const {
     title,
     description,

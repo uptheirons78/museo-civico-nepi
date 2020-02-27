@@ -4,9 +4,9 @@ export const pages = {
       url: "/museo",
       name: "il museo",
       subpages: [
-        { url: "/sede", name: "la sede" },
         { url: "/storia", name: "storia" },
-        { url: "/organizzazione", name: "organizzazione" },
+        { url: "/mission", name: "mission" },
+        { url: "/carta-dei-servizi", name: "carta dei servizi" },
         { url: "/eventi", name: "eventi" },
       ],
     },
@@ -26,6 +26,10 @@ export const pages = {
         {
           url: "/monumenti/la-catacomba-di-santa-savinilla",
           name: "catacombe",
+        },
+        {
+          url: "/monumenti/il-duomo",
+          name: "duomo",
         },
       ],
     },
@@ -52,9 +56,9 @@ export const pages = {
       url: "/en/museum",
       name: "museum",
       subpages: [
-        { url: "/en/location", name: "location" },
         { url: "/en/history", name: "history" },
-        { url: "/en/organization", name: "organization" },
+        { url: "/en/mission", name: "mission" },
+        { url: "/en/services-card", name: "services card" },
         { url: "/en/events", name: "events" },
       ],
     },
@@ -77,6 +81,10 @@ export const pages = {
         {
           url: "/en/monuments/savinilla-catacomb",
           name: "catacombs",
+        },
+        {
+          url: "/en/monuments/cathedral",
+          name: "cathedral",
         },
       ],
     },
