@@ -3,13 +3,18 @@ import { Link } from "gatsby";
 import styled from "styled-components";
 import bgImg from "../../images/nepi_01.jpg";
 import mobileBgImg from "../../images/mobile-title-section.jpg";
+import logoMuseo from "../../images/logo-museo.png";
 
 const TitleSection = () => {
   return (
     <StyledTitleSection className="title-section">
       <div className="inner-section">
         <Link className="home-page__link" to="/">
-          <h2>Museo Civico di Nepi</h2>
+          <img
+            className="website-logo"
+            src={logoMuseo}
+            alt="Museo Civico di Nepi"
+          />
         </Link>
       </div>
     </StyledTitleSection>
@@ -45,6 +50,10 @@ const StyledTitleSection = styled.section`
     height: 100%;
     background: #fff;
     clip-path: polygon(0 0, 95% 0, 100% 100%, 0% 100%);
+
+    .website-logo {
+      width: 160px;
+    }
 
     @media screen and (max-width: 600px) {
       width: 280px;
