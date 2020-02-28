@@ -30,6 +30,11 @@ const GlobalStyle = createGlobalStyle`
     letter-spacing: 1px;
   }
 
+  p {
+    font-size: 0.9rem;
+    line-height: 1.5;
+  }
+
   /** Slider Styles */
 
   /** Arrows Styles */

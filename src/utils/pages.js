@@ -114,9 +114,9 @@ export const pages = {
 export const footer_pages = {
   it: {
     museo_links: [
-      { name: "Sede", url: "/sede" },
       { name: "Storia", url: "/storia" },
-      { name: "Organizzazione", url: "/organizzazione" },
+      { name: "Mission", url: "/mission" },
+      { name: "Carta dei Servizi", url: "/carta-dei-servizi" },
     ],
     info_links: [
       { name: "Orari e tariffe", url: "/orari-e-tariffe" },
@@ -136,9 +136,9 @@ export const footer_pages = {
   },
   en: {
     museo_links: [
-      { name: "Location", url: "/en/location" },
       { name: "History", url: "/en/history" },
-      { name: "Organization", url: "/en/organization" },
+      { name: "Mission", url: "/en/mission" },
+      { name: "Service Card", url: "/en/service-card" },
     ],
     info_links: [
       { name: "Opening and Tickets", url: "/en/opening-and-tickets" },

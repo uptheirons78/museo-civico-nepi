@@ -1,7 +1,7 @@
 import React from "react";
 import { StyledHeadingSection } from "../Styles/StyledHeadingSection";
 
-import defaultImage from "../../images/nepi_02.jpg";
+import defaultImage from "../../images/default-heading-image.jpg";
 
 const HeadingSection = ({ thumbnail, children }) => {
   const thumbnailImage = thumbnail ? thumbnail : defaultImage;
