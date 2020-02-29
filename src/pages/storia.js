@@ -1,19 +1,35 @@
 import React from "react";
+import { graphql } from "gatsby";
 import SEO from "../components/seo";
 
 // Components
 import Layout from "../components/Layout/layout";
 import Storia from "../components/Storia";
 
-const StoriaPage = () => (
-  <Layout language="it">
-    <SEO
-      title="Storia della nostra collezione"
-      description="Il Museo Civico di Nepi, aperto al pubblico nel giugno del 1995, ha un'evoluzione che parte dagli anni '80 con l'istituzione di un deposito per i beni culturali"
-      lang="it"
-    />
-    <Storia language="it" />
-  </Layout>
-);
+const StoriaPage = ({ data }) => {
+  const { title, description } = data.markdownRemark.frontmatter.it;
+  return (
+    <Layout language="it">
+      <SEO title={title} description={description} lang="it" />
+      <Storia language="it" data={data} />
+    </Layout>
+  );
+};
 
 export default StoriaPage;
+
+export const StoriaQuery = graphql`
+  query StoriaPage {
+    markdownRemark(frontmatter: { templateKey: { eq: "history" } }) {
+      frontmatter {
+        it {
+          title
+          description
+          textA
+          textB
+          textC
+        }
+      }
+    }
+  }
+`;

@@ -21,3 +21,64 @@ export const PageDescription = styled.h4`
     font-size: 1.1rem;
   }
 `;
+
+export const Main = styled.section`
+  margin-top: 3rem;
+  width: 100%;
+`;
+
+export const DoubleGrid = styled.div`
+  margin-top: ${props => props.top || "1rem"};
+  margin-bottom: ${props => props.bottom || "1rem"};
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 2rem;
+
+  @media screen and (max-width: 600px) {
+    grid-template-columns: 1fr;
+  }
+
+  .left-block {
+    grid-column: span 1;
+  }
+  .right-block {
+    grid-column: span 1;
+  }
+
+  .text-block {
+    h4 {
+      padding-left: 2rem;
+      padding-right: 2rem;
+      margin-top: 0.5rem;
+      margin-bottom: 0.5rem;
+      text-transform: uppercase;
+      font-size: 1.6rem;
+      color: ${props => props.theme.primaryColor};
+
+      @media screen and (max-width: 800px) {
+        padding-left: 1rem;
+        padding-right: 1rem;
+      }
+
+      @media screen and (max-width: 600px) {
+        margin-top: 0;
+        padding-left: 0;
+        padding-right: 0;
+      }
+    }
+    p {
+      padding-left: 2rem;
+      padding-right: 2rem;
+
+      @media screen and (max-width: 800px) {
+        padding-left: 1rem;
+        padding-right: 1rem;
+      }
+
+      @media screen and (max-width: 600px) {
+        padding-left: 0;
+        padding-right: 0;
+      }
+    }
+  }
+`;

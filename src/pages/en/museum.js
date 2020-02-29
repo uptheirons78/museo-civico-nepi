@@ -1,26 +1,25 @@
 import React from "react";
 import { graphql } from "gatsby";
-import SEO from "../../components/seo";
-
 // Components
+import SEO from "../../components/seo";
 import Layout from "../../components/Layout/layout";
-import Storia from "../../components/Storia";
+import Museo from "../../components/Museo";
 
-const HistoryPage = ({ data }) => {
+const MuseumPage = ({ data }) => {
   const { title, description } = data.markdownRemark.frontmatter.en;
   return (
     <Layout language="en">
-      <SEO title={title} description={description} lang="en" />
-      <Storia language="en" data={data} />
+      <SEO lang="en" title={title} description={description} />
+      <Museo language="en" data={data} />
     </Layout>
   );
 };
 
-export default HistoryPage;
+export default MuseumPage;
 
-export const HistoryQuery = graphql`
-  query HistoryPageQuery {
-    markdownRemark(frontmatter: { templateKey: { eq: "history" } }) {
+export const museumQuery = graphql`
+  query MuseumPage {
+    markdownRemark(frontmatter: { templateKey: { eq: "museum" } }) {
       frontmatter {
         en {
           title

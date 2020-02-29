@@ -6,32 +6,29 @@ import Layout from "../components/Layout/layout";
 import Museo from "../components/Museo";
 
 const MuseoPage = ({ data }) => {
+  const { title, description } = data.markdownRemark.frontmatter.it;
   return (
     <Layout language="it">
-      <SEO
-        title="Il Museo"
-        lang="it"
-        description={data.markdownRemark.frontmatter.description}
-      />
-      <Museo data={data} />
+      <SEO lang="it" title={title} description={description} />
+      <Museo language="it" data={data} />
     </Layout>
   );
 };
 
 export default MuseoPage;
 
-export const museumQuery = graphql`
+export const museoQuery = graphql`
   query MuseoPage {
-    markdownRemark(frontmatter: { templateKey: { eq: "museo" } }) {
+    markdownRemark(frontmatter: { templateKey: { eq: "museum" } }) {
       frontmatter {
-        title
-        description
-        textA
-        textB
-        textC
-        textD
+        it {
+          title
+          description
+          textA
+          textB
+          textC
+        }
       }
-      html
     }
   }
 `;
