@@ -8,14 +8,20 @@ import {
   StyledOtherMonumentCard,
 } from "../Styles/StyledMonumentsPage";
 
-const Monumenti = ({ data }) => {
+import * as translate from "../../utils/translate.json";
+
+const Monumenti = ({ data, language }) => {
+  const slugPrefix = language === "it" ? "/monumenti/" : "/en/monuments/";
+
   return (
     <>
       <HeadingSection>
-        <h2>Monumenti</h2>
+        <h2>{translate.default.monuments_page_title[`${language}`]}</h2>
       </HeadingSection>
       <StyledMonumentsSection className="featured-monuments">
-        <SectionTitle>Cosa vedere a Nepi</SectionTitle>
+        <SectionTitle>
+          {translate.default.monuments_page_subtitle_one[`${language}`]}
+        </SectionTitle>
         {data.featuredMonuments.edges.map(monument => {
           const { title, slug, description, image } = monument.node.frontmatter;
           const { id } = monument.node;
@@ -31,12 +37,14 @@ const Monumenti = ({ data }) => {
               <div className="featured-monuments__card-b">
                 <h3>{title}</h3>
                 <p>{description}</p>
-                <Link to={`/monumenti/${slug}/`}>Leggi l'articolo</Link>
+                <Link to={`${slugPrefix}${slug}/`}>Leggi l'articolo</Link>
               </div>
             </StyledFeaturedMonumentCard>
           );
         })}
-        <SectionTitle>Altri monumenti da visitare</SectionTitle>
+        <SectionTitle>
+          {translate.default.monuments_page_subtitle_two[`${language}`]}
+        </SectionTitle>
         {data.otherMonuments.edges.map(monument => {
           const { title, slug, description } = monument.node.frontmatter;
           const { id } = monument.node;
@@ -47,7 +55,7 @@ const Monumenti = ({ data }) => {
               <p>
                 {description}{" "}
                 <span>
-                  <Link to={`/monumenti/${slug}/`}>Leggi l'articolo</Link>
+                  <Link to={`${slugPrefix}${slug}/`}>Leggi l'articolo</Link>
                 </span>
               </p>
             </StyledOtherMonumentCard>

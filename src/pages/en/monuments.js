@@ -1,28 +1,28 @@
 import React from "react";
 import { graphql } from "gatsby";
-import SEO from "../components/seo";
+import SEO from "../../components/seo";
 
 // Components
-import Layout from "../components/Layout/layout";
-import Monumenti from "../components/Monumenti";
+import Layout from "../../components/Layout/layout";
+import Monumenti from "../../components/Monumenti";
 
-const MonumentiPage = ({ data }) => {
+const MonumentsPage = ({ data }) => {
   return (
-    <Layout language="it">
-      <SEO title="Monumenti" lang="it" />
-      <Monumenti data={data} language="it" />
+    <Layout language="en">
+      <SEO title="Monuments" lang="en" />
+      <Monumenti data={data} language="en" />
     </Layout>
   );
 };
 
-export default MonumentiPage;
+export default MonumentsPage;
 
-export const homeQuery = graphql`
-  query MonumentiPage {
+export const monumentsQuery = graphql`
+  query AllMonumentsPage {
     featuredMonuments: allMarkdownRemark(
       filter: {
         frontmatter: {
-          templateKey: { eq: "monumenti" }
+          templateKey: { eq: "monuments" }
           featured: { eq: true }
         }
       }
@@ -43,7 +43,7 @@ export const homeQuery = graphql`
     otherMonuments: allMarkdownRemark(
       filter: {
         frontmatter: {
-          templateKey: { eq: "monumenti" }
+          templateKey: { eq: "monuments" }
           featured: { eq: false }
         }
       }
