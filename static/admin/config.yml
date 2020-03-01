@@ -185,26 +185,26 @@ collections:
           - {
               label: "Italiano",
               name: "it",
-              widget: "list",
+              widget: "object",
               fields:
                 [
-                  { label: "Titolo", name: "title", widget: "string" },
-                  { label: "Descrizione", name: "description", widget: "string" },
-                  { label: "Testo A", name: "textA", widget: "string" },
-                  { label: "Testo B", name: "textB", widget: "string" },
-                  { label: "Testo C", name: "textC", widget: "string" },
+                  {label: "Titolo", name: "title", widget: "string"},
+                  {label: "Descrizione", name: "description", widget: "string"},
+                  {label: "Text A", name: "textA", widget: "string"},
+                  {label: "Text B", name: "textB", widget: "string"},
+                  {label: "Text C", name: "textC", widget: "string"},
                 ],
             }
           - {
               label: "English",
               name: "en",
-              widget: "list",
+              widget: "object",
               fields:
                 [
-                  { label: "Titolo", name: "title", widget: "string" },
-                  { label: "Descrizione", name: "description", widget: "string" },
-                  { label: "Testo A", name: "textA", widget: "string" },
-                  { label: "Testo B", name: "textB", widget: "string" },
-                  { label: "Testo C", name: "textC", widget: "string" },
+                  {label: "Title", name: "title", widget: "string"},
+                  {label: "Description", name: "description", widget: "string"},
+                  {label: "Text A", name: "textA", widget: "string"},
+                  {label: "Text B", name: "textB", widget: "string"},
+                  {label: "Text C", name: "textC", widget: "string"},
                 ],
             }
