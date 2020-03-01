@@ -13,6 +13,7 @@ public_folder: /assets
 
 collections:
   # Blog Post Types
+  # Monumenti
   - name: "monumenti"
     label: "Monumenti"
     folder: "content/monuments"
@@ -50,6 +51,45 @@ collections:
               { label: "Descrizione Foto", name: "alt", widget: "string" },
             ],
         }
+  # Monuments (English)
+  - name: "monuments"
+    label: "Monuments"
+    folder: "content/en-monuments"
+    create: true
+    slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
+    editor:
+     preview: false
+    fields:
+      - {label: "Template Key", name: "templateKey", widget: "hidden", default: "monuments"}
+      - { label: "Title", name: "title", widget: "string" }
+      - { label: "Slug", name: "slug", widget: "string" }
+      - { label: "Published", name: "date", widget: "datetime" }
+      - { label: "Description", name: "description", widget: "string" }
+      - { label: "Category",
+          name: "category",
+          widget: "string",
+          default: "monumenti"
+        }
+      - {label: "Featured", name: "featured", widget: "boolean", default: false}
+      - { label: "Thumbnail",
+          name: "image",
+          widget: "image"
+        }
+      - { label: "Address", name: "place", widget: "string" }
+      - { label: "Opening", name: "access", widget: "string" }
+      - { label: "Tickets", name: "ticket", widget: "string" }
+      - { label: "Body", name: "body", widget: "markdown" }
+      - {
+          label: "Gallery",
+          name: "gallery",
+          widget: "list",
+          fields:
+            [
+              { label: "Image", name: "image", widget: "image" },
+              { label: "Image Description", name: "alt", widget: "string" },
+            ],
+        }
+  # Eventi (Italiano)
   - name: "eventi"
     label: "Eventi"
     folder: "content/events"
@@ -88,5 +128,46 @@ collections:
             [
               { label: "Foto", name: "image", widget: "image" },
               { label: "Descrizione Foto", name: "alt", widget: "string" },
+            ],
+        }
+  # Events (English)
+  - name: "events"
+    label: "Events"
+    folder: "content/en-events"
+    create: true
+    slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
+    editor:
+     preview: false
+    fields:
+      - {label: "Template Key", name: "templateKey", widget: "hidden", default: "events"}
+      - { label: "Title", name: "title", widget: "string" }
+      - { label: "Slug", name: "slug", widget: "string" }
+      - { label: "Published", name: "date", widget: "datetime" }
+      - { label: "Starting Date", name: "start", widget: "datetime" }
+      - { label: "Ending Date", name: "end", widget: "datetime" }
+      - { label: "Description", name: "description", widget: "string" }
+      - { label: "Category",
+          name: "category",
+          widget: "string",
+          default: "eventi"
+        }
+      - {label: "Featured", name: "featured", widget: "boolean", default: false}
+      - { label: "Thumbnail",
+          name: "image",
+          widget: "image"
+        }
+      - { label: "Place", name: "place", widget: "string" }
+      - { label: "Opening", name: "access", widget: "string" }
+      - { label: "Tickets", name: "ticket", widget: "string" }
+      - { label: "Event Type", name: "type", widget: "string" }
+      - { label: "Body", name: "body", widget: "markdown" }
+      - {
+          label: "Gallery",
+          name: "gallery",
+          widget: "list",
+          fields:
+            [
+              { label: "Image", name: "image", widget: "image" },
+              { label: "Image Description", name: "alt", widget: "string" },
             ],
         }
