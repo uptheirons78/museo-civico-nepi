@@ -171,3 +171,40 @@ collections:
               { label: "Image Description", name: "alt", widget: "string" },
             ],
         }
+  # Pages
+  - name: "pages"
+    label: "Pages"
+    files:
+      # Museum Page
+      - file: "content/pages/museum/index.md"
+        label: "Museo"
+        name: "museum"
+        fields:
+          - {label: "Template Key", name: "templateKey", widget: "hidden", default: "museum"}
+          - {label: Titolo, name: title, widget: string}
+          - {
+              label: "Italiano",
+              name: "it",
+              widget: "list",
+              fields:
+                [
+                  { label: "Titolo", name: "title", widget: "string" },
+                  { label: "Descrizione", name: "description", widget: "string" },
+                  { label: "Testo A", name: "textA", widget: "string" },
+                  { label: "Testo B", name: "textB", widget: "string" },
+                  { label: "Testo C", name: "textC", widget: "string" },
+                ],
+            }
+          - {
+              label: "English",
+              name: "en",
+              widget: "list",
+              fields:
+                [
+                  { label: "Titolo", name: "title", widget: "string" },
+                  { label: "Descrizione", name: "description", widget: "string" },
+                  { label: "Testo A", name: "textA", widget: "string" },
+                  { label: "Testo B", name: "textB", widget: "string" },
+                  { label: "Testo C", name: "textC", widget: "string" },
+                ],
+            }
