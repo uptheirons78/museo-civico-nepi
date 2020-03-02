@@ -1,4 +1,18 @@
 {
+  "dates": {
+    "from": {
+      "it": "dal",
+      "en": "from"
+    },
+    "to": {
+      "it": "al",
+      "en": "to"
+    }
+  },
+  "readmore": {
+    "it": "Leggi l'articolo",
+    "en": "Read more"
+  },
   "home_title_one": {
     "it": "nepi e dintorni",
     "en": "about nepi"
@@ -22,6 +36,18 @@
   "monuments_page_subtitle_two": {
     "it": "Altri monumenti da visitare",
     "en": "Other monuments to see"
+  },
+  "events_page_title": {
+    "it": "Eventi",
+    "en": "Events"
+  },
+  "events_page_subtitle_one": {
+    "it": "Prossimo evento in programma",
+    "en": "Next scheduled event"
+  },
+  "events_page_subtitle_two": {
+    "it": "Altri eventi",
+    "en": "Other events"
   },
   "recensioni": {
     "it": "Leggi le recensioni: ",

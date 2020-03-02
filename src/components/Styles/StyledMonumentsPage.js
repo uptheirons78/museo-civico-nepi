@@ -52,6 +52,19 @@ export const StyledFeaturedMonumentCard = styled.article`
         margin-top: 0;
       }
     }
+
+    h4 {
+      margin-top: 0.2rem;
+      margin-bottom: 0.2rem;
+      color: ${props => props.theme.black};
+
+      @media screen and (max-width: 800px) {
+        font-size: 1rem;
+        margin-top: 0;
+        margin-bottom: 0;
+      }
+    }
+
     p {
       font-size: 0.9rem;
       line-height: 1.5;
@@ -96,6 +109,12 @@ export const StyledOtherMonumentCard = styled.article`
     margin-top: 0.5rem;
     color: ${props => props.theme.primaryColor};
     text-transform: uppercase;
+  }
+
+  h4 {
+    margin-top: 0.2rem;
+    margin-bottom: 0.2rem;
+    color: ${props => props.theme.black};
   }
 
   p {

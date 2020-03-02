@@ -10,21 +10,29 @@ import {
 
 import * as translate from "../../utils/translate.json";
 
-const Monumenti = ({ data, language }) => {
-  const slugPrefix = language === "it" ? "/monumenti/" : "/en/monuments/";
+const Eventi = ({ data, language }) => {
+  const slugPrefix = language === "it" ? "/eventi/" : "/en/events/";
 
   return (
     <>
       <HeadingSection>
-        <h2>{translate.default.monuments_page_title[`${language}`]}</h2>
+        <h2>{translate.default.events_page_title[`${language}`]}</h2>
       </HeadingSection>
       <StyledMonumentsSection className="featured-monuments">
         <SectionTitle>
-          {translate.default.monuments_page_subtitle_one[`${language}`]}
+          {translate.default.events_page_subtitle_one[`${language}`]}
         </SectionTitle>
-        {data.featuredMonuments.edges.map(monument => {
-          const { title, slug, description, image } = monument.node.frontmatter;
-          const { id } = monument.node;
+        {data.featuredEvents.edges.map(event => {
+          const {
+            title,
+            slug,
+            description,
+            image,
+            start,
+            end,
+            type,
+          } = event.node.frontmatter;
+          const { id } = event.node;
 
           return (
             <StyledFeaturedMonumentCard
@@ -36,6 +44,13 @@ const Monumenti = ({ data, language }) => {
               </div>
               <div className="featured-monuments__card-b">
                 <h3>{title}</h3>
+                <h4>
+                  {type}{" "}
+                  <span>
+                    {translate.default.dates.from[`${language}`]} {start}{" "}
+                    {translate.default.dates.to[`${language}`]} {end}
+                  </span>
+                </h4>
                 <p>{description}</p>
                 <Link to={`${slugPrefix}${slug}/`}>
                   {translate.default.readmore[`${language}`]}
@@ -45,15 +60,29 @@ const Monumenti = ({ data, language }) => {
           );
         })}
         <SectionTitle>
-          {translate.default.monuments_page_subtitle_two[`${language}`]}
+          {translate.default.events_page_subtitle_two[`${language}`]}
         </SectionTitle>
-        {data.otherMonuments.edges.map(monument => {
-          const { title, slug, description } = monument.node.frontmatter;
-          const { id } = monument.node;
+        {data.otherEvents.edges.map(event => {
+          const {
+            title,
+            slug,
+            description,
+            type,
+            start,
+            end,
+          } = event.node.frontmatter;
+          const { id } = event.node;
 
           return (
             <StyledOtherMonumentCard className="monuments__card" key={id}>
               <h3>{title}</h3>
+              <h4>
+                {type}{" "}
+                <span>
+                  {translate.default.dates.from[`${language}`]} {start}{" "}
+                  {translate.default.dates.to[`${language}`]} {end}
+                </span>
+              </h4>
               <p>
                 {description}{" "}
                 <span>
@@ -70,4 +99,4 @@ const Monumenti = ({ data, language }) => {
   );
 };
 
-export default Monumenti;
+export default Eventi;
