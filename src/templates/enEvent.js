@@ -8,6 +8,7 @@ import HeadingSection from "../components/Shared/HeadingSection";
 import { Content, Description, Info } from "../components/Styles/StyledContent";
 import ImageGrid from "../components/Shared/ImageGrid";
 import SocialShare from "../components/Shared/socialShare";
+import { SinglePageWrapper } from "../components/Styles/StyledPageElement";
 
 const enEvent = ({ data }) => {
   const {
@@ -33,36 +34,38 @@ const enEvent = ({ data }) => {
           {start} - {end}
         </p>
       </HeadingSection>
-      <Description>
-        <h4>{description}</h4>
-      </Description>
-      <Content
-        dangerouslySetInnerHTML={{
-          __html: data.markdownRemark.html,
-        }}
-      ></Content>
-      <ImageGrid gallery={gallery} />
-      <Info>
-        <h2>Informations</h2>
-        <div className="info-section">
-          <h3>Place</h3>
-          <p>{place}</p>
-          <h3>Opening</h3>
-          <p>{access}</p>
-          <h3>Tickets</h3>
-          <p>{ticket}</p>
-          <h3>Type</h3>
-          <p>{type}</p>
-        </div>
-        <SocialShare
-          socialConfig={{
-            config: {
-              title: { title },
-              url: `https://museo-civico-nepi.netlify.com/en/events/${slug}`,
-            },
+      <SinglePageWrapper>
+        <Description>
+          <h4>{description}</h4>
+        </Description>
+        <Content
+          dangerouslySetInnerHTML={{
+            __html: data.markdownRemark.html,
           }}
-        />
-      </Info>
+        ></Content>
+        <ImageGrid gallery={gallery} />
+        <Info>
+          <h2>Informations</h2>
+          <div className="info-section">
+            <h3>Place</h3>
+            <p>{place}</p>
+            <h3>Opening</h3>
+            <p>{access}</p>
+            <h3>Tickets</h3>
+            <p>{ticket}</p>
+            <h3>Type</h3>
+            <p>{type}</p>
+          </div>
+          <SocialShare
+            socialConfig={{
+              config: {
+                title: { title },
+                url: `https://museo-civico-nepi.netlify.com/en/events/${slug}`,
+              },
+            }}
+          />
+        </Info>
+      </SinglePageWrapper>
     </Layout>
   );
 };

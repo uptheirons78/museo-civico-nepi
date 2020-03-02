@@ -54,7 +54,7 @@ const News = ({ language }) => {
         })}
       </section>
       <section className="news-secondary">
-        {events.map(event => {
+        {events.slice(0, 3).map(event => {
           const {
             title,
             image,

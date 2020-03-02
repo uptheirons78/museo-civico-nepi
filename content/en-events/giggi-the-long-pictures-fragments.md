@@ -8,7 +8,7 @@ end: 2019-04-15T12:00:00.000Z
 description: >-
   The exhibition features 21 precious prints that tell the photojournalist Stefano Cigada's passion for archeology and his quest to make ancient statues to "palpitate".
 category: eventi
-featured: true
+featured: false
 image: /assets/events-01.jpg
 place: Museo Civico di Nepi
 access: Da martedì a domenica ore 10.00 - 20.00. Chiuso il lunedì
