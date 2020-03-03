@@ -11,7 +11,7 @@ const useEnglishEvents = () => {
               featured: { eq: false }
             }
           }
-          sort: { fields: frontmatter___start, order: ASC }
+          sort: { fields: frontmatter___start, order: DESC }
         ) {
           edges {
             node {
