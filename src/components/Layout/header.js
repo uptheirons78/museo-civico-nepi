@@ -9,7 +9,7 @@ const Header = ({ language }) => {
   return (
     <StyledHeader>
       <Intro language={language} />
-      <TitleSection />
+      <TitleSection language={language} />
       <Navbar language={language} />
       <MobileNavigation language={language} />
     </StyledHeader>

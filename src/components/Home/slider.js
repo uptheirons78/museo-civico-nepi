@@ -34,6 +34,7 @@ const MonumentiSlider = ({ language }) => {
       {featuredMonuments.map(monument => {
         return (
           <SliderCard
+            language={language}
             key={monument.node.id}
             image={monument.node.frontmatter.image}
             title={monument.node.frontmatter.title}

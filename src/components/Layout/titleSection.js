@@ -5,11 +5,12 @@ import bgImg from "../../images/nepi_01.jpg";
 import mobileBgImg from "../../images/mobile-title-section.jpg";
 import logoMuseo from "../../images/logo-museo.png";
 
-const TitleSection = () => {
+const TitleSection = ({ language }) => {
+  const linkHome = language === "it" ? "/" : "/en/";
   return (
     <StyledTitleSection className="title-section">
       <div className="inner-section">
-        <Link className="home-page__link" to="/">
+        <Link className="home-page__link" to={linkHome}>
           <img
             className="website-logo"
             src={logoMuseo}
