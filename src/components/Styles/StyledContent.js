@@ -104,9 +104,10 @@ export const Description = styled.section`
   h4 {
     line-height: 1.5;
     color: ${props => props.theme.black};
-    font-weight: 600;
-    font-size: 1.3rem;
-    font-style: italic;
+    opacity: 0.9;
+    font-weight: 700;
+    font-size: 1.4rem;
+    text-align: justify;
 
     @media screen and (max-width: 600px) {
       font-size: 1.1rem;

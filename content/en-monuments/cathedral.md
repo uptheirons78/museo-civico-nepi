@@ -5,7 +5,7 @@ slug: 'cathedral'
 date: 2020-02-18T21:00:00.000Z
 description: >-
   The Church of Santa Maria Assunta, called "Duomo", stands on the area of ​​an ancient Roman forum. It is the result of a series of remakes. The crypt and the high altar, with its decorations, are the most valuable elements.
-category: monumenti
+category: monuments
 featured: true
 image: /assets/img-02.jpg
 place: Museo Civico di Nepi

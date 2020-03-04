@@ -7,7 +7,7 @@ description: >-
   ENGLISH Il Palazzo Comunale di Nepi, fu iniziato nel 1542 da Antonio da Sangallo il
   Giovane e terminato solamente nel 1744 da Michele Locatelli. L'edificio sorge
   sull'omonima piazza, principale punto nevralgico della città.
-category: monumenti
+category: monuments
 featured: false
 image: /assets/img-01.jpg
 place: Piazza del Comune n. 1

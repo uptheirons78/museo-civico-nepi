@@ -7,7 +7,7 @@ description: >-
   ENGLISH L'Acquedotto di Nepi è una delle architetture più particolari della
   Tuscia e  del Lazio. Con la sua lunghezza di 285 metri, domina il panorama
   intorno alle  grandi mura farnesiane del borgo.
-category: monumenti
+category: monuments
 featured: false
 image: /assets/events-02.jpg
 place: Piazzale de La Bottata

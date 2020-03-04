@@ -5,12 +5,12 @@ slug: the-church-of-san-pietro
 date: 2020-03-03T12:00:00.005Z
 description: >-
   ENGLISH La Chiesa di San Pietro ha origini nel XIII secolo ed ha subito diversi rifacimenti. La nuova struttura figlia dei lavori diretti dal padre agostiniano Giuseppe Casella è stata terminata nel 1778.
-category: monumenti
+category: monuments
 featured: false
 image: /assets/events-03.jpg
 place: Via di San Pietro
 access: '09:00 - 18:00'
-ticket: Gratuito
+ticket: Free Entrance
 ---
 ENGLISH La chiesa ha origine nel **XIII secolo**, come attestano alcuni documenti e i pochi resti murari sopravvissuti ai successivi rifacimenti.  Inizialmente l’edificio era disposto lungo l’asse Est–Ovest ma, a seguito dei notevoli cambiamenti urbanistici operati durante il periodo *farnesiano* che portarono alla creazione della Piazza del Comune e alla realizzazione di un nuovo importante asse viario, l’attuale Via Matteotti, si decise di spostarne l’orientamento in direzione Nord-Sud.
 

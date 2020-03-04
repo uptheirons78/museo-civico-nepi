@@ -5,7 +5,7 @@ slug: 'borgia-castle'
 date: 2020-02-19T10:00:00.000Z
 description: >-
   The "Borgia Castle", the main monument of Nepi, once owned by the important Catalan family is, today, the result of different remakes which testify the historical continuity of our wonderful town.
-category: monumenti
+category: monuments
 featured: true
 image: /assets/img-01.jpg
 place: Via di Porta Romana - 01036 Nepi (VT)

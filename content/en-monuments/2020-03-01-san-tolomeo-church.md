@@ -8,7 +8,7 @@ description: >-
   Rosario o della Madonna della Vittoria, è affidata dal 1911 all'Ordine dei
   Servi di Maria e contiene le reliquie di San Tolomeo martire e della Beata
   Cecilia Eusepi
-category: monumenti
+category: monuments
 featured: false
 image: /assets/events-01.jpg
 place: Via Garibaldi n. 165

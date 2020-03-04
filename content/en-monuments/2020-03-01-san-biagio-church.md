@@ -8,7 +8,7 @@ description: >-
   Rettorìa.  Trae le sue origini in epoca molto tarda, con molta probabilità
   risale al secolo X. Si presenta ad un'unica ala e vanta al suo interno diversi
   affreschi
-category: monumenti
+category: monuments
 featured: false
 image: /assets/events-01.jpg
 place: Piazza San Biagio n. 11

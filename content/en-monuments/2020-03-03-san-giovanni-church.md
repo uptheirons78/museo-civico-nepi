@@ -5,7 +5,7 @@ slug: san-giovanni-church
 date: 2020-03-03T12:00:00.005Z
 description: >-
   ENGLISH La Chiesa di San Giovanni consacrata nel 1566 sorge a Nepi nel quartiere La Ripa ed è di proprietà della Venerabile Confraternita di San Giovanni Decollato. E' costruita con un'unica aula con un presbiterio nel fondo rialzato da gradini.
-category: monumenti
+category: monuments
 featured: false
 image: /assets/events-02.jpg
 place: Piazza San Giovanni n. 7

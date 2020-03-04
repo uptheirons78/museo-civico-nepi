@@ -5,7 +5,7 @@ slug: 'savinilla-catacomb'
 date: 2020-02-18T21:00:00.000Z
 description: >-
   Catacombs are Christian funerary areas developed in Rome from the end of the II Century A.D. Characterized by large underground tunnels, those here in Nepi are among the most extraordinary you can find in Lazio.
-category: monumenti
+category: monuments
 featured: true
 image: /assets/img-03.jpg
 place: Museo Civico di Nepi
