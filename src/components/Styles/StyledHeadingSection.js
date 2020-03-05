@@ -45,6 +45,12 @@ export const StyledHeadingSection = styled.section`
       padding: 0.3rem 0;
     }
 
+    h2 {
+      font-size: 1.5rem;
+      text-transform: uppercase;
+      letter-spacing: 1px;
+    }
+
     .heading-section-link {
       align-self: flex-start;
       margin-top: 0.5rem;
