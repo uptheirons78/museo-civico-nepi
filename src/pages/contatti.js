@@ -9,7 +9,7 @@ const contattiPage = () => {
   return (
     <Layout language="it">
       <SEO lang="it" title="Contatti" />
-      <Contatti />
+      <Contatti language="it" />
     </Layout>
   );
 };

@@ -1,6 +1,4 @@
 import React from "react";
-import { graphql, useStaticQuery } from "gatsby";
-import Img from "gatsby-image";
 
 // Components
 import HeadingSection from "../Shared/HeadingSection";
@@ -11,12 +9,9 @@ import {
   DoubleGrid,
 } from "../Styles/StyledPageElement";
 import Mappa from "../Shared/Map";
+import Form from "./Form";
 
-const Contatti = () => {
-  const { firstPicture, secondPicture, thirdPicture } = useStaticQuery(
-    contattiPageQuery
-  );
-
+const Contatti = ({ language }) => {
   /**
    * Coordinate Mappe
    */
@@ -50,7 +45,7 @@ const Contatti = () => {
               </p>
             </div>
             <div className="right-block">
-              <Img fluid={firstPicture.childImageSharp.fluid} />
+              <Form language={language} />
             </div>
           </DoubleGrid>
           <Mappa coordinate={coordinate} />
@@ -61,30 +56,3 @@ const Contatti = () => {
 };
 
 export default Contatti;
-
-// Queries
-const contattiPageQuery = graphql`
-  query {
-    firstPicture: file(relativePath: { eq: "museo-01.png" }) {
-      childImageSharp {
-        fluid(maxWidth: 400) {
-          ...GatsbyImageSharpFluid
-        }
-      }
-    }
-    secondPicture: file(relativePath: { eq: "museo-02.png" }) {
-      childImageSharp {
-        fluid(maxWidth: 400) {
-          ...GatsbyImageSharpFluid
-        }
-      }
-    }
-    thirdPicture: file(relativePath: { eq: "museo-03.png" }) {
-      childImageSharp {
-        fluid(maxWidth: 400) {
-          ...GatsbyImageSharpFluid
-        }
-      }
-    }
-  }
-`;

@@ -78,5 +78,28 @@
         "en": "/en/educational-activities"
       }
     }
+  },
+  "contact": {
+    "formName": {
+      "it": "Nome e Cognome",
+      "en": "Full Name"
+    },
+    "formEmail": {
+      "it": "Email",
+      "en": "Your Email"
+    },
+    "formMessage": {
+      "it": "Messaggio",
+      "en": "Email Message"
+    },
+    "formMessagePlaceholder": {
+      "it": "Ciao, vorrei avere informazioni su ...",
+      "en": "Hello, I want to have some informations about ..."
+    },
+    "formButton": {
+      "it": "INVIA",
+      "en": "SEND"
+    }
   }
+
 }

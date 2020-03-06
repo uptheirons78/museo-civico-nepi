@@ -7,14 +7,6 @@ import {
 } from "react-google-maps";
 import styled from "styled-components";
 
-const coordinate = [
-  {
-    nome: "sede",
-    lat: 42.242757,
-    lng: 12.348116,
-  },
-];
-
 function Map({ coordinate }) {
   return (
     <GoogleMap
