@@ -99,6 +99,18 @@
     "formButton": {
       "it": "INVIA",
       "en": "SEND"
+    },
+    "address": {
+      "it": "Indirizzo",
+      "en": "Address"
+    },
+    "telephone": {
+      "it": "Telefono",
+      "en": "Telephone"
+    },
+    "arrive": {
+      "it": "Come arrivare",
+      "en": "How to get here"
     }
   }
 

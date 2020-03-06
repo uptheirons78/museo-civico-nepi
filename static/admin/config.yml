@@ -208,3 +208,43 @@ collections:
                   {label: "Text C", name: "textC", widget: "string"},
                 ],
             }
+      # Contact Page
+      - file: "content/pages/contact/index.md"
+        label: "Contatti"
+        name: "contact"
+        fields:
+          - {label: "Template Key", name: "templateKey", widget: "hidden", default: "contact"}
+          - {
+              label: "Italiano",
+              name: "it",
+              widget: "object",
+              fields:
+                [
+                  {label: "Titolo Pagina", name: "pageTitle", widget: "string"},
+                  {label: "Descrizione Pagina", name: "pageDescription", widget: "string"},
+                  {label: "Titolo", name: "title", widget: "string"},
+                  {label: "Descrizione", name: "description", widget: "string"},
+                  {label: "Indirizzo", name: "address", widget: "string"},
+                  {label: "Città", name: "city", widget: "string"},
+                  {label: "Cap", name: "cap", widget: "string"},
+                  {label: "Telefono", name: "telephone", widget: "string"},
+                  {label: "Email", name: "email", widget: "string"},
+                ],
+            }
+          - {
+              label: "English",
+              name: "en",
+              widget: "object",
+              fields:
+                [
+                  {label: "Page Title", name: "pageTitle", widget: "string"},
+                  {label: "Page Description", name: "pageDescription", widget: "string"},
+                  {label: "Title", name: "title", widget: "string"},
+                  {label: "Description", name: "description", widget: "string"},
+                  {label: "Address", name: "address", widget: "string"},
+                  {label: "City", name: "city", widget: "string"},
+                  {label: "Cap", name: "cap", widget: "string"},
+                  {label: "Telephone", name: "telephone", widget: "string"},
+                  {label: "Email", name: "email", widget: "string"},
+                ],
+            }

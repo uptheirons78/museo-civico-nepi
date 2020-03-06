@@ -82,3 +82,8 @@ export const DoubleGrid = styled.div`
     }
   }
 `;
+
+export const ContactInfo = styled.span`
+  color: ${props => props.theme.primaryColor};
+  font-weight: 600;
+`;
