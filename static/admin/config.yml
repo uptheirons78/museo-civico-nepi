@@ -238,6 +238,44 @@ collections:
                   {label: "Text Block 2", name: "descriptionB", widget: "string"},
                 ],
             }
+      # Collections Page
+      - file: "content/pages/collezioni/index.md"
+        label: "Collezioni"
+        name: "collezioni"
+        fields:
+          - {label: "Template Key", name: "templateKey", widget: "hidden", default: "collections"}
+          - {
+              label: "Italiano",
+              name: "it",
+              widget: "object",
+              fields:
+                [
+                  {label: "Titolo Pagina", name: "pageTitle", widget: "string"},
+                  {label: "Descrizione Pagina", name: "pageDescription", widget: "string"},
+                  {label: "Titolo Blocco 1", name: "sectionATitle", widget: "string"},
+                  {label: "Blocco di testo 1", name: "sectionA", widget: "string"},
+                  {label: "Titolo Blocco 2", name: "sectionBTitle", widget: "string"},
+                  {label: "Blocco di testo 2", name: "sectionB", widget: "string"},
+                  {label: "Titolo Blocco 3", name: "sectionCTitle", widget: "string"},
+                  {label: "Blocco di testo 3", name: "sectionC", widget: "string"},
+                ],
+            }
+          - {
+              label: "English",
+              name: "en",
+              widget: "object",
+              fields:
+                [
+                  {label: "Page Title", name: "pageTitle", widget: "string"},
+                  {label: "Page Description", name: "pageDescription", widget: "string"},
+                  {label: "Block 1 Title", name: "sectionATitle", widget: "string"},
+                  {label: "Block 1 Text", name: "sectionA", widget: "string"},
+                  {label: "Block 2 Title", name: "sectionBTitle", widget: "string"},
+                  {label: "Block 2 Text", name: "sectionB", widget: "string"},
+                  {label: "Block 3 Title", name: "sectionCTitle", widget: "string"},
+                  {label: "Block 3 Text", name: "sectionC", widget: "string"},
+                ],
+            }
       # Contact Page
       - file: "content/pages/contact/index.md"
         label: "Contatti"
