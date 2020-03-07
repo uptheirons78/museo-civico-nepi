@@ -13,10 +13,7 @@ export const pages = {
     {
       url: "/collezioni",
       name: "collezioni",
-      subpages: [
-        { url: "/opere", name: "opere" },
-        { url: "/percorsi-di-visita", name: "percorsi di visita" },
-      ],
+      subpages: [{ url: "/opere", name: "opere" }],
     },
     {
       url: "/monumenti",
@@ -44,10 +41,7 @@ export const pages = {
     {
       url: "/info",
       name: "info e biglietti",
-      subpages: [
-        { url: "/orari-e-tariffe", name: "orari e tariffe" },
-        { url: "/come-arrivare", name: "come arrivare" },
-      ],
+      subpages: [],
     },
     { url: "/contatti", name: "contatti", subpages: [] },
   ],
@@ -65,10 +59,7 @@ export const pages = {
     {
       url: "/en/collections",
       name: "collections",
-      subpages: [
-        { url: "/en/works", name: "works" },
-        { url: "/en/tours", name: "tours" },
-      ],
+      subpages: [{ url: "/en/works", name: "works" }],
     },
     {
       url: "/en/monuments",
@@ -102,10 +93,7 @@ export const pages = {
     {
       url: "/en/info",
       name: "info and tickets",
-      subpages: [
-        { url: "/en/opening-and-tickets", name: "opening and tickets" },
-        { url: "/en/directions", name: "directions" },
-      ],
+      subpages: [],
     },
     { url: "/en/contacts", name: "contacts", subpages: [] },
   ],
