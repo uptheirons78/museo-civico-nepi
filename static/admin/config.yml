@@ -208,6 +208,36 @@ collections:
                   {label: "Text C", name: "textC", widget: "string"},
                 ],
             }
+      # Mission Page
+      - file: "content/pages/mission/index.md"
+        label: "Mission"
+        name: "mission"
+        fields:
+          - {label: "Template Key", name: "templateKey", widget: "hidden", default: "mission"}
+          - {
+              label: "Italiano",
+              name: "it",
+              widget: "object",
+              fields:
+                [
+                  {label: "Titolo Pagina", name: "pageTitle", widget: "string"},
+                  {label: "Descrizione Pagina", name: "pageDescription", widget: "string"},
+                  {label: "Blocco di testo 1", name: "descriptionA", widget: "string"},
+                  {label: "Blocco di testo 2", name: "descriptionB", widget: "string"},
+                ],
+            }
+          - {
+              label: "English",
+              name: "en",
+              widget: "object",
+              fields:
+                [
+                  {label: "Page Title", name: "pageTitle", widget: "string"},
+                  {label: "Page Description", name: "pageDescription", widget: "string"},
+                  {label: "Text Block 1", name: "descriptionA", widget: "string"},
+                  {label: "Text Block 2", name: "descriptionB", widget: "string"},
+                ],
+            }
       # Contact Page
       - file: "content/pages/contact/index.md"
         label: "Contatti"
