@@ -4,15 +4,6 @@ it:
   close1: 1 Gennaio
   close2: 25 e 26 Dicembre
   entrance: Ingresso Libero
-  htmlInFront: |-
-    # Prova
-
-    lorem ipsum dolor sit **ament**
-
-    1. **one**
-
-       1. **two**
-       2. **three**
   pageDescription: >
     Il Museo Civico di Nepi si avvale di un moderno e affascinante apparato
     espositivo che si propone di illustrare, attraverso i reperti archeologici,
@@ -34,15 +25,6 @@ en:
   close1: January 1st
   close2: December 25 and 26
   entrance: Free Entrance
-  htmlInFront: |-
-    # Prova
-
-    lorem ipsum dolor sit **ament**
-
-    1. **one**
-
-       1. **two**
-       2. **three**
   pageDescription: >
     ENGLISH Il Museo Civico di Nepi si avvale di un moderno e affascinante
     apparato espositivo che si propone di illustrare, attraverso i reperti
@@ -61,4 +43,3 @@ en:
   winterSatSun: 'Sat and Sun 10-01 AM, 03-06 PM'
   winterTueFri: 'Tue, Wed, Thu and Fri 11-01 AM, 03-05 PM'
 ---
-

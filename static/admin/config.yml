@@ -290,7 +290,6 @@ collections:
                 [
                   {label: "Titolo Pagina", name: "pageTitle", widget: "string"},
                   {label: "Descrizione Pagina", name: "pageDescription", widget: "string"},
-                  {label: "Markdown di prova", name: "htmlInFront", widget: "markdown"},
                   {label: "Titolo Blocco 1", name: "sectionATitle", widget: "string"},
                   {label: "Apertura Invernale", name: "winterOpening", widget: "string"},
                   {label: "Giorni Feriali Invernali", name: "winterTueFri", widget: "string"},
@@ -315,7 +314,6 @@ collections:
                 [
                   {label: "Page Title", name: "pageTitle", widget: "string"},
                   {label: "Page Description", name: "pageDescription", widget: "string"},
-                  {label: "Mark", name: "htmlInFront", widget: "markdown"},
                   {label: "Block 1 Title", name: "sectionATitle", widget: "string"},
                   {label: "Winter Openings", name: "winterOpening", widget: "string"},
                   {label: "Winter Working Days Openings", name: "winterTueFri", widget: "string"},
