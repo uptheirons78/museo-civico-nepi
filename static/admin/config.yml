@@ -276,6 +276,60 @@ collections:
                   {label: "Block 3 Text", name: "sectionC", widget: "string"},
                 ],
             }
+      # Informations and Tickets Page
+      - file: "content/pages/info/index.md"
+        label: "Informazioni e Biglietti"
+        name: "info"
+        fields:
+          - {label: "Template Key", name: "templateKey", widget: "hidden", default: "info"}
+          - {
+              label: "Italiano",
+              name: "it",
+              widget: "object",
+              fields:
+                [
+                  {label: "Titolo Pagina", name: "pageTitle", widget: "string"},
+                  {label: "Descrizione Pagina", name: "pageDescription", widget: "string"},
+                  {label: "Titolo Blocco 1", name: "sectionATitle", widget: "string"},
+                  {label: "Apertura Invernale", name: "winterOpening", widget: "string"},
+                  {label: "Giorni Feriali Invernali", name: "winterTueFri", widget: "string"},
+                  {label: "Giorni Festivi Invernali", name: "winterSatSun", widget: "string"},
+                  {label: "Chiusura Invernale", name: "winterClosing", widget: "string"},
+                  {label: "Apertura Estiva", name: "summerOpening", widget: "string"},
+                  {label: "Giorni Feriali Estivi", name: "summerTueFri", widget: "string"},
+                  {label: "Giorni Festivi Estivi", name: "summerSatSun", widget: "string"},
+                  {label: "Chiusura Estiva", name: "summerClosing", widget: "string"},
+                  {label: "Titolo Blocco 2", name: "sectionBTitle", widget: "string"},
+                  {label: "Sempre Chiuso 1", name: "close1", widget: "string"},
+                  {label: "Sempre Chiuso 2", name: "close2", widget: "string"},
+                  {label: "Titolo Blocco 3", name: "sectionCTitle", widget: "string"},
+                  {label: "Prezzo", name: "entrance", widget: "string"},
+                ],
+            }
+          - {
+              label: "English",
+              name: "en",
+              widget: "object",
+              fields:
+                [
+                  {label: "Page Title", name: "pageTitle", widget: "string"},
+                  {label: "Page Description", name: "pageDescription", widget: "string"},
+                  {label: "Block 1 Title", name: "sectionATitle", widget: "string"},
+                  {label: "Winter Openings", name: "winterOpening", widget: "string"},
+                  {label: "Winter Working Days Openings", name: "winterTueFri", widget: "string"},
+                  {label: "Winter Bank Holidays Openings", name: "winterSatSun", widget: "string"},
+                  {label: "Winter Closing Day", name: "winterClosing", widget: "string"},
+                  {label: "Summer Openings", name: "summerOpening", widget: "string"},
+                  {label: "Summer Working Days Openings", name: "summerTueFri", widget: "string"},
+                  {label: "Summerc Bank Holidays Openings", name: "summerSatSun", widget: "string"},
+                  {label: "Summer Closing", name: "summerClosing", widget: "string"},
+                  {label: "Block 2 Title", name: "sectionBTitle", widget: "string"},
+                  {label: "Yearly Closing Days 1", name: "close1", widget: "string"},
+                  {label: "Yearly Closing Days 2", name: "close2", widget: "string"},
+                  {label: "Block 3 Title", name: "sectionCTitle", widget: "string"},
+                  {label: "Prices", name: "entrance", widget: "string"},
+                ],
+            }
       # Contact Page
       - file: "content/pages/contact/index.md"
         label: "Contatti"
