@@ -46,6 +46,10 @@ export const StyledNews = styled.section`
         color: ${props => props.theme.primaryColor};
         padding-right: 3rem;
 
+        @media screen and (max-width: 880px) {
+          font-size: 1.6rem;
+          padding-right: 0;
+        }
         @media screen and (max-width: 600px) {
           font-size: 1.4rem;
           padding-right: 0;
@@ -58,7 +62,7 @@ export const StyledNews = styled.section`
         color: ${props => props.theme.black};
         margin-top: 1rem;
 
-        @media screen and (max-width: 600px) {
+        @media screen and (max-width: 880px) {
           font-size: 1.2rem;
           margin-top: 0;
         }
@@ -69,7 +73,7 @@ export const StyledNews = styled.section`
         padding-right: 3rem;
         margin-top: 2rem;
 
-        @media screen and (max-width: 600px) {
+        @media screen and (max-width: 880px) {
           font-size: 0.9rem;
           padding-right: 0;
           margin-top: 0.5rem;
