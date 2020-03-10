@@ -107,13 +107,11 @@ export const footer_pages = {
       { name: "Carta dei Servizi", url: "/carta-dei-servizi" },
     ],
     info_links: [
-      { name: "Orari e tariffe", url: "/orari-e-tariffe" },
-      { name: "Come arrivare", url: "/come-arrivare" },
-      { name: "Indicazioni", url: "/indicazioni" },
+      { name: "Orari e tariffe", url: "/info" },
+      { name: "Contatti", url: "/contatti" },
     ],
     collezioni_links: [
       { name: "Opere", url: "/opere" },
-      { name: "Percorsi di visita", url: "/percorsi-di-visita" },
       { name: "Eventi", url: "/eventi" },
     ],
     site_links: [
@@ -129,13 +127,11 @@ export const footer_pages = {
       { name: "Service Card", url: "/en/service-card" },
     ],
     info_links: [
-      { name: "Opening and Tickets", url: "/en/opening-and-tickets" },
-      { name: "How to arrive", url: "/en/how-to-arrive" },
-      { name: "Directions", url: "/en/directions" },
+      { name: "Opening and Tickets", url: "/en/info" },
+      { name: "Contacts", url: "/en/contacts" },
     ],
     collezioni_links: [
       { name: "Works", url: "/en/works" },
-      { name: "Tours", url: "/en/tours" },
       { name: "Events", url: "/en/events" },
     ],
     site_links: [
