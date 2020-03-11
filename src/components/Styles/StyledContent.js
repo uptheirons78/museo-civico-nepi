@@ -28,7 +28,7 @@ export const Content = styled.section`
   img {
     display: block;
     margin: 1rem auto;
-    max-width: 600px;
+    max-width: 400px;
     width: 100%;
   }
   em {
