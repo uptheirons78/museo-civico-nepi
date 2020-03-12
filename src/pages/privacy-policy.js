@@ -8,7 +8,10 @@ import Privacy from "../components/Privacy";
 
 const PrivacyPolicyPage = ({ data }) => (
   <Layout language="it">
-    <SEO title="Privacy Policy" />
+    <SEO
+      title="Privacy Policy"
+      description={data.markdownRemark.frontmatter.description}
+    />
     <Privacy data={data} />
   </Layout>
 );

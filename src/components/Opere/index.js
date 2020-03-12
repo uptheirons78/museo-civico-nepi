@@ -10,18 +10,15 @@ import {
   DoubleGrid,
 } from "../Styles/StyledPageElement";
 
-const Opere = ({ language }) => {
+const Opere = ({ language, data }) => {
   /**
    * Static Query
    */
-  const {
-    markdownRemark,
-    firstPicture,
-    secondPicture,
-    thirdPicture,
-  } = useStaticQuery(worksPageQuery);
+  const { firstPicture, secondPicture, thirdPicture } = useStaticQuery(
+    worksPageQuery
+  );
 
-  const { frontmatter } = markdownRemark;
+  const { frontmatter } = data.markdownRemark;
 
   return (
     <div>
@@ -71,32 +68,6 @@ export default Opere;
 // Query
 const worksPageQuery = graphql`
   query {
-    markdownRemark: markdownRemark(
-      frontmatter: { templateKey: { eq: "works" } }
-    ) {
-      frontmatter {
-        it {
-          pageTitle
-          pageDescription
-          sectionATitle
-          sectionBTitle
-          sectionCTitle
-          sectionA
-          sectionB
-          sectionC
-        }
-        en {
-          pageTitle
-          pageDescription
-          sectionATitle
-          sectionBTitle
-          sectionCTitle
-          sectionA
-          sectionB
-          sectionC
-        }
-      }
-    }
     firstPicture: file(relativePath: { eq: "collezioni1.jpg" }) {
       childImageSharp {
         fluid(maxWidth: 400) {
