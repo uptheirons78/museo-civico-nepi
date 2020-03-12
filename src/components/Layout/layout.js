@@ -7,15 +7,22 @@ import { ThemeProvider } from "styled-components";
 import Header from "./header";
 import Footer from "./footer";
 
+/**
+ * Fade Animation to mimic page transitions
+ */
+import Fade from "../Animations/Fade";
+
 const Layout = props => {
   return (
     <ThemeProvider theme={Theme}>
-      <MainWrapper>
-        <GlobalStyle />
-        <Header language={props.language} />
-        <main>{props.children}</main>
-        <Footer language={props.language} />
-      </MainWrapper>
+      <Fade>
+        <MainWrapper>
+          <GlobalStyle />
+          <Header language={props.language} />
+          <main>{props.children}</main>
+          <Footer language={props.language} />
+        </MainWrapper>
+      </Fade>
     </ThemeProvider>
   );
 };
