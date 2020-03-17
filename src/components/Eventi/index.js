@@ -43,7 +43,9 @@ const Eventi = ({ data, language }) => {
                 <img src={image} alt={title} />
               </div>
               <div className="featured-monuments__card-b">
-                <h3>{title}</h3>
+                <Link className="article-link" to={`${slugPrefix}${slug}/`}>
+                  <h3>{title}</h3>
+                </Link>
                 <h4>
                   {type}{" "}
                   <span>
@@ -75,7 +77,9 @@ const Eventi = ({ data, language }) => {
 
           return (
             <StyledOtherMonumentCard className="monuments__card" key={id}>
-              <h3>{title}</h3>
+              <Link className="article-link" to={`${slugPrefix}${slug}/`}>
+                <h3>{title}</h3>
+              </Link>
               <h4>
                 {type}{" "}
                 <span>

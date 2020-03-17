@@ -7,13 +7,18 @@ export const pages = {
         { url: "/storia", name: "storia" },
         { url: "/mission", name: "mission" },
         { url: "/carta-dei-servizi", name: "carta dei servizi" },
-        { url: "/eventi", name: "eventi" },
+        { url: "/pubblicazioni", name: "pubblicazioni" },
       ],
     },
     {
-      url: "/collezioni",
-      name: "collezioni",
+      url: "/collezione",
+      name: "collezione",
       subpages: [{ url: "/opere", name: "opere" }],
+    },
+    {
+      url: "/eventi",
+      name: "eventi",
+      subpages: [],
     },
     {
       url: "/monumenti",
@@ -22,7 +27,7 @@ export const pages = {
         { url: "/monumenti/forte-dei-borgia", name: "forte dei borgia" },
         {
           url: "/monumenti/la-catacomba-di-santa-savinilla",
-          name: "catacombe",
+          name: "catacomba",
         },
         {
           url: "/monumenti/il-duomo",
@@ -53,13 +58,18 @@ export const pages = {
         { url: "/en/history", name: "history" },
         { url: "/en/mission", name: "mission" },
         { url: "/en/services-card", name: "services card" },
-        { url: "/en/events", name: "events" },
+        { url: "/en/publications", name: "publications" },
       ],
     },
     {
-      url: "/en/collections",
-      name: "collections",
+      url: "/en/collection",
+      name: "collection",
       subpages: [{ url: "/en/works", name: "works" }],
+    },
+    {
+      url: "/en/events",
+      name: "events",
+      subpages: [],
     },
     {
       url: "/en/monuments",
@@ -71,7 +81,7 @@ export const pages = {
         },
         {
           url: "/en/monuments/savinilla-catacomb",
-          name: "catacombs",
+          name: "catacomb",
         },
         {
           url: "/en/monuments/cathedral",

@@ -96,6 +96,11 @@ export const StyledFeaturedMonumentCard = styled.article`
       &:hover {
         border-bottom: 1px solid ${props => props.theme.primaryColor};
       }
+
+      &.article-link {
+        text-decoration: none;
+        border-bottom: none;
+      }
     }
   }
 `;
@@ -133,6 +138,11 @@ export const StyledOtherMonumentCard = styled.article`
 
     &:hover {
       border-bottom: 1px solid ${props => props.theme.primaryColor};
+    }
+
+    &.article-link {
+      text-decoration: none;
+      border-bottom: none;
     }
   }
 `;
