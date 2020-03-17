@@ -332,8 +332,8 @@ collections:
                   {label: "Blocco di testo 1", name: "textA", widget: "string"},
                   {label: "Titolo Blocco 2", name: "textBTitle", widget: "string"},
                   {label: "Blocco di testo 2", name: "textB", widget: "string"},
-                  {label: "Titolo Blocco 3", name: "textCTitle", widget: "string"},
-                  {label: "Blocco di testo 3", name: "textC", widget: "string"},
+                  {label: "Titolo Blocco 3", name: "infoTitle", widget: "string"},
+                  {label: "Blocco di testo 3", name: "info", widget: "string"},
                 ],
             }
           - {
@@ -348,8 +348,8 @@ collections:
                   {label: "Block 1 Text", name: "textA", widget: "string"},
                   {label: "Block 2 Title", name: "textBTitle", widget: "string"},
                   {label: "Block 2 Text", name: "textB", widget: "string"},
-                  {label: "Block 3 Title", name: "textCTitle", widget: "string"},
-                  {label: "Block 3 Text", name: "textC", widget: "string"},
+                  {label: "Block 3 Title", name: "infoTitle", widget: "string"},
+                  {label: "Block 3 Text", name: "info", widget: "string"},
                 ],
             }
       # Informations and Tickets Page
