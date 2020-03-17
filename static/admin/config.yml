@@ -314,6 +314,44 @@ collections:
                   {label: "Block 3 Text", name: "sectionC", widget: "string"},
                 ],
             }
+      # Didattica Page
+      - file: "content/pages/didattica/index.md"
+        label: "Attività Didattiche"
+        name: "didattica"
+        fields:
+          - {label: "Template Key", name: "templateKey", widget: "hidden", default: "didattica"}
+          - {
+              label: "Italiano",
+              name: "it",
+              widget: "object",
+              fields:
+                [
+                  {label: "Titolo Pagina", name: "title", widget: "string"},
+                  {label: "Descrizione Pagina", name: "description", widget: "string"},
+                  {label: "Titolo Blocco 1", name: "textATitle", widget: "string"},
+                  {label: "Blocco di testo 1", name: "textA", widget: "string"},
+                  {label: "Titolo Blocco 2", name: "textBTitle", widget: "string"},
+                  {label: "Blocco di testo 2", name: "textB", widget: "string"},
+                  {label: "Titolo Blocco 3", name: "textCTitle", widget: "string"},
+                  {label: "Blocco di testo 3", name: "textC", widget: "string"},
+                ],
+            }
+          - {
+              label: "English",
+              name: "en",
+              widget: "object",
+              fields:
+                [
+                  {label: "Page Title", name: "title", widget: "string"},
+                  {label: "Page Description", name: "description", widget: "string"},
+                  {label: "Block 1 Title", name: "textATitle", widget: "string"},
+                  {label: "Block 1 Text", name: "textA", widget: "string"},
+                  {label: "Block 2 Title", name: "textBTitle", widget: "string"},
+                  {label: "Block 2 Text", name: "textB", widget: "string"},
+                  {label: "Block 3 Title", name: "textCTitle", widget: "string"},
+                  {label: "Block 3 Text", name: "textC", widget: "string"},
+                ],
+            }
       # Informations and Tickets Page
       - file: "content/pages/info/index.md"
         label: "Informazioni e Biglietti"
