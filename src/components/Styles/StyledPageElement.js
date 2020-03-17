@@ -87,3 +87,29 @@ export const ContactInfo = styled.span`
   color: ${props => props.theme.primaryColor};
   font-weight: 600;
 `;
+
+export const ServiceTitle = styled.h4`
+  margin-top: 2rem;
+  margin-bottom: 0.5rem;
+  text-transform: uppercase;
+  font-size: 1.6rem;
+  color: ${props => props.theme.primaryColor};
+
+  @media screen and (max-width: 600px) {
+    margin-top: 0;
+  }
+`;
+
+export const ServiceArticle = styled.article`
+  margin: 1rem 0;
+  h5 {
+    margin-top: 0.5rem;
+    text-transform: uppercase;
+    font-size: 1.1rem;
+    color: ${props => props.theme.primaryColor};
+
+    @media screen and (max-width: 600px) {
+      margin-top: 0;
+    }
+  }
+`;

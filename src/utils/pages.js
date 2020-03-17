@@ -36,7 +36,7 @@ export const pages = {
       ],
     },
     {
-      url: "/servizi",
+      url: "/",
       name: "servizi",
       subpages: [
         { url: "/visite-guidate", name: "visite guidate" },
@@ -90,7 +90,7 @@ export const pages = {
       ],
     },
     {
-      url: "/en/services",
+      url: "/en/",
       name: "services",
       subpages: [
         { url: "/en/guided-tours", name: "guided tours" },
