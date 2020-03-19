@@ -1,5 +1,4 @@
 import React from "react";
-import { graphql, useStaticQuery } from "gatsby";
 import Img from "gatsby-image";
 // Components
 import HeadingSection from "../Shared/HeadingSection";
@@ -11,10 +10,6 @@ import {
 } from "../Styles/StyledPageElement";
 
 const Storia = ({ language, data }) => {
-  const { firstPicture, secondPicture, thirdPicture } = useStaticQuery(
-    storiaPageQuery
-  );
-
   const {
     title,
     description,
@@ -25,7 +20,7 @@ const Storia = ({ language, data }) => {
 
   return (
     <div>
-      <HeadingSection>
+      <HeadingSection thumbnail={data.banner.childImageSharp.fixed.src}>
         <h2>{title}</h2>
       </HeadingSection>
       <SinglePageWrapper>
@@ -37,12 +32,12 @@ const Storia = ({ language, data }) => {
               <p className="text">{textA}</p>
             </div>
             <div className="right-block">
-              <Img fluid={firstPicture.childImageSharp.fluid} />
+              <Img fluid={data.firstPicture.childImageSharp.fluid} />
             </div>
           </DoubleGrid>
           <DoubleGrid top="5rem" bottom="5rem">
             <div className="left-block">
-              <Img fluid={secondPicture.childImageSharp.fluid} />
+              <Img fluid={data.secondPicture.childImageSharp.fluid} />
             </div>
             <div className="right-block text-block">
               <h4>{language === "it" ? "anni '90" : "ninenties"}</h4>
@@ -55,7 +50,7 @@ const Storia = ({ language, data }) => {
               <p className="text">{textC}</p>
             </div>
             <div className="right-block">
-              <Img fluid={thirdPicture.childImageSharp.fluid} />
+              <Img fluid={data.thirdPicture.childImageSharp.fluid} />
             </div>
           </DoubleGrid>
         </Main>
@@ -65,30 +60,3 @@ const Storia = ({ language, data }) => {
 };
 
 export default Storia;
-
-// Queries
-const storiaPageQuery = graphql`
-  query {
-    firstPicture: file(relativePath: { eq: "museo-01.png" }) {
-      childImageSharp {
-        fluid(maxWidth: 400) {
-          ...GatsbyImageSharpFluid
-        }
-      }
-    }
-    secondPicture: file(relativePath: { eq: "museo-02.png" }) {
-      childImageSharp {
-        fluid(maxWidth: 400) {
-          ...GatsbyImageSharpFluid
-        }
-      }
-    }
-    thirdPicture: file(relativePath: { eq: "museo-03.png" }) {
-      childImageSharp {
-        fluid(maxWidth: 400) {
-          ...GatsbyImageSharpFluid
-        }
-      }
-    }
-  }
-`;
