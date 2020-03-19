@@ -1,5 +1,4 @@
 import React from "react";
-import { graphql, useStaticQuery } from "gatsby";
 import Img from "gatsby-image";
 
 // Components
@@ -12,21 +11,20 @@ import {
 } from "../Styles/StyledPageElement";
 
 const Museo = ({ language, data }) => {
-  const { firstPicture, secondPicture, thirdPicture } = useStaticQuery(
-    museoPageQuery
-  );
-
   const {
     title,
     description,
     textA,
     textB,
     textC,
+    titleA,
+    titleB,
+    titleC,
   } = data.markdownRemark.frontmatter[`${language}`];
 
   return (
     <>
-      <HeadingSection>
+      <HeadingSection thumbnail={data.banner.childImageSharp.fixed.src}>
         <h2>{title}</h2>
       </HeadingSection>
       <SinglePageWrapper>
@@ -34,29 +32,29 @@ const Museo = ({ language, data }) => {
         <Main>
           <DoubleGrid top="3rem" bottom="3rem">
             <div className="left-block text-block">
-              <h4>Title</h4>
+              <h4>{titleA}</h4>
               <p>{textA}</p>
             </div>
             <div className="right-block">
-              <Img fluid={firstPicture.childImageSharp.fluid} />
+              <Img fluid={data.firstPicture.childImageSharp.fluid} />
             </div>
           </DoubleGrid>
           <DoubleGrid top="5rem" bottom="5rem">
             <div className="left-block">
-              <Img fluid={secondPicture.childImageSharp.fluid} />
+              <Img fluid={data.secondPicture.childImageSharp.fluid} />
             </div>
             <div className="right-block text-block">
-              <h4>Title</h4>
+              <h4>{titleB}</h4>
               <p>{textB}</p>
             </div>
           </DoubleGrid>
           <DoubleGrid top="5rem" bottom="5rem">
             <div className="left-block text-block">
-              <h4>Title</h4>
+              <h4>{titleC}</h4>
               <p>{textC}</p>
             </div>
             <div className="right-block">
-              <Img fluid={thirdPicture.childImageSharp.fluid} />
+              <Img fluid={data.thirdPicture.childImageSharp.fluid} />
             </div>
           </DoubleGrid>
         </Main>
@@ -66,30 +64,3 @@ const Museo = ({ language, data }) => {
 };
 
 export default Museo;
-
-// Queries
-const museoPageQuery = graphql`
-  query {
-    firstPicture: file(relativePath: { eq: "museo-01.png" }) {
-      childImageSharp {
-        fluid(maxWidth: 400) {
-          ...GatsbyImageSharpFluid
-        }
-      }
-    }
-    secondPicture: file(relativePath: { eq: "museo-02.png" }) {
-      childImageSharp {
-        fluid(maxWidth: 400) {
-          ...GatsbyImageSharpFluid
-        }
-      }
-    }
-    thirdPicture: file(relativePath: { eq: "museo-03.png" }) {
-      childImageSharp {
-        fluid(maxWidth: 400) {
-          ...GatsbyImageSharpFluid
-        }
-      }
-    }
-  }
-`;
