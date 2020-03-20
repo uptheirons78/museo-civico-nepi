@@ -54,7 +54,7 @@ const monument = ({ data }) => {
             socialConfig={{
               config: {
                 title: { title },
-                url: `https://museo-civico-nepi.netlify.com/eventi/${slug}`,
+                url: `https://museo-civico-nepi.netlify.com/monumenti/${slug}`,
               },
             }}
           />
