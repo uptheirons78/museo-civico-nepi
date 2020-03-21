@@ -2,12 +2,14 @@ import React from "react";
 import PropTypes from "prop-types";
 import Helmet from "react-helmet";
 import { useStaticQuery, graphql } from "gatsby";
+import defaultOpenGraphImage from "../images/museo/interni-museo-07.jpg";
 
-function SEO({ description, lang, meta, title }) {
+function SEO({ description, lang, meta, title, image }) {
   const { site } = useStaticQuery(
     graphql`
       query {
         site {
+          host
           siteMetadata {
             title
             description
@@ -19,7 +21,8 @@ function SEO({ description, lang, meta, title }) {
   );
 
   const metaDescription = description || site.siteMetadata.description;
-
+  const siteUrl = site.host === "localhost" ? "localhost:8000" : site.host;
+  const ogImageUrl = siteUrl + (image || defaultOpenGraphImage);
   return (
     <Helmet
       htmlAttributes={{
@@ -39,6 +42,18 @@ function SEO({ description, lang, meta, title }) {
         {
           property: `og:description`,
           content: metaDescription,
+        },
+        {
+          property: `og:image`,
+          content: ogImageUrl,
+        },
+        {
+          property: `twitter:image`,
+          content: ogImageUrl,
+        },
+        {
+          property: `image`,
+          content: ogImageUrl,
         },
         {
           property: `og:type`,

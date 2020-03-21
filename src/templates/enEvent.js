@@ -27,7 +27,7 @@ const enEvent = ({ data }) => {
 
   return (
     <Layout language="en">
-      <SEO title={title} lang="en" />
+      <SEO title={title} lang="en" description={description} image={image} />
       <HeadingSection thumbnail={image}>
         <h2>{title}</h2>
         <p style={{ textTransform: "capitalize" }}>
@@ -59,7 +59,6 @@ const enEvent = ({ data }) => {
           <SocialShare
             socialConfig={{
               config: {
-                title: { title },
                 url: `https://museo-civico-nepi.netlify.com/en/events/${slug}`,
               },
             }}

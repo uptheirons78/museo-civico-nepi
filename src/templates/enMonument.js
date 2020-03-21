@@ -23,7 +23,7 @@ const enMonumentTemplate = ({ data }) => {
   } = data.markdownRemark.frontmatter;
   return (
     <Layout language="en">
-      <SEO lang="en" title={title} description={description} />
+      <SEO lang="en" title={title} description={description} image={image} />
       <HeadingSection thumbnail={image}>
         <h2>{title}</h2>
         <a className="heading-section-link" href="#info">
@@ -53,7 +53,6 @@ const enMonumentTemplate = ({ data }) => {
           <SocialShare
             socialConfig={{
               config: {
-                title: { title },
                 url: `https://museo-civico-nepi.netlify.com/en/monuments/${slug}`,
               },
             }}
