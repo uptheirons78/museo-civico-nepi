@@ -70,6 +70,10 @@ const GlobalStyle = createGlobalStyle`
     overflow: hidden;
   }
 
+  .navigation__link .disabled-link {
+    pointer-events: none;
+  }
+
 
 `;
 

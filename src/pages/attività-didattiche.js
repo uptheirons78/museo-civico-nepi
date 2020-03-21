@@ -33,5 +33,26 @@ export const didatticaQuery = graphql`
         }
       }
     }
+    firstPicture: file(relativePath: { eq: "museo/didattica-01.jpg" }) {
+      childImageSharp {
+        fluid(maxWidth: 400) {
+          ...GatsbyImageSharpFluid
+        }
+      }
+    }
+    secondPicture: file(relativePath: { eq: "museo/didattica-02.jpg" }) {
+      childImageSharp {
+        fluid(maxWidth: 400) {
+          ...GatsbyImageSharpFluid
+        }
+      }
+    }
+    thirdPicture: file(relativePath: { eq: "museo/didattica-03.jpg" }) {
+      childImageSharp {
+        fluid(maxWidth: 400) {
+          ...GatsbyImageSharpFluid
+        }
+      }
+    }
   }
 `;

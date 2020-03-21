@@ -1,5 +1,4 @@
 import React from "react";
-import { graphql, useStaticQuery } from "gatsby";
 import Img from "gatsby-image";
 // Components
 import HeadingSection from "../Shared/HeadingSection";
@@ -11,13 +10,6 @@ import {
 } from "../Styles/StyledPageElement";
 
 const Didattica = ({ language, data }) => {
-  /**
-   * Static Query
-   */
-  const { firstPicture, secondPicture, thirdPicture } = useStaticQuery(
-    didatticaQuery
-  );
-
   const { frontmatter } = data.markdownRemark;
 
   return (
@@ -36,12 +28,12 @@ const Didattica = ({ language, data }) => {
               <p>{frontmatter[`${language}`].textA}</p>
             </div>
             <div className="right-block">
-              <Img fluid={firstPicture.childImageSharp.fluid} />
+              <Img fluid={data.firstPicture.childImageSharp.fluid} />
             </div>
           </DoubleGrid>
           <DoubleGrid top="5rem" bottom="5rem">
             <div className="left-block">
-              <Img fluid={secondPicture.childImageSharp.fluid} />
+              <Img fluid={data.secondPicture.childImageSharp.fluid} />
             </div>
             <div className="right-block text-block">
               <h4>{frontmatter[`${language}`].textBTitle}</h4>
@@ -54,7 +46,7 @@ const Didattica = ({ language, data }) => {
               <p>{frontmatter[`${language}`].info}</p>
             </div>
             <div className="right-block">
-              <Img fluid={thirdPicture.childImageSharp.fluid} />
+              <Img fluid={data.thirdPicture.childImageSharp.fluid} />
             </div>
           </DoubleGrid>
         </Main>
@@ -64,30 +56,3 @@ const Didattica = ({ language, data }) => {
 };
 
 export default Didattica;
-
-// Query
-const didatticaQuery = graphql`
-  query {
-    firstPicture: file(relativePath: { eq: "collezioni1.jpg" }) {
-      childImageSharp {
-        fluid(maxWidth: 400) {
-          ...GatsbyImageSharpFluid
-        }
-      }
-    }
-    secondPicture: file(relativePath: { eq: "collezioni2.jpg" }) {
-      childImageSharp {
-        fluid(maxWidth: 400) {
-          ...GatsbyImageSharpFluid
-        }
-      }
-    }
-    thirdPicture: file(relativePath: { eq: "collezioni3.jpg" }) {
-      childImageSharp {
-        fluid(maxWidth: 400) {
-          ...GatsbyImageSharpFluid
-        }
-      }
-    }
-  }
-`;

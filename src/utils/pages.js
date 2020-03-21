@@ -1,6 +1,11 @@
 export const pages = {
   it: [
     {
+      url: "/",
+      name: "home",
+      subpages: [],
+    },
+    {
       url: "/museo",
       name: "il museo",
       subpages: [
@@ -23,17 +28,7 @@ export const pages = {
     {
       url: "/monumenti",
       name: "monumenti",
-      subpages: [
-        { url: "/monumenti/forte-dei-borgia", name: "forte dei borgia" },
-        {
-          url: "/monumenti/la-catacomba-di-santa-savinilla",
-          name: "catacomba",
-        },
-        {
-          url: "/monumenti/il-duomo",
-          name: "duomo",
-        },
-      ],
+      subpages: [],
     },
     {
       url: "/",
@@ -51,6 +46,11 @@ export const pages = {
     { url: "/contatti", name: "contatti", subpages: [] },
   ],
   en: [
+    {
+      url: "/en/",
+      name: "home",
+      subpages: [],
+    },
     {
       url: "/en/museum",
       name: "museum",
@@ -74,20 +74,7 @@ export const pages = {
     {
       url: "/en/monuments",
       name: "monuments",
-      subpages: [
-        {
-          url: "/en/monuments/borgia-castle",
-          name: "borgia's castle",
-        },
-        {
-          url: "/en/monuments/savinilla-catacomb",
-          name: "catacomb",
-        },
-        {
-          url: "/en/monuments/cathedral",
-          name: "cathedral",
-        },
-      ],
+      subpages: [],
     },
     {
       url: "/en/",

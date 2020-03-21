@@ -21,12 +21,12 @@ export const Navigation = styled.nav`
         text-decoration: none;
         text-transform: uppercase;
         font-weight: 700;
-        font-size: 1.1rem;
+        font-size: 1rem;
 
-        @media screen and (max-width: 800px) {
+        @media screen and (max-width: 900px) {
           font-size: 0.9rem;
         }
-        @media screen and (max-width: 650px) {
+        @media screen and (max-width: 750px) {
           font-size: 0.7rem;
         }
       }
