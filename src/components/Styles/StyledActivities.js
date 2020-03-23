@@ -68,10 +68,8 @@ export const StyledActivities = styled.section`
 
       p {
         color: #fff;
-
-        @media screen and (max-width: 800px) {
-          text-align: center;
-        }
+        text-align: center;
+        padding: 0 20px;
       }
     }
   }

@@ -1,5 +1,4 @@
 import React from "react";
-import { graphql, useStaticQuery } from "gatsby";
 import Img from "gatsby-image";
 import styled from "styled-components";
 // Components
@@ -16,18 +15,11 @@ const OpeningInfo = styled.p`
   font-weight: 600;
 `;
 
-const InfoAndTickets = ({ language }) => {
-  /**
-   * Static Query
-   */
-  const { markdownRemark, firstPicture, secondPicture } = useStaticQuery(
-    infoPageQuery
-  );
-
-  const { frontmatter } = markdownRemark;
+const InfoAndTickets = ({ language, data }) => {
+  const { frontmatter } = data.markdownRemark;
   return (
     <div>
-      <HeadingSection>
+      <HeadingSection thumbnail={data.banner.childImageSharp.fixed.src}>
         <h2>{frontmatter[`${language}`].pageTitle}</h2>
       </HeadingSection>
       <SinglePageWrapper>
@@ -56,12 +48,12 @@ const InfoAndTickets = ({ language }) => {
               </div>
             </div>
             <div className="right-block">
-              <Img fluid={firstPicture.childImageSharp.fluid} />
+              <Img fluid={data.firstPicture.childImageSharp.fluid} />
             </div>
           </DoubleGrid>
           <DoubleGrid top="5rem" bottom="5rem">
             <div className="left-block">
-              <Img fluid={secondPicture.childImageSharp.fluid} />
+              <Img fluid={data.secondPicture.childImageSharp.fluid} />
             </div>
             <div className="right-block text-block">
               <div style={{ marginBottom: "2rem" }}>
@@ -82,65 +74,3 @@ const InfoAndTickets = ({ language }) => {
 };
 
 export default InfoAndTickets;
-
-// Query
-const infoPageQuery = graphql`
-  query {
-    markdownRemark: markdownRemark(
-      frontmatter: { templateKey: { eq: "info" } }
-    ) {
-      frontmatter {
-        it {
-          pageTitle
-          pageDescription
-          sectionATitle
-          sectionBTitle
-          sectionCTitle
-          winterOpening
-          winterTueFri
-          winterSatSun
-          winterClosing
-          summerOpening
-          summerTueFri
-          summerSatSun
-          summerClosing
-          close1
-          close2
-          entrance
-        }
-        en {
-          pageTitle
-          pageDescription
-          sectionATitle
-          sectionBTitle
-          sectionCTitle
-          winterOpening
-          winterTueFri
-          winterSatSun
-          winterClosing
-          summerOpening
-          summerTueFri
-          summerSatSun
-          summerClosing
-          close1
-          close2
-          entrance
-        }
-      }
-    }
-    firstPicture: file(relativePath: { eq: "collezioni1.jpg" }) {
-      childImageSharp {
-        fluid(maxWidth: 400) {
-          ...GatsbyImageSharpFluid
-        }
-      }
-    }
-    secondPicture: file(relativePath: { eq: "collezioni2.jpg" }) {
-      childImageSharp {
-        fluid(maxWidth: 400) {
-          ...GatsbyImageSharpFluid
-        }
-      }
-    }
-  }
-`;

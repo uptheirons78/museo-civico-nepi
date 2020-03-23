@@ -60,22 +60,34 @@
       "link": {
         "it": "/visite-guidate",
         "en": "/en/guided-tours"
+      },
+      "innerText": {
+        "it": "Scopri la storia della cittadina di Nepi secondo un percorso cronologico",
+        "en": "Discover the history of Nepi according to a chronological path"
       }
     },
     "cardTwo" : {
-      "it": "percorsi di visita",
-      "en": "itineraries",
-      "link": {
-        "it": "/percorsi-di-visita",
-        "en": "/en/itineraries"
-      }
-    },
-    "cardThree" : {
       "it": "attività didattica",
       "en": "educational activities",
       "link": {
-        "it": "/attività-didattica",
+        "it": "/attività-didattiche",
         "en": "/en/educational-activities"
+      },
+      "innerText": {
+        "it": "Educhiamo i nostri giovani alla conoscenza ed al rispetto del patrimonio artistico di Nepi",
+        "en": "Let's teach to our children to know and respect Nepi's artistic heritage"
+      }
+    },
+    "cardThree" : {
+      "it": "la collezione",
+      "en": "our collection",
+      "link": {
+        "it": "/collezione",
+        "en": "/en/collection"
+      },
+      "innerText": {
+        "it": "Scopri la nostra collezione e l'evoluzione storica di Nepi e del suo territorio",
+        "en": "Discover our collection and the historical evolution of Nepi and its own territory"
       }
     }
   },
