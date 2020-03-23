@@ -9,11 +9,11 @@ function SEO({ description, lang, meta, title, image }) {
     graphql`
       query {
         site {
-          host
           siteMetadata {
             title
             description
             author
+            siteUrl
           }
         }
       }
@@ -21,8 +21,8 @@ function SEO({ description, lang, meta, title, image }) {
   );
 
   const metaDescription = description || site.siteMetadata.description;
-  const siteUrl = site.host === "localhost" ? "localhost:8000" : site.host;
-  const ogImageUrl = siteUrl + (image || defaultOpenGraphImage);
+  const ogImageUrl =
+    site.siteMetadata.siteUrl + (image || defaultOpenGraphImage);
   return (
     <Helmet
       htmlAttributes={{
