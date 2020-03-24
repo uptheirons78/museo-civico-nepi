@@ -34,5 +34,19 @@ export const ServiziQuery = graphql`
         }
       }
     }
+    firstPicture: file(relativePath: { eq: "museo/visite-01.jpg" }) {
+      childImageSharp {
+        fluid(maxWidth: 400) {
+          ...GatsbyImageSharpFluid
+        }
+      }
+    }
+    banner: file(relativePath: { eq: "banners/museo-banner.jpg" }) {
+      childImageSharp {
+        fixed(width: 1100, height: 300) {
+          src
+        }
+      }
+    }
   }
 `;

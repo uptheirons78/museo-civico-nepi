@@ -15,7 +15,7 @@ const Form = ({ language }) => {
     <StyledForm className="form">
       <form name="Museo Form" method="POST" data-netlify="true">
         <input type="hidden" name="Museo Form" value="Museo Form" />
-        <div class="flex-rev">
+        <div className="flex-rev">
           <input type="text" placeholder="Marco Rossi" name="name" id="name" />
           <label htmlFor="name">{formName[`${language}`]}</label>
         </div>

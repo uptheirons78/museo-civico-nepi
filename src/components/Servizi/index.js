@@ -1,5 +1,4 @@
 import React from "react";
-import { graphql, useStaticQuery } from "gatsby";
 import Img from "gatsby-image";
 // Components
 import HeadingSection from "../Shared/HeadingSection";
@@ -13,15 +12,11 @@ import {
   ContactInfo,
 } from "../Styles/StyledPageElement";
 const Servizi = ({ language, data }) => {
-  /**
-   * Static Query
-   */
-  const { firstPicture } = useStaticQuery(servicesPageQuery);
   const { frontmatter } = data.markdownRemark;
 
   return (
     <div>
-      <HeadingSection>
+      <HeadingSection thumbnail={data.banner.childImageSharp.fixed.src}>
         <h2>{frontmatter[`${language}`].title}</h2>
       </HeadingSection>
       <SinglePageWrapper>
@@ -35,7 +30,7 @@ const Servizi = ({ language, data }) => {
               <p>{frontmatter[`${language}`].visiteInterneDescription}</p>
             </div>
             <div className="right-block">
-              <Img fluid={firstPicture.childImageSharp.fluid} />
+              <Img fluid={data.firstPicture.childImageSharp.fluid} />
             </div>
           </DoubleGrid>
           <ServiceTitle>
@@ -73,16 +68,3 @@ const Servizi = ({ language, data }) => {
 };
 
 export default Servizi;
-
-// Query
-const servicesPageQuery = graphql`
-  query {
-    firstPicture: file(relativePath: { eq: "collezioni1.jpg" }) {
-      childImageSharp {
-        fluid(maxWidth: 400) {
-          ...GatsbyImageSharpFluid
-        }
-      }
-    }
-  }
-`;
