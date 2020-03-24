@@ -75,7 +75,7 @@ export default Activities;
 // Query
 const activitiesQuery = graphql`
   query {
-    firstPicture: file(relativePath: { eq: "museo/didattica-03.jpg" }) {
+    firstPicture: file(relativePath: { eq: "museo/didattica-04.jpg" }) {
       childImageSharp {
         fixed(width: 400) {
           src
