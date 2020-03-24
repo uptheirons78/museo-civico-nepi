@@ -13,9 +13,19 @@ access: "-"
 ticket: "-"
 gallery:
   - alt: forte dei borgia
-    image: /assets/forte-01.jpg
-  - alt: la bottata
-    image: /assets/forte_02.jpg
+    image: /assets/rocca-01.jpg
+  - alt: forte dei borgia
+    image: /assets/rocca-02.jpg
+  - alt: forte dei borgia
+    image: /assets/rocca-03.jpg
+  - alt: forte dei borgia
+    image: /assets/rocca-04.jpg
+  - alt: forte dei borgia
+    image: /assets/rocca-05.jpg
+  - alt: forte dei borgia
+    image: /assets/rocca-06.jpg
+  - alt: forte dei borgia
+    image: /assets/rocca-07.jpg
 ---
 ### La Storia
 
@@ -64,6 +74,8 @@ Grazie al ritrovamento di un largo stemma in pietra, il completamento dell’edi
 Paolo III dopo aver tolto Nepi a Bernardo Accolti creò, nel **1537**, il ducato di Castro e Nepi investendone il figlio Pier Luigi. L’arrivo dei Farnese segnò l’inizio di un periodo di **forti cambiamenti nell’assetto urbanistico della cittadina**. I lavori compresero la creazione e l’allargamento di vie e piazze e la costruzione di nuovi edifici. Anche l’interno della rocca fu migliorato, sia nella funzionalità, sia nell’estetica.
 
 A realizzare le opere più importanti fu chiamato l’architetto **Antonio da Sangallo il Giovane** cui si devono il progetto del primitivo Palazzo Comunale e quello della chiesa di San Tolomeo, mai portato a termine.
+
+![il forte dei borgia](/assets/rocca-01.jpg)
 
 ### I Bastioni Farnesiani
 

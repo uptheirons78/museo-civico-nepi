@@ -1,7 +1,7 @@
 ---
 templateKey: monumenti
 title: La Chiesa di Santa Croce
-slug: the-church-of-santa-croce
+slug: la-chiesa-di-santa-croce
 date: 2020-03-04T08:44:32.525Z
 description: >-
   Originaria del X Secolo è costruita con una pianta a croce greca e nel XV Secolo fu affiancata da un ospedale affidato alla Confraternita della Disciplina
