@@ -10,16 +10,39 @@ description: >-
   affreschi
 category: monumenti
 featured: false
-image: /assets/events-01.jpg
+image: /assets/biagio-07.jpg
 place: Piazza San Biagio n. 11
-access: '10:00 - 16-00'
-ticket: 'Ingresso Gratuito '
+access: '-'
+ticket: 'Ingresso Gratuito'
+gallery:
+  - alt: Chiesa di San Biagio
+    image: /assets/biagio-01.jpg
+  - alt: Chiesa di San Biagio
+    image: /assets/biagio-02.jpg
+  - alt: Chiesa di San Biagio
+    image: /assets/biagio-03.jpg
+  - alt: Chiesa di San Biagio
+    image: /assets/biagio-04.jpg
+  - alt: Chiesa di San Biagio
+    image: /assets/biagio-05.jpg
+  - alt: Chiesa di San Biagio
+    image: /assets/biagio-06.jpg
+  - alt: Chiesa di San Biagio
+    image: /assets/biagio-07.jpg
+  - alt: Chiesa di San Biagio
+    image: /assets/biagio-08.jpg
+  - alt: Chiesa di San Biagio
+    image: /assets/biagio-09.jpg
+  - alt: Chiesa di San Biagio
+    image: /assets/biagio-10.jpg
 ---
 La chiesa di San Biagio è menzionata per la prima volta in un documento risalente **all’anno 950**, quando l’edificio era parte di un complesso benedettino, occupato da monache di clausura, dipendente dal monastero di San Ciriaco in Via Lata a Roma.
 
 Nel 1560 il monastero nepesino venne abolito e le sue strutture annesse alla parrocchia di Santa Croce.
 
 L’accesso avviene tramite un portale composto da materiale di spoglio, comprendente un coperchio di sarcofago di epoca romana (III secolo d.C.) posto come epistilio e **stipiti di epoca medievale decorati a racemi e palmette**. La chiesa si presenta ad un’**unica aula**. All’interno, le diverse murature lasciano intuire differenti fasi costruttive succedutesi a partire dal X secolo. Un evidente ampliamento dell’edificio si ebbe durante il XII secolo, quando fu realizzato l’attuale presbiterio rialzato sopra la **cripta *ad oratorium***.
+
+![Chiesa di San Biagio](/assets/biagio-05.jpg)
 
 L’abside reca **affreschi di epoca diversa**, i più antichi risalenti al XII secolo con due figure di Santi da identificare forse con *San Benedetto* e *San Lorenzo*. Al centro dell’abside le figure di *Sant’Egidio* e quelle dei *Santi Abdon* e *Sennen* da ascrivere ad una fase decorativa successiva, forse contemporanea alla realizzazione del ciborio collocato sul lato sinistro del presbiterio.
 

@@ -9,14 +9,35 @@ description: >-
   sull'omonima piazza, principale punto nevralgico della città.
 category: monumenti
 featured: false
-image: /assets/img-01.jpg
+image: /assets/comune-01.jpg
 place: Piazza del Comune n. 1
 access: 'Lun. - Ven. 09:00 - 13:00'
 ticket: Ingresso gratuito
+gallery:
+  - alt: Il Palazzo Comunale di Nepi
+    image: /assets/comune-01.jpg
+  - alt: Il Palazzo Comunale di Nepi
+    image: /assets/comune-02.jpg
+  - alt: Il Palazzo Comunale di Nepi
+    image: /assets/comune-03.jpg
+  - alt: Il Palazzo Comunale di Nepi
+    image: /assets/comune-04.jpg
+  - alt: Il Palazzo Comunale di Nepi
+    image: /assets/comune-05.jpg
+  - alt: Il Palazzo Comunale di Nepi
+    image: /assets/comune-06.jpg
+  - alt: Il Palazzo Comunale di Nepi
+    image: /assets/comune-07.jpg
+  - alt: Il Palazzo Comunale di Nepi
+    image: /assets/comune-08.jpg
+  - alt: Il Palazzo Comunale di Nepi
+    image: /assets/comune-09.jpg
 ---
 Durante il dominio della famiglia Farnese, Nepi fu interessata da importanti lavori che andarono a ridisegnare il suo assetto urbanistico. Fra le opere da realizzare, fu deciso di costruire un nuovo palazzo comunale nella piazza sino ad allora detta di “Sant’Eleuterio”, dal nome della chiesa ivi collocata. La piazza fu allargata demolendo alcune abitazioni che si trovavano sul lato settentrionale.
 
 **La costruzione del Palazzo Comunale ebbe inizio nel dicembre del 1542**. Il progetto originale, in passato erroneamente attribuito al Vignola, molto probabilmente fu redatto dall’architetto ***Antonio da Sangallo il Giovane***, in quegli anni molto attivo a Nepi.
+
+![Palazzo Comunale](/assets/comune-01.jpg)
 
 A dirigere i lavori furono chiamati gli architetti *Benedetto Zaccagni*, detto il Torchiarino, e *Andrea da Fiorenzuola*, con la supervisione di ***Giovanni Battista da Sangallo***, fratello di Antonio. L’opera fu completata dopo la partenza di Pier Luigi Farnese. La costruzione cinquecentesca comprendeva il piano terra, preceduto da un porticato, ed un primo piano sormontato da una torretta ospitante l’orologio e la campana civica.
 
@@ -24,9 +45,13 @@ Nel ‘700 iniziarono i lavori che portarono la costruzione ad assumere l’aspe
 
 La vasca, affiancata da due mascheroni con sembianze di sileni, riproduce al centro il simbolo della cittadina: **la torre cinta dal serpente**. Per realizzarla fu utilizzato travertino di Civita Castellana e peperino proveniente dalle cave di Monte Gelato.
 
+![Palazzo Comunale](/assets/comune-07.jpg)
+
 Prima del 1740 la torretta fu modificata nella forma attuale con l’aggiunta di altre due campane. Pochi anni più tardi, nel 1744, su progetto dell’architetto *Michele Locatelli*, ripresero i lavori che portarono ad una sopraelevazione dell’edificio. Il primo piano fu caratterizzato inserendo nella facciata quattro finestre a edicola, dal timpano triangolare, ed una grande finestra centrale, sormontata da un arco, che si apre sul balcone. Dopo aver realizzato un secondo piano ed una stanza per l’orologio, il lavoro fu completato con l’aggiunta della balaustra in peperino sul lato frontale.
 
 Importanti lavori di restauro e di ristrutturazione degli ambienti interni del palazzo furono effettuati alla metà dell’800. Oltre agli interventi strutturali, nel 1869 fu terminato il rifacimento delle pitture che adornano la Sala Nobile del palazzo, unico ambiente che ancora conserva la decorazione. I dipinti furono realizzati da *Domenico Torti* e *Ludovico De Mauro* pittori della scuola romana attivi in questo momento anche all’interno del Duomo di Nepi.
+
+![Palazzo Comunale](/assets/comune-02.jpg)
 
 Questa sala, utilizzata oggi per cerimonie, era anticamente la **Sala del Consilio**. Il soffitto è decorato con un ampio riquadro raffigurante la Madonna col Bambino e, in basso, San Tolomeo e San Romano, patroni di Nepi.
 
