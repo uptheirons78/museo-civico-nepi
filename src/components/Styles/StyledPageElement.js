@@ -27,6 +27,14 @@ export const Main = styled.section`
   width: 100%;
 `;
 
+export const SectionTitle = styled.h2`
+  margin-top: 0.5rem;
+  margin-bottom: 0.5rem;
+  text-transform: uppercase;
+  font-size: 1.6rem;
+  color: ${props => props.theme.primaryColor};
+`;
+
 export const DoubleGrid = styled.div`
   margin-top: ${props => props.top || "1rem"};
   margin-bottom: ${props => props.bottom || "1rem"};
@@ -111,5 +119,14 @@ export const ServiceArticle = styled.article`
     @media screen and (max-width: 600px) {
       margin-top: 0;
     }
+  }
+`;
+
+export const PubblicazioniImageContainer = styled.div`
+  max-width: 240px;
+  width: 100%;
+
+  @media screen and (max-width: 500px) {
+    max-width: 180px;
   }
 `;
