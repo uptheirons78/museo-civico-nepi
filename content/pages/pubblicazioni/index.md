@@ -36,7 +36,7 @@ it:
   - alt: La Sala Nobile del Palazzo Comunale di Nepi
     image: /assets/sala-nobile.jpg
     title: La Sala Nobile del Palazzo Comunale di Nepi
-    researcher: A cura di Giorgio Felini e Stefano Francocci
+    researcher: Di Giorgio Felini e Stefano Francocci
     editor: Comune di Nepi, 2010
   - alt: Memorie  istoriche della città di Nepi e suoi dintorni
     image: /assets/memorie-istoriche.jpg
@@ -81,7 +81,7 @@ en:
   - alt: La Sala Nobile del Palazzo Comunale di Nepi
     image: /assets/sala-nobile.jpg
     title: La Sala Nobile del Palazzo Comunale di Nepi
-    researcher: A cura di Giorgio Felini e Stefano Francocci
+    researcher: Di Giorgio Felini e Stefano Francocci
     editor: Comune di Nepi, 2010
   - alt: Memorie  istoriche della città di Nepi e suoi dintorni
     image: /assets/memorie-istoriche.jpg
