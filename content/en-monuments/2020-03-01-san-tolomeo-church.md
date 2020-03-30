@@ -10,16 +10,35 @@ description: >-
   Cecilia Eusepi
 category: monuments
 featured: false
-image: /assets/events-01.jpg
+image: /assets/tolomeo-08.jpg
 place: Via Garibaldi n. 165
-access: '08:00 - 19-00'
+access: '-'
 ticket: Free Entrance
+gallery:
+  - alt: chiesa di san tolomeo
+    image: /assets/tolomeo-01.jpg
+  - alt: chiesa di san tolomeo
+    image: /assets/tolomeo-02.jpg
+  - alt: chiesa di san tolomeo
+    image: /assets/tolomeo-03.jpg
+  - alt: chiesa di san tolomeo
+    image: /assets/tolomeo-04.jpg
+  - alt: chiesa di san tolomeo
+    image: /assets/tolomeo-05.jpg
+  - alt: chiesa di san tolomeo
+    image: /assets/tolomeo-06.jpg
+  - alt: chiesa di san tolomeo
+    image: /assets/tolomeo-07.jpg
+  - alt: chiesa di san tolomeo
+    image: /assets/tolomeo-08.jpg
 ---
-ENGLISH La chiesa di San Tolomeo è sorta a seguito della demolizione, nel 1540, dell’omonima chiesa che sorgeva presso la catacomba.
+La chiesa di San Tolomeo è sorta a seguito della demolizione, nel 1540, dell’omonima chiesa che sorgeva presso la catacomba.
 
 Il progetto iniziale, redatto da ***Antonio da Sangallo il Giovane***, prevedeva un imponente edificio dal corpo rettangolare, a tre navate, preceduto da un portico. La tribuna doveva essere di forma ottagonale con al centro un tempietto ottagono. I lavori furono iniziati nel **1543** e poi sospesi dopo la partenza da Nepi di Pier Luigi Farnese nel 1545.
 
 La costruzione riprese solo nel 1588 e terminò nel 1606, portando alla realizzazione di un edificio molto diverso da quello progettato inizialmente. Nella seconda metà dell’800, per iniziativa del frate ***Vincenzo Pistelli***, la chiesa fu interessata da importanti lavori di ristrutturazione. Sul tetto a doppio spiovente fu eretta una cupola in corrispondenza della tribuna e l’abside da rettangolare fu trasformata in semicircolare.
+
+![chiesa di san tolomeo](/assets/tolomeo-08.jpg)
 
 L’interno della chiesa a navata unica è caratterizzato dalla presenza di sei cappelle nella navata e di due nella tribuna.
 
@@ -34,6 +53,8 @@ All’interno di questa cappella sono collocate le reliquie di ***Cecilia Eusepi
 Anche le altre cappelle sono di patronato privato ad eccezione della Cappella di San Domenico, posta sulla tribuna a destra dell’altare maggiore.
 
 Quest’ultima fu realizzata dai **Padri Domenicani** nel 1632. Il dipinto che abbellisce oggi la cappella non raffigura, però, San Domenico, ma i *Sette Santi Fondatori dell’Ordine dei Servi di Maria*.
+
+![chiesa di san tolomeo](/assets/tolomeo-01.jpg)
 
 La chiesa, infatti, fu retta dai Domenicani sino al 1911 quando fu affidata dal vescovo *Mons. Doebbing* ai **Servi di Maria**.
 
