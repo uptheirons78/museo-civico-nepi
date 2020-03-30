@@ -12,12 +12,22 @@ place: Via Luigi Cadorna n. 6
 access: Orario delle funzioni religiose
 ticket: Ingresso gratuito
 gallery:
+  - alt: duomo abside
+    image: /assets/duomo-abside.jpg
+  - alt: duomo esterni
+    image: /assets/duomo-esterna.jpg
+  - alt: duomo esterni
+    image: /assets/duomo-esterna-02.jpg
   - alt: duomo la cripta
     image: /assets/duomo_cripta.jpg
+  - alt: duomo la cripta
+    image: /assets/duomo-cripta.jpg
   - alt: duomo l'ottobrata
     image: /assets/duomo_ottobrata.jpg
   - alt: duomo la volta
     image: /assets/duomo_volta.jpg
+  - alt: duomo altare
+    image: /assets/duomo-altare.jpg
 ---
 ### Le Origini
 Secondo la tradizione locale il Duomo, intitolato a **Santa Maria Assunta**, fu edificato sopra un tempio pagano. In effetti la chiesa sorge in un’area occupata anticamente dal foro romano.
@@ -55,11 +65,11 @@ Fra le opere di maggior pregio conservate all’interno del Duomo vi è la **dec
 
 Altra composizione di notevole interesse è il **trittico del SS. Salvatore** posto nella parte presbiteriale. Nel pannello centrale è raffigurato il Salvatore ed in quelli laterali San Tolomeo, San Romano, l’Angelo Gabriele e la Vergine.
 
+![L'Altare Maggiore](/assets/duomo-altare.jpg "Altare Maggiore")
+
 La tradizione locale attribuisce l’opera al pittore **Giulio Romano**, attribuzione non condivisa dagli studiosi che sembrano concordare, però, per una sua realizzazione intorno alla metà del ‘500.
 
 Nella Cappella del SS.mo Crocefisso, lungo la quinta navata, vi è la pregevole statua lignea realizzata dal maestro **Antonio Ispanico** nel 1533 che raffigura, appunto, il Cristo in croce.
-
-![La Volta](/assets/duomo_volta.jpg)
 
 ### La Sacrestia
 Ad alcuni anni prima risalgono le splendide tavole dipinte da **Antonio del Massaro** detto Il Pastura raffiguranti i Santi Tolomeo e Romano conservate nella sacrestia.
