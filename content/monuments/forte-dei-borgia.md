@@ -26,6 +26,14 @@ gallery:
     image: /assets/rocca-06.jpg
   - alt: forte dei borgia
     image: /assets/rocca-07.jpg
+  - alt: bastioni farnesiani
+    image: /assets/bastioni-01.jpg
+  - alt: bastioni farnesiani
+    image: /assets/bastioni-02.jpg
+  - alt: bastioni farnesiani
+    image: /assets/bastioni-03.jpg
+  - alt: bastioni farnesiani
+    image: /assets/bastioni-04.jpg
 ---
 ### La Storia
 
@@ -84,6 +92,8 @@ L’opera di Antonio da Sangallo il Giovane che deve essere, però, ricordata co
 La cinta muraria è costituita da una lunga cortina, diretta a chiudere il lato occidentale del promontorio su cui sorge Nepi, fiancheggiata alle estremità da due imponenti bastioni poligonali. Con la sua costruzione il “Forte dei Borgia“ divenne, quindi, il nucleo interno di un complesso più ampio che si estendeva lungo tutto il perimetro occidentale della città.
 
 La difesa della cinta muraria cittadina comprendeva **alloggiamenti per i cannoni** nella parte inferiore dei bastioni, **colubrine sugli spalti** e **feritoie per gli archibugi** a difesa delle due nuove porte, Porta Romana e Porta Nica o di Cavaterra.
+
+![I bastioni farnesiani](/assets/bastioni-03.jpg)
 
 La prima delle due, sormontata dallo stemma di Paolo III, era la porta più importante della città e permetteva l’ingresso a carri e carrozze. All’occorrenza le due posterule laterali consentivano il transito a piedi o a cavallo senza dover abbassare il ponte levatoio principale.
 
