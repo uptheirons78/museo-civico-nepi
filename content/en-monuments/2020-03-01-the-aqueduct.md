@@ -9,10 +9,23 @@ description: >-
   intorno alle  grandi mura farnesiane del borgo.
 category: monuments
 featured: false
-image: /assets/events-02.jpg
+image: /assets/acquedotto-06.jpg
 place: Piazzale de La Bottata
-access: '00:00 - 23:59'
+access: '-'
 ticket: Free Entrance
+gallery:
+  - alt: Acquedotto di Nepi
+    image: /assets/acquedotto-01.jpg
+  - alt: Acquedotto di Nepi
+    image: /assets/acquedotto-02.jpg
+  - alt: Acquedotto di Nepi
+    image: /assets/acquedotto-03.jpg
+  - alt: Acquedotto di Nepi
+    image: /assets/acquedotto-04.jpg
+  - alt: Acquedotto di Nepi
+    image: /assets/acquedotto-05.jpg
+  - alt: Acquedotto di Nepi
+    image: /assets/acquedotto-06.jpg
 ---
 Entrando a Nepi, appoggiato alle **mura farnesiane**, è possibile notare l’imponente acquedotto che si sviluppa su **due ordini di arcate**. La struttura, seppur possa ricordare gli antichi acquedotti romani, è in realtà il risultato di lavori avviati durante il **XVI secolo** e terminati solo nel **1727**.
 

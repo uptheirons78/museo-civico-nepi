@@ -23,10 +23,10 @@ const ImageGrid = ({ gallery }) => {
       <StyledImageGrid>
         <div className="grid">
           {gallery &&
-            gallery.map(image => (
+            gallery.map((image, i) => (
               <img
                 src={image.image}
-                key={image.alt}
+                key={image.alt + i}
                 alt={image.alt}
                 onClick={addLightboxOpen}
               />
