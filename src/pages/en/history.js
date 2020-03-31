@@ -38,14 +38,14 @@ export const HistoryQuery = graphql`
         }
       }
     }
-    secondPicture: file(relativePath: { eq: "museo/interni-museo-04.jpg" }) {
+    secondPicture: file(relativePath: { eq: "museo/storia-01.jpg" }) {
       childImageSharp {
         fluid(maxWidth: 400) {
           ...GatsbyImageSharpFluid
         }
       }
     }
-    thirdPicture: file(relativePath: { eq: "museo/interni-museo-05.jpg" }) {
+    thirdPicture: file(relativePath: { eq: "museo/storia-02.jpg" }) {
       childImageSharp {
         fluid(maxWidth: 400) {
           ...GatsbyImageSharpFluid
