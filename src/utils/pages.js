@@ -13,6 +13,7 @@ export const pages = {
         { url: "/mission", name: "mission" },
         { url: "/carta-dei-servizi", name: "carta dei servizi" },
         { url: "/pubblicazioni", name: "pubblicazioni" },
+        { url: "/attività-scientifiche", name: "attività scientifiche" },
       ],
     },
     {
@@ -59,6 +60,10 @@ export const pages = {
         { url: "/en/mission", name: "mission" },
         { url: "/en/services-card", name: "services card" },
         { url: "/en/publications", name: "publications" },
+        {
+          url: "/en/scientific-activities",
+          name: "scientific activities",
+        },
       ],
     },
     {
