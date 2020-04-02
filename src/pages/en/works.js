@@ -10,7 +10,7 @@ const worksPage = ({ data }) => {
     <Layout language="en">
       <SEO
         lang="en"
-        title="Important Works"
+        title={data.markdownRemark.frontmatter.en.pageTitle}
         description={data.markdownRemark.frontmatter.en.pageDescription}
       />
       <Opere language="en" data={data} />

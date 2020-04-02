@@ -11,7 +11,7 @@ const operePage = ({ data }) => {
     <Layout language="it">
       <SEO
         lang="it"
-        title="Opere Importanti"
+        title={data.markdownRemark.frontmatter.it.pageTitle}
         description={data.markdownRemark.frontmatter.it.pageDescription}
       />
       <Opere language="it" data={data} />
