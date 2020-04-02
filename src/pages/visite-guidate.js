@@ -31,6 +31,8 @@ export const ServiziQuery = graphql`
             title
             description
           }
+          prospetto
+          prospettoTitle
         }
       }
     }

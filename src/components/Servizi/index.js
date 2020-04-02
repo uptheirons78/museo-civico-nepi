@@ -28,6 +28,15 @@ const Servizi = ({ language, data }) => {
             <div className="left-block text-block">
               <h4>{frontmatter[`${language}`].visiteInterneTitle}</h4>
               <p>{frontmatter[`${language}`].visiteInterneDescription}</p>
+              <div style={{ marginTop: "0.5rem", marginBottom: "0.5rem" }}>
+                <a
+                  href={frontmatter[`${language}`].prospetto}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  {frontmatter[`${language}`].prospettoTitle}
+                </a>
+              </div>
             </div>
             <div className="right-block">
               <Img fluid={data.firstPicture.childImageSharp.fluid} />

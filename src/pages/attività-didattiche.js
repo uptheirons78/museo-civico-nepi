@@ -30,6 +30,10 @@ export const didatticaQuery = graphql`
           textATitle
           textBTitle
           infoTitle
+          scheda
+          schedaTitle
+          prospetto
+          prospettoTitle
         }
       }
     }

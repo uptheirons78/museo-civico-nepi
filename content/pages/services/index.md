@@ -27,6 +27,8 @@ it:
     - title: L'Antica Via Amerina e la Necropoli di Tre Ponti
       description: >
         La visita guidata permette di ripercorre l’antica strada di età romana in uno dei suoi tratti meglio conservati, attraversando la necropoli rupestre di località Tre Ponti, in una cornice paesaggistica di rara bellezza. È attivabile su prenotazione per gruppi di almeno 15 persone. Durata 2 h 30’ circa. Il servizio è a pagamento.
+  prospettoTitle: Dettagli visite guidate per adulti
+  prospetto: /assets/regolamento.pdf
 en:
   title: Guided Tours
   description: >
@@ -54,4 +56,6 @@ en:
     - title: L'Antica Via Amerina e la Necropoli di Tre Ponti
       description: >
         La visita guidata permette di ripercorre l’antica strada di età romana in uno dei suoi tratti meglio conservati, attraversando la necropoli rupestre di località Tre Ponti, in una cornice paesaggistica di rara bellezza. È attivabile su prenotazione per gruppi di almeno 15 persone. Durata 2 h 30’ circa. Il servizio è a pagamento.
+  prospettoTitle: Dettagli visite guidate per adulti
+  prospetto: /assets/regolamento.pdf
 ---

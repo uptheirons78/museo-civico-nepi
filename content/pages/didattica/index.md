@@ -13,6 +13,10 @@ it:
   infoTitle: Informazioni
   info: >
     Per accedere al servizio è sufficiente concordare telefonicamente al numero 0761 570604 la prenotazione e confermarla restituendo, compilata, via e-mail all'indirizzo museo@comune.nepi.vt.it la scheda di prenotazione. Il servizio è a pagamento.
+  schedaTitle: Scheda di prenotazione per le scuole
+  scheda: /assets/regolamento.pdf
+  prospettoTitle: Prospetto delle attività
+  prospetto: /assets/regolamento.pdf
 en:
   title: Educational Activities
   description: >
@@ -26,4 +30,8 @@ en:
   infoTitle: Informations
   info: >
     Per accedere al servizio è sufficiente concordare telefonicamente al numero 0761 570604 la prenotazione e confermarla restituendo, compilata, via e-mail all'indirizzo museo@comune.nepi.vt.it la scheda di prenotazione. Il servizio è a pagamento.
+  schedaTitle: Scheda di prenotazione per le scuole
+  scheda: /assets/regolamento.pdf
+  prospettoTitle: Prospetto delle attività
+  prospetto: /assets/regolamento.pdf
 ---

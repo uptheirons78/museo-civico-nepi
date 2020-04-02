@@ -44,6 +44,24 @@ const Didattica = ({ language, data }) => {
             <div className="left-block text-block">
               <h4>{frontmatter[`${language}`].infoTitle}</h4>
               <p>{frontmatter[`${language}`].info}</p>
+              <div style={{ marginTop: "0.5rem", marginBottom: "0.5rem" }}>
+                <a
+                  href={frontmatter[`${language}`].scheda}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  {frontmatter[`${language}`].schedaTitle}
+                </a>
+              </div>
+              <div style={{ marginTop: "0.5rem", marginBottom: "0.5rem" }}>
+                <a
+                  href={frontmatter[`${language}`].prospetto}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  {frontmatter[`${language}`].prospettoTitle}
+                </a>
+              </div>
             </div>
             <div className="right-block">
               <Img fluid={data.thirdPicture.childImageSharp.fluid} />

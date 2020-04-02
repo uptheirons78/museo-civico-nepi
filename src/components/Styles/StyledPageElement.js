@@ -54,6 +54,32 @@ export const DoubleGrid = styled.div`
   }
 
   .text-block {
+    a {
+      font-size: 0.9rem;
+      font-weight: 500;
+      color: ${props => props.theme.primaryColor};
+      text-decoration: none;
+      margin-top: 1rem;
+      margin-left: 2rem;
+      margin-right: 2rem;
+      box-shadow: 0px -3px 0px 0px ${props => props.theme.primaryColor} inset;
+      transition: all 250ms ease-in-out;
+
+      @media screen and (max-width: 800px) {
+        margin-left: 1rem;
+        margin-right: 1rem;
+      }
+
+      @media screen and (max-width: 600px) {
+        margin-left: 0;
+        margin-right: 0;
+      }
+
+      &:hover {
+        box-shadow: 0px -18px 0px 0px ${props => props.theme.primaryColor} inset;
+        color: #fff;
+      }
+    }
     h4 {
       padding-left: 2rem;
       padding-right: 2rem;
