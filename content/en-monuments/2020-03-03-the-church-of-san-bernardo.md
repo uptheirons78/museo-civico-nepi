@@ -7,10 +7,19 @@ description: >-
   ENGLISH Annessa al Monastero di San Bernardo ed originaria del XV Secolo ha ospitato prima la Confraternita della Madonna dell'Immagine e dal 1618 le monache cistercensi di clausura.
 category: monuments
 featured: false
-image: /assets/events-01.jpg
+image: /assets/sanbernardo-01.jpg
 place: Via Garibaldi
-access: '09:00 - 18:00'
+access: '-'
 ticket: Free Entrance
+gallery:
+  - alt: Chiesa di San Bernardo
+    image: /assets/sanbernardo-01.jpg
+  - alt: Chiesa di San Bernardo
+    image: /assets/sanbernardo-02.jpg
+  - alt: Chiesa di San Bernardo
+    image: /assets/sanbernardo-03.jpg
+  - alt: Chiesa di San Bernardo
+    image: /assets/sanbernardo-04.jpg
 ---
 ENGLISH La chiesa è **annessa al monastero di San Bernardo** che occupa l’estremità orientale dello sperone tufaceo su cui sorge il centro abitato. Nel **XV secolo** sul luogo doveva sorgere una chiesa dedicata a _San Pancrazio_. Successivamente l’edificio passò ad ospitare la _**Confraternita della Madonna dell’Immagine**_.
 
