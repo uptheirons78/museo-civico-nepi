@@ -24,6 +24,10 @@ export const StyledHeadingSection = styled.section`
       width: 280px;
     }
 
+    @media screen and (max-width: 400px) {
+      width: 220px;
+    }
+
     &:before {
       content: "";
       position: absolute;
@@ -37,6 +41,10 @@ export const StyledHeadingSection = styled.section`
 
       @media screen and (max-width: 600px) {
         width: 278px;
+      }
+
+      @media screen and (max-width: 400px) {
+        width: 218px;
       }
     }
 

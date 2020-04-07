@@ -42,6 +42,13 @@ export const Navigation = styled.nav`
       }
     }
   }
+  @media screen and (max-width: 400px) {
+    li {
+      &:nth-child(6) {
+        display: none;
+      }
+    }
+  }
 
   .navigation__item:hover .dropdown {
     display: flex;
