@@ -6,9 +6,10 @@ import SEO from "../components/seo";
 import ScientificActivities from "../components/ScientificActivities";
 
 const attivitàScientifichePage = ({ data }) => {
+  const { pageTitle, pageDescription } = data.markdownRemark.frontmatter.it;
   return (
     <Layout language="it">
-      <SEO lang="it" title="Attività Scientifiche" />
+      <SEO lang="it" title={pageTitle} description={pageDescription} />
       <ScientificActivities data={data} language="it" />
     </Layout>
   );
