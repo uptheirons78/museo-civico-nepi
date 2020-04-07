@@ -77,13 +77,13 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `museo-civico-nepi`,
-        short_name: `museo-nepi`,
+        name: `Museo Civico di Nepi`,
+        short_name: `Museo Civico Nepi`,
         start_url: `/`,
         background_color: `#B20932`,
         theme_color: `#B20932`,
         display: `minimal-ui`,
-        icon: `src/images/museum.png`, // This path is relative to the root of the site.
+        icon: `src/images/favicon.png`, // This path is relative to the root of the site.
       },
     },
     `gatsby-plugin-offline`,
