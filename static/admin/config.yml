@@ -1,6 +1,6 @@
 backend:
-  name: github
-  repo: uptheirons78/museo-civico-nepi
+  name: git-gateway
+  branch: master
   commit_messages:
     create: 'Create {{collection}} “{{slug}}”'
     update: 'Update {{collection}} “{{slug}}”'
