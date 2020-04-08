@@ -87,9 +87,11 @@ export const Navigation = styled.nav`
       a {
         color: ${props => props.theme.white};
         font-size: 0.7rem;
-        margin-top: 0.3rem;
-        margin-bottom: 0.3rem;
+        margin-top: 0.2rem;
+        margin-bottom: 0.2rem;
         font-weight: 600;
+        display: inline-block;
+        line-height: 1.2;
 
         @media screen and (max-width: 800px) {
           font-size: 0.6rem;
