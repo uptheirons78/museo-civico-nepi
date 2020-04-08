@@ -110,10 +110,13 @@ export const footer_pages = {
     ],
     info_links: [
       { name: "Orari e tariffe", url: "/info" },
+      { name: "Visite Guidate", url: "/visite-guidate" },
+      { name: "Staff", url: "/staff" },
       { name: "Contatti", url: "/contatti" },
     ],
     collezioni_links: [
       { name: "Opere", url: "/opere" },
+      { name: "Monumenti", url: "/monumenti" },
       { name: "Eventi", url: "/eventi" },
     ],
     site_links: [
@@ -130,10 +133,13 @@ export const footer_pages = {
     ],
     info_links: [
       { name: "Opening and Tickets", url: "/en/info" },
+      { name: "Guided Tours", url: "/en/guided-tours" },
+      { name: "Staff", url: "/en/staff" },
       { name: "Contacts", url: "/en/contacts" },
     ],
     collezioni_links: [
       { name: "Works", url: "/en/works" },
+      { name: "Monuments", url: "/en/monuments" },
       { name: "Events", url: "/en/events" },
     ],
     site_links: [
