@@ -28,6 +28,10 @@ it:
     image: /assets/scientifica-06.jpg
   - alt: Attività Scientifiche
     image: /assets/scientifica-07.jpg
+  - alt: Attività Scientifiche
+    image: /assets/scientifica-08.jpg
+  - alt: Attività Scientifiche
+    image: /assets/scientifica-09.jpg
 en:
   pageTitle: Scientific Activities
   pageDescription: >
@@ -56,4 +60,8 @@ en:
     image: /assets/scientifica-06.jpg
   - alt: Scientific Activities
     image: /assets/scientifica-07.jpg
+  - alt: Scientific Activities
+    image: /assets/scientifica-08.jpg
+  - alt: Scientific Activities
+    image: /assets/scientifica-09.jpg
 ---
