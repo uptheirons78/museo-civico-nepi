@@ -1,7 +1,7 @@
 ---
 templateKey: collections
 it:
-  pageTitle: Collezione
+  pageTitle: La Collezione
   pageDescription: >
     Il Museo Civico di Nepi si avvale di un moderno e affascinante apparato espositivo che si propone di illustrare, attraverso i reperti archeologici, l’evoluzione storica della città e del suo territorio dall’età protostorica sino al Rinascimento. Il percorso espositivo è strutturato in tre sezioni: Protostorica – Preromana, Romana, Medievale – Rinascimentale.
   sectionATitle: Sezione Protostorica – Preromana

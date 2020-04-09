@@ -17,8 +17,8 @@ export const pages = {
       ],
     },
     {
-      url: "/collezione",
-      name: "collezione",
+      url: "/la-collezione",
+      name: "la collezione",
       subpages: [{ url: "/opere", name: "opere" }],
     },
     {

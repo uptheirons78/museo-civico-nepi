@@ -175,6 +175,18 @@ collections:
   - name: "pages"
     label: "Pages"
     files:
+      # Home Page
+      - file: "content/pages/home/index.md"
+        label: "Home"
+        name: "home"
+        fields:
+          - {label: "Template Key", name: "templateKey", widget: "hidden", default: "home"}
+          - {label: Titolo, name: title, widget: string}
+          - {label: Heading, name: heading, widget: string}
+          - {label: 'Descrizione Lato Sinistro', name: descriptionLeft, widget: string}
+          - {label: 'Descrizione Lato Destro', name: descriptionRight, widget: string}
+          - {label: 'Inglese - Descrizione Lato Sinistro', name: enDescriptionLeft, widget: string}
+          - {label: 'Inglese - Descrizione Lato Destro', name: enDescriptionRight, widget: string}
       # Museum Page
       - file: "content/pages/museum/index.md"
         label: "Museo"
@@ -236,6 +248,38 @@ collections:
                   {label: "Page Description", name: "pageDescription", widget: "string"},
                   {label: "Text Block 1", name: "descriptionA", widget: "string"},
                   {label: "Text Block 2", name: "descriptionB", widget: "string"},
+                ],
+            }
+      # History Page
+      - file: "content/pages/history/index.md"
+        label: "Storia"
+        name: "history"
+        fields:
+          - {label: "Template Key", name: "templateKey", widget: "hidden", default: "history"}
+          - {
+              label: "Italiano",
+              name: "it",
+              widget: "object",
+              fields:
+                [
+                  {label: "Titolo Pagina", name: "title", widget: "string"},
+                  {label: "Descrizione Pagina", name: "description", widget: "string"},
+                  {label: "Blocco di testo 1", name: "textA", widget: "string"},
+                  {label: "Blocco di testo 2", name: "textB", widget: "string"},
+                  {label: "Blocco di testo 3", name: "textC", widget: "string"},
+                ],
+            }
+          - {
+              label: "English",
+              name: "en",
+              widget: "object",
+              fields:
+                [
+                  {label: "Page Title", name: "title", widget: "string"},
+                  {label: "Page Description", name: "description", widget: "string"},
+                  {label: "Text Block 1", name: "textA", widget: "string"},
+                  {label: "Text Block 2", name: "textB", widget: "string"},
+                  {label: "Text Block 3", name: "textC", widget: "string"},
                 ],
             }
       # Collections Page
