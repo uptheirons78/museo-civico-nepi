@@ -9,8 +9,7 @@ category: monuments
 featured: false
 image: /assets/events-01.jpg
 place: Piazza San Biagio
-access: '09:00 - 18:00'
-ticket: Free Entrance
+access: Aperta durante l'orario delle funzioni religiose
 ---
 ENGLISH La chiesa **sorge accanto a quella di San Biagio**. Alcuni documenti testimoniano della sua esistenza già nel **X secolo**. Varie fasi costruttive si sono succedute nel corso del tempo sino alla seconda metà del XIX secolo, quando la struttura è stata sottoposta a lavori di restauro che ne hanno fortemente modificato l’aspetto.
 

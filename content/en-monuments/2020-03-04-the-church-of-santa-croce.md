@@ -9,8 +9,7 @@ category: monuments
 featured: false
 image: /assets/croce-02.jpg
 place: Piazza Santa Croce
-access: '-'
-ticket: 'Free Entrance'
+access: 'Chiusa al pubblico'
 gallery:
   - alt: chiesa di santa croce
     image: /assets/croce-01.jpg

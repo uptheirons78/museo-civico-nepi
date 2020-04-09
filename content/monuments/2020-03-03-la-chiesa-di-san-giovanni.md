@@ -9,8 +9,7 @@ category: monumenti
 featured: false
 image: /assets/giovanni-02.jpg
 place: Piazza San Giovanni n. 7
-access: '-'
-ticket: Gratuito
+access: 'Apertura su richiesta per visite guidate'
 ---
 La chiesa è di proprietà della **Venerabile Confraternita di San Giovanni Decollato**, costituitasi nel 1551 con lo scopo di fornire una degna e religiosa sepoltura a tutti coloro che per varie ragioni non potevano permettersela o non ne avevano diritto, come ad esempio i condannati a morte.
 

@@ -69,7 +69,7 @@ La **signoria di Nepi** fu trasformata in un vasto **ducato** di cui, nel settem
 
 ![il forte dei borgia](/assets/forte_02.jpg)
 
-### Ascanio Sforza ed i nuovi lavori
+### Bernardo Accolti ed i nuovi lavori
 
 Il successore al pontificato, Giulio II, dispose, infatti, la riconsegna della rocca al cardinale Ascanio Sforza. La documentazione d’archivio testimonia l’affidamento di nuovi lavori all’interno della rocca nell’anno 1513. Fu iniziata la costruzione di un **nuovo edificio destinato a residenza** che andò ad appoggiarsi, anteponendosi, alla precedente struttura di epoca borgiana che raccordava la torre trapezoidale a quella rotonda.
 
@@ -77,7 +77,7 @@ Della struttura oggi rimane ben poco; il crollo della copertura ha determinato i
 
 Grazie al ritrovamento di un largo stemma in pietra, il completamento dell’edificio residenziale può essere collocato all’epoca di **Bernardo Accolti**, detto “l’Unico”. Personaggio eccentrico e famoso poeta, fu governatore di Nepi e proprietario della rocca dal settembre del 1521 all’inizio del 1535.
 
-### Il Ducato di Castro e Nepi e l'arrivo dei Farnese
+### L'arrivo dei Farnese
 
 Paolo III dopo aver tolto Nepi a Bernardo Accolti creò, nel **1537**, il ducato di Castro e Nepi investendone il figlio Pier Luigi. L’arrivo dei Farnese segnò l’inizio di un periodo di **forti cambiamenti nell’assetto urbanistico della cittadina**. I lavori compresero la creazione e l’allargamento di vie e piazze e la costruzione di nuovi edifici. Anche l’interno della rocca fu migliorato, sia nella funzionalità, sia nell’estetica.
 

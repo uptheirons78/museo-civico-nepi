@@ -41,14 +41,14 @@ const enMonumentTemplate = ({ data }) => {
         ></Content>
         <ImageGrid gallery={gallery} />
         <Info>
-          <h2 id="info">Informazioni</h2>
+          <h2 id="info">Informations</h2>
           <div className="info-section">
-            <h3>Indirizzo</h3>
-            <p>{place}</p>
-            <h3>Orario</h3>
-            <p>{access}</p>
-            <h3>Biglietto d'ingresso</h3>
-            <p>{ticket}</p>
+            {place && <h3>Address</h3>}
+            {place && <p>{place}</p>}
+            {access && <h3>Openings</h3>}
+            {access && <p>{access}</p>}
+            {ticket && <h3>Tickets</h3>}
+            {ticket && <p>{ticket}</p>}
           </div>
           <SocialShare
             socialConfig={{

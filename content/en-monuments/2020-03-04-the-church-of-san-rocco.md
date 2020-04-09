@@ -2,15 +2,14 @@
 templateKey: monuments
 title: The Church of San Rocco
 slug: the-church-of-san-rocco
-date: 2020-03-04T12:00:00.005Z
+date: 2020-03-04T11:58:00.005Z
 description: >-
   ENGLISH Costruita in onore di San Rocco, protettore degli appestati, a seguito di un'epidemia di peste che colpì Nepi nel 1467. E' costituita da un'unica aula con una cappella laterale.
 category: monuments
 featured: false
 image: /assets/rocco-01.jpg
 place: Vicolo di San Rocco
-access: '-'
-ticket: Free Entrance
+access: 'Aperta su richiesta per visite guidate'
 ---
 ENGLISH La chiesa di San Rocco va, molto probabilmente, identificata con l’edificio fatto costruire in onore di San Rocco a seguito di una **epidemia di peste scoppiata a Nepi nel 1467**. La struttura presenta una **facciata semplice**, priva di decorazioni anche a causa dei successivi rifacimenti.
 

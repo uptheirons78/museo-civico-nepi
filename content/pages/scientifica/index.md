@@ -4,7 +4,7 @@ it:
   pageTitle: Attività Scientifiche
   pageDescription: >
     Il Museo Civico, coerentemente con la sua Mission, svolge attività di studio e di valorizzazione della sua collezione e del patrimonio culturale della cittadina di Nepi e del suo territorio.
-  titleA: Conferenze e convegni
+  titleA: Valorizzazione
   descriptionA: >
     Il lavoro di ricerca si traduce in contributi scritti sulla rivista “Quaderni del Museo Civico di Nepi”, in monografie e nella partecipazione ad eventi scientifici e convegni. Il Museo stesso organizza conferenze e convegni in maniera autonoma od avvalendosi della collaborazione di  Università, Enti e Istituzioni pubbliche e private. Importanti attività di valorizzazione sono state svolte in collaborazione con la Soprintendenza Archeologica per l’Etruria meridionale, con il Laboratorio di Restauro della Provincia di Viterbo e con l’Università della Tuscia.
   titleB: Formazione
@@ -36,7 +36,7 @@ en:
   pageTitle: Scientific Activities
   pageDescription: >
     Il Museo Civico, coerentemente con la sua Mission, svolge attività di studio e di valorizzazione della sua collezione e del patrimonio culturale della cittadina di Nepi e del suo territorio.
-  titleA: Conferenze e convegni
+  titleA: Valorizzazione
   descriptionA: >
     Il lavoro di ricerca si traduce in contributi scritti sulla rivista “Quaderni del Museo Civico di Nepi”, in monografie e nella partecipazione ad eventi scientifici e convegni. Il Museo stesso organizza conferenze e convegni in maniera autonoma od avvalendosi della collaborazione di  Università, Enti e Istituzioni pubbliche e private. Importanti attività di valorizzazione sono state svolte in collaborazione con la Soprintendenza Archeologica per l’Etruria meridionale, con il Laboratorio di Restauro della Provincia di Viterbo e con l’Università della Tuscia.
   titleB: Formazione

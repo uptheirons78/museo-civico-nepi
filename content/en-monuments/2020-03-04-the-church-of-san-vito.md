@@ -2,15 +2,14 @@
 templateKey: monuments
 title: The Church of San Vito
 slug: the-church-of-san-vito
-date: 2020-03-04T12:00:00.005Z
+date: 2020-03-04T11:59:00.005Z
 description: >-
   ENGLISH Dedicata ai Santi Vito e Modesto è uno degli edifici religiosi più antichi di Nepi. Contiene importanti affreschi che ne fanno risalire la costruzione al XII Secolo.
 category: monuments
 featured: false
 image: /assets/vito-03.jpg
 place: Via di San Vito n. 21
-access: '-'
-ticket: Free Entrance
+access: 'Aperta su richiesta per visite guidate'
 gallery:
   - alt: chiesa di san vito
     image: /assets/vito-01.jpg

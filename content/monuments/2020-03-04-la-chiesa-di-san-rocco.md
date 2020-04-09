@@ -9,8 +9,7 @@ category: monumenti
 featured: false
 image: /assets/rocco-01.jpg
 place: Vicolo di San Rocco
-access: '-'
-ticket: Gratuito
+access: 'Apertura su richiesta per visite guidate'
 ---
 La chiesa di San Rocco va, molto probabilmente, identificata con l’edificio fatto costruire in onore di San Rocco a seguito di una **epidemia di peste scoppiata a Nepi nel 1467**. La struttura presenta una **facciata semplice**, priva di decorazioni anche a causa dei successivi rifacimenti.
 

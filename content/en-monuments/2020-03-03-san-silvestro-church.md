@@ -9,8 +9,7 @@ category: monuments
 featured: false
 image: /assets/carmine-01.jpg
 place: Via Garibaldi
-access: '09:00 - 18:00'
-ticket: Free Entrance
+access: 'Aperta durante gli orari delle funzioni religiose'
 ---
 ENGLISH La chiesa di San Silvestro risale al **XV secolo**. L’edificio che è possibile vedere oggi è, però, il risultato dei lavori di rifacimento voluti dal duca _Fabrizio Orsini_ all’inizio del XVII secolo. La chiesa fu ampliata ed il suo ingresso fu spostato sul lato Nord. Originariamente la struttura aveva, infatti, la sua entrata ad Est lungo l’attuale via del Carmine.
 

@@ -9,8 +9,7 @@ category: monuments
 featured: true
 image: /assets/duomo_thumbnail.jpg
 place: Via Luigi Cadorna n. 6
-access: Always open during religious services
-ticket: Free Entrance
+access: Aperta durante le funzioni religiose
 gallery:
   - alt: duomo abside
     image: /assets/duomo-abside.jpg

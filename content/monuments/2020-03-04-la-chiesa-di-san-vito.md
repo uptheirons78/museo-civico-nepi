@@ -9,8 +9,7 @@ category: monumenti
 featured: false
 image: /assets/vito-03.jpg
 place: Via di San Vito n. 21
-access: '-'
-ticket: Gratuito
+access: 'Apertura su richiesta per visite guidate'
 gallery:
   - alt: chiesa di san vito
     image: /assets/vito-01.jpg

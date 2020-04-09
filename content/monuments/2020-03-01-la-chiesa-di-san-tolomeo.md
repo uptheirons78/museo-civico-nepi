@@ -12,8 +12,7 @@ category: monumenti
 featured: false
 image: /assets/tolomeo-08.jpg
 place: Via Garibaldi n. 165
-access: '-'
-ticket: Ingresso Gratuito
+access: 'Apertura su richiesta'
 gallery:
   - alt: chiesa di san tolomeo
     image: /assets/tolomeo-01.jpg

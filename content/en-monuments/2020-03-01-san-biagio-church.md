@@ -12,8 +12,7 @@ category: monuments
 featured: false
 image: /assets/biagio-07.jpg
 place: Piazza San Biagio n. 11
-access: '-'
-ticket: 'Free Entrance'
+access: 'Aperta su richiesta per visite guidate'
 gallery:
   - alt: Chiesa di San Biagio
     image: /assets/biagio-01.jpg

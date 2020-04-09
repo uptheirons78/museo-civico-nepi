@@ -37,9 +37,9 @@ collections:
           name: "image",
           widget: "image"
         }
-      - { label: "Indirizzo", name: "place", widget: "string" }
-      - { label: "Orario", name: "access", widget: "string" }
-      - { label: "Info Biglietti", name: "ticket", widget: "string" }
+      - { label: "Indirizzo", name: "place", widget: "string", required: false }
+      - { label: "Orario", name: "access", widget: "string", required: false }
+      - { label: "Info Biglietti", name: "ticket", widget: "string", required: false }
       - { label: "Body", name: "body", widget: "markdown" }
       - {
           label: "Gallery",
@@ -75,9 +75,9 @@ collections:
           name: "image",
           widget: "image"
         }
-      - { label: "Address", name: "place", widget: "string" }
-      - { label: "Opening", name: "access", widget: "string" }
-      - { label: "Tickets", name: "ticket", widget: "string" }
+      - { label: "Address", name: "place", widget: "string", required: false }
+      - { label: "Opening", name: "access", widget: "string", required: false }
+      - { label: "Tickets", name: "ticket", widget: "string", required: false }
       - { label: "Body", name: "body", widget: "markdown" }
       - {
           label: "Gallery",

@@ -2,15 +2,14 @@
 templateKey: monumenti
 title: La Chiesa di San Bernardo
 slug: la-chiesa-di-san-bernardo
-date: 2020-03-04T12:00:00.005Z
+date: 2020-03-04T12:20:00.005Z
 description: >-
   Annessa al Monastero di San Bernardo ed originaria del XV Secolo ha ospitato prima la Confraternita della Madonna dell'Immagine e dal 1618 le monache cistercensi di clausura.
 category: monumenti
 featured: false
 image: /assets/sanbernardo-01.jpg
 place: Via Garibaldi
-access: '-'
-ticket: Gratuito
+access: 'Chiusa al pubblico'
 gallery:
   - alt: Chiesa di San Bernardo
     image: /assets/sanbernardo-01.jpg
