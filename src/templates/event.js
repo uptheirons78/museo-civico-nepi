@@ -21,7 +21,6 @@ const event = ({ data }) => {
     place,
     access,
     ticket,
-    type,
     gallery,
   } = data.markdownRemark.frontmatter;
 
@@ -53,8 +52,6 @@ const event = ({ data }) => {
             <p>{access}</p>
             <h3>Biglietto d'ingresso</h3>
             <p>{ticket}</p>
-            <h3>Tipologia Evento</h3>
-            <p>{type}</p>
           </div>
           <SocialShare
             socialConfig={{

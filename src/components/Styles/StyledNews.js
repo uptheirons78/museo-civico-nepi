@@ -57,8 +57,8 @@ export const StyledNews = styled.section`
       }
 
       .featured-event__info-date {
-        font-size: 1.4rem;
-        text-transform: uppercase;
+        font-size: 1.1rem;
+        text-transform: capitalize;
         color: ${props => props.theme.black};
         margin-top: 1rem;
 

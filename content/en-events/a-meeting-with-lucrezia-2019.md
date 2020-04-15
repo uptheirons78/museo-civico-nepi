@@ -4,16 +4,15 @@ title: A Meeting with Lucrezia
 slug: a-meeting-with-lucrezia-2019
 date: 2019-10-05T21:00:00.000Z
 start: 2019-10-05T12:00:00.000Z
-end: 2019-10-05T12:00:00.000Z
+end:
 description: >-
-  Public reading of passages from Dario Fo's novel "The Pope's Daughter" on the life of Lucrezia Borgia with the participation of Ebe Koinè, Annarita Salerno and Ornella Marcucci
+  Lettura pubblica di brani tratti dal romanzo di Dario Fo "La figlia del Papa" sulla vita di Lucrezia Borgia con la partecipazione di Ebe Koinè, Annarita Salerno ed Ornella Marcucci
 category: eventi
 featured: false
 image: /assets/lucrezia-1.jpg
 place: Museo Civico di Nepi
-access: Sat 04-07 PM
+access: '18:30 - 20:00'
 ticket: 'Free Entrance'
-type: Lecture
 gallery:
   - alt: a meeting with lucrezia
     image: /assets/lucrezia-4.jpg
@@ -22,12 +21,23 @@ gallery:
   - alt: a meeting with lucrezia
     image: /assets/lucrezia-3.jpg
 ---
-On Saturday 5 October the exhibition **"A Meeting with Lucrezia"** will be held at the premises of the Museo Civico di Nepi. The actors EBE Koinè, from "Nuova Torretta" and Annarita Salerno will interpret a selection of lectures taken from **"The Pope's Daughter"**, a novel by **Dario Fo** dedicated to the figure of **Lucrezia Borgia**.
+Sabato 5 ottobre la mostra “Incontro con Lucrezia”, allestita presso i locali del Museo Civico, sarà lo scenario di un evento speciale.
 
-Among the many works that, in recent years, have described the figure of Lucrezia, the one from Dario Fo is perhaps the most unique; the result of historical research and the sensitivity of a great writer. The novel paints a dark portrait of the society of the time which ends up enhancing **Lucrezia's fragility and humanity**.
+Nel pomeriggio, a partire dalle 18,30, gli attori di EBE Koinè, della Nuova Torretta e Annarita Salerno interpreteranno una selezione di brani tratti da "La figlia del Papa", romanzo di Dario Fo dedicato alla figura di Lucrezia Borgia.
 
-As the Master writes: _"Of course if we detach the story of Pope Alexander VI **and his relatives from the Italian Renaissance**, we get a shocking saga, where the characters move with no respect for their opponents and often in their own same comparisons. The victim to sacrifice every time, since his childhood, is certainly Lucrezia. It is she who is thrown both by her father and by her brother on every occasion into the whirlpool of financial and political interests, without a modicum of pity. What do you think the sweet daughter does not worry at all"_.
+Fra le tante opere che in questi ultimi anni hanno descritto la figura di Lucrezia, quella di Dario Fo è forse la più singolare; frutto della ricerca storica e della sensibilità di un grande letterato.
+Il romanzo dipinge un fosco ritratto della società dell’epoca che finisce per esaltare la fragilità e l’umanità di Lucrezia.
 
-Despite the great suffering suffered, the last period of life spent in Ferrara will do justice to Lucrezia. Appreciated governor, **_"the kind duchess"_** will be characterized by her religious fervor that will lead her to found the Monastery of S. Bernardino.
+Come scrive il Maestro: “Certo se stacchiamo di netto dal Rinascimento italiano la storia di papa Alessandro VI e dei suoi congiunti ne otteniamo una saga sconvolgente, dove i personaggi si muovono senza alcun rispetto per gli avversari e spesso nei propri stessi confronti.
 
-The choreography and organization of the event will be done by Ornella Marcucci.
+La vittima da immolare ogni volta, sin dalla sua infanzia, è senz’altro Lucrezia. È lei che viene buttata tanto dal padre che dal fratello in ogni occasione nel gorgo degli interessi finanziari e politici, senza un briciolo di pietà. Di cosa ne pensi la dolce figliola non ci si preoccupa assolutamente”.
+
+Malgrado le grandi sofferenze patite, l’ultimo periodo di vita trascorso a Ferrara renderà giustizia a Lucrezia. Apprezzata governatrice, “la duchessa gentile” si contraddistinguerà per il suo fervore religioso che la porterà a fondare il monastero di S. Bernardino e a divenire terziaria francescana.
+
+Alle letture dell’opera di Dario Fo saranno alternati brani di musica rinascimentale eseguiti dai musicisti Patrizia Bugliazzini e Corrado Speranza.
+
+A portare i saluti dell’amministrazione comunale, il consigliere delegato alla Cultura Paolo Paoletti.
+
+Introdurranno l’evento il direttore del Museo Civico, Stefano Francocci e il consigliere dell’Ente Palio dei Borgia, Mirko Burti.
+
+Al termine, vino rosso e biscotti per tutti!

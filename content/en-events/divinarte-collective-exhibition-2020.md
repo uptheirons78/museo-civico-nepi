@@ -11,9 +11,8 @@ category: eventi
 featured: false
 image: /assets/divinarte.jpg
 place: Museo Civico di Nepi
-access: Tue-Sun 10-01 AM 03-06 PM
+access: Orario di apertura del Museo
 ticket: 'Free Entrance'
-type: Collective Exhibition
 gallery:
   - alt: collective exhibition divinarte
     image: /assets/divinarte.jpg

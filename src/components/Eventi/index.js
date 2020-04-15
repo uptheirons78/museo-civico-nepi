@@ -30,7 +30,6 @@ const Eventi = ({ data, language }) => {
             image,
             start,
             end,
-            type,
           } = event.node.frontmatter;
           const { id } = event.node;
 
@@ -47,11 +46,13 @@ const Eventi = ({ data, language }) => {
                   <h3>{title}</h3>
                 </Link>
                 <h4>
-                  {type}{" "}
-                  <span>
-                    {translate.default.dates.from[`${language}`]} {start}{" "}
-                    {translate.default.dates.to[`${language}`]} {end}
-                  </span>
+                  <span style={{ textTransform: "capitalize" }}>{start}</span>
+                  {end && (
+                    <span style={{ textTransform: "capitalize" }}>
+                      {" - "}
+                      {end}
+                    </span>
+                  )}
                 </h4>
                 <p>{description}</p>
                 <Link to={`${slugPrefix}${slug}/`}>
@@ -69,7 +70,6 @@ const Eventi = ({ data, language }) => {
             title,
             slug,
             description,
-            type,
             start,
             end,
           } = event.node.frontmatter;
@@ -81,11 +81,13 @@ const Eventi = ({ data, language }) => {
                 <h3>{title}</h3>
               </Link>
               <h4>
-                {type}{" "}
-                <span>
-                  {translate.default.dates.from[`${language}`]} {start}{" "}
-                  {translate.default.dates.to[`${language}`]} {end}
-                </span>
+                <span style={{ textTransform: "capitalize" }}>{start}</span>
+                {end && (
+                  <span style={{ textTransform: "capitalize" }}>
+                    {" - "}
+                    {end}
+                  </span>
+                )}
               </h4>
               <p>
                 {description}{" "}

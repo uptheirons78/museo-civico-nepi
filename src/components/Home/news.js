@@ -25,6 +25,7 @@ const News = ({ language }) => {
             title,
             image,
             start,
+            end,
             slug,
             description,
           } = event.node.frontmatter;
@@ -44,7 +45,15 @@ const News = ({ language }) => {
                 >
                   <h3 className="featured-event__info-title">{title}</h3>
                 </Link>
-                <h3 className="featured-event__info-date">{start}</h3>
+                <h3 className="featured-event__info-date">
+                  <span>{start}</span>
+                  {end && (
+                    <span>
+                      {" - "}
+                      {end}
+                    </span>
+                  )}
+                </h3>
                 <p className="featured-event__info-description">
                   {description}
                 </p>
