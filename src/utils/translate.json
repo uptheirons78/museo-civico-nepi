@@ -55,15 +55,15 @@
   },
   "activities": {
     "cardOne" : {
-      "it": "visite guidate",
-      "en": "guided tours",
+      "it": "attività scientifiche",
+      "en": "scientific activities",
       "link": {
-        "it": "/visite-guidate",
-        "en": "/en/guided-tours"
+        "it": "/attività-scientifiche",
+        "en": "/en/scientific-activities"
       },
       "innerText": {
-        "it": "Scopri la storia della cittadina di Nepi secondo un percorso cronologico",
-        "en": "Discover the history of Nepi according to a chronological path"
+        "it": "Attività di studio e valorizzazione della collezione e del patrimonio di Nepi",
+        "en": "Attività di studio e valorizzazione della collezione e del patrimonio di Nepi"
       }
     },
     "cardTwo" : {
@@ -74,20 +74,20 @@
         "en": "/en/educational-activities"
       },
       "innerText": {
-        "it": "Educhiamo i nostri giovani alla conoscenza ed al rispetto del patrimonio artistico di Nepi",
-        "en": "Let's teach to our children to know and respect Nepi's artistic heritage"
+        "it": "Servizio didattico utile alla conoscenza del patrimonio storico ed artistico di Nepi",
+        "en": "Servizio didattico utile alla conoscenza del patrimonio storico ed artistico di Nepi"
       }
     },
     "cardThree" : {
-      "it": "la collezione",
-      "en": "our collection",
+      "it": "visite guidate",
+      "en": "guided tours",
       "link": {
-        "it": "/collezione",
-        "en": "/en/collection"
+        "it": "/visite-guidate",
+        "en": "/en/guided-tours"
       },
       "innerText": {
-        "it": "Scopri la nostra collezione e l'evoluzione storica di Nepi e del suo territorio",
-        "en": "Discover our collection and the historical evolution of Nepi and its own territory"
+        "it": "Servizio di visite guidate sia all'interno che all'esterno degli spazi museali",
+        "en": "Servizio di visite guidate sia all'interno che all'esterno degli spazi museali"
       }
     }
   },

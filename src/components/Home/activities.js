@@ -15,7 +15,7 @@ const Activities = ({ language }) => {
         <div
           className="museum-activities__single-activity one"
           style={{
-            backgroundImage: `url(${firstPicture.childImageSharp.fixed.src})`,
+            backgroundImage: `url(${thirdPicture.childImageSharp.fixed.src})`,
           }}
         >
           <div className="museum-activities__content">
@@ -49,7 +49,7 @@ const Activities = ({ language }) => {
         <div
           className="museum-activities__single-activity three"
           style={{
-            backgroundImage: `url(${thirdPicture.childImageSharp.fixed.src})`,
+            backgroundImage: `url(${firstPicture.childImageSharp.fixed.src})`,
           }}
         >
           <div className="museum-activities__content">
@@ -89,7 +89,7 @@ const activitiesQuery = graphql`
         }
       }
     }
-    thirdPicture: file(relativePath: { eq: "museo/interni-museo-05.jpg" }) {
+    thirdPicture: file(relativePath: { eq: "museo/scientifica-04.jpg" }) {
       childImageSharp {
         fixed(width: 400) {
           src
