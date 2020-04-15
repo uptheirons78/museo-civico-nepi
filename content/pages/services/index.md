@@ -3,7 +3,7 @@ templateKey: services
 it:
   title: Visite Guidate
   description: >
-    Il Museo Civico di Nepi fornisce diversi tipi di servizi. Dalle visite guidate all'interno degli spazi museali fino a visite esterne nei principali luoghi di interesse di Nepi, come: la Rocca dei Borgia, la Catacomba di Santa Savinilla o la Necrepoli di Tre Ponti
+    Il Museo Civico di Nepi fornisce un servizio di visite guidate. I percorsi di visita   si sviluppano sia all'interno degli spazi museali sia lungo itinerari esterni che  toccano i principali luoghi di interesse di Nepi, come: la Rocca dei Borgia, la Catacomba di Santa Savinilla o la Necropoli di Tre Ponti
   visiteInterneTitle: Visite Guidate al Museo
   visiteInterneDescription: >
     La visita guidata ha l’obiettivo di narrare la storia della cittadina di Nepi secondo un percorso cronologico che segue l’esposizione museale e che parte dall’età preromana arrivando sino al Rinascimento. È attivabile su prenotazione per gruppi di almeno 6 persone. Durata 1 h circa. Il servizio è a pagamento.
@@ -27,12 +27,12 @@ it:
     - title: L'Antica Via Amerina e la Necropoli di Tre Ponti
       description: >
         La visita guidata permette di ripercorre l’antica strada di età romana in uno dei suoi tratti meglio conservati, attraversando la necropoli rupestre di località Tre Ponti, in una cornice paesaggistica di rara bellezza. È attivabile su prenotazione per gruppi di almeno 15 persone. Durata 2 h 30’ circa. Il servizio è a pagamento.
-  prospettoTitle: Dettagli visite guidate per adulti
+  prospettoTitle: Brochure visite guidate
   prospetto: /assets/regolamento.pdf
 en:
   title: Guided Tours
   description: >
-    Our Civic Museum gives you different kind of services. Starting from guided tours inside the Museum itself to external guided tours to the main sightseens of our city, like: Borgia's Castle, S. Savinilla Catacomb or Tre Ponti Necropolis.
+    Il Museo Civico di Nepi fornisce un servizio di visite guidate. I percorsi di visita   si sviluppano sia all'interno degli spazi museali sia lungo itinerari esterni che  toccano i principali luoghi di interesse di Nepi, come: la Rocca dei Borgia, la Catacomba di Santa Savinilla o la Necropoli di Tre Ponti
   visiteInterneTitle: Museum Guided Tours
   visiteInterneDescription: >
     La visita guidata ha l’obiettivo di narrare la storia della cittadina di Nepi secondo un percorso cronologico che segue l’esposizione museale e che parte dall’età preromana arrivando sino al Rinascimento. È attivabile su prenotazione per gruppi di almeno 6 persone. Durata 1 h circa. Il servizio è a pagamento.
@@ -56,6 +56,6 @@ en:
     - title: L'Antica Via Amerina e la Necropoli di Tre Ponti
       description: >
         La visita guidata permette di ripercorre l’antica strada di età romana in uno dei suoi tratti meglio conservati, attraversando la necropoli rupestre di località Tre Ponti, in una cornice paesaggistica di rara bellezza. È attivabile su prenotazione per gruppi di almeno 15 persone. Durata 2 h 30’ circa. Il servizio è a pagamento.
-  prospettoTitle: Dettagli visite guidate per adulti
+  prospettoTitle: Brochure visite guidate
   prospetto: /assets/regolamento.pdf
 ---

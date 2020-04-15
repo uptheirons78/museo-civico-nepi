@@ -10,6 +10,7 @@ import {
   ServiceTitle,
   ServiceArticle,
   ContactInfo,
+  StyledLink,
 } from "../Styles/StyledPageElement";
 const Servizi = ({ language, data }) => {
   const { frontmatter } = data.markdownRemark;
@@ -28,15 +29,6 @@ const Servizi = ({ language, data }) => {
             <div className="left-block text-block">
               <h4>{frontmatter[`${language}`].visiteInterneTitle}</h4>
               <p>{frontmatter[`${language}`].visiteInterneDescription}</p>
-              <div style={{ marginTop: "0.5rem", marginBottom: "0.5rem" }}>
-                <a
-                  href={frontmatter[`${language}`].prospetto}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  {frontmatter[`${language}`].prospettoTitle}
-                </a>
-              </div>
             </div>
             <div className="right-block">
               <Img fluid={data.firstPicture.childImageSharp.fluid} />
@@ -55,21 +47,30 @@ const Servizi = ({ language, data }) => {
               );
             })}
           </section>
-          <ServiceTitle>
-            {language === "it"
-              ? "Per informazioni e prenotazioni"
-              : "Info and reservations"}
-          </ServiceTitle>
-          <p>
-            <ContactInfo>Email: </ContactInfo>
-            museo@comune.nepi.vt.it
-          </p>
-          <p>
-            <ContactInfo>
-              {language === "it" ? "Telefono" : "Telephone"}:{" "}
-            </ContactInfo>
-            0761 570604
-          </p>
+          <section style={{ marginTop: "5rem" }}>
+            <ServiceTitle>
+              {language === "it"
+                ? "Informazioni e prenotazioni"
+                : "Info and reservations"}
+            </ServiceTitle>
+            <p>
+              <ContactInfo>Email: </ContactInfo>
+              museo@comune.nepi.vt.it
+            </p>
+            <p>
+              <ContactInfo>
+                {language === "it" ? "Telefono" : "Telephone"}:{" "}
+              </ContactInfo>
+              0761 570604
+            </p>
+            <StyledLink
+              href={frontmatter[`${language}`].prospetto}
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              {frontmatter[`${language}`].prospettoTitle}
+            </StyledLink>
+          </section>
         </Main>
       </SinglePageWrapper>
     </div>

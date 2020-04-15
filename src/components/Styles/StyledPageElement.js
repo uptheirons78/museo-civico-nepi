@@ -156,3 +156,17 @@ export const PubblicazioniImageContainer = styled.div`
     max-width: 180px;
   }
 `;
+
+export const StyledLink = styled.a`
+  font-size: 0.9rem;
+  font-weight: 500;
+  color: ${props => props.theme.primaryColor};
+  text-decoration: none;
+  box-shadow: 0px -3px 0px 0px ${props => props.theme.primaryColor} inset;
+  transition: all 250ms ease-in-out;
+
+  &:hover {
+    box-shadow: 0px -18px 0px 0px ${props => props.theme.primaryColor} inset;
+    color: #fff;
+  }
+`;
