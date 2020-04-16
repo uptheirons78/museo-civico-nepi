@@ -6,13 +6,15 @@ date: 2020-01-11T21:00:00.000Z
 start: 2020-01-12T12:00:00.000Z
 end: 2020-01-26T12:00:00.000Z
 description: >-
-  Mostra collettiva di arte contemporanea organizzata dall'Associazione Culturale "AmorArte" e consegna del catalogo DivinArte 2019 dedicato all'evento del settembre 2019
+  Mostra collettiva di arte contemporanea organizzata dall'Associazione
+  Culturale "AmorArte" e consegna del catalogo DivinArte 2019 dedicato
+  all'evento del settembre 2019
 category: eventi
 featured: false
 image: /assets/divinarte.jpg
 place: Museo Civico di Nepi
 access: Orario di apertura del Museo
-ticket: 'Ingresso Gratuito'
+ticket: Ingresso Gratuito
 gallery:
   - alt: mostra collettiva divinarte
     image: /assets/divinarte.jpg
@@ -20,6 +22,9 @@ gallery:
     image: /assets/divinarte-2.jpg
   - alt: mostra collettiva divinarte
     image: /assets/divinarte-3.jpg
+  - alt: Mostra Collettiva DivinArte 2020
+    image: >-
+      https://res.cloudinary.com/museo-civico-di-nepi/image/upload/v1587069036/6divin_e6q4m3.jpg
 ---
 Con uno sguardo alle bellezze del passato l'Associazione Culturale **"AmorArte"** inaugura l'anno nuovo con una collettiva di arte contemporanea all'interno del Museo Civico di Nepi (VT) visitabile dal 13 gennaio al 26 gennaio 2020.
 
