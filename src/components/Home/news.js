@@ -94,7 +94,7 @@ const News = ({ language }) => {
                       : `/en/events/${slug}/`
                   }
                 >
-                  {language === "it" ? "Scopri di più" : "Read more"}
+                  {language === "it" ? "Continua a leggere" : "Read more"}
                 </Link>
               </div>
             </article>
