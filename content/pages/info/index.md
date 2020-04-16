@@ -11,7 +11,7 @@ it:
     sino ad arrivare al Rinascimento.
   pageTitle: Informazioni e Biglietti
   sectionATitle: Orari di apertura
-  sectionBTitle: Sempre Chiuso
+  sectionBTitle: Chiuso
   sectionCTitle: Tariffe
   summerClosing: Lunedì Chiuso
   summerOpening: ORARIO ESTIVO (1 Giu. - 30 Set.)
@@ -32,7 +32,7 @@ en:
     preistorica sino ad arrivare al Rinascimento.
   pageTitle: Informations and Tickets
   sectionATitle: Opening Hours
-  sectionBTitle: Always Closed
+  sectionBTitle: Closed
   sectionCTitle: Prices
   summerClosing: Closed on Monday
   summerOpening: SUMMER OPENINGS (Jun 1st - Sep 30)
