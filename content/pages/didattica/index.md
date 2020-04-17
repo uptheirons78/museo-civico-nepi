@@ -3,7 +3,7 @@ templateKey: didattica
 it:
   title: Attività Didattiche
   description: >
-    Il Museo Civico di Nepi offre, previa prenotazione, un servizio didattico utile per conoscere il patrimonio storico ed artistico della città di Nepi e di tutto il suo territorio.
+    Il Museo Civico di Nepi offre un servizio didattico a tutte le scuole di ogni ordine e grado, incentrato sullo studio del patrimonio culturale di Nepi e del suo territorio.
   textATitle: Impariamo a conoscere il nostro patrimonio
   textA: >
     Il servizio didattico del Museo Civico di Nepi ha come obiettivo l’educazione delle nuove generazioni alla corretta conoscenza, fruizione e al rispetto del patrimonio storico-archeologico di Nepi e del suo territorio. E’ dedicato alla scuole di ogni ordine e grado ed è a disposizione del pubblico scolastico dal mese di novembre sino al mese di maggio.
@@ -13,14 +13,14 @@ it:
   infoTitle: Informazioni
   info: >
     Per accedere al servizio è sufficiente concordare telefonicamente al numero 0761 570604 la prenotazione e confermarla restituendo, compilata, via e-mail all'indirizzo museo@comune.nepi.vt.it la scheda di prenotazione. Il servizio è a pagamento.
-  schedaTitle: Scheda di prenotazione per le scuole
+  schedaTitle: Scheda di prenotazione
   scheda: /assets/regolamento.pdf
-  prospettoTitle: Prospetto delle attività
+  prospettoTitle: Brochure attività didattiche
   prospetto: /assets/regolamento.pdf
 en:
   title: Educational Activities
   description: >
-    Our Civic Museum gives the possibility, under reservation, of useful educational activities to know and discover the artistic and historical heritage of Nepi and its territory.
+    Il Museo Civico di Nepi offre un servizio didattico a tutte le scuole di ogni ordine e grado, incentrato sullo studio del patrimonio culturale di Nepi e del suo territorio.
   textATitle: Let's discover our heritage
   textA: >
     Il servizio didattico del Museo Civico di Nepi ha come obiettivo l’educazione delle nuove generazioni alla corretta conoscenza, fruizione e al rispetto del patrimonio storico-archeologico di Nepi e del suo territorio. E’ dedicato alla scuole di ogni ordine e grado ed è a disposizione del pubblico scolastico dal mese di novembre sino al mese di maggio.
@@ -30,8 +30,8 @@ en:
   infoTitle: Informations
   info: >
     Per accedere al servizio è sufficiente concordare telefonicamente al numero 0761 570604 la prenotazione e confermarla restituendo, compilata, via e-mail all'indirizzo museo@comune.nepi.vt.it la scheda di prenotazione. Il servizio è a pagamento.
-  schedaTitle: Scheda di prenotazione per le scuole
+  schedaTitle: Scheda di prenotazione
   scheda: /assets/regolamento.pdf
-  prospettoTitle: Prospetto delle attività
+  prospettoTitle: Brochure attività didattiche
   prospetto: /assets/regolamento.pdf
 ---

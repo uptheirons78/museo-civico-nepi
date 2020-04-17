@@ -8,7 +8,7 @@ description: >-
 category: monumenti
 featured: true
 image: /assets/forte-01.jpg
-place: Via di Porta Romana - 01036 Nepi (VT)
+place: Via di Porta Romana
 access: "-"
 ticket: "-"
 gallery:
