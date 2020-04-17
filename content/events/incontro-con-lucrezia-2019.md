@@ -9,17 +9,41 @@ description: >-
   Lettura pubblica di brani tratti dal romanzo di Dario Fo "La figlia del Papa" sulla vita di Lucrezia Borgia con la partecipazione di Ebe Koinè, Annarita Salerno ed Ornella Marcucci.
 category: eventi
 featured: false
-image: /assets/lucrezia-1.jpg
+image: https://res.cloudinary.com/museo-civico-di-nepi/image/upload/v1587102195/incontro-05_ywu6by.jpg
 place: Museo Civico di Nepi
 access: '18:30 - 20:00'
 ticket: 'Ingresso Gratuito'
 gallery:
-  - alt: incontro con lucrezia
-    image: /assets/lucrezia-4.jpg
-  - alt: incontro con lucrezia
-    image: /assets/lucrezia-2.jpg
-  - alt: incontro con lucrezia
-    image: /assets/lucrezia-3.jpg
+  - alt: Incontro con Lucrezia 2019 Foto 01
+    image: >-
+      https://res.cloudinary.com/museo-civico-di-nepi/image/upload/v1587102195/incontro-01_o2frzo.jpg
+  - alt: Incontro con Lucrezia 2019 Foto 02
+    image: >-
+      https://res.cloudinary.com/museo-civico-di-nepi/image/upload/v1587102195/incontro-02_jv9dpb.jpg
+  - alt: Incontro con Lucrezia 2019 Foto 03
+    image: >-
+      https://res.cloudinary.com/museo-civico-di-nepi/image/upload/v1587102195/incontro-03_rdhudj.jpg
+  - alt: Incontro con Lucrezia 2019 Foto 04
+    image: >-
+      https://res.cloudinary.com/museo-civico-di-nepi/image/upload/v1587102195/incontro-04_e0zeke.jpg
+  - alt: Incontro con Lucrezia 2019 Foto 05
+    image: >-
+      https://res.cloudinary.com/museo-civico-di-nepi/image/upload/v1587102195/incontro-05_ywu6by.jpg
+  - alt: Incontro con Lucrezia 2019 Foto 06
+    image: >-
+      https://res.cloudinary.com/museo-civico-di-nepi/image/upload/v1587102196/incontro-06_lllagk.jpg
+  - alt: Incontro con Lucrezia 2019 Foto 07
+    image: >-
+      https://res.cloudinary.com/museo-civico-di-nepi/image/upload/v1587102196/incontro-07_l43xis.jpg
+  - alt: Incontro con Lucrezia 2019 Foto 08
+    image: >-
+      https://res.cloudinary.com/museo-civico-di-nepi/image/upload/v1587102196/incontro-08_hbphxm.jpg
+  - alt: Incontro con Lucrezia 2019 Foto 09
+    image: >-
+      https://res.cloudinary.com/museo-civico-di-nepi/image/upload/v1587102196/incontro-09_fme3ef.jpg
+  - alt: Incontro con Lucrezia 2019 Foto 10
+    image: >-
+      https://res.cloudinary.com/museo-civico-di-nepi/image/upload/v1587102196/incontro-10_sdo8ff.jpg
 ---
 Sabato 5 ottobre la mostra “Incontro con Lucrezia”, allestita presso i locali del Museo Civico, sarà lo scenario di un evento speciale.
 
