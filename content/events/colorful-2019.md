@@ -6,7 +6,7 @@ date: 2019-06-26T21:00:00.000Z
 start: 2019-06-27T12:00:00.000Z
 end: 2019-07-07T12:00:00.000Z
 description: >-
-  Mostra fotografica organizzata in collaborazione con l'Associazione Culturale Terramare. Passeggiata fotografica e visite guidate al Museo, alle Catacombe di Santa Savinilla ed alla Rocca dei Borgia
+  Mostra fotografica organizzata in collaborazione con l'Associazione Culturale Terramare. Passeggiata fotografica e visite guidate al Museo, alle Catacombe di Santa Savinilla ed alla Rocca dei Borgia.
 category: eventi
 featured: false
 image: /assets/colourful.jpg

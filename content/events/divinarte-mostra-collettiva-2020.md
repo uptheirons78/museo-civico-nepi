@@ -8,7 +8,7 @@ end: 2020-01-26T12:00:00.000Z
 description: >-
   Mostra collettiva di arte contemporanea organizzata dall'Associazione
   Culturale "AmorArte" e consegna del catalogo DivinArte 2019 dedicato
-  all'evento del settembre 2019
+  all'evento del settembre 2019.
 category: eventi
 featured: false
 image: /assets/divinarte.jpg

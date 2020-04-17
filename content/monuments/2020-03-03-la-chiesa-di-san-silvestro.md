@@ -4,7 +4,7 @@ title: La Chiesa di San Silvestro
 slug: la-chiesa-di-san-silvestro
 date: 2020-03-03T12:00:00.005Z
 description: >-
-  La Chiesa di San Silvestro risalente al XV secolo e costruita per i monaci Benedettini Silvestrini è anche chiamata Chiesa del Carmine dai nepesini. E' costituita da un'unica aula con sei cappelle laterali
+  La Chiesa di San Silvestro risalente al XV secolo e costruita per i monaci Benedettini Silvestrini è anche chiamata Chiesa del Carmine dai nepesini. E' costituita da un'unica aula con sei cappelle laterali.
 category: monumenti
 featured: false
 image: /assets/carmine-01.jpg

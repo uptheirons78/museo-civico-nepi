@@ -4,7 +4,7 @@ title: Storia della collezione
 it:
   title: Storia della collezione
   description: >
-    La storia del Museo Civico di Nepi inizia negli anni '80 del secolo scorso con l'istituzione di un deposito per i beni culturali
+    La storia del Museo Civico di Nepi inizia negli anni '80 del secolo scorso con l'istituzione di un deposito per i beni culturali.
   textA: >
     La nascita di una prima raccolta di reperti provenienti dal territorio nepesino risale agli anni ’80 del secolo scorso, quando l’amministrazione comunale di Nepi, su sollecitazione della locale sede dell'Archeoclub, istituì un “deposito per i beni culturali” per conservare i materiali archeologici che minacciavano di essere dispersi o trafugati.
   textB: >
@@ -14,7 +14,7 @@ it:
 en:
   title: History of our collection
   description: >
-    La storia del Museo Civico di Nepi inizia negli anni '80 del secolo scorso con l'istituzione di un deposito per i beni culturali
+    La storia del Museo Civico di Nepi inizia negli anni '80 del secolo scorso con l'istituzione di un deposito per i beni culturali.
   textA: >
     La nascita di una prima raccolta di reperti provenienti dal territorio nepesino risale agli anni ’80 del secolo scorso, quando l’amministrazione comunale di Nepi, su sollecitazione della locale sede dell'Archeoclub, istituì un “deposito per i beni culturali” per conservare i materiali archeologici che minacciavano di essere dispersi o trafugati.
   textB: >

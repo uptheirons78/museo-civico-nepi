@@ -6,7 +6,7 @@ date: 2020-02-28T21:00:00.000Z
 start: 2020-02-29T12:00:00.000Z
 end: 2020-03-01T12:00:00.000Z
 description: >-
-  Esposizione di collezioni di figurini storici all'interno del Museo Civico di Nepi e primo concorso di modellismo statico con la partecipazione di alcuni fra i più importanti modellisti italiani
+  Esposizione di collezioni di figurini storici all'interno del Museo Civico di Nepi e primo concorso di modellismo statico con la partecipazione di alcuni fra i più importanti modellisti italiani.
 category: eventi
 featured: true
 image: /assets/modellismo_01.jpg

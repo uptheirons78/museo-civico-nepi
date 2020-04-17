@@ -6,7 +6,7 @@ date: 2020-01-11T21:00:00.000Z
 start: 2020-01-12T12:00:00.000Z
 end: 2020-01-26T12:00:00.000Z
 description: >-
-  Collective exhibition of contemporary art organized by the "AmorArte" Cultural Association and related presentation of the "DivinArte 2019 Catalog" dedicated to the September 2019 event
+  Collective exhibition of contemporary art organized by the "AmorArte" Cultural Association and related presentation of the "DivinArte 2019 Catalog" dedicated to the September 2019 event.
 category: eventi
 featured: false
 image: /assets/divinarte.jpg

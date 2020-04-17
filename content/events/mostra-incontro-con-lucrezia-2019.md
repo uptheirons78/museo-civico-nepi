@@ -6,7 +6,7 @@ date: 2019-09-01T21:00:00.000Z
 start: 2019-09-01T12:00:00.000Z
 end: 2019-10-05T12:00:00.000Z
 description: >-
-  Omaggio a Lucrezia Borgia a cinquecento anni dalla morte. Mostra dell’abito di Lucrezia e di altri costumi e oggetti utilizzati durante il corteo storico del Palio dei Borgia di Nepi
+  Omaggio a Lucrezia Borgia a cinquecento anni dalla morte. Mostra dell’abito di Lucrezia e di altri costumi e oggetti utilizzati durante il corteo storico del Palio dei Borgia di Nepi.
 category: eventi
 featured: false
 image: /assets/lucrezia-4.jpg

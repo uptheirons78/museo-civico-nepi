@@ -7,7 +7,7 @@ description: >-
   La Chiesa di San Tolomeo, anche conosciuta dai nepesini come Chiesa del
   Rosario o della Madonna della Vittoria, è affidata dal 1911 all'Ordine dei
   Servi di Maria e contiene le reliquie di San Tolomeo martire e della Beata
-  Cecilia Eusepi
+  Cecilia Eusepi.
 category: monumenti
 featured: false
 image: /assets/tolomeo-08.jpg

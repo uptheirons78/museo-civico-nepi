@@ -3,7 +3,7 @@ templateKey: services
 it:
   title: Visite Guidate
   description: >
-    Il Museo Civico di Nepi fornisce un servizio di visite guidate. I percorsi di visita   si sviluppano sia all'interno degli spazi museali sia lungo itinerari esterni che  toccano i principali luoghi di interesse di Nepi, come: la Rocca dei Borgia, la Catacomba di Santa Savinilla o la Necropoli di Tre Ponti
+    Il Museo Civico di Nepi fornisce un servizio di visite guidate. I percorsi di visita   si sviluppano sia all'interno degli spazi museali sia lungo itinerari esterni che  toccano i principali luoghi di interesse di Nepi, come: la Rocca dei Borgia, la Catacomba di Santa Savinilla o la Necropoli di Tre Ponti.
   visiteInterneTitle: Visite Guidate al Museo
   visiteInterneDescription: >
     La visita guidata ha l’obiettivo di narrare la storia della cittadina di Nepi secondo un percorso cronologico che segue l’esposizione museale e che parte dall’età preromana arrivando sino al Rinascimento. È attivabile su prenotazione per gruppi di almeno 6 persone. Durata 1 h circa. Il servizio è a pagamento.
@@ -32,7 +32,7 @@ it:
 en:
   title: Guided Tours
   description: >
-    Il Museo Civico di Nepi fornisce un servizio di visite guidate. I percorsi di visita   si sviluppano sia all'interno degli spazi museali sia lungo itinerari esterni che  toccano i principali luoghi di interesse di Nepi, come: la Rocca dei Borgia, la Catacomba di Santa Savinilla o la Necropoli di Tre Ponti
+    Il Museo Civico di Nepi fornisce un servizio di visite guidate. I percorsi di visita   si sviluppano sia all'interno degli spazi museali sia lungo itinerari esterni che  toccano i principali luoghi di interesse di Nepi, come: la Rocca dei Borgia, la Catacomba di Santa Savinilla o la Necropoli di Tre Ponti.
   visiteInterneTitle: Museum Guided Tours
   visiteInterneDescription: >
     La visita guidata ha l’obiettivo di narrare la storia della cittadina di Nepi secondo un percorso cronologico che segue l’esposizione museale e che parte dall’età preromana arrivando sino al Rinascimento. È attivabile su prenotazione per gruppi di almeno 6 persone. Durata 1 h circa. Il servizio è a pagamento.

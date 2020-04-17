@@ -4,7 +4,7 @@ title: The Church of Santa Croce
 slug: the-church-of-santa-croce
 date: 2020-03-04T08:44:32.525Z
 description: >-
-  ENGLISH Originaria del X Secolo è costruita con una pianta a croce greca e nel XV Secolo fu affiancata da un ospedale affidato alla Confraternita della Disciplina
+  ENGLISH Originaria del X Secolo è costruita con una pianta a croce greca e nel XV Secolo fu affiancata da un ospedale affidato alla Confraternita della Disciplina.
 category: monuments
 featured: false
 image: /assets/croce-02.jpg

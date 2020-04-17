@@ -7,7 +7,7 @@ description: >-
   Monumento secolare, dichiarato di Interesse Nazionale, vanta il titolo di
   Rettorìa.  Trae le sue origini in epoca molto tarda, con molta probabilità
   risale al secolo X. Si presenta ad un'unica ala e vanta al suo interno diversi
-  affreschi
+  affreschi.
 category: monumenti
 featured: false
 image: /assets/biagio-07.jpg

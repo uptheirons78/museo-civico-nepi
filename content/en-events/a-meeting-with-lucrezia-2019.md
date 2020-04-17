@@ -6,7 +6,7 @@ date: 2019-10-05T21:00:00.000Z
 start: 2019-10-05T12:00:00.000Z
 end:
 description: >-
-  Lettura pubblica di brani tratti dal romanzo di Dario Fo "La figlia del Papa" sulla vita di Lucrezia Borgia con la partecipazione di Ebe Koinè, Annarita Salerno ed Ornella Marcucci
+  Lettura pubblica di brani tratti dal romanzo di Dario Fo "La figlia del Papa" sulla vita di Lucrezia Borgia con la partecipazione di Ebe Koinè, Annarita Salerno ed Ornella Marcucci.
 category: eventi
 featured: false
 image: /assets/lucrezia-1.jpg
