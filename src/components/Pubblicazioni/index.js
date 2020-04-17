@@ -24,8 +24,8 @@ const Pubblicazioni = ({ language, data }) => {
         </PageDescription>
         <Main>
           <SectionTitle>{frontmatter[`${language}`].subtitleOne}</SectionTitle>
-          {quaderni.map(quaderno => (
-            <DoubleGrid top="5rem" bottom="5rem" key={quaderno.title}>
+          {quaderni.map((quaderno, i) => (
+            <DoubleGrid top="5rem" bottom="5rem" key={`${quaderno.title}${i}`}>
               <div className="left-block">
                 <PubblicazioniImageContainer>
                   <img
@@ -45,8 +45,8 @@ const Pubblicazioni = ({ language, data }) => {
             </DoubleGrid>
           ))}
           <SectionTitle>{frontmatter[`${language}`].subtitleTwo}</SectionTitle>
-          {other.map(quaderno => (
-            <DoubleGrid top="5rem" bottom="5rem" key={quaderno.title}>
+          {other.map((quaderno, i) => (
+            <DoubleGrid top="5rem" bottom="5rem" key={`${quaderno.title}${i}`}>
               <div className="left-block">
                 <PubblicazioniImageContainer>
                   <img

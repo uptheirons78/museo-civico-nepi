@@ -19,7 +19,7 @@ const Form = ({ language }) => {
           <input type="text" placeholder="Marco Rossi" name="name" id="name" />
           <label htmlFor="name">{formName[`${language}`]}</label>
         </div>
-        <div class="flex-rev">
+        <div className="flex-rev">
           <input
             type="email"
             placeholder="marcorossi@email.com"

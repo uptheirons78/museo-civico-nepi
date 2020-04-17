@@ -9,17 +9,30 @@ description: >-
   Collective exhibition of contemporary art organized by the "AmorArte" Cultural Association and related presentation of the "DivinArte 2019 Catalog" dedicated to the September 2019 event.
 category: eventi
 featured: false
-image: /assets/divinarte.jpg
+image: >-
+  https://res.cloudinary.com/museo-civico-di-nepi/image/upload/v1587106921/divin-07_z5iplq.jpg
 place: Museo Civico di Nepi
 access: Orario di apertura del Museo
 ticket: 'Free Entrance'
 gallery:
-  - alt: collective exhibition divinarte
-    image: /assets/divinarte.jpg
-  - alt: collective exhibition divinarte
-    image: /assets/divinarte-2.jpg
-  - alt: collective exhibition divinarte
-    image: /assets/divinarte-3.jpg
+  - alt: Collective Exhibition DivinArte 2020 Picture 01
+    image: >-
+      https://res.cloudinary.com/museo-civico-di-nepi/image/upload/v1587102171/divin-01_a8xi6a.jpg
+  - alt: Collective Exhibition DivinArte 2020 Picture 02
+    image: >-
+      https://res.cloudinary.com/museo-civico-di-nepi/image/upload/v1587102171/divin-02_w3hlq7.jpg
+  - alt: Collective Exhibition DivinArte 2020 Picture 03
+    image: >-
+      https://res.cloudinary.com/museo-civico-di-nepi/image/upload/v1587102171/divin-03_rdgsyq.jpg
+  - alt: Collective Exhibition DivinArte 2020 Picture 04
+    image: >-
+      https://res.cloudinary.com/museo-civico-di-nepi/image/upload/v1587102171/divin-04_kt9tho.jpg
+  - alt: Collective Exhibition DivinArte 2020 Picture 05
+    image: >-
+      https://res.cloudinary.com/museo-civico-di-nepi/image/upload/v1587102171/divin-05_ahs14m.jpg
+  - alt: Collective Exhibition DivinArte 2020 Picture 06
+    image: >-
+      https://res.cloudinary.com/museo-civico-di-nepi/image/upload/v1587102171/divin-06_rwo8v4.jpg
 ---
 With a look at the beauties of our past the Cultural Association **"AmorArte"** inaugurates the new year with a collective of contemporary art inside the Museo Civico di Nepi (VT) which can be visited from 13 January to 26 January 2020.
 

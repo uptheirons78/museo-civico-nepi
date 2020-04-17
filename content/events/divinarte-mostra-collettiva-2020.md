@@ -11,20 +11,30 @@ description: >-
   all'evento del settembre 2019.
 category: eventi
 featured: false
-image: /assets/divinarte.jpg
+image: >-
+  https://res.cloudinary.com/museo-civico-di-nepi/image/upload/v1587106921/divin-07_z5iplq.jpg
 place: Museo Civico di Nepi
 access: Orario di apertura del Museo
 ticket: Ingresso Gratuito
 gallery:
-  - alt: mostra collettiva divinarte
-    image: /assets/divinarte.jpg
-  - alt: mostra collettiva divinarte
-    image: /assets/divinarte-2.jpg
-  - alt: mostra collettiva divinarte
-    image: /assets/divinarte-3.jpg
-  - alt: Mostra Collettiva DivinArte 2020
+  - alt: Mostra Collettiva DivinArte 2020 Foto 01
     image: >-
-      https://res.cloudinary.com/museo-civico-di-nepi/image/upload/v1587069036/6divin_e6q4m3.jpg
+      https://res.cloudinary.com/museo-civico-di-nepi/image/upload/v1587102171/divin-01_a8xi6a.jpg
+  - alt: Mostra Collettiva DivinArte 2020 Foto 02
+    image: >-
+      https://res.cloudinary.com/museo-civico-di-nepi/image/upload/v1587102171/divin-02_w3hlq7.jpg
+  - alt: Mostra Collettiva DivinArte 2020 Foto 03
+    image: >-
+      https://res.cloudinary.com/museo-civico-di-nepi/image/upload/v1587102171/divin-03_rdgsyq.jpg
+  - alt: Mostra Collettiva DivinArte 2020 Foto 04
+    image: >-
+      https://res.cloudinary.com/museo-civico-di-nepi/image/upload/v1587102171/divin-04_kt9tho.jpg
+  - alt: Mostra Collettiva DivinArte 2020 Foto 05
+    image: >-
+      https://res.cloudinary.com/museo-civico-di-nepi/image/upload/v1587102171/divin-05_ahs14m.jpg
+  - alt: Mostra Collettiva DivinArte 2020 Foto 06
+    image: >-
+      https://res.cloudinary.com/museo-civico-di-nepi/image/upload/v1587102171/divin-06_rwo8v4.jpg
 ---
 Con uno sguardo alle bellezze del passato l'Associazione Culturale **"AmorArte"** inaugura l'anno nuovo con una collettiva di arte contemporanea all'interno del Museo Civico di Nepi (VT) visitabile dal 13 gennaio al 26 gennaio 2020.
 
