@@ -9,10 +9,32 @@ description: >-
   Mostra fotografica organizzata in collaborazione con l'Associazione Culturale Terramare. Passeggiata fotografica e visite guidate al Museo, alle Catacombe di Santa Savinilla ed alla Rocca dei Borgia.
 category: eventi
 featured: false
-image: /assets/colourful.jpg
+image: https://res.cloudinary.com/museo-civico-di-nepi/image/upload/v1587101965/color-01_nk3ki6.jpg
 place: Museo Civico di Nepi
 access: Orario di apertura del Museo
 ticket: 'Free Entrance'
+gallery:
+  - alt: Colorful 2019 Picture 01
+    image: >-
+      https://res.cloudinary.com/museo-civico-di-nepi/image/upload/v1587101965/color-01_nk3ki6.jpg
+  - alt: Colorful 2019 Picture 02
+    image: >-
+      https://res.cloudinary.com/museo-civico-di-nepi/image/upload/v1587101965/color-02_r3exa5.jpg
+  - alt: Colorful 2019 Picture 03
+    image: >-
+      https://res.cloudinary.com/museo-civico-di-nepi/image/upload/v1587101965/color-03_jf8pou.jpg
+  - alt: Colorful 2019 Picture 04
+    image: >-
+      https://res.cloudinary.com/museo-civico-di-nepi/image/upload/v1587101965/color-04_ndoqhl.jpg
+  - alt: Colorful 2019 Picture 05
+    image: >-
+      https://res.cloudinary.com/museo-civico-di-nepi/image/upload/v1587101965/color-05_d1wbpp.jpg
+  - alt: Colorful 2019 Picture 06
+    image: >-
+      https://res.cloudinary.com/museo-civico-di-nepi/image/upload/v1587101965/color-06_o2rf0q.jpg
+  - alt: Colorful 2019 Picture 07
+    image: >-
+      https://res.cloudinary.com/museo-civico-di-nepi/image/upload/v1587101965/color-07_izw8ip.jpg
 ---
 Proseguono le attività del Museo Civico con una mostra fotografica organizzata in collaborazione con l'Associazione Culturale "Terramare".
 
