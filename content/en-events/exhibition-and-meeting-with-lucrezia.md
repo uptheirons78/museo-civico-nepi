@@ -9,17 +9,26 @@ description: >-
   Omaggio a Lucrezia Borgia a cinquecento anni dalla morte. Mostra dell’abito di Lucrezia e di altri costumi e oggetti utilizzati durante il corteo storico del Palio dei Borgia di Nepi.
 category: eventi
 featured: false
-image: /assets/lucrezia-4.jpg
+image: https://res.cloudinary.com/museo-civico-di-nepi/image/upload/v1587102225/mostra-03_egwb3s.jpg
 place: Museo Civico di Nepi
 access: Orario di apertura del museo
 ticket: 'Ingresso Gratuito'
 gallery:
-  - alt: incontro con lucrezia
-    image: /assets/lucrezia-1.jpg
-  - alt: incontro con lucrezia
-    image: /assets/lucrezia-2.jpg
-  - alt: incontro con lucrezia
-    image: /assets/lucrezia-3.jpg
+  - alt: Exhibition and Meeting with Lucrezia 2019 Picture 01
+    image: >-
+      https://res.cloudinary.com/museo-civico-di-nepi/image/upload/v1587102225/mostra-01_l1xxxq.jpg
+  - alt: Exhibition and Meeting with Lucrezia 2019 Picture 02
+    image: >-
+      https://res.cloudinary.com/museo-civico-di-nepi/image/upload/v1587102225/mostra-02_jrkatz.jpg
+  - alt: Exhibition and Meeting with Lucrezia 2019 Picture 03
+    image: >-
+      https://res.cloudinary.com/museo-civico-di-nepi/image/upload/v1587102225/mostra-03_egwb3s.jpg
+  - alt: Exhibition and Meeting with Lucrezia 2019 Picture 04
+    image: >-
+      https://res.cloudinary.com/museo-civico-di-nepi/image/upload/v1587102225/mostra-04_ucxmez.jpg
+  - alt: Exhibition and Meeting with Lucrezia 2019 Picture 05
+    image: >-
+      https://res.cloudinary.com/museo-civico-di-nepi/image/upload/v1587102225/mostra-05_xqclev.jpg
 ---
 A cinquecento anni dalla morte, il Museo Civico di Nepi, in collaborazione con il Comune di Nepi e l’Ente Palio dei Borgia, vuole rendere omaggio ad uno dei personaggi più famosi del Rinascimento italiano: Lucrezia Borgia.
 
