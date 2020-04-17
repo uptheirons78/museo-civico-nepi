@@ -14,12 +14,30 @@ place: Nepi Civic Museum
 access: 10.00-01.00 AM / 03:00-06:00 PM
 ticket: Free Entrance
 gallery:
-  - alt: first modeling contest 2020
-    image: /assets/modellismo_02.jpg
-  - alt: first modeling contest 2020
-    image: /assets/modellismo_03.jpg
-  - alt: first modeling contest 2020
-    image: /assets/modellismo_04.jpg
+  - alt: NepiModellismo First Modeling Exhibition Picture 01
+    image: >-
+      https://res.cloudinary.com/museo-civico-di-nepi/image/upload/v1587102245/nepimod-01_xosrcb.jpg
+  - alt: NepiModellismo First Modeling Exhibition Picture 02
+    image: >-
+      https://res.cloudinary.com/museo-civico-di-nepi/image/upload/v1587102245/nepimod-02_lahsq8.jpg
+  - alt: NepiModellismo First Modeling Exhibition Picture 03
+    image: >-
+      https://res.cloudinary.com/museo-civico-di-nepi/image/upload/v1587102245/nepimod-03_ngg8eq.jpg
+  - alt: NepiModellismo First Modeling Exhibition Picture 04
+    image: >-
+      https://res.cloudinary.com/museo-civico-di-nepi/image/upload/v1587102245/nepimod-04_jzf8k8.jpg
+  - alt: NepiModellismo First Modeling Exhibition Picture 05
+    image: >-
+      https://res.cloudinary.com/museo-civico-di-nepi/image/upload/v1587102245/nepimod-05_sovllf.jpg
+  - alt: NepiModellismo First Modeling Exhibition Picture 06
+    image: >-
+      https://res.cloudinary.com/museo-civico-di-nepi/image/upload/v1587102245/nepimod-06_we9mpf.jpg
+  - alt: NepiModellismo First Modeling Exhibition Picture 07
+    image: >-
+      https://res.cloudinary.com/museo-civico-di-nepi/image/upload/v1587102245/nepimod-08_qtzqvq.jpg
+  - alt: NepiModellismo First Modeling Exhibition Picture 08
+    image: >-
+      https://res.cloudinary.com/museo-civico-di-nepi/image/upload/v1587102246/nepimod-09_aubl1c.jpg
 ---
 Dal 22 febbraio al 1 marzo il Museo Civico di Nepi ospiterà la Ia edizione di “Nepi Modellismo” Mostra / Concorso di Modellismo Statico.
 

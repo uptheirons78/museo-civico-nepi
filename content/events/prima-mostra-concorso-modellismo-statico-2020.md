@@ -14,12 +14,30 @@ place: Museo Civico di Nepi
 access: Orario di apertura del Museo
 ticket: Ingresso Gratuito
 gallery:
-  - alt: primo concorso modellismo 2020
-    image: /assets/modellismo_02.jpg
-  - alt: primo concorso modellismo 2020
-    image: /assets/modellismo_03.jpg
-  - alt: primo concorso modellismo 2020
-    image: /assets/modellismo_04.jpg
+  - alt: NepiModellismo Prima Mostra Concorso di Modellismo Statico Foto 01
+    image: >-
+      https://res.cloudinary.com/museo-civico-di-nepi/image/upload/v1587102245/nepimod-01_xosrcb.jpg
+  - alt: NepiModellismo Prima Mostra Concorso di Modellismo Statico Foto 02
+    image: >-
+      https://res.cloudinary.com/museo-civico-di-nepi/image/upload/v1587102245/nepimod-02_lahsq8.jpg
+  - alt: NepiModellismo Prima Mostra Concorso di Modellismo Statico Foto 03
+    image: >-
+      https://res.cloudinary.com/museo-civico-di-nepi/image/upload/v1587102245/nepimod-03_ngg8eq.jpg
+  - alt: NepiModellismo Prima Mostra Concorso di Modellismo Statico Foto 04
+    image: >-
+      https://res.cloudinary.com/museo-civico-di-nepi/image/upload/v1587102245/nepimod-04_jzf8k8.jpg
+  - alt: NepiModellismo Prima Mostra Concorso di Modellismo Statico Foto 05
+    image: >-
+      https://res.cloudinary.com/museo-civico-di-nepi/image/upload/v1587102245/nepimod-05_sovllf.jpg
+  - alt: NepiModellismo Prima Mostra Concorso di Modellismo Statico Foto 06
+    image: >-
+      https://res.cloudinary.com/museo-civico-di-nepi/image/upload/v1587102245/nepimod-06_we9mpf.jpg
+  - alt: NepiModellismo Prima Mostra Concorso di Modellismo Statico Foto 07
+    image: >-
+      https://res.cloudinary.com/museo-civico-di-nepi/image/upload/v1587102245/nepimod-08_qtzqvq.jpg
+  - alt: NepiModellismo Prima Mostra Concorso di Modellismo Statico Foto 08
+    image: >-
+      https://res.cloudinary.com/museo-civico-di-nepi/image/upload/v1587102246/nepimod-09_aubl1c.jpg
 ---
 Dal 22 febbraio al 1 marzo il Museo Civico di Nepi ospiterà la Ia edizione di “Nepi Modellismo” Mostra / Concorso di Modellismo Statico.
 
