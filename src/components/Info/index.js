@@ -57,13 +57,13 @@ const InfoAndTickets = ({ language, data }) => {
             </div>
             <div className="right-block text-block">
               <div style={{ marginBottom: "2rem" }}>
-                <h4>{frontmatter[`${language}`].sectionCTitle}</h4>
-                <p>{frontmatter[`${language}`].entrance}</p>
-              </div>
-              <div>
                 <h4>{frontmatter[`${language}`].sectionBTitle}</h4>
                 <p>{frontmatter[`${language}`].close1}</p>
                 <p>{frontmatter[`${language}`].close2}</p>
+              </div>
+              <div>
+                <h4>{frontmatter[`${language}`].sectionCTitle}</h4>
+                <p>{frontmatter[`${language}`].entrance}</p>
               </div>
             </div>
           </DoubleGrid>

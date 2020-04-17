@@ -5,20 +5,17 @@ it:
   close2: 25 e 26 Dicembre
   entrance: Ingresso Libero
   pageDescription: >
-    Il Museo Civico di Nepi si avvale di un moderno e affascinante apparato
-    espositivo che si propone di illustrare, attraverso i reperti archeologici,
-    l’evoluzione storica della città e del suo territorio dall’età preistorica
-    sino ad arrivare al Rinascimento.
+    Il Museo Civico di Nepi è aperto al pubblico sei giorni alla settimana per un totale complessivo di 28 ore settimanali. La struttura museale è visitabile anche durante alcune festività, quali 1 maggio e 15 agosto, salvo diverse disposizioni.
   pageTitle: Informazioni e Biglietti
   sectionATitle: Orari di apertura
   sectionBTitle: Chiuso
   sectionCTitle: Tariffe
   summerClosing: Lunedì Chiuso
-  summerOpening: ORARIO ESTIVO (1 Giu. - 30 Set.)
+  summerOpening: ORARIO ESTIVO (1 Giu - 30 Set)
   summerSatSun: 'Sab e Dom 10-13, 16-19'
   summerTueFri: 'Mar, Mer, Gio e Ven 11-13, 16-18'
   winterClosing: Lunedì Chiuso
-  winterOpening: ORARIO INVERNALE (1 Ott. - 31 Dic.)
+  winterOpening: ORARIO INVERNALE (1 Ott - 31 Dic)
   winterSatSun: 'Sab e Dom 10-13, 15-18'
   winterTueFri: 'Mar, Mer, Gio e Ven 11-13, 15-17'
 en:
@@ -26,10 +23,7 @@ en:
   close2: December 25 and 26
   entrance: Free Entrance
   pageDescription: >
-    ENGLISH Il Museo Civico di Nepi si avvale di un moderno e affascinante
-    apparato espositivo che si propone di illustrare, attraverso i reperti
-    archeologici, l’evoluzione storica della città e del suo territorio dall’età
-    preistorica sino ad arrivare al Rinascimento.
+    ENGLISH Il Museo Civico di Nepi è aperto al pubblico sei giorni alla settimana per un totale complessivo di 28 ore settimanali. La struttura museale è visitabile anche durante alcune festività, quali 1 maggio e 15 agosto, salvo diverse disposizioni.
   pageTitle: Informations and Tickets
   sectionATitle: Opening Hours
   sectionBTitle: Closed
