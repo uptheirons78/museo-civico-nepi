@@ -10,26 +10,26 @@ description: >-
   Cecilia Eusepi.
 category: monuments
 featured: false
-image: /assets/tolomeo-08.jpg
+image: https://res.cloudinary.com/museo-civico-di-nepi/image/upload/v1587373670/tolomeo-08_vzafux.jpg
 place: Via Garibaldi n. 165
 access: 'Aperta su richiesta'
 gallery:
   - alt: chiesa di san tolomeo
-    image: /assets/tolomeo-01.jpg
+    image: https://res.cloudinary.com/museo-civico-di-nepi/image/upload/v1587373651/tolomeo-01_teayfv.jpg
   - alt: chiesa di san tolomeo
-    image: /assets/tolomeo-02.jpg
+    image: https://res.cloudinary.com/museo-civico-di-nepi/image/upload/v1587373650/tolomeo-02_ueomqs.jpg
   - alt: chiesa di san tolomeo
-    image: /assets/tolomeo-03.jpg
+    image: https://res.cloudinary.com/museo-civico-di-nepi/image/upload/v1587373660/tolomeo-03_cy5cbl.jpg
   - alt: chiesa di san tolomeo
-    image: /assets/tolomeo-04.jpg
+    image: https://res.cloudinary.com/museo-civico-di-nepi/image/upload/v1587373657/tolomeo-04_zoroef.jpg
   - alt: chiesa di san tolomeo
-    image: /assets/tolomeo-05.jpg
+    image: https://res.cloudinary.com/museo-civico-di-nepi/image/upload/v1587373660/tolomeo-05_bp84pi.jpg
   - alt: chiesa di san tolomeo
-    image: /assets/tolomeo-06.jpg
+    image: https://res.cloudinary.com/museo-civico-di-nepi/image/upload/v1587373664/tolomeo-06_lfsj5r.jpg
   - alt: chiesa di san tolomeo
-    image: /assets/tolomeo-07.jpg
+    image: https://res.cloudinary.com/museo-civico-di-nepi/image/upload/v1587373662/tolomeo-07_xvr7mv.jpg
   - alt: chiesa di san tolomeo
-    image: /assets/tolomeo-08.jpg
+    image: https://res.cloudinary.com/museo-civico-di-nepi/image/upload/v1587373670/tolomeo-08_vzafux.jpg
 ---
 La chiesa di San Tolomeo è sorta a seguito della demolizione, nel 1540, dell’omonima chiesa che sorgeva presso la catacomba.
 
@@ -37,7 +37,7 @@ Il progetto iniziale, redatto da ***Antonio da Sangallo il Giovane***, prevedeva
 
 La costruzione riprese solo nel 1588 e terminò nel 1606, portando alla realizzazione di un edificio molto diverso da quello progettato inizialmente. Nella seconda metà dell’800, per iniziativa del frate ***Vincenzo Pistelli***, la chiesa fu interessata da importanti lavori di ristrutturazione. Sul tetto a doppio spiovente fu eretta una cupola in corrispondenza della tribuna e l’abside da rettangolare fu trasformata in semicircolare.
 
-![chiesa di san tolomeo](/assets/tolomeo-08.jpg)
+![chiesa di san tolomeo](https://res.cloudinary.com/museo-civico-di-nepi/image/upload/v1587373670/tolomeo-08_vzafux.jpg)
 
 L’interno della chiesa a navata unica è caratterizzato dalla presenza di sei cappelle nella navata e di due nella tribuna.
 
@@ -53,7 +53,7 @@ Anche le altre cappelle sono di patronato privato ad eccezione della Cappella di
 
 Quest’ultima fu realizzata dai **Padri Domenicani** nel 1632. Il dipinto che abbellisce oggi la cappella non raffigura, però, San Domenico, ma i *Sette Santi Fondatori dell’Ordine dei Servi di Maria*.
 
-![chiesa di san tolomeo](/assets/tolomeo-01.jpg)
+![chiesa di san tolomeo](https://res.cloudinary.com/museo-civico-di-nepi/image/upload/v1587373651/tolomeo-01_teayfv.jpg)
 
 La chiesa, infatti, fu retta dai Domenicani sino al 1911 quando fu affidata dal vescovo *Mons. Doebbing* ai **Servi di Maria**.
 

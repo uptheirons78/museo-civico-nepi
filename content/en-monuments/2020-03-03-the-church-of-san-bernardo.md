@@ -7,18 +7,18 @@ description: >-
   ENGLISH Annessa al Monastero di San Bernardo ed originaria del XV Secolo ha ospitato prima la Confraternita della Madonna dell'Immagine e dal 1618 le monache cistercensi di clausura.
 category: monuments
 featured: false
-image: /assets/sanbernardo-01.jpg
+image: https://res.cloudinary.com/museo-civico-di-nepi/image/upload/v1587373630/sanbernardo-01_jflsfs.jpg
 place: Via Garibaldi
 access: 'Chiusa al pubblico'
 gallery:
   - alt: Chiesa di San Bernardo
-    image: /assets/sanbernardo-01.jpg
+    image: https://res.cloudinary.com/museo-civico-di-nepi/image/upload/v1587373630/sanbernardo-01_jflsfs.jpg
   - alt: Chiesa di San Bernardo
-    image: /assets/sanbernardo-02.jpg
+    image: https://res.cloudinary.com/museo-civico-di-nepi/image/upload/v1587373639/sanbernardo-02_mdtghs.jpg
   - alt: Chiesa di San Bernardo
-    image: /assets/sanbernardo-03.jpg
+    image: https://res.cloudinary.com/museo-civico-di-nepi/image/upload/v1587373649/sanbernardo-03_trnvzo.jpg
   - alt: Chiesa di San Bernardo
-    image: /assets/sanbernardo-04.jpg
+    image: https://res.cloudinary.com/museo-civico-di-nepi/image/upload/v1587373639/sanbernardo-04_nrxe6s.jpg
 ---
 ENGLISH La chiesa è **annessa al monastero di San Bernardo** che occupa l’estremità orientale dello sperone tufaceo su cui sorge il centro abitato. Nel **XV secolo** sul luogo doveva sorgere una chiesa dedicata a _San Pancrazio_. Successivamente l’edificio passò ad ospitare la _**Confraternita della Madonna dell’Immagine**_.
 

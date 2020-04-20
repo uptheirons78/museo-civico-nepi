@@ -10,30 +10,30 @@ description: >-
   affreschi.
 category: monuments
 featured: false
-image: /assets/biagio-07.jpg
+image: https://res.cloudinary.com/museo-civico-di-nepi/image/upload/v1587372730/biagio-07_utrogv.jpg
 place: Piazza San Biagio n. 11
 access: 'Aperta su richiesta per visite guidate'
 gallery:
   - alt: Chiesa di San Biagio
-    image: /assets/biagio-01.jpg
+    image: https://res.cloudinary.com/museo-civico-di-nepi/image/upload/v1587372720/biagio-01_rxy6as.jpg
   - alt: Chiesa di San Biagio
-    image: /assets/biagio-02.jpg
+    image: https://res.cloudinary.com/museo-civico-di-nepi/image/upload/v1587372725/biagio-02_km6nej.jpg
   - alt: Chiesa di San Biagio
-    image: /assets/biagio-03.jpg
+    image: https://res.cloudinary.com/museo-civico-di-nepi/image/upload/v1587372734/biagio-03_ebgmmb.jpg
   - alt: Chiesa di San Biagio
-    image: /assets/biagio-04.jpg
+    image: https://res.cloudinary.com/museo-civico-di-nepi/image/upload/v1587372728/biagio-04_sw4cvw.jpg
   - alt: Chiesa di San Biagio
-    image: /assets/biagio-05.jpg
+    image: https://res.cloudinary.com/museo-civico-di-nepi/image/upload/v1587372727/biagio-05_zghxts.jpg
   - alt: Chiesa di San Biagio
-    image: /assets/biagio-06.jpg
+    image: https://res.cloudinary.com/museo-civico-di-nepi/image/upload/v1587372735/biagio-06_wq5a2l.jpg
   - alt: Chiesa di San Biagio
-    image: /assets/biagio-07.jpg
+    image: https://res.cloudinary.com/museo-civico-di-nepi/image/upload/v1587372730/biagio-07_utrogv.jpg
   - alt: Chiesa di San Biagio
-    image: /assets/biagio-08.jpg
+    image: https://res.cloudinary.com/museo-civico-di-nepi/image/upload/v1587372737/biagio-08_u9femm.jpg
   - alt: Chiesa di San Biagio
-    image: /assets/biagio-09.jpg
+    image: https://res.cloudinary.com/museo-civico-di-nepi/image/upload/v1587372736/biagio-09_vrsis9.jpg
   - alt: Chiesa di San Biagio
-    image: /assets/biagio-10.jpg
+    image: https://res.cloudinary.com/museo-civico-di-nepi/image/upload/v1587372736/biagio-10_oj9veo.jpg
 ---
 ENGLISH La chiesa di San Biagio è menzionata per la prima volta in un documento risalente **all’anno 950**, quando l’edificio era parte di un complesso benedettino, occupato da monache di clausura, dipendente dal monastero di San Ciriaco in Via Lata a Roma.
 
@@ -41,7 +41,7 @@ Nel 1560 il monastero nepesino venne abolito e le sue strutture annesse alla par
 
 L’accesso avviene tramite un portale composto da materiale di spoglio, comprendente un coperchio di sarcofago di epoca romana (III secolo d.C.) posto come epistilio e **stipiti di epoca medievale decorati a racemi e palmette**. La chiesa si presenta ad un’**unica aula**. All’interno, le diverse murature lasciano intuire differenti fasi costruttive succedutesi a partire dal X secolo. Un evidente ampliamento dell’edificio si ebbe durante il XII secolo, quando fu realizzato l’attuale presbiterio rialzato sopra la **cripta *ad oratorium***.
 
-![Chiesa di San Biagio](/assets/biagio-05.jpg)
+![Chiesa di San Biagio](https://res.cloudinary.com/museo-civico-di-nepi/image/upload/v1587372727/biagio-05_zghxts.jpg)
 
 L’abside reca **affreschi di epoca diversa**, i più antichi risalenti al XII secolo con due figure di Santi da identificare forse con *San Benedetto* e *San Lorenzo*. Al centro dell’abside le figure di *Sant’Egidio* e quelle dei *Santi Abdon* e *Sennen* da ascrivere ad una fase decorativa successiva, forse contemporanea alla realizzazione del ciborio collocato sul lato sinistro del presbiterio.
 

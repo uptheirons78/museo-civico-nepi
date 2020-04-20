@@ -7,33 +7,34 @@ description: >-
   The "Borgia Castle", the main monument of Nepi, once owned by the important Catalan family is, today, the result of different remakes which testify the historical continuity of our wonderful town.
 category: monuments
 featured: true
-image: /assets/forte-01.jpg
+image: >-
+  https://res.cloudinary.com/museo-civico-di-nepi/image/upload/t_museo/v1587373050/forte-01_j9ujv8.jpg
 place: Via di Porta Romana
 access: "-"
 ticket: "-"
 gallery:
   - alt: forte dei borgia
-    image: /assets/rocca-01.jpg
+    image: https://res.cloudinary.com/museo-civico-di-nepi/image/upload/v1587373628/rocca-01_a772nh.jpg
   - alt: forte dei borgia
-    image: /assets/rocca-02.jpg
+    image: https://res.cloudinary.com/museo-civico-di-nepi/image/upload/v1587373622/rocca-02_ftqebh.jpg
   - alt: forte dei borgia
-    image: /assets/rocca-03.jpg
+    image: https://res.cloudinary.com/museo-civico-di-nepi/image/upload/v1587373618/rocca-03_ycq58n.jpg
   - alt: forte dei borgia
-    image: /assets/rocca-04.jpg
+    image: https://res.cloudinary.com/museo-civico-di-nepi/image/upload/v1587373618/rocca-04_tazb3c.jpg
   - alt: forte dei borgia
-    image: /assets/rocca-05.jpg
+    image: https://res.cloudinary.com/museo-civico-di-nepi/image/upload/v1587373618/rocca-05_i7neqd.jpg
   - alt: forte dei borgia
-    image: /assets/rocca-06.jpg
+    image: https://res.cloudinary.com/museo-civico-di-nepi/image/upload/v1587373616/rocca-06_mlfj40.jpg
   - alt: forte dei borgia
-    image: /assets/rocca-07.jpg
+    image: https://res.cloudinary.com/museo-civico-di-nepi/image/upload/v1587373636/rocca-07_czfmv2.jpg
   - alt: bastioni farnesiani
-    image: /assets/bastioni-01.jpg
+    image: https://res.cloudinary.com/museo-civico-di-nepi/image/upload/v1587372720/bastioni-01_h1dpuc.jpg
   - alt: bastioni farnesiani
-    image: /assets/bastioni-02.jpg
+    image: https://res.cloudinary.com/museo-civico-di-nepi/image/upload/v1587372730/bastioni-02_xjqfsw.jpg
   - alt: bastioni farnesiani
-    image: /assets/bastioni-03.jpg
+    image: https://res.cloudinary.com/museo-civico-di-nepi/image/upload/v1587372723/bastioni-03_ssplwk.jpg
   - alt: bastioni farnesiani
-    image: /assets/bastioni-04.jpg
+    image: https://res.cloudinary.com/museo-civico-di-nepi/image/upload/v1587372721/bastioni-04_mhcrcb.jpg
 ---
 ENGLISH VERSION
 
@@ -43,7 +44,7 @@ Fra i monumenti di Nepi, il **“Forte dei Borgia”** è sicuramente il più si
 
 Il castello nella tradizione popolare ha assunto il nome di **“Forte dei Borgia”** essendo intimamente legato all’importante famiglia di origine catalana. In realtà, quanto oggi visibile è il risultato di **sovrapposizioni** che testimoniano della lunga continuità storica che caratterizza la cittadina di Nepi.
 
-!["il castello dei borgia"](/assets/forte_01.jpg)
+!["il castello dei borgia"](https://res.cloudinary.com/museo-civico-di-nepi/image/upload/t_museo/v1587373050/forte-01_j9ujv8.jpg)
 
 ### Il Nucleo originale
 
@@ -69,9 +70,9 @@ Alcune settimane più tardi, con un breve del 9 ottobre, Alessandro VI  investì
 
 La **signoria di Nepi** fu trasformata in un vasto **ducato** di cui, nel settembre del 1501, Alessandro VI investì il figlioletto Giovanni, affidandone la tutela al cardinale e cugino Francesco Borgia. La morte di Alessandro VI nel 1503 segnò la fine delle ambizioni e della presenza dei Borgia a Nepi.
 
-![il forte dei borgia](/assets/forte_02.jpg)
+![il forte dei borgia](https://res.cloudinary.com/museo-civico-di-nepi/image/upload/t_museo/v1587373049/forte_02_nitvfy.jpg)
 
-### Ascanio Sforza ed i nuovi lavori
+### Bernardo Accolti ed i nuovi lavori
 
 Il successore al pontificato, Giulio II, dispose, infatti, la riconsegna della rocca al cardinale Ascanio Sforza. La documentazione d’archivio testimonia l’affidamento di nuovi lavori all’interno della rocca nell’anno 1513. Fu iniziata la costruzione di un **nuovo edificio destinato a residenza** che andò ad appoggiarsi, anteponendosi, alla precedente struttura di epoca borgiana che raccordava la torre trapezoidale a quella rotonda.
 
@@ -79,13 +80,13 @@ Della struttura oggi rimane ben poco; il crollo della copertura ha determinato i
 
 Grazie al ritrovamento di un largo stemma in pietra, il completamento dell’edificio residenziale può essere collocato all’epoca di **Bernardo Accolti**, detto “l’Unico”. Personaggio eccentrico e famoso poeta, fu governatore di Nepi e proprietario della rocca dal settembre del 1521 all’inizio del 1535.
 
-### Il Ducato di Castro e Nepi e l'arrivo dei Farnese
+### L'arrivo dei Farnese
 
 Paolo III dopo aver tolto Nepi a Bernardo Accolti creò, nel **1537**, il ducato di Castro e Nepi investendone il figlio Pier Luigi. L’arrivo dei Farnese segnò l’inizio di un periodo di **forti cambiamenti nell’assetto urbanistico della cittadina**. I lavori compresero la creazione e l’allargamento di vie e piazze e la costruzione di nuovi edifici. Anche l’interno della rocca fu migliorato, sia nella funzionalità, sia nell’estetica.
 
 A realizzare le opere più importanti fu chiamato l’architetto **Antonio da Sangallo il Giovane** cui si devono il progetto del primitivo Palazzo Comunale e quello della chiesa di San Tolomeo, mai portato a termine.
 
-![il forte dei borgia](/assets/rocca-01.jpg)
+![il forte dei borgia](https://res.cloudinary.com/museo-civico-di-nepi/image/upload/t_museo/v1587373628/rocca-01_a772nh.jpg)
 
 ### I Bastioni Farnesiani
 
@@ -95,7 +96,7 @@ La cinta muraria è costituita da una lunga cortina, diretta a chiudere il lato 
 
 La difesa della cinta muraria cittadina comprendeva **alloggiamenti per i cannoni** nella parte inferiore dei bastioni, **colubrine sugli spalti** e **feritoie per gli archibugi** a difesa delle due nuove porte, Porta Romana e Porta Nica o di Cavaterra.
 
-![I bastioni farnesiani](/assets/bastioni-03.jpg)
+![I bastioni farnesiani](https://res.cloudinary.com/museo-civico-di-nepi/image/upload/t_museo/v1587372723/bastioni-03_ssplwk.jpg)
 
 La prima delle due, sormontata dallo stemma di Paolo III, era la porta più importante della città e permetteva l’ingresso a carri e carrozze. All’occorrenza le due posterule laterali consentivano il transito a piedi o a cavallo senza dover abbassare il ponte levatoio principale.
 

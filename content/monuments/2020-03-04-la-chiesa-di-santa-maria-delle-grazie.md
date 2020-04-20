@@ -7,7 +7,7 @@ description: >-
   La Chiesa di Santa Maria delle Grazie sorge accanto alla Chiesa di San Biagio. Originaria del X Secolo fu edificata nei pressi di un monastero benedettino femminile.
 category: monumenti
 featured: false
-image: /assets/events-01.jpg
+image: https://res.cloudinary.com/museo-civico-di-nepi/image/upload/t_museo/v1587390865/grazie-01_srpevt.jpg
 place: Piazza San Biagio
 access: Aperta durante l'orario delle funzioni religiose
 ---

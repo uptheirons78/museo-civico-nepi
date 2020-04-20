@@ -7,26 +7,26 @@ description: >-
   The Church of Santa Maria Assunta, called "Duomo", stands on the same area of ​​an ancient Roman Forum. It is the result of a series of remakes. The crypt and the high altar, with its decorations, are the most valuable elements along with different frescos.
 category: monuments
 featured: true
-image: /assets/duomo_thumbnail.jpg
+image: https://res.cloudinary.com/museo-civico-di-nepi/image/upload/t_museo/v1587372894/duomo_thumbnail_ktzwop.jpg
 place: Via Luigi Cadorna n. 6
 access: Aperta durante le funzioni religiose
 gallery:
   - alt: duomo abside
-    image: /assets/duomo-abside.jpg
+    image: https://res.cloudinary.com/museo-civico-di-nepi/image/upload/v1587372891/duomo-abside_jsklpu.jpg
   - alt: duomo esterni
-    image: /assets/duomo-esterna.jpg
+    image: https://res.cloudinary.com/museo-civico-di-nepi/image/upload/v1587372890/duomo-esterna_iqzorl.jpg
   - alt: duomo esterni
-    image: /assets/duomo-esterna-02.jpg
+    image: https://res.cloudinary.com/museo-civico-di-nepi/image/upload/v1587372891/duomo-esterna-02_np6aix.jpg
   - alt: duomo la cripta
-    image: /assets/duomo_cripta.jpg
+    image: https://res.cloudinary.com/museo-civico-di-nepi/image/upload/v1587372885/duomo_cripta_iajdvz.jpg
   - alt: duomo la cripta
-    image: /assets/duomo-cripta.jpg
+    image: https://res.cloudinary.com/museo-civico-di-nepi/image/upload/v1587372889/duomo-cripta_mygisl.jpg
   - alt: duomo l'ottobrata
-    image: /assets/duomo_ottobrata.jpg
+    image: https://res.cloudinary.com/museo-civico-di-nepi/image/upload/v1587372891/duomo_ottobrata_tozg0r.jpg
   - alt: duomo la volta
-    image: /assets/duomo_volta.jpg
+    image: https://res.cloudinary.com/museo-civico-di-nepi/image/upload/v1587372894/duomo_volta_rvwhrp.jpg
   - alt: duomo altare
-    image: /assets/duomo-altare.jpg
+    image: https://res.cloudinary.com/museo-civico-di-nepi/image/upload/v1587372885/duomo-altare_hvdzqs.jpg
 ---
 ### Le Origini
 Secondo la tradizione locale il Duomo, intitolato a **Santa Maria Assunta**, fu edificato sopra un tempio pagano. In effetti la chiesa sorge in un’area occupata anticamente dal foro romano.
@@ -37,7 +37,7 @@ Non è possibile stabilire con certezza se questa prima cattedrale sorgesse dove
 
 **La cripta**, di forma rettangolare, è suddivisa in nove piccole navate separate da 24 colonne e presenta 3 absidi sulla parete di fondo. L’elemento di maggior fascino è dato dai capitelli, ognuno di forma diversa dall’altro, ornati con motivi vegetali e con figure umane e mostruose, tipiche del simbolismo dell’arte romanica.
 
-![La Cripta](/assets/duomo_cripta.jpg)
+![La Cripta](https://res.cloudinary.com/museo-civico-di-nepi/image/upload/t_museo/v1587372885/duomo_cripta_iajdvz.jpg)
 
 ### La Struttura
 Una epigrafe murata all’interno della chiesa ricorda, a conclusione dei lavori iniziati intorno alla metà del **XII secolo**, la consacrazione della cattedrale nell’anno 1266 da parte del vescovo Lorenzo.
@@ -55,7 +55,7 @@ L’opera di ricostruzione della chiesa si deve ad **Anselmo Basilici**, vescovo
 
 Sulle pareti del Coro due affreschi mostrano la consacrazione episcopale di San Romano e la sua professione di fede nel momento del martirio. I dipinti furono realizzati da Domenico Torti e Ludovico De Mauro fra il 1868 ed il 1873.
 
-![Affreschi](/assets/duomo_ottobrata.jpg)
+![Affreschi](https://res.cloudinary.com/museo-civico-di-nepi/image/upload/t_museo/v1587372891/duomo_ottobrata_tozg0r.jpg)
 
 Nel 1901 fu **sostituita la pavimentazione** che originariamente doveva essere di tipo cosmatesco, ovvero composta da marmi policromi, come è possibile vedere nel frammento murato sotto il portico.
 
@@ -64,7 +64,7 @@ Fra le opere di maggior pregio conservate all’interno del Duomo vi è la **dec
 
 Altra composizione di notevole interesse è il **trittico del SS. Salvatore** posto nella parte presbiteriale. Nel pannello centrale è raffigurato il Salvatore ed in quelli laterali San Tolomeo, San Romano, l’Angelo Gabriele e la Vergine.
 
-![L'Altare Maggiore](/assets/duomo-altare.jpg "Altare Maggiore")
+![L'Altare Maggiore](https://res.cloudinary.com/museo-civico-di-nepi/image/upload/t_museo/v1587372885/duomo-altare_hvdzqs.jpg "Altare Maggiore")
 
 La tradizione locale attribuisce l’opera al pittore **Giulio Romano**, attribuzione non condivisa dagli studiosi che sembrano concordare, però, per una sua realizzazione intorno alla metà del ‘500.
 

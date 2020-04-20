@@ -7,7 +7,7 @@ description: >-
   Costruita in onore di San Rocco, protettore degli appestati, a seguito di un'epidemia di peste che colpì Nepi nel 1467. E' costituita da un'unica aula con una cappella laterale.
 category: monumenti
 featured: false
-image: /assets/rocco-01.jpg
+image: https://res.cloudinary.com/museo-civico-di-nepi/image/upload/v1587373629/rocco-01_wluvkg.jpg
 place: Vicolo di San Rocco
 access: 'Apertura su richiesta per visite guidate'
 ---
@@ -17,7 +17,7 @@ La chiesa è composta da un’**unica aula**, probabilmente in origine più gran
 
 Il dipinto si compone di un riquadro centrale, occupato dalla figura di _San Rocco_, e da quattro riquadri laterali che illustrano momenti importanti della sua vita.
 
-![Chiesa di San Rocco](/assets/rocco-01.jpg)
+![Chiesa di San Rocco](https://res.cloudinary.com/museo-civico-di-nepi/image/upload/v1587373629/rocco-01_wluvkg.jpg)
 
 Il santo è raffigurato in abito da pellegrino, con cappello, bisaccia e bastone, e la mano sinistra che va ad indicare la piaga sulla coscia scoperta. Inginocchiato di fronte a lui il committente dell’affresco, un notabile, rappresentante la comunità di Nepi.
 

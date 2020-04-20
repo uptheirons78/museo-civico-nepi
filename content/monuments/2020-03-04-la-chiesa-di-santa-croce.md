@@ -7,20 +7,22 @@ description: >-
   Originaria del X Secolo è costruita con una pianta a croce greca e nel XV Secolo fu affiancata da un ospedale affidato alla Confraternita della Disciplina.
 category: monumenti
 featured: false
-image: /assets/croce-02.jpg
+image: https://res.cloudinary.com/museo-civico-di-nepi/image/upload/v1587372816/croce-02_jsco1t.jpg
 place: Piazza Santa Croce
 access: 'Chiusa al pubblico'
 gallery:
   - alt: chiesa di santa croce
-    image: /assets/croce-01.jpg
+    image: /assets/modellismo_01.jpg
   - alt: chiesa di santa croce
-    image: /assets/croce-02.jpg
+    image: https://res.cloudinary.com/museo-civico-di-nepi/image/upload/v1587372819/croce-01_nmlpmt.jpg
   - alt: chiesa di santa croce
-    image: /assets/croce-03.jpg
+    image: https://res.cloudinary.com/museo-civico-di-nepi/image/upload/v1587372816/croce-02_jsco1t.jpg
   - alt: chiesa di santa croce
-    image: /assets/croce-04.jpg
+    image: https://res.cloudinary.com/museo-civico-di-nepi/image/upload/v1587372821/croce-03_clh04r.jpg
   - alt: chiesa di santa croce
-    image: /assets/croce-05.jpg
+    image: https://res.cloudinary.com/museo-civico-di-nepi/image/upload/v1587372823/croce-04_rqyhen.jpg
+  - alt: chiesa di santa croce
+    image: https://res.cloudinary.com/museo-civico-di-nepi/image/upload/v1587372822/croce-05_ptoo7j.jpg
 ---
 La chiesa di Santa Croce è fra le più antiche di Nepi. La struttura originale può, forse, essere fatta risalire al **X secolo**. Di questo primo edificio restano solo delle tracce, visto le modifiche che si sono succedute nel corso del tempo.
 

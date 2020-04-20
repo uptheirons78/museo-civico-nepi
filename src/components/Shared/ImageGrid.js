@@ -9,7 +9,12 @@ const ImageGrid = ({ gallery }) => {
   });
 
   const addLightboxOpen = e => {
-    setLightboxOpen({ ...lightboxOpen, active: true, src: e.target.src });
+    console.log(e.target.dataset.img);
+    setLightboxOpen({
+      ...lightboxOpen,
+      active: true,
+      src: e.target.dataset.img,
+    });
   };
 
   const removeLightboxOpen = () => {
@@ -23,14 +28,34 @@ const ImageGrid = ({ gallery }) => {
       <StyledImageGrid>
         <div className="grid">
           {gallery &&
-            gallery.map((image, i) => (
-              <img
-                src={image.image}
-                key={image.alt + i}
-                alt={image.alt}
-                onClick={addLightboxOpen}
-              />
-            ))}
+            gallery
+              .map(item => {
+                if (
+                  item.image.includes(
+                    "https://res.cloudinary.com/museo-civico-di-nepi/image/upload/"
+                  )
+                ) {
+                  const str = item.image.replace(
+                    "https://res.cloudinary.com/museo-civico-di-nepi/image/upload/",
+                    "https://res.cloudinary.com/museo-civico-di-nepi/image/upload/t_grid/"
+                  );
+                  item.cloudinary = str;
+                } else {
+                  item.cloudinary = item.image;
+                }
+                return item;
+              })
+              .map((image, i) => {
+                return (
+                  <img
+                    data-img={image.image}
+                    src={image.cloudinary}
+                    key={image.alt + i}
+                    alt={image.alt}
+                    onClick={addLightboxOpen}
+                  />
+                );
+              })}
         </div>
       </StyledImageGrid>
       <Lightbox className={LightboxClass} onClick={removeLightboxOpen}>

@@ -9,23 +9,23 @@ description: >-
   grandi mura farnesiane del borgo.
 category: monumenti
 featured: false
-image: /assets/acquedotto-06.jpg
+image: https://res.cloudinary.com/museo-civico-di-nepi/image/upload/v1587371908/acquedotto-06_pyyezf.jpg
 place: Piazzale de La Bottata
 access: '-'
 ticket: Gratuito
 gallery:
   - alt: Acquedotto di Nepi
-    image: /assets/acquedotto-01.jpg
+    image: https://res.cloudinary.com/museo-civico-di-nepi/image/upload/v1587369825/acquedotto-01.jpg
   - alt: Acquedotto di Nepi
-    image: /assets/acquedotto-02.jpg
+    image: https://res.cloudinary.com/museo-civico-di-nepi/image/upload/v1587371907/acquedotto-02_aj5wor.jpg
   - alt: Acquedotto di Nepi
-    image: /assets/acquedotto-03.jpg
+    image: https://res.cloudinary.com/museo-civico-di-nepi/image/upload/v1587371913/acquedotto-03_oi7brd.jpg
   - alt: Acquedotto di Nepi
-    image: /assets/acquedotto-04.jpg
+    image: https://res.cloudinary.com/museo-civico-di-nepi/image/upload/v1587371910/acquedotto-04_syy5zu.jpg
   - alt: Acquedotto di Nepi
-    image: /assets/acquedotto-05.jpg
+    image: https://res.cloudinary.com/museo-civico-di-nepi/image/upload/v1587371906/acquedotto-05_cg8qet.jpg
   - alt: Acquedotto di Nepi
-    image: /assets/acquedotto-06.jpg
+    image: https://res.cloudinary.com/museo-civico-di-nepi/image/upload/v1587371908/acquedotto-06_pyyezf.jpg
 ---
 Entrando a Nepi, appoggiato alle **mura farnesiane**, è possibile notare l’imponente acquedotto che si sviluppa su **due ordini di arcate**. La struttura, seppur possa ricordare gli antichi acquedotti romani, è in realtà il risultato di lavori avviati durante il **XVI secolo** e terminati solo nel **1727**.
 

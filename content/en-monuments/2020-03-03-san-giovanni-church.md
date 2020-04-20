@@ -7,7 +7,7 @@ description: >-
   ENGLISH La Chiesa di San Giovanni consacrata nel 1566 sorge a Nepi nel quartiere La Ripa ed è di proprietà della Venerabile Confraternita di San Giovanni Decollato. E' costruita con un'unica aula con un presbiterio nel fondo rialzato da gradini.
 category: monuments
 featured: false
-image: /assets/giovanni-02.jpg
+image: https://res.cloudinary.com/museo-civico-di-nepi/image/upload/v1587373052/giovanni-02_nmhqgx.jpg
 place: Piazza San Giovanni n. 7
 access: 'Aperta su richiesta per visite guidate'
 ---
@@ -15,7 +15,7 @@ ENGLISH La chiesa è di proprietà della **Venerabile Confraternita di San Giova
 
 L’edificio fu **costruito fra il 1553 e il 1564** e consacrato nel 1566. La facciata, costituita da un timpano sostenuto da quattro lesene, fu risistemata nel 1850 come testimonia la scritta che compare sull’architrave.
 
-![Chiesa di San Giovanni Decollato](/assets/giovanni-01.jpg)
+![Chiesa di San Giovanni Decollato](https://res.cloudinary.com/museo-civico-di-nepi/image/upload/v1587373050/giovanni-01_xvmr51.jpg)
 
 L’interno è costituito da **un’unica aula con in fondo il presbiterio rialzato da due gradini**. La pavimentazione in cotto è quella originale del XVI secolo.
 
@@ -27,7 +27,7 @@ Questo dipinto andò a sostituire un più antico affresco del XVI secolo, descri
 
 Sulla parete laterale sinistra si trova l’altare dedicato a _**San Carlo Borromeo**_ fatto commissionare dalla famiglia Celsi, una ricca famiglia di Nepi che giocò un importante ruolo nella costituzione della Confraternita, all’inizio del XVII secolo. Una tela raffigura il Santo, che aveva ricoperto il ruolo di amministratore apostolico della diocesi di Nepi e Sutri, in abito cardinalizio fra due angeli.
 
-![Chiesa di San Giovanni Decollato](/assets/giovanni-02.jpg)
+![Chiesa di San Giovanni Decollato](https://res.cloudinary.com/museo-civico-di-nepi/image/upload/v1587373052/giovanni-02_nmhqgx.jpg)
 
 Sul lato opposto è collocato l’altro altare ligneo, realizzato anch’esso all’inizio del XVII secolo, sul quale è posta la venerata immagine della _**Madonna di Costantinopoli**_. Il dipinto è contemporaneo all’altare e, come le altre opere della chiesa, rimane di autore sconosciuto.
 

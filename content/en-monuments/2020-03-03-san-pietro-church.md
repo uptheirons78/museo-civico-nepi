@@ -7,7 +7,7 @@ description: >-
   ENGLISH La Chiesa di San Pietro ha origini nel XIII secolo ed ha subito diversi rifacimenti. La nuova struttura figlia dei lavori diretti dal padre agostiniano Giuseppe Casella è stata terminata nel 1778.
 category: monuments
 featured: false
-image: /assets/events-03.jpg
+image: https://res.cloudinary.com/museo-civico-di-nepi/image/upload/v1587390454/pietro-02_bmjcbb.jpg
 place: Via di San Pietro
 access: 'Aperta durante le principali ricorrenze religiose'
 ---
@@ -20,6 +20,8 @@ La chiesa, **in stile barocco**, presenta una caratteristica pianta ellittica, c
 Lateralmente trovano spazio anche due piccole cappelle, una destinata ad ospitare il fonte battesimale e l’altra occupata oggi da un dipinto del XIX secolo raffigurante _**La Pietà**_.
 
 L’edificio, dalle origini sino agli anni venti del ‘900, fu tenuto dai Padri Agostiniani; per questa ragione negli altari laterali trovano posto dipinti che raffigurano santi provenienti dall’**Ordine di Sant’Agostino**, quali: _San Nicola da Tolentino_, ritratto tra gli angeli e le anime del Purgatorio, e _San Tommaso da Villanova_, intento a distribuire l’elemosina ai poveri.
+
+![chiesa di san pietro](https://res.cloudinary.com/museo-civico-di-nepi/image/upload/v1587390455/pietro-01_kzekh9.jpg)
 
 Negli altari più prossimi al presbiterio, a sinistra, sono raffigurati _San Pietro_ assiso su un trono di nubi che si rivolge a _Sant’Antonio Abate_ ed a _Santo Stefano_; mentre a destra è visibile la _Madonna della Consolazione con il Bambino_ e sotto _Santa Monica_ e suo figlio _Sant'Agostino_. Su quest'ultimo altare è posta una statua di _Santa Rita da Cascia_, precedentemente posizionata in una nicchia.
 

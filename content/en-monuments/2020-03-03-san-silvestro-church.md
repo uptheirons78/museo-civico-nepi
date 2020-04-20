@@ -7,7 +7,7 @@ description: >-
   ENGLISH La Chiesa di San Silvestro risalente al XV secolo e costruita per i monaci Benedettini Silvestrini è anche chiamata Chiesa del Carmine dai nepesini. E' costituita da un'unica aula con sei cappelle laterali.
 category: monuments
 featured: false
-image: /assets/carmine-01.jpg
+image: https://res.cloudinary.com/museo-civico-di-nepi/image/upload/v1587372763/carmine-01_zlb9jk.jpg
 place: Via Garibaldi
 access: 'Aperta durante gli orari delle funzioni religiose'
 ---
@@ -15,7 +15,7 @@ ENGLISH La chiesa di San Silvestro risale al **XV secolo**. L’edificio che è 
 
 Fu costruita per i **monaci _Benedettini Silvestrini_** che occupavano il vicino convento ed intitolata a San Silvestro. È chiamata anche _**Chiesa del Carmine**_ perché, prima dei Silvestrini, il convento ospitava monache carmelitane, devote, quindi, alla Madonna del Carmelo la cui statua è tuttora collocata dietro l’altare maggiore.
 
-![The Church of San Silvestro](/assets/carmine-02.jpg)
+![The Church of San Silvestro](https://res.cloudinary.com/museo-civico-di-nepi/image/upload/v1587372763/carmine-02_sypphh.jpg)
 
 La facciata ha subito un ulteriore rifacimento all’inizio del XVIII secolo per opera del **conte _Francesco Cerbelli_**, il cui stemma nobiliare è collocato sopra l’arco d’ingresso.
 
