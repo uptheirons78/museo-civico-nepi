@@ -22,7 +22,6 @@ export const homeQuery = graphql`
     markdownRemark(frontmatter: { templateKey: { eq: "home" } }) {
       frontmatter {
         title
-        heading
         descriptionLeft
         descriptionRight
         enDescriptionLeft

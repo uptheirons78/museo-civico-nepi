@@ -8,6 +8,9 @@ backend:
     uploadMedia: '[skip ci] Upload “{{path}}”'
     deleteMedia: '[skip ci] Delete “{{path}}”'
 
+locale: 'it'
+logo_url: 'https://res.cloudinary.com/museo-civico-di-nepi/image/upload/t_grid/v1587483729/logo-default_qcel0g.jpg'
+
 media_library:
   name: cloudinary
   config:
@@ -15,6 +18,8 @@ media_library:
     api_key: '965794689929337'
 
 public_folder: /assets
+
+
 
 collections:
   # Blog Post Types
@@ -29,16 +34,28 @@ collections:
     fields:
       - {label: "Template Key", name: "templateKey", widget: "hidden", default: "monumenti"}
       - { label: "Titolo", name: "title", widget: "string" }
-      - { label: "Slug", name: "slug", widget: "string" }
-      - { label: "Data di pubblicazione", name: "date", widget: "datetime" }
+      - { label: "Slug", name: "slug", widget: "string", hint: "E' l'indirizzo dell'articolo. Esempio: la-catacomba-di-santa-savinilla" }
+      - {
+          label: "Data di pubblicazione",
+          name: "date",
+          widget: "datetime",
+          dateFormat: "DD.MM.YYYY",
+          timeFormat: "HH:mm"
+        }
       - { label: "Descrizione", name: "description", widget: "string" }
       - { label: "Categoria",
           name: "category",
           widget: "string",
           default: "monumenti"
         }
-      - {label: "In Evidenza", name: "featured", widget: "boolean", default: false}
-      - { label: "Thumbnail",
+      - {
+          label: "In Evidenza",
+          name: "featured",
+          widget: "boolean",
+          default: false,
+          hint: "Stabilisce se un monumento è tra quelli IN EVIDENZA, come il Castello dei Borgia, la Catacomba. Di default è falso, quindi non in evidenza"
+        }
+      - { label: "Thumbnail - Immagine Principale",
           name: "image",
           widget: "image"
         }
@@ -47,7 +64,7 @@ collections:
       - { label: "Info Biglietti", name: "ticket", widget: "string", required: false }
       - { label: "Body", name: "body", widget: "markdown" }
       - {
-          label: "Gallery",
+          label: "Galleria fotografica",
           name: "gallery",
           widget: "list",
           fields:
@@ -67,16 +84,33 @@ collections:
     fields:
       - {label: "Template Key", name: "templateKey", widget: "hidden", default: "monuments"}
       - { label: "Title", name: "title", widget: "string" }
-      - { label: "Slug", name: "slug", widget: "string" }
-      - { label: "Published", name: "date", widget: "datetime" }
+      - {
+          label: "Slug",
+          name: "slug",
+          widget: "string",
+          hint: "E' l'indirizzo dell'articolo. Esempio: santa-savinilla-catacomb"
+        }
+      - {
+          label: "Published",
+          name: "date",
+          widget: "datetime",
+          dateFormat: "DD.MM.YYYY",
+          timeFormat: "HH:mm"
+        }
       - { label: "Description", name: "description", widget: "string" }
       - { label: "Category",
           name: "category",
           widget: "string",
           default: "monumenti"
         }
-      - {label: "Featured", name: "featured", widget: "boolean", default: false}
-      - { label: "Thumbnail",
+      - {
+          label: "Featured",
+          name: "featured",
+          widget: "boolean",
+          default: false,
+          hint: "Stabilisce se un monumento è tra quelli IN EVIDENZA, come il Castello dei Borgia, la Catacomba. Di default è falso, quindi non in evidenza"
+        }
+      - { label: "Thumbnail - Immagine Principale",
           name: "image",
           widget: "image"
         }
@@ -85,7 +119,7 @@ collections:
       - { label: "Tickets", name: "ticket", widget: "string", required: false }
       - { label: "Body", name: "body", widget: "markdown" }
       - {
-          label: "Gallery",
+          label: "Images Gallery",
           name: "gallery",
           widget: "list",
           fields:
@@ -105,18 +139,50 @@ collections:
     fields:
       - {label: "Template Key", name: "templateKey", widget: "hidden", default: "eventi"}
       - { label: "Titolo", name: "title", widget: "string" }
-      - { label: "Slug", name: "slug", widget: "string" }
-      - { label: "Data di pubblicazione", name: "date", widget: "datetime" }
-      - { label: "Data di inizio evento", name: "start", widget: "datetime" }
-      - { label: "Data di fine evento", name: "end", widget: "datetime", required: false }
+      - {
+          label: "Slug",
+          name: "slug",
+          widget: "string",
+          hint: "E' l'indirizzo dell'articolo. ATTENZIONE: se un evento si ripete annualmente, inserire l'anno o la data dell'evento. Esempio: nepimodellismo-mostra-concorso-di-modellismo-statico-febbraio-2020"
+        }
+      - {
+          label: "Data di pubblicazione",
+          name: "date",
+          widget: "datetime",
+          dateFormat: "DD.MM.YYYY",
+          timeFormat: "HH:mm"
+        }
+      - {
+          label: "Data di inizio evento",
+          name: "start",
+          widget: "datetime",
+          dateFormat: "DD.MM.YYYY",
+          timeFormat: "HH:mm"
+        }
+      - {
+          label: "Data di fine evento",
+          name: "end",
+          widget: "datetime",
+          required: false,
+          default: "",
+          dateFormat: "DD.MM.YYYY",
+          timeFormat: "HH:mm"
+        }
       - { label: "Descrizione", name: "description", widget: "string" }
       - { label: "Categoria",
           name: "category",
           widget: "string",
           default: "eventi"
         }
-      - {label: "In Evidenza", name: "featured", widget: "boolean", default: false}
-      - { label: "Thumbnail",
+      - {
+          label: "In Evidenza",
+          name: "featured",
+          widget: "boolean",
+          default: false,
+          hint: "Stabilisce se è l'articolo da mettere in evidenza. Di default è falso. Massimo articoli in evidenza: 1. Quindi: se un articolo viene messo in evidenza, ricordare di togliere l'evidenza al precedente."
+        }
+      - {
+          label: "Thumbnail - Immagine principale",
           name: "image",
           widget: "image"
         }
@@ -125,7 +191,7 @@ collections:
       - { label: "Info Biglietti", name: "ticket", widget: "string" }
       - { label: "Body", name: "body", widget: "markdown" }
       - {
-          label: "Gallery",
+          label: "Galleria Immagini",
           name: "gallery",
           widget: "list",
           fields:
@@ -145,27 +211,58 @@ collections:
     fields:
       - {label: "Template Key", name: "templateKey", widget: "hidden", default: "events"}
       - { label: "Title", name: "title", widget: "string" }
-      - { label: "Slug", name: "slug", widget: "string" }
-      - { label: "Published", name: "date", widget: "datetime" }
-      - { label: "Starting Date", name: "start", widget: "datetime" }
-      - { label: "Ending Date", name: "end", widget: "datetime", required: false }
+      - {
+          label: "Slug",
+          name: "slug",
+          widget: "string",
+          hint: "E' l'indirizzo dell'articolo. ATTENZIONE: se un evento si ripete annualmente, inserire l'anno o la data dell'evento. Esempio: colourful-2020"
+        }
+      - {
+          label: "Published",
+          name: "date",
+          widget: "datetime",
+          dateFormat: "DD.MM.YYYY",
+          timeFormat: "HH:mm"
+        }
+      - {
+          label: "Event Starting day",
+          name: "start",
+          widget: "datetime",
+          dateFormat: "DD.MM.YYYY",
+          timeFormat: "HH:mm"
+        }
+      - {
+          label: "Event Ending Date",
+          name: "end",
+          widget: "datetime",
+          required: false,
+          default: "",
+          dateFormat: "DD.MM.YYYY",
+          timeFormat: "HH:mm"
+        }
       - { label: "Description", name: "description", widget: "string" }
       - { label: "Category",
           name: "category",
           widget: "string",
           default: "eventi"
         }
-      - {label: "Featured", name: "featured", widget: "boolean", default: false}
-      - { label: "Thumbnail",
+      - {
+          label: "Featured",
+          name: "featured",
+          widget: "boolean",
+          default: false,
+          hint: "Stabilisce se è l'articolo da mettere in evidenza. Di default è falso. Massimo articoli in evidenza: 1. Quindi: se un articolo viene messo in evidenza, ricordare di togliere l'evidenza al precedente."
+        }
+      - { label: "Thumbnail - Main Image",
           name: "image",
           widget: "image"
         }
       - { label: "Place", name: "place", widget: "string" }
-      - { label: "Opening", name: "access", widget: "string" }
+      - { label: "Openings", name: "access", widget: "string" }
       - { label: "Tickets", name: "ticket", widget: "string" }
       - { label: "Body", name: "body", widget: "markdown" }
       - {
-          label: "Gallery",
+          label: "Images Gallery",
           name: "gallery",
           widget: "list",
           fields:
@@ -177,53 +274,21 @@ collections:
   # Pages
   - name: "pages"
     label: "Pages"
+    editor:
+      preview: false
     files:
-      # Home Page
+      # Home
       - file: "content/pages/home/index.md"
         label: "Home"
         name: "home"
         fields:
           - {label: "Template Key", name: "templateKey", widget: "hidden", default: "home"}
           - {label: Titolo, name: title, widget: string}
-          - {label: Heading, name: heading, widget: string}
-          - {label: 'Descrizione Lato Sinistro', name: descriptionLeft, widget: string}
-          - {label: 'Descrizione Lato Destro', name: descriptionRight, widget: string}
-          - {label: 'Inglese - Descrizione Lato Sinistro', name: enDescriptionLeft, widget: string}
-          - {label: 'Inglese - Descrizione Lato Destro', name: enDescriptionRight, widget: string}
-      # Museum Page
-      - file: "content/pages/museum/index.md"
-        label: "Museo"
-        name: "museum"
-        fields:
-          - {label: "Template Key", name: "templateKey", widget: "hidden", default: "museum"}
-          - {label: Titolo, name: title, widget: string}
-          - {
-              label: "Italiano",
-              name: "it",
-              widget: "object",
-              fields:
-                [
-                  {label: "Titolo", name: "title", widget: "string"},
-                  {label: "Descrizione", name: "description", widget: "string"},
-                  {label: "Text A", name: "textA", widget: "string"},
-                  {label: "Text B", name: "textB", widget: "string"},
-                  {label: "Text C", name: "textC", widget: "string"},
-                ],
-            }
-          - {
-              label: "English",
-              name: "en",
-              widget: "object",
-              fields:
-                [
-                  {label: "Title", name: "title", widget: "string"},
-                  {label: "Description", name: "description", widget: "string"},
-                  {label: "Text A", name: "textA", widget: "string"},
-                  {label: "Text B", name: "textB", widget: "string"},
-                  {label: "Text C", name: "textC", widget: "string"},
-                ],
-            }
-      # Mission Page
+          - {label: 'Sezione: Nepi e dintorni - Lato Sinistro', name: descriptionLeft, widget: string}
+          - {label: 'Sezione: Nepi e dintorni - Lato Destro', name: descriptionRight, widget: string}
+          - {label: 'Sezione: Nepi e dintorni - Lato Sinistro (Inglese)', name: enDescriptionLeft, widget: string}
+          - {label: 'Sezione: Nepi e dintorni - Lato Destro (Inglese)', name: enDescriptionRight, widget: string}
+      # Mission
       - file: "content/pages/mission/index.md"
         label: "Mission"
         name: "mission"
@@ -237,8 +302,8 @@ collections:
                 [
                   {label: "Titolo Pagina", name: "pageTitle", widget: "string"},
                   {label: "Descrizione Pagina", name: "pageDescription", widget: "string"},
-                  {label: "Blocco di testo 1", name: "descriptionA", widget: "string"},
-                  {label: "Blocco di testo 2", name: "descriptionB", widget: "string"},
+                  {label: "Testo: SCOPI E FINALITA'", name: "descriptionA", widget: "string"},
+                  {label: "Testo: VALORIZZAZIONE E PROMOZIONE", name: "descriptionB", widget: "string"},
                 ],
             }
           - {
@@ -247,13 +312,13 @@ collections:
               widget: "object",
               fields:
                 [
-                  {label: "Page Title", name: "pageTitle", widget: "string"},
-                  {label: "Page Description", name: "pageDescription", widget: "string"},
-                  {label: "Text Block 1", name: "descriptionA", widget: "string"},
-                  {label: "Text Block 2", name: "descriptionB", widget: "string"},
+                  {label: "Titolo Pagina", name: "pageTitle", widget: "string"},
+                  {label: "Descrizione Pagina", name: "pageDescription", widget: "string"},
+                  {label: "Testo: SCOPI E FINALITA'", name: "descriptionA", widget: "string"},
+                  {label: "Testo: VALORIZZAZIONE E PROMOZIONE", name: "descriptionB", widget: "string"},
                 ],
             }
-      # History Page
+      # Storia
       - file: "content/pages/history/index.md"
         label: "Storia"
         name: "history"
@@ -267,9 +332,9 @@ collections:
                 [
                   {label: "Titolo Pagina", name: "title", widget: "string"},
                   {label: "Descrizione Pagina", name: "description", widget: "string"},
-                  {label: "Blocco di testo 1", name: "textA", widget: "string"},
-                  {label: "Blocco di testo 2", name: "textB", widget: "string"},
-                  {label: "Blocco di testo 3", name: "textC", widget: "string"},
+                  {label: "Testo: Anni 80", name: "textA", widget: "string"},
+                  {label: "Testo: Anni 90", name: "textB", widget: "string"},
+                  {label: "Testo: Oggi", name: "textC", widget: "string"},
                 ],
             }
           - {
@@ -278,17 +343,165 @@ collections:
               widget: "object",
               fields:
                 [
-                  {label: "Page Title", name: "title", widget: "string"},
-                  {label: "Page Description", name: "description", widget: "string"},
-                  {label: "Text Block 1", name: "textA", widget: "string"},
-                  {label: "Text Block 2", name: "textB", widget: "string"},
-                  {label: "Text Block 3", name: "textC", widget: "string"},
+                  {label: "Titolo Pagina", name: "title", widget: "string"},
+                  {label: "Descrizione Pagina", name: "description", widget: "string"},
+                  {label: "Testo: Anni 80", name: "textA", widget: "string"},
+                  {label: "Testo: Anni 90", name: "textB", widget: "string"},
+                  {label: "Testo: Oggi", name: "textC", widget: "string"},
                 ],
             }
-      # Collections Page
+      # Pubblicazioni
+      - file: "content/pages/pubblicazioni/index.md"
+        label: "Pubblicazioni"
+        name: "pubblicazioni"
+        fields:
+          - {label: "Template Key", name: "templateKey", widget: "hidden", default: "pubblicazioni"}
+          - {
+              label: "Italiano",
+              name: "it",
+              widget: "object",
+              fields:
+                [
+                  {label: "Titolo Pagina", name: "title", widget: "string"},
+                  {label: "Descrizione Pagina", name: "description", widget: "string"},
+                  {label: "Titolo Prima Sezione (Quaderni del Museo Civico di Nepi)", name: "subtitleOne", widget: "string"},
+                  {label: "Titolo Seconda Sezione (Altre Pubblicazioni)", name: "subtitleTwo", widget: "string"},
+                  {
+                    label: "Quaderni",
+                    name: "quaderni",
+                    widget: "list",
+                    fields:
+                      [
+                        {label: "Breve descrizione immagine", name: "alt", widget: "string"},
+                        { label: "Foto Quaderno", name: "image", widget: "image" },
+                        { label: "Titolo Quaderno", name: "title", widget: "string" },
+                        { label: "Sottotitolo Quaderno", name: "subtitle", widget: "string", required: false },
+                        { label: "Nome Pubblicazione", name: "pubblication", widget: "string", required: false },
+                        { label: "A cura di ...", name: "researcher", widget: "string", required: false },
+                        { label: "Editore", name: "editor", widget: "string", required: false },
+                      ],
+                  },
+                  {
+                    label: "Altra tipologia di pubblicazioni",
+                    name: "other",
+                    widget: "list",
+                    fields:
+                      [
+                        {label: "Breve descrizione immagine", name: "alt", widget: "string"},
+                        { label: "Foto Quaderno", name: "image", widget: "image" },
+                        { label: "Titolo Quaderno", name: "title", widget: "string" },
+                        { label: "Sottotitolo Quaderno", name: "subtitle", widget: "string", required: false },
+                        { label: "Nome Pubblicazione", name: "pubblication", widget: "string", required: false },
+                        { label: "A cura di ...", name: "researcher", widget: "string", required: false },
+                        { label: "Editore", name: "editor", widget: "string", required: false },
+                      ],
+                  },
+                ],
+            }
+          - {
+              label: "English",
+              name: "en",
+              widget: "object",
+              fields:
+                [
+                  {label: "Titolo Pagina", name: "title", widget: "string"},
+                  {label: "Descrizione Pagina", name: "description", widget: "string"},
+                  {label: "Titolo Prima Sezione (Quaderni del Museo Civico di Nepi)", name: "subtitleOne", widget: "string"},
+                  {label: "Titolo Seconda Sezione (Altre Pubblicazioni)", name: "subtitleTwo", widget: "string"},
+                  {
+                    label: "Quaderni",
+                    name: "quaderni",
+                    widget: "list",
+                    fields:
+                      [
+                        {label: "Breve descrizione immagine", name: "alt", widget: "string"},
+                        { label: "Foto Quaderno", name: "image", widget: "image" },
+                        { label: "Titolo Quaderno", name: "title", widget: "string" },
+                        { label: "Sottotitolo Quaderno", name: "subtitle", widget: "string", required: false },
+                        { label: "Nome Pubblicazione", name: "pubblication", widget: "string", required: false },
+                        { label: "A cura di ...", name: "researcher", widget: "string", required: false },
+                        { label: "Editore", name: "editor", widget: "string", required: false },
+                      ],
+                  },
+                  {
+                    label: "Altra tipologia di pubblicazioni",
+                    name: "other",
+                    widget: "list",
+                    fields:
+                      [
+                        {label: "Breve descrizione immagine", name: "alt", widget: "string"},
+                        { label: "Foto Quaderno", name: "image", widget: "image" },
+                        { label: "Titolo Quaderno", name: "title", widget: "string" },
+                        { label: "Sottotitolo Quaderno", name: "subtitle", widget: "string", required: false },
+                        { label: "Nome Pubblicazione", name: "pubblication", widget: "string", required: false },
+                        { label: "A cura di ...", name: "researcher", widget: "string", required: false },
+                        { label: "Editore", name: "editor", widget: "string", required: false },
+                      ],
+                  },
+                ],
+            }
+      # Attività Scientifiche
+      - file: "content/pages/scientifica/index.md"
+        label: "Attività Scientifica"
+        name: "scientifica"
+        fields:
+          - {label: "Template Key", name: "templateKey", widget: "hidden", default: "scientifica"}
+          - {
+              label: "Italiano",
+              name: "it",
+              widget: "object",
+              fields:
+                [
+                  {label: "Titolo Pagina", name: "title", widget: "string"},
+                  {label: "Descrizione Pagina", name: "description", widget: "string"},
+                  {label: "Titolo Prima Sezione (VALORIZZAZIONE)", name: "titleA", widget: "string"},
+                  {label: "Testo: VALORIZZAZIONE", name: "descriptionA", widget: "string"},
+                  {label: "Titolo Seconda Sezione (FORMAZIONE)", name: "titleB", widget: "string"},
+                  {label: "Testo: FORMAZIONE", name: "descriptionB", widget: "string"},
+                  {label: "Titolo Terza Sezione (RICERCA)", name: "titleC", widget: "string"},
+                  {label: "Testo: RICERCA", name: "descriptionC", widget: "string"},
+                  {
+                    label: "Galleria fotografica",
+                    name: "gallery",
+                    widget: "list",
+                    fields:
+                      [
+                        { label: "Foto", name: "image", widget: "image" },
+                        { label: "Descrizione Foto", name: "alt", widget: "string" },
+                      ],
+                  }
+                ],
+            }
+          - {
+              label: "English",
+              name: "en",
+              widget: "object",
+              fields:
+                [
+                  {label: "Titolo Pagina", name: "title", widget: "string"},
+                  {label: "Descrizione Pagina", name: "description", widget: "string"},
+                  {label: "Titolo Prima Sezione (VALORIZZAZIONE)", name: "titleA", widget: "string"},
+                  {label: "Testo: VALORIZZAZIONE", name: "descriptionA", widget: "string"},
+                  {label: "Titolo Seconda Sezione (FORMAZIONE)", name: "titleB", widget: "string"},
+                  {label: "Testo: FORMAZIONE", name: "descriptionB", widget: "string"},
+                  {label: "Titolo Terza Sezione (RICERCA)", name: "titleC", widget: "string"},
+                  {label: "Testo: RICERCA", name: "descriptionC", widget: "string"},
+                  {
+                    label: "Galleria fotografica",
+                    name: "gallery",
+                    widget: "list",
+                    fields:
+                      [
+                        { label: "Foto", name: "image", widget: "image" },
+                        { label: "Descrizione Foto", name: "alt", widget: "string" },
+                      ],
+                  }
+                ],
+            }
+      # Percorso Espositivo
       - file: "content/pages/collezioni/index.md"
-        label: "Collezioni"
-        name: "collezioni"
+        label: "Percorso Espositivo"
+        name: "collections"
         fields:
           - {label: "Template Key", name: "templateKey", widget: "hidden", default: "collections"}
           - {
@@ -299,12 +512,12 @@ collections:
                 [
                   {label: "Titolo Pagina", name: "pageTitle", widget: "string"},
                   {label: "Descrizione Pagina", name: "pageDescription", widget: "string"},
-                  {label: "Titolo Blocco 1", name: "sectionATitle", widget: "string"},
-                  {label: "Blocco di testo 1", name: "sectionA", widget: "string"},
-                  {label: "Titolo Blocco 2", name: "sectionBTitle", widget: "string"},
-                  {label: "Blocco di testo 2", name: "sectionB", widget: "string"},
-                  {label: "Titolo Blocco 3", name: "sectionCTitle", widget: "string"},
-                  {label: "Blocco di testo 3", name: "sectionC", widget: "string"},
+                  {label: "Titolo Prima Sezione (Protostorica Romana)", name: "sectionATitle", widget: "string"},
+                  {label: "Testo: Sezione Protostorica Romana", name: "sectionA", widget: "string"},
+                  {label: "Titolo Seconda Sezione (Romana)", name: "sectionBTitle", widget: "string"},
+                  {label: "Testo: Sezione Romana", name: "sectionB", widget: "string"},
+                  {label: "Titolo Terza Sezione (Medievale Rinascimentale)", name: "sectionCTitle", widget: "string"},
+                  {label: "Testo: Sezione Medievale Rinascimentale", name: "sectionC", widget: "string"},
                 ],
             }
           - {
@@ -313,17 +526,17 @@ collections:
               widget: "object",
               fields:
                 [
-                  {label: "Page Title", name: "pageTitle", widget: "string"},
-                  {label: "Page Description", name: "pageDescription", widget: "string"},
-                  {label: "Block 1 Title", name: "sectionATitle", widget: "string"},
-                  {label: "Block 1 Text", name: "sectionA", widget: "string"},
-                  {label: "Block 2 Title", name: "sectionBTitle", widget: "string"},
-                  {label: "Block 2 Text", name: "sectionB", widget: "string"},
-                  {label: "Block 3 Title", name: "sectionCTitle", widget: "string"},
-                  {label: "Block 3 Text", name: "sectionC", widget: "string"},
+                  {label: "Titolo Pagina", name: "pageTitle", widget: "string"},
+                  {label: "Descrizione Pagina", name: "pageDescription", widget: "string"},
+                  {label: "Titolo Prima Sezione (Protostorica Romana)", name: "sectionATitle", widget: "string"},
+                  {label: "Testo: Sezione Protostorica Romana", name: "sectionA", widget: "string"},
+                  {label: "Titolo Seconda Sezione (Romana)", name: "sectionBTitle", widget: "string"},
+                  {label: "Testo: Sezione Romana", name: "sectionB", widget: "string"},
+                  {label: "Titolo Terza Sezione (Medievale Rinascimentale)", name: "sectionCTitle", widget: "string"},
+                  {label: "Testo: Sezione Medievale Rinascimentale", name: "sectionC", widget: "string"},
                 ],
             }
-      # Works Page
+      # Opere
       - file: "content/pages/works/index.md"
         label: "Opere"
         name: "works"
@@ -337,12 +550,12 @@ collections:
                 [
                   {label: "Titolo Pagina", name: "pageTitle", widget: "string"},
                   {label: "Descrizione Pagina", name: "pageDescription", widget: "string"},
-                  {label: "Titolo Blocco 1", name: "sectionATitle", widget: "string"},
-                  {label: "Blocco di testo 1", name: "sectionA", widget: "string"},
-                  {label: "Titolo Blocco 2", name: "sectionBTitle", widget: "string"},
-                  {label: "Blocco di testo 2", name: "sectionB", widget: "string"},
-                  {label: "Titolo Blocco 3", name: "sectionCTitle", widget: "string"},
-                  {label: "Blocco di testo 3", name: "sectionC", widget: "string"},
+                  {label: "Titolo Prima Sezione (Infusore Bronzeo)", name: "sectionATitle", widget: "string"},
+                  {label: "Testo: Infusore Bronzeo", name: "sectionA", widget: "string"},
+                  {label: "Titolo Seconda Sezione (Testa di Ottaviano Augusto)", name: "sectionBTitle", widget: "string"},
+                  {label: "Testo: Testa di Ottaviano Augusto", name: "sectionB", widget: "string"},
+                  {label: "Titolo Terza Sezione (Stemma di Lucrezia Borgia)", name: "sectionCTitle", widget: "string"},
+                  {label: "Testo: Stemma di Lucrezia Borgia", name: "sectionC", widget: "string"},
                 ],
             }
           - {
@@ -351,17 +564,69 @@ collections:
               widget: "object",
               fields:
                 [
-                  {label: "Page Title", name: "pageTitle", widget: "string"},
-                  {label: "Page Description", name: "pageDescription", widget: "string"},
-                  {label: "Block 1 Title", name: "sectionATitle", widget: "string"},
-                  {label: "Block 1 Text", name: "sectionA", widget: "string"},
-                  {label: "Block 2 Title", name: "sectionBTitle", widget: "string"},
-                  {label: "Block 2 Text", name: "sectionB", widget: "string"},
-                  {label: "Block 3 Title", name: "sectionCTitle", widget: "string"},
-                  {label: "Block 3 Text", name: "sectionC", widget: "string"},
+                  {label: "Titolo Pagina", name: "pageTitle", widget: "string"},
+                  {label: "Descrizione Pagina", name: "pageDescription", widget: "string"},
+                  {label: "Titolo Prima Sezione (Infusore Bronzeo)", name: "sectionATitle", widget: "string"},
+                  {label: "Testo: Infusore Bronzeo", name: "sectionA", widget: "string"},
+                  {label: "Titolo Seconda Sezione (Testa di Ottaviano Augusto)", name: "sectionBTitle", widget: "string"},
+                  {label: "Testo: Testa di Ottaviano Augusto", name: "sectionB", widget: "string"},
+                  {label: "Titolo Terza Sezione (Stemma di Lucrezia Borgia)", name: "sectionCTitle", widget: "string"},
+                  {label: "Testo: Stemma di Lucrezia Borgia", name: "sectionC", widget: "string"},
                 ],
             }
-      # Didattica Page
+      # Visite Guidate
+      - file: "content/pages/services/index.md"
+        label: "Visite Guidate"
+        name: "services"
+        fields:
+          - {label: "Template Key", name: "templateKey", widget: "hidden", default: "services"}
+          - {
+              label: "Italiano",
+              name: "it",
+              widget: "object",
+              fields:
+                [
+                  {label: "Titolo Pagina", name: "title", widget: "string"},
+                  {label: "Descrizione Pagina", name: "description", widget: "string"},
+                  {label: "Titolo Prima Sezione (Visite Guidate al Museo)", name: "visiteInterneTitle", widget: "string"},
+                  {label: "Testo: Visite Guidate al Museo", name: "visiteInterneDescription", widget: "string"},
+                  {label: "Titolo Seconda Sezione (Visite Guidate Esterne)", name: "visiteEsterneTitle", widget: "string"},
+                  {
+                    label: "Elenco Visite Esterne",
+                    name: "visiteEsterne",
+                    widget: "list",
+                    fields:
+                      [
+                        { label: "Titolo", name: "title", widget: "string" },
+                        { label: "Descrizione", name: "description", widget: "string" },
+                      ],
+                  }
+                ],
+            }
+          - {
+              label: "English",
+              name: "en",
+              widget: "object",
+              fields:
+                [
+                  {label: "Titolo Pagina", name: "title", widget: "string"},
+                  {label: "Descrizione Pagina", name: "description", widget: "string"},
+                  {label: "Titolo Prima Sezione (Visite Guidate al Museo)", name: "visiteInterneTitle", widget: "string"},
+                  {label: "Testo: Visite Guidate al Museo", name: "visiteInterneDescription", widget: "string"},
+                  {label: "Titolo Seconda Sezione (Visite Guidate Esterne)", name: "visiteEsterneTitle", widget: "string"},
+                  {
+                    label: "Elenco Visite Esterne",
+                    name: "visiteEsterne",
+                    widget: "list",
+                    fields:
+                      [
+                        { label: "Titolo", name: "title", widget: "string" },
+                        { label: "Descrizione", name: "description", widget: "string" },
+                      ],
+                  }
+                ],
+            }
+      # Didattica
       - file: "content/pages/didattica/index.md"
         label: "Attività Didattiche"
         name: "didattica"
@@ -375,12 +640,12 @@ collections:
                 [
                   {label: "Titolo Pagina", name: "title", widget: "string"},
                   {label: "Descrizione Pagina", name: "description", widget: "string"},
-                  {label: "Titolo Blocco 1", name: "textATitle", widget: "string"},
-                  {label: "Blocco di testo 1", name: "textA", widget: "string"},
-                  {label: "Titolo Blocco 2", name: "textBTitle", widget: "string"},
-                  {label: "Blocco di testo 2", name: "textB", widget: "string"},
-                  {label: "Titolo Blocco 3", name: "infoTitle", widget: "string"},
-                  {label: "Blocco di testo 3", name: "info", widget: "string"},
+                  {label: "Titolo Sezione Prima (Impariamo a conoscere il nostro patrimonio)", name: "textATitle", widget: "string"},
+                  {label: "Testo: Impariamo a conoscere il nostro patrimonio", name: "textA", widget: "string"},
+                  {label: "Titolo Sezione Seconda (Osservazione, confronto e sperimentazione)", name: "textBTitle", widget: "string"},
+                  {label: "Testo: Osservazione, confronto e sperimentazione", name: "textB", widget: "string"},
+                  {label: "Titolo Sezione Terza (Informazioni)", name: "infoTitle", widget: "string"},
+                  {label: "Testo: Informazioni", name: "info", widget: "string"},
                 ],
             }
           - {
@@ -389,19 +654,75 @@ collections:
               widget: "object",
               fields:
                 [
-                  {label: "Page Title", name: "title", widget: "string"},
-                  {label: "Page Description", name: "description", widget: "string"},
-                  {label: "Block 1 Title", name: "textATitle", widget: "string"},
-                  {label: "Block 1 Text", name: "textA", widget: "string"},
-                  {label: "Block 2 Title", name: "textBTitle", widget: "string"},
-                  {label: "Block 2 Text", name: "textB", widget: "string"},
-                  {label: "Block 3 Title", name: "infoTitle", widget: "string"},
-                  {label: "Block 3 Text", name: "info", widget: "string"},
+                  {label: "Titolo Pagina", name: "title", widget: "string"},
+                  {label: "Descrizione Pagina", name: "description", widget: "string"},
+                  {label: "Titolo Sezione Prima (Impariamo a conoscere il nostro patrimonio)", name: "textATitle", widget: "string"},
+                  {label: "Testo: Impariamo a conoscere il nostro patrimonio", name: "textA", widget: "string"},
+                  {label: "Titolo Sezione Seconda (Osservazione, confronto e sperimentazione)", name: "textBTitle", widget: "string"},
+                  {label: "Testo: Osservazione, confronto e sperimentazione", name: "textB", widget: "string"},
+                  {label: "Titolo Sezione Terza (Informazioni)", name: "infoTitle", widget: "string"},
+                  {label: "Testo: Informazioni", name: "info", widget: "string"},
                 ],
             }
-      # Informations and Tickets Page
+      # Bookshop
+      - file: "content/pages/bookshop/index.md"
+        label: "Bookshop"
+        name: "bookshop"
+        fields:
+          - {label: "Template Key", name: "templateKey", widget: "hidden", default: "bookshop"}
+          - {
+              label: "Italiano",
+              name: "it",
+              widget: "object",
+              fields:
+                [
+                  {label: "Titolo Pagina", name: "title", widget: "string"},
+                  {label: "Descrizione Pagina", name: "description", widget: "string"},
+                  {
+                    label: "Gadgets",
+                    name: "gadgets",
+                    widget: "list",
+                    fields:
+                      [
+                        {label: "Breve descrizione immagine", name: "alt", widget: "string"},
+                        { label: "Foto Gadget", name: "image", widget: "image" },
+                        { label: "Titolo Gadget", name: "title", widget: "string" },
+                        { label: "Sottotitolo Gadget", name: "subtitle", widget: "string", required: false },
+                        { label: "Nome Pubblicazione (se libro)", name: "pubblication", widget: "string", required: false },
+                        { label: "A cura di ... (se libro)", name: "researcher", widget: "string", required: false },
+                        { label: "Editore (se libro)", name: "editor", widget: "string", required: false },
+                      ],
+                  },
+                ],
+            }
+          - {
+              label: "English",
+              name: "en",
+              widget: "object",
+              fields:
+                [
+                  {label: "Titolo Pagina", name: "title", widget: "string"},
+                  {label: "Descrizione Pagina", name: "description", widget: "string"},
+                  {
+                    label: "Gadgets",
+                    name: "gadgets",
+                    widget: "list",
+                    fields:
+                      [
+                        {label: "Breve descrizione immagine", name: "alt", widget: "string"},
+                        { label: "Foto Gadget", name: "image", widget: "image" },
+                        { label: "Titolo Gadget", name: "title", widget: "string" },
+                        { label: "Sottotitolo Gadget", name: "subtitle", widget: "string", required: false },
+                        { label: "Nome Pubblicazione (se libro)", name: "pubblication", widget: "string", required: false },
+                        { label: "A cura di ... (se libro)", name: "researcher", widget: "string", required: false },
+                        { label: "Editore (se libro)", name: "editor", widget: "string", required: false },
+                      ],
+                  },
+                ],
+            }
+      # Info e biglietti
       - file: "content/pages/info/index.md"
-        label: "Informazioni e Biglietti"
+        label: "Info e Biglietti"
         name: "info"
         fields:
           - {label: "Template Key", name: "templateKey", widget: "hidden", default: "info"}
@@ -413,7 +734,7 @@ collections:
                 [
                   {label: "Titolo Pagina", name: "pageTitle", widget: "string"},
                   {label: "Descrizione Pagina", name: "pageDescription", widget: "string"},
-                  {label: "Titolo Blocco 1", name: "sectionATitle", widget: "string"},
+                  {label: "Titolo Prima Sezione (Orari di Apertura)", name: "sectionATitle", widget: "string"},
                   {label: "Apertura Invernale", name: "winterOpening", widget: "string"},
                   {label: "Giorni Feriali Invernali", name: "winterTueFri", widget: "string"},
                   {label: "Giorni Festivi Invernali", name: "winterSatSun", widget: "string"},
@@ -422,10 +743,10 @@ collections:
                   {label: "Giorni Feriali Estivi", name: "summerTueFri", widget: "string"},
                   {label: "Giorni Festivi Estivi", name: "summerSatSun", widget: "string"},
                   {label: "Chiusura Estiva", name: "summerClosing", widget: "string"},
-                  {label: "Titolo Blocco 2", name: "sectionBTitle", widget: "string"},
+                  {label: "Titolo Seconda Sezione (Chiuso)", name: "sectionBTitle", widget: "string"},
                   {label: "Sempre Chiuso 1", name: "close1", widget: "string"},
                   {label: "Sempre Chiuso 2", name: "close2", widget: "string"},
-                  {label: "Titolo Blocco 3", name: "sectionCTitle", widget: "string"},
+                  {label: "Titolo Terza Sezione (Tariffe)", name: "sectionCTitle", widget: "string"},
                   {label: "Prezzo", name: "entrance", widget: "string"},
                 ],
             }
@@ -435,25 +756,25 @@ collections:
               widget: "object",
               fields:
                 [
-                  {label: "Page Title", name: "pageTitle", widget: "string"},
-                  {label: "Page Description", name: "pageDescription", widget: "string"},
-                  {label: "Block 1 Title", name: "sectionATitle", widget: "string"},
-                  {label: "Winter Openings", name: "winterOpening", widget: "string"},
-                  {label: "Winter Working Days Openings", name: "winterTueFri", widget: "string"},
-                  {label: "Winter Bank Holidays Openings", name: "winterSatSun", widget: "string"},
-                  {label: "Winter Closing Day", name: "winterClosing", widget: "string"},
-                  {label: "Summer Openings", name: "summerOpening", widget: "string"},
-                  {label: "Summer Working Days Openings", name: "summerTueFri", widget: "string"},
-                  {label: "Summerc Bank Holidays Openings", name: "summerSatSun", widget: "string"},
-                  {label: "Summer Closing", name: "summerClosing", widget: "string"},
-                  {label: "Block 2 Title", name: "sectionBTitle", widget: "string"},
-                  {label: "Yearly Closing Days 1", name: "close1", widget: "string"},
-                  {label: "Yearly Closing Days 2", name: "close2", widget: "string"},
-                  {label: "Block 3 Title", name: "sectionCTitle", widget: "string"},
-                  {label: "Prices", name: "entrance", widget: "string"},
+                  {label: "Titolo Pagina", name: "pageTitle", widget: "string"},
+                  {label: "Descrizione Pagina", name: "pageDescription", widget: "string"},
+                  {label: "Titolo Prima Sezione (Orari di Apertura)", name: "sectionATitle", widget: "string"},
+                  {label: "Apertura Invernale", name: "winterOpening", widget: "string"},
+                  {label: "Giorni Feriali Invernali", name: "winterTueFri", widget: "string"},
+                  {label: "Giorni Festivi Invernali", name: "winterSatSun", widget: "string"},
+                  {label: "Chiusura Invernale", name: "winterClosing", widget: "string"},
+                  {label: "Apertura Estiva", name: "summerOpening", widget: "string"},
+                  {label: "Giorni Feriali Estivi", name: "summerTueFri", widget: "string"},
+                  {label: "Giorni Festivi Estivi", name: "summerSatSun", widget: "string"},
+                  {label: "Chiusura Estiva", name: "summerClosing", widget: "string"},
+                  {label: "Titolo Seconda Sezione (Chiuso)", name: "sectionBTitle", widget: "string"},
+                  {label: "Sempre Chiuso 1", name: "close1", widget: "string"},
+                  {label: "Sempre Chiuso 2", name: "close2", widget: "string"},
+                  {label: "Titolo Terza Sezione (Tariffe)", name: "sectionCTitle", widget: "string"},
+                  {label: "Prezzo", name: "entrance", widget: "string"},
                 ],
             }
-      # Contact Page
+      # Contact
       - file: "content/pages/contact/index.md"
         label: "Contatti"
         name: "contact"
@@ -467,8 +788,8 @@ collections:
                 [
                   {label: "Titolo Pagina", name: "pageTitle", widget: "string"},
                   {label: "Descrizione Pagina", name: "pageDescription", widget: "string"},
-                  {label: "Titolo", name: "title", widget: "string"},
-                  {label: "Descrizione", name: "description", widget: "string"},
+                  {label: "Titolo (Informazioni Utili)", name: "title", widget: "string"},
+                  {label: "Descrizione (Come arrivare)", name: "description", widget: "string"},
                   {label: "Indirizzo", name: "address", widget: "string"},
                   {label: "Città", name: "city", widget: "string"},
                   {label: "Cap", name: "cap", widget: "string"},
@@ -482,14 +803,64 @@ collections:
               widget: "object",
               fields:
                 [
-                  {label: "Page Title", name: "pageTitle", widget: "string"},
-                  {label: "Page Description", name: "pageDescription", widget: "string"},
-                  {label: "Title", name: "title", widget: "string"},
-                  {label: "Description", name: "description", widget: "string"},
-                  {label: "Address", name: "address", widget: "string"},
-                  {label: "City", name: "city", widget: "string"},
+                  {label: "Titolo Pagina", name: "pageTitle", widget: "string"},
+                  {label: "Descrizione Pagina", name: "pageDescription", widget: "string"},
+                  {label: "Titolo (Informazioni Utili)", name: "title", widget: "string"},
+                  {label: "Descrizione (Come arrivare)", name: "description", widget: "string"},
+                  {label: "Indirizzo", name: "address", widget: "string"},
+                  {label: "Città", name: "city", widget: "string"},
                   {label: "Cap", name: "cap", widget: "string"},
-                  {label: "Telephone", name: "telephone", widget: "string"},
+                  {label: "Telefono", name: "telephone", widget: "string"},
                   {label: "Email", name: "email", widget: "string"},
+                ],
+            }
+      # Staff
+      - file: "content/pages/staff/index.md"
+        label: "Staff"
+        name: "staff"
+        fields:
+          - {label: "Template Key", name: "templateKey", widget: "hidden", default: "staff"}
+          - {
+              label: "Italiano",
+              name: "it",
+              widget: "object",
+              fields:
+                [
+                  {label: "Titolo Pagina", name: "pageTitle", widget: "string"},
+                  {label: "Descrizione Pagina", name: "pageDescription", widget: "string"},
+                  {label: "Incarico (Direttore)", name: "director", widget: "string"},
+                  {label: "Nome Direttore", name: "directorName", widget: "string"},
+                  {label: "Incarico Subordinato (Operatori Museali)", name: "operator", widget: "string"},
+                  {
+                    label: "Elenco Operatori Museali",
+                    name: "operatorsList",
+                    widget: "list",
+                    fields:
+                      [
+                        { label: "Nome", name: "name", widget: "string" }
+                      ],
+                  }
+                ],
+            }
+          - {
+              label: "English",
+              name: "en",
+              widget: "object",
+              fields:
+                [
+                  {label: "Titolo Pagina", name: "pageTitle", widget: "string"},
+                  {label: "Descrizione Pagina", name: "pageDescription", widget: "string"},
+                  {label: "Incarico (Direttore)", name: "director", widget: "string"},
+                  {label: "Nome Direttore", name: "directorName", widget: "string"},
+                  {label: "Incarico Subordinato (Operatori Museali)", name: "operator", widget: "string"},
+                  {
+                    label: "Elenco Operatori Museali",
+                    name: "operatorsList",
+                    widget: "list",
+                    fields:
+                      [
+                        { label: "Nome", name: "name", widget: "string" }
+                      ],
+                  }
                 ],
             }
