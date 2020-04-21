@@ -46,6 +46,7 @@ export const pages = {
       subpages: [
         { url: "/visite-guidate", name: "visite guidate" },
         { url: "/attività-didattiche", name: "attività didattiche" },
+        { url: "/bookshop", name: "bookshop" },
       ],
     },
     {
@@ -113,6 +114,10 @@ export const pages = {
         {
           url: "/en/educational-activities",
           name: "educational activities",
+        },
+        {
+          url: "/en/bookshop",
+          name: "bookshop",
         },
       ],
     },
