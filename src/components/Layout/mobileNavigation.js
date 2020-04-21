@@ -18,22 +18,26 @@ const MobileSingleLink = ({ name, url }) => (
   </li>
 );
 
-const MobileDropdown = ({ name, url, subpages }) => (
-  <li className="mobile-navigation__item">
-    <Link to={url} className="mobile-navigation__link">
-      {name}
-    </Link>
-    <ul className="mobile-dropdown__list">
-      {subpages.map(page => (
-        <li className="mobile-dropdown__item" key={page.name}>
-          <Link className="mobile-dropdown__link" to={page.url}>
-            {page.name}
-          </Link>
-        </li>
-      ))}
-    </ul>
-  </li>
-);
+const MobileDropdown = ({ name, url, subpages, disabled }) => {
+  const linkClass = disabled ? "disabled-link" : "";
+
+  return (
+    <li className="mobile-navigation__item">
+      <Link to={url} className={`mobile-navigation__link ${linkClass}`}>
+        {name}
+      </Link>
+      <ul className="mobile-dropdown__list">
+        {subpages.map(page => (
+          <li className="mobile-dropdown__item" key={page.name}>
+            <Link className="mobile-dropdown__link" to={page.url}>
+              {page.name}
+            </Link>
+          </li>
+        ))}
+      </ul>
+    </li>
+  );
+};
 
 const MobileNavigation = ({ language }) => {
   const { toggle, handleToggle } = useContext(GlobalContext);
@@ -60,6 +64,7 @@ const MobileNavigation = ({ language }) => {
                 url={page.url}
                 name={page.name}
                 subpages={page.subpages}
+                disabled={page.disabled}
               />
             );
           }
@@ -67,22 +72,34 @@ const MobileNavigation = ({ language }) => {
       </ul>
       <div className="mobile-nav__social">
         <li className="social-link">
-          <a href="/">
+          <a href="mailto:museo@comune.nepi.vt.it">
             <FaEnvelope />
           </a>
         </li>
         <li className="social-link">
-          <a href="/">
+          <a
+            href="https://www.facebook.com/museociviconepi/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
             <FaFacebookF />
           </a>
         </li>
         <li className="social-link">
-          <a href="/">
+          <a
+            href="https://it.linkedin.com/in/stefano-francocci-42ab9010"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
             <FaLinkedinIn />
           </a>
         </li>
         <li className="social-link">
-          <a href="/">
+          <a
+            href="https://twitter.com/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
             <FaTwitter />
           </a>
         </li>

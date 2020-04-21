@@ -9,9 +9,8 @@ export const Single = ({ name, url }) => (
   </li>
 );
 
-export const Dropdown = ({ name, url, subpages }) => {
-  const linkClass =
-    name === "servizi" || name === "services" ? "disabled-link" : "";
+export const Dropdown = ({ name, url, subpages, disabled }) => {
+  const linkClass = disabled ? "disabled-link" : "";
   return (
     <li className="navigation__item">
       <Link to={url} className={`navigation__link ${linkClass}`}>

@@ -20,6 +20,7 @@ const Navbar = ({ language }) => {
                 url={page.url}
                 name={page.name}
                 subpages={page.subpages}
+                disabled={page.disabled}
               />
             );
           }

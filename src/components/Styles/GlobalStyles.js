@@ -74,6 +74,10 @@ const GlobalStyle = createGlobalStyle`
     pointer-events: none;
   }
 
+  .mobile-navigation__link.disabled-link {
+    pointer-events: none;
+  }
+
 
 `;
 

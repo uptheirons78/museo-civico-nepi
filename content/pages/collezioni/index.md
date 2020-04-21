@@ -1,7 +1,7 @@
 ---
 templateKey: collections
 it:
-  pageTitle: La Collezione
+  pageTitle: Percorso Espositivo
   pageDescription: >
     Il Museo Civico di Nepi si avvale di un moderno e affascinante apparato espositivo che si propone di illustrare, attraverso i reperti archeologici, l’evoluzione storica della città e del suo territorio dall’età protostorica sino al Rinascimento. Il percorso espositivo è strutturato in tre sezioni: Protostorica – Preromana, Romana, Medievale – Rinascimentale.
   sectionATitle: Sezione Protostorica – Preromana
@@ -14,7 +14,7 @@ it:
   sectionC: >
     I reperti più recenti dell’allestimento museale risalgono al periodo di massimo splendore di Nepi, vale a dire al XV-XVI secolo. All’epoca la città fu dominio di importanti famiglie quali i Borgia e i Farnese. Dal castello di Nepi provengono delle ceramiche e alcuni stemmi  recuperati  nell’800 e a seguito di lavori di restauro terminati nel 2007. Il posto centrale è occupato dal raro emblema marmoreo di Lucrezia Borgia che nel 1499 fu investita dal padre, il pontefice Alessandro VI, della Signoria di Nepi. Di estremo interesse è anche un largo fregio marmoreo di Bernardo Accolti detto “l’Unico”, personaggio eccentrico che fu proprietario del castello e governatore di Nepi fra il 1521 e il 1535.  Allo stesso periodo devono essere collocato anche un altro stemma lapideo circolare, coperto successivamente con un intonaco recante le insegne di Pier Luigi Farnese.
 en:
-  pageTitle: Art Collection
+  pageTitle: Exhibition Itinerary
   pageDescription: >
     ENGLISH Il Museo Civico di Nepi si avvale di un moderno e affascinante apparato espositivo che si propone di illustrare, attraverso i reperti archeologici, l’evoluzione storica della città e del suo territorio dall’età protostorica sino al Rinascimento. Il percorso espositivo è strutturato in tre sezioni: Protostorica – Preromana, Romana, Medievale – Rinascimentale.
   sectionATitle: Sezione Protostorica – Preromana

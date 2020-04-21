@@ -3,11 +3,13 @@ export const pages = {
     {
       url: "/",
       name: "home",
+      disabled: false,
       subpages: [],
     },
     {
-      url: "/museo",
+      url: "/",
       name: "il museo",
+      disabled: true,
       subpages: [
         { url: "/storia", name: "storia" },
         { url: "/mission", name: "mission" },
@@ -17,23 +19,30 @@ export const pages = {
       ],
     },
     {
-      url: "/la-collezione",
+      url: "/",
       name: "la collezione",
-      subpages: [{ url: "/opere", name: "opere" }],
+      disabled: true,
+      subpages: [
+        { url: "/percorso-espositivo", name: "percorso espositivo" },
+        { url: "/opere", name: "opere" },
+      ],
     },
     {
       url: "/eventi",
       name: "eventi",
+      disabled: false,
       subpages: [],
     },
     {
       url: "/monumenti",
       name: "monumenti",
+      disabled: false,
       subpages: [],
     },
     {
       url: "/",
       name: "servizi",
+      disabled: true,
       subpages: [
         { url: "/visite-guidate", name: "visite guidate" },
         { url: "/attività-didattiche", name: "attività didattiche" },
@@ -42,19 +51,27 @@ export const pages = {
     {
       url: "/info",
       name: "info e biglietti",
+      disabled: false,
       subpages: [],
     },
-    { url: "/contatti", name: "contatti", subpages: [] },
+    {
+      url: "/contatti",
+      name: "contatti",
+      disabled: false,
+      subpages: [],
+    },
   ],
   en: [
     {
       url: "/en/",
       name: "home",
+      disabled: false,
       subpages: [],
     },
     {
-      url: "/en/museum",
+      url: "/en/",
       name: "museum",
+      disabled: true,
       subpages: [
         { url: "/en/history", name: "history" },
         { url: "/en/mission", name: "mission" },
@@ -67,23 +84,30 @@ export const pages = {
       ],
     },
     {
-      url: "/en/collection",
+      url: "/en/",
       name: "collection",
-      subpages: [{ url: "/en/works", name: "works" }],
+      disabled: true,
+      subpages: [
+        { url: "/en/exhibition-itinerary", name: "exhibition itinerary" },
+        { url: "/en/works", name: "works" },
+      ],
     },
     {
       url: "/en/events",
       name: "events",
+      disabled: false,
       subpages: [],
     },
     {
       url: "/en/monuments",
       name: "monuments",
+      disabled: false,
       subpages: [],
     },
     {
       url: "/en/",
       name: "services",
+      disabled: true,
       subpages: [
         { url: "/en/guided-tours", name: "guided tours" },
         {
@@ -95,9 +119,15 @@ export const pages = {
     {
       url: "/en/info",
       name: "info and tickets",
+      disabled: false,
       subpages: [],
     },
-    { url: "/en/contacts", name: "contacts", subpages: [] },
+    {
+      url: "/en/contacts",
+      name: "contacts",
+      disabled: false,
+      subpages: [],
+    },
   ],
 };
 
