@@ -33,7 +33,10 @@ const Credits = props => {
       </div>
       <div className="credits__section-right">
         <p className="credits__text">
-          {title}, {address} - {cap} {city}(VT) - Tel. {telephone}
+          {title},{" "}
+          <span className="credits__info">
+            {address} - {cap} {city}(VT) - Tel. {telephone}
+          </span>
         </p>
         <p className="credits__text">
           &copy; {year} Comune di Nepi - Email: {email}

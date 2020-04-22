@@ -24,6 +24,11 @@ export const StyledCredits = styled.section`
       font-size: 0.7rem;
       color: ${props => props.theme.white};
     }
+    @media screen and (max-width: 380px) {
+      .credits__info {
+        display: block;
+      }
+    }
   }
   @media screen and (max-width: 800px) {
     flex-direction: column;

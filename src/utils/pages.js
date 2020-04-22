@@ -150,6 +150,7 @@ export const footer_pages = {
       { name: "Contatti", url: "/contatti" },
     ],
     collezioni_links: [
+      { name: "Percorso Espositivo", url: "/percorso-espositivo" },
       { name: "Opere", url: "/opere" },
       { name: "Monumenti", url: "/monumenti" },
       { name: "Eventi", url: "/eventi" },

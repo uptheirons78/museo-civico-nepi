@@ -34,7 +34,7 @@ const FooterMenu = ({ language }) => {
   } = footer_pages[`${language}`];
 
   const titles = {
-    it: ["museo", "info", "collezioni", "privacy"],
+    it: ["il museo", "info", "la collezione", "privacy"],
     en: ["museum", "info", "collections", "privacy"],
   };
 
