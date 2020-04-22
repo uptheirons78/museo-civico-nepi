@@ -15,23 +15,23 @@ it:
     All’inizio del 2019 è stata, inoltre, stipulata una convenzione fra il Comune di Nepi e il DIBAF dell’Unitus  per la collaborazione scientifica che ha preso avvio con il restauro di alcuni reperti marmorei di epoca romana custoditi nel Museo e che prosegue tuttora.
   gallery:
   - alt: Attività Scientifiche
-    image: /assets/scientifica-01.jpg
+    image: https://res.cloudinary.com/museo-civico-di-nepi/image/upload/v1587547668/scientifica-01_nur1dy.jpg
   - alt: Attività Scientifiche
-    image: /assets/scientifica-02.jpg
+    image: https://res.cloudinary.com/museo-civico-di-nepi/image/upload/v1587547673/scientifica-02_zhqyq8.jpg
   - alt: Attività Scientifiche
-    image: /assets/scientifica-03.jpg
+    image: https://res.cloudinary.com/museo-civico-di-nepi/image/upload/v1587547673/scientifica-03_clksi0.jpg
   - alt: Attività Scientifiche
-    image: /assets/scientifica-04.jpg
+    image: https://res.cloudinary.com/museo-civico-di-nepi/image/upload/v1587547677/scientifica-04_lc5d5x.jpg
   - alt: Attività Scientifiche
-    image: /assets/scientifica-05.jpg
+    image: https://res.cloudinary.com/museo-civico-di-nepi/image/upload/v1587547673/scientifica-05_fz0glj.jpg
   - alt: Attività Scientifiche
-    image: /assets/scientifica-06.jpg
+    image: https://res.cloudinary.com/museo-civico-di-nepi/image/upload/v1587373643/scientifica-06_dvc3dm.jpg
   - alt: Attività Scientifiche
-    image: /assets/scientifica-07.jpg
+    image: https://res.cloudinary.com/museo-civico-di-nepi/image/upload/v1587373659/scientifica-07_htas87.jpg
   - alt: Attività Scientifiche
-    image: /assets/scientifica-08.jpg
+    image: https://res.cloudinary.com/museo-civico-di-nepi/image/upload/v1587373651/scientifica-08_datqji.jpg
   - alt: Attività Scientifiche
-    image: /assets/scientifica-09.jpg
+    image: https://res.cloudinary.com/museo-civico-di-nepi/image/upload/v1587373650/scientifica-09_pphoqv.jpg
 en:
   pageTitle: Scientific Activities
   pageDescription: >
@@ -46,22 +46,22 @@ en:
   descriptionC: >
     All’inizio del 2019 è stata, inoltre, stipulata una convenzione fra il Comune di Nepi e il DIBAF dell’Unitus  per la collaborazione scientifica che ha preso avvio con il restauro di alcuni reperti marmorei di epoca romana custoditi nel Museo e che prosegue tuttora.
   gallery:
-  - alt: Scientific Activities
-    image: /assets/scientifica-01.jpg
-  - alt: Scientific Activities
-    image: /assets/scientifica-02.jpg
-  - alt: Scientific Activities
-    image: /assets/scientifica-03.jpg
-  - alt: Scientific Activities
-    image: /assets/scientifica-04.jpg
-  - alt: Scientific Activities
-    image: /assets/scientifica-05.jpg
-  - alt: Scientific Activities
-    image: /assets/scientifica-06.jpg
-  - alt: Scientific Activities
-    image: /assets/scientifica-07.jpg
-  - alt: Scientific Activities
-    image: /assets/scientifica-08.jpg
-  - alt: Scientific Activities
-    image: /assets/scientifica-09.jpg
+  - alt: Attività Scientifiche
+    image: https://res.cloudinary.com/museo-civico-di-nepi/image/upload/v1587547668/scientifica-01_nur1dy.jpg
+  - alt: Attività Scientifiche
+    image: https://res.cloudinary.com/museo-civico-di-nepi/image/upload/v1587547673/scientifica-02_zhqyq8.jpg
+  - alt: Attività Scientifiche
+    image: https://res.cloudinary.com/museo-civico-di-nepi/image/upload/v1587547673/scientifica-03_clksi0.jpg
+  - alt: Attività Scientifiche
+    image: https://res.cloudinary.com/museo-civico-di-nepi/image/upload/v1587547677/scientifica-04_lc5d5x.jpg
+  - alt: Attività Scientifiche
+    image: https://res.cloudinary.com/museo-civico-di-nepi/image/upload/v1587547673/scientifica-05_fz0glj.jpg
+  - alt: Attività Scientifiche
+    image: https://res.cloudinary.com/museo-civico-di-nepi/image/upload/v1587373643/scientifica-06_dvc3dm.jpg
+  - alt: Attività Scientifiche
+    image: https://res.cloudinary.com/museo-civico-di-nepi/image/upload/v1587373659/scientifica-07_htas87.jpg
+  - alt: Attività Scientifiche
+    image: https://res.cloudinary.com/museo-civico-di-nepi/image/upload/v1587373651/scientifica-08_datqji.jpg
+  - alt: Attività Scientifiche
+    image: https://res.cloudinary.com/museo-civico-di-nepi/image/upload/v1587373650/scientifica-09_pphoqv.jpg
 ---

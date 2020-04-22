@@ -8,38 +8,38 @@ it:
   subtitleTwo: Pubblicazioni Varie
   quaderni:
   - alt: Archeologia e Storia a Nepi I
-    image: /assets/archeologia.jpg
+    image: https://res.cloudinary.com/museo-civico-di-nepi/image/upload/q_auto:good,f_auto,w_300/v1587548328/archeologia_m0smsq.jpg
     title: Archeologia e Storia a Nepi, I
     pubblication: Quaderni del Museo Civico di Nepi, 1
     researcher: A cura di Stefano Francocci
     editor: Comune di Nepi, 2006
   - alt: Materiali e Tecniche
-    image: /assets/materiali-tecniche.jpg
+    image: https://res.cloudinary.com/museo-civico-di-nepi/image/upload/q_auto:good,f_auto,w_300/v1587548327/materiali-tecniche_btz77h.jpg
     title: Materiali e Tecniche. Esperienze e tecniche di restauro a confronto
     subtitle: Atti del Convegno Nepi 29 novembre 2008
     pubblication: Quaderni del Museo Civico di Nepi, 2
     researcher: A cura di Stefano Francocci
     editor: Davide Ghaleb Editore, 2012
   - alt: Archeologia e Storia a Nepi, II
-    image: /assets/archeologia-02.jpg
+    image: https://res.cloudinary.com/museo-civico-di-nepi/image/upload/q_auto:good,f_auto,w_300/v1587548329/archeologia-02_foe6xr.jpg
     title: Archeologia e Storia a Nepi, II
     pubblication: Quaderni del Museo Civico di Nepi, 3
     researcher: A cura di Stefano Francocci
     editor: Davide Ghaleb Editore, 2014
   - alt: Archeologia e Storia a Nepi, III
-    image: /assets/archeologia-03.jpg
+    image: https://res.cloudinary.com/museo-civico-di-nepi/image/upload/q_auto:good,f_auto,w_300/v1587548328/archeologia-03_k7tw7y.jpg
     title: Archeologia e Storia a Nepi, III
     pubblication: Quaderni del Museo Civico di Nepi, 4
     researcher: A cura di Stefano Francocci
     editor: Davide Ghaleb Editore, 2017
   other:
   - alt: La Sala Nobile del Palazzo Comunale di Nepi
-    image: /assets/sala-nobile.jpg
+    image: https://res.cloudinary.com/museo-civico-di-nepi/image/upload/q_auto:good,f_auto,w_300/v1587548329/sala-nobile_nm0op7.jpg
     title: La Sala Nobile del Palazzo Comunale di Nepi
     researcher: di Giorgio Felini e Stefano Francocci
     editor: Comune di Nepi, 2010
   - alt: Memorie  istoriche della città di Nepi e suoi dintorni
-    image: /assets/memorie-istoriche.jpg
+    image: https://res.cloudinary.com/museo-civico-di-nepi/image/upload/q_auto:good,f_auto,w_300/v1587548328/memorie-istoriche_rcsnuy.jpg
     title: La Sala Nobile del Palazzo Comunale di Nepi
     subtitle: di G. Ranghiasci Brancaleoni
     pubblication: Ristampa Anastatica
@@ -53,38 +53,38 @@ en:
   subtitleTwo: Other Publications
   quaderni:
   - alt: Archeologia e Storia a Nepi I
-    image: /assets/archeologia.jpg
+    image: https://res.cloudinary.com/museo-civico-di-nepi/image/upload/q_auto:good,f_auto,w_300/v1587548328/archeologia_m0smsq.jpg
     title: Archeologia e Storia a Nepi, I
     pubblication: Quaderni del Museo Civico di Nepi, 1
     researcher: A cura di Stefano Francocci
     editor: Comune di Nepi, 2006
   - alt: Materiali e Tecniche
-    image: /assets/materiali-tecniche.jpg
+    image: https://res.cloudinary.com/museo-civico-di-nepi/image/upload/q_auto:good,f_auto,w_300/v1587548327/materiali-tecniche_btz77h.jpg
     title: Materiali e Tecniche. Esperienze e tecniche di restauro a confronto
     subtitle: Atti del Convegno Nepi 29 novembre 2008
     pubblication: Quaderni del Museo Civico di Nepi, 2
     researcher: A cura di Stefano Francocci
     editor: Davide Ghaleb Editore, 2012
   - alt: Archeologia e Storia a Nepi, II
-    image: /assets/archeologia-02.jpg
+    image: https://res.cloudinary.com/museo-civico-di-nepi/image/upload/q_auto:good,f_auto,w_300/v1587548329/archeologia-02_foe6xr.jpg
     title: Archeologia e Storia a Nepi, II
     pubblication: Quaderni del Museo Civico di Nepi, 3
     researcher: A cura di Stefano Francocci
     editor: Davide Ghaleb Editore, 2014
   - alt: Archeologia e Storia a Nepi, III
-    image: /assets/archeologia-03.jpg
+    image: https://res.cloudinary.com/museo-civico-di-nepi/image/upload/q_auto:good,f_auto,w_300/v1587548328/archeologia-03_k7tw7y.jpg
     title: Archeologia e Storia a Nepi, III
     pubblication: Quaderni del Museo Civico di Nepi, 4
     researcher: A cura di Stefano Francocci
     editor: Davide Ghaleb Editore, 2017
   other:
   - alt: La Sala Nobile del Palazzo Comunale di Nepi
-    image: /assets/sala-nobile.jpg
+    image: https://res.cloudinary.com/museo-civico-di-nepi/image/upload/q_auto:good,f_auto,w_300/v1587548329/sala-nobile_nm0op7.jpg
     title: La Sala Nobile del Palazzo Comunale di Nepi
     researcher: di Giorgio Felini e Stefano Francocci
     editor: Comune di Nepi, 2010
   - alt: Memorie  istoriche della città di Nepi e suoi dintorni
-    image: /assets/memorie-istoriche.jpg
+    image: https://res.cloudinary.com/museo-civico-di-nepi/image/upload/q_auto:good,f_auto,w_300/v1587548328/memorie-istoriche_rcsnuy.jpg
     title: La Sala Nobile del Palazzo Comunale di Nepi
     subtitle: di G. Ranghiasci Brancaleoni
     pubblication: Ristampa Anastatica

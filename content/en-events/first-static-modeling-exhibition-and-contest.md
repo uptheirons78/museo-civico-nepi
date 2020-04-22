@@ -9,7 +9,7 @@ description: >-
   Esposizione di collezioni di figurini storici all'interno del Museo Civico di Nepi e primo concorso di modellismo statico con la partecipazione di alcuni fra i più importanti modellisti italiani.
 category: events
 featured: true
-image: /assets/modellismo_01.jpg
+image: https://res.cloudinary.com/museo-civico-di-nepi/image/upload/v1587546670/modellismo_01_o8bpdq.jpg
 place: Nepi Civic Museum
 access: 10.00-01.00 AM / 03:00-06:00 PM
 ticket: Free Entrance

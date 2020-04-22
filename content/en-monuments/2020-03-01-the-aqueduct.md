@@ -35,7 +35,7 @@ Nel **1559** si diede inizio alla ricerca di sorgenti che potessero alimentare l
 
 La maggior parte del tracciato dell’acquedotto sino alla cittadina corre sotterraneo, ma in prossimità delle mura cittadine il dislivello da superare era troppo ampio. Vari architetti, fra i quali il ***Vignola***, tentarono invano di completare l’opera.
 
-![acquedotto di nepi](/assets/events-02.jpg "Acquedotto di Nepi")
+![acquedotto di nepi](https://res.cloudinary.com/museo-civico-di-nepi/image/upload/t_museo/v1587547028/acquedotto-sera.jpg "Acquedotto di Nepi")
 
 Nel **1702**, su impulso del cardinale *Giuseppe Renato Imperiali*, il progetto fu ripreso e la direzione dei lavori affidata all’architetto*Filippo Barigioni*, con l’ausilio del mastro *Giuseppe Bernascone* incaricato di eseguire le opere in muratura.
 

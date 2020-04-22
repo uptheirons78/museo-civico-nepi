@@ -12,8 +12,6 @@ place: Piazza Santa Croce
 access: 'Chiusa al pubblico'
 gallery:
   - alt: chiesa di santa croce
-    image: /assets/modellismo_01.jpg
-  - alt: chiesa di santa croce
     image: https://res.cloudinary.com/museo-civico-di-nepi/image/upload/v1587372819/croce-01_nmlpmt.jpg
   - alt: chiesa di santa croce
     image: https://res.cloudinary.com/museo-civico-di-nepi/image/upload/v1587372816/croce-02_jsco1t.jpg
