@@ -2,7 +2,6 @@ import React, { useContext } from "react";
 import { Link } from "gatsby";
 import { StyledIntro } from "../Styles/StyledIntro";
 
-import Logo from "../../images/comune.png";
 import Social from "../Shared/social";
 import { GlobalContext } from "../../context/GlobalContext";
 
@@ -13,7 +12,10 @@ const Intro = ({ language }) => {
     <StyledIntro className="intro-section">
       <div className="intro-section__left">
         <div className="intro-section__logo-container">
-          <img src={Logo} alt="Logo Comune di Nepi" />
+          <img
+            src="https://res.cloudinary.com/museo-civico-di-nepi/image/upload/q_auto:good,f_auto,w_50/v1587628086/comune_kkpyg0.png"
+            alt="Logo Comune di Nepi"
+          />
         </div>
         <div className="intro-section__title-container">
           <h3>Comune di Nepi</h3>
