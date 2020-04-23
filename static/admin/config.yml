@@ -9,7 +9,7 @@ backend:
     deleteMedia: '[skip ci] Delete “{{path}}”'
 
 locale: 'it'
-logo_url: 'https://res.cloudinary.com/museo-civico-di-nepi/image/upload/t_grid/v1587483729/logo-default_qcel0g.jpg'
+logo_url: 'https://res.cloudinary.com/museo-civico-di-nepi/image/upload/v1587627535/logo_dashboard_jabwtm.jpg'
 
 media_library:
   name: cloudinary
