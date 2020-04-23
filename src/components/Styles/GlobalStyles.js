@@ -78,6 +78,16 @@ const GlobalStyle = createGlobalStyle`
     pointer-events: none;
   }
 
+  .cookieConsent {
+
+    .cookies-link {
+      text-decoration: none !important;
+      color: #FAA916 !important;
+      transition: all .350s ease-in-out;
+    }
+  }
+
+
 
 `;
 

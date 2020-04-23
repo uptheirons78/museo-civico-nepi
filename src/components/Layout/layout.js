@@ -1,16 +1,25 @@
 /* eslint-disable */
 import React from "react";
+import { Link } from "gatsby";
 import styled from "styled-components";
 import GlobalStyle from "../Styles/GlobalStyles";
 import Theme from "../Styles/Theme";
 import { ThemeProvider } from "styled-components";
 import Header from "./header";
 import Footer from "./footer";
+import CookieConsent from "react-cookie-consent";
 
 /**
  * Fade Animation to mimic page transitions
  */
 import Fade from "../Animations/Fade";
+
+/**
+ * Button styles from React Cookie Consent
+ */
+const btnStyle = {
+  background: "#FAA916",
+};
 
 const Layout = props => {
   return (
@@ -21,6 +30,30 @@ const Layout = props => {
           <Header language={props.language} />
           <main>{props.children}</main>
           <Footer language={props.language} />
+          <CookieConsent
+            location="bottom"
+            buttonText="Accetto"
+            buttonStyle={btnStyle}
+            enableDeclineButton
+            declineButtonText="Non Accetto"
+            style={{
+              background: "#2B373B",
+              fontSize: "0.8rem",
+            }}
+            expires={150}
+          >
+            Utilizziamo cookies proprietari per i nostri servizi e cookies di
+            terze parti per abilitare importanti funzionalità del sito.
+            Visualizza la{" "}
+            <Link to="/privacy-policy" className="cookies-link">
+              Privacy Policy
+            </Link>{" "}
+            o la{" "}
+            <Link to="/cookies-policy" className="cookies-link">
+              Cookies Policy
+            </Link>{" "}
+            per saperne di più.
+          </CookieConsent>
         </MainWrapper>
       </Fade>
     </ThemeProvider>
