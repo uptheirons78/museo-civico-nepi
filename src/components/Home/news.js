@@ -30,10 +30,19 @@ const News = ({ language }) => {
             description,
           } = event.node.frontmatter;
 
+          const transformedImage = image.replace(
+            "https://res.cloudinary.com/museo-civico-di-nepi/image/upload/",
+            "https://res.cloudinary.com/museo-civico-di-nepi/image/upload/t_museo/"
+          );
+
           return (
             <div className="featured-event" key={event.node.id}>
               <div className="featured-event__img-container">
-                <img className="featured-event__img" src={image} alt={title} />
+                <img
+                  className="featured-event__img"
+                  src={transformedImage}
+                  alt={title}
+                />
               </div>
               <div className="featured-event__info-container">
                 <Link
@@ -72,11 +81,16 @@ const News = ({ language }) => {
             description,
           } = event.node.frontmatter;
 
+          const transformedImage = image.replace(
+            "https://res.cloudinary.com/museo-civico-di-nepi/image/upload/",
+            "https://res.cloudinary.com/museo-civico-di-nepi/image/upload/t_grid/"
+          );
+
           return (
             <article className="news-secondary__article" key={event.node.id}>
               <img
                 className="news-secondary__article-image"
-                src={image}
+                src={transformedImage}
                 alt={title}
               />
               <div className="news-secondary__article-info">
