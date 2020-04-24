@@ -6,6 +6,7 @@ import SEO from "../components/seo";
 import FourOFour from "../components/404";
 
 const NotFoundPage = ({ data }) => {
+  const title = "404: Pagina Non Trovata";
   const description =
     "Gentile Visitatore la pagina che stai cercando non esiste all'interno del sito del Museo Civico di Nepi, è stata, probabilmente, rimossa o risulta al momento inaccessibile per problemi tecnici. Ci scusiamo per il disagio.";
   return (
@@ -15,7 +16,7 @@ const NotFoundPage = ({ data }) => {
         title="404: Pagina Non Trovata"
         description={description}
       />
-      <FourOFour data={data} description={description} />
+      <FourOFour data={data} description={description} title={title} />
     </Layout>
   );
 };

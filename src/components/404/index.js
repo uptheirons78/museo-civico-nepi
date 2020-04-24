@@ -11,11 +11,11 @@ import {
   DoubleGrid,
 } from "../Styles/StyledPageElement";
 
-const FourOFour = ({ data, description }) => {
+const FourOFour = ({ data, title, description }) => {
   return (
     <>
       <HeadingSection thumbnail={data.banner.childImageSharp.fixed.src}>
-        <h2>404: Pagina Non Trovata</h2>
+        <h2>{title}</h2>
       </HeadingSection>
       <SinglePageWrapper>
         <PageDescription>{description}</PageDescription>
