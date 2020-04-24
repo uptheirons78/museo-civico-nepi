@@ -33,7 +33,7 @@ en:
     presente sulla pagina. Cercheremo di rispondere nel più breve tempo
     possibile. Per urgenze o altro tipo di esigenze potrete utilizzare i numeri
     telefonici presenti in questa pagina.
-  pageTitle: Contact
+  pageTitle: Contacts
   telephone: 0761 570604
   title: Get in touch
 ---

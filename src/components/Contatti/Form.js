@@ -11,10 +11,23 @@ const Form = ({ language }) => {
     formMessagePlaceholder,
     formButton,
   } = translate.default.contact;
+
+  const thanksUrl = language === "it" ? "/thanks/" : "/en/thanks/";
   return (
     <StyledForm className="form">
-      <form name="museo" method="POST" action="/thanks/" data-netlify="true">
+      <form
+        name="museo"
+        method="POST"
+        action={thanksUrl}
+        data-netlify="true"
+        data-netlify-honeypot="bot-field"
+      >
         <input type="hidden" name="form-name" value="museo" />
+        <p hidden>
+          <label>
+            Don’t fill this out: <input name="bot-field" />
+          </label>
+        </p>
         <div className="flex-rev">
           <input type="text" placeholder="Marco Rossi" name="name" id="name" />
           <label htmlFor="name">{formName[`${language}`]}</label>
@@ -28,7 +41,7 @@ const Form = ({ language }) => {
           />
           <label htmlFor="email">{formEmail[`${language}`]}</label>
         </div>
-        <div class="flex-rev">
+        <div className="flex-rev">
           <textarea
             placeholder={formMessagePlaceholder[`${language}`]}
             name="message"

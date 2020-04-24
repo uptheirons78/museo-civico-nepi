@@ -1,20 +1,20 @@
 import React from "react";
 import { graphql } from "gatsby";
 //Components
-import Layout from "../components/Layout/layout";
-import SEO from "../components/seo";
-import FourOFour from "../components/404";
-import Thanks from "../components/Thanks";
+import Layout from "../../components/Layout/layout";
+import SEO from "../../components/seo";
+import FourOFour from "../../components/404";
+import Thanks from "../../components/Thanks";
 
 const ThanksPage = ({ data }) => {
   const title = "Museo Civico di Nepi";
   const description =
-    "Gentile Visitatore abbiamo ricevuto la tua richiesta. Risponderemo appena possibile. Grazie per averci contattato.";
+    "Dear Guest, we received your request. We will reply as soon as possible. Thanks for contacting us.";
   return (
-    <Layout language="it">
-      <SEO lang="it" title="Grazie" description={description} />
+    <Layout language="en">
+      <SEO lang="en" title="Thanks" description={description} />
       <Thanks
-        language="it"
+        language="en"
         data={data}
         description={description}
         title={title}
