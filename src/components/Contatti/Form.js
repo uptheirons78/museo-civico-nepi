@@ -18,7 +18,7 @@ const Form = ({ language }) => {
       <form
         name="museo"
         method="POST"
-        action={thanksUrl}
+        action="/thanks/"
         data-netlify="true"
         data-netlify-honeypot="bot-field"
       >
