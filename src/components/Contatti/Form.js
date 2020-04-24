@@ -13,8 +13,8 @@ const Form = ({ language }) => {
   } = translate.default.contact;
   return (
     <StyledForm className="form">
-      <form name="Museo Form" method="POST" data-netlify="true">
-        <input type="hidden" name="Museo Form" value="Museo Form" />
+      <form name="museo" method="POST" action="/thanks/" data-netlify="true">
+        <input type="hidden" name="form-name" value="contact" />
         <div className="flex-rev">
           <input type="text" placeholder="Marco Rossi" name="name" id="name" />
           <label htmlFor="name">{formName[`${language}`]}</label>
