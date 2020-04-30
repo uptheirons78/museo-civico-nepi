@@ -13,7 +13,7 @@ export const pages = {
       subpages: [
         { url: "/storia", name: "storia" },
         { url: "/mission", name: "mission" },
-        { url: "/carta-dei-servizi", name: "carta dei servizi" },
+        // { url: "/carta-dei-servizi", name: "carta dei servizi" },
         { url: "/pubblicazioni", name: "pubblicazioni" },
         { url: "/attività-scientifiche", name: "attività scientifiche" },
       ],
@@ -46,7 +46,7 @@ export const pages = {
       subpages: [
         { url: "/visite-guidate", name: "visite guidate" },
         { url: "/attività-didattiche", name: "attività didattiche" },
-        { url: "/bookshop", name: "bookshop" },
+        // { url: "/bookshop", name: "bookshop" },
       ],
     },
     {
@@ -76,7 +76,7 @@ export const pages = {
       subpages: [
         { url: "/en/history", name: "history" },
         { url: "/en/mission", name: "mission" },
-        { url: "/en/services-card", name: "services card" },
+        // { url: "/en/services-card", name: "services card" },
         { url: "/en/publications", name: "publications" },
         {
           url: "/en/scientific-activities",
@@ -115,10 +115,10 @@ export const pages = {
           url: "/en/educational-activities",
           name: "educational activities",
         },
-        {
-          url: "/en/bookshop",
-          name: "bookshop",
-        },
+        // {
+        //   url: "/en/bookshop",
+        //   name: "bookshop",
+        // },
       ],
     },
     {
@@ -141,7 +141,7 @@ export const footer_pages = {
     museo_links: [
       { name: "Storia", url: "/storia" },
       { name: "Mission", url: "/mission" },
-      { name: "Carta dei Servizi", url: "/carta-dei-servizi" },
+      // { name: "Carta dei Servizi", url: "/carta-dei-servizi" },
     ],
     info_links: [
       { name: "Orari e tariffe", url: "/info" },

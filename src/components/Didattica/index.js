@@ -49,6 +49,7 @@ const Didattica = ({ language, data }) => {
                   href={frontmatter[`${language}`].scheda}
                   target="_blank"
                   rel="noopener noreferrer"
+                  hidden
                 >
                   {frontmatter[`${language}`].schedaTitle}
                 </a>
@@ -58,6 +59,7 @@ const Didattica = ({ language, data }) => {
                   href={frontmatter[`${language}`].prospetto}
                   target="_blank"
                   rel="noopener noreferrer"
+                  hidden
                 >
                   {frontmatter[`${language}`].prospettoTitle}
                 </a>

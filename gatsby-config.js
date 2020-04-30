@@ -3,7 +3,7 @@ module.exports = {
     title: `Museo Civico di Nepi`,
     description: `Sito Web del Museo Civico del Comune di Nepi`,
     author: `@uptheirons78`,
-    siteUrl: `https://museo-civico-nepi.netlify.com`,
+    siteUrl: `https://museociviconepi.it`,
     keywords: [
       `comune di nepi`,
       `nepi`,

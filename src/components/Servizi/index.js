@@ -67,6 +67,7 @@ const Servizi = ({ language, data }) => {
               href={frontmatter[`${language}`].prospetto}
               target="_blank"
               rel="noopener noreferrer"
+              hidden
             >
               {frontmatter[`${language}`].prospettoTitle}
             </StyledLink>

@@ -53,7 +53,7 @@ const monument = ({ data }) => {
           <SocialShare
             socialConfig={{
               config: {
-                url: `https://museo-civico-nepi.netlify.com/monumenti/${slug}`,
+                url: `https://museociviconepi.it/monumenti/${slug}`,
               },
             }}
           />

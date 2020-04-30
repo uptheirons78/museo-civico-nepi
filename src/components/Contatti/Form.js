@@ -12,7 +12,6 @@ const Form = ({ language }) => {
     formButton,
   } = translate.default.contact;
 
-  const thanksUrl = language === "it" ? "/thanks/" : "/en/thanks/";
   return (
     <StyledForm className="form">
       <form

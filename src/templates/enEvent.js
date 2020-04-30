@@ -56,7 +56,7 @@ const enEvent = ({ data }) => {
           <SocialShare
             socialConfig={{
               config: {
-                url: `https://museo-civico-nepi.netlify.com/en/events/${slug}`,
+                url: `https://museociviconepi.it/en/events/${slug}`,
               },
             }}
           />
