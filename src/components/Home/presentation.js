@@ -17,6 +17,7 @@ const Presentation = ({ data, language }) => {
       </div>
       <div className="presentation__container presentation__container-right">
         {right}
+        prova prova prova
       </div>
     </StyledPresentation>
   );
