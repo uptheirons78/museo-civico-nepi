@@ -11,13 +11,6 @@ export const wrapRootElement = ({ element }) => (
   <GlobalContextProvider>{element}</GlobalContextProvider>
 );
 
-export const onServiceWorkerUpdateReady = () => {
-  const answer = window.confirm(
-    `Questa applicazione è stata aggiornata. ` +
-      `Vuoi ricaricare la pagina per vedere le ultime novità?`
-  );
-
-  if (answer === true) {
-    window.location.reload();
-  }
-};
+export function onServiceWorkerUpdateReady() {
+  window.location.reload(true);
+}
