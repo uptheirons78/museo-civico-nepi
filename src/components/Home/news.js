@@ -20,7 +20,7 @@ const News = ({ language }) => {
   return (
     <StyledNews>
       <section className="news-main">
-        {featured.slice(0, 1).map(event => {
+        {featured.slice(0, 1).map((event) => {
           const {
             title,
             image,
@@ -72,7 +72,7 @@ const News = ({ language }) => {
         })}
       </section>
       <section className="news-secondary">
-        {events.slice(0, 3).map(event => {
+        {events.slice(0, 3).map((event) => {
           const {
             title,
             image,

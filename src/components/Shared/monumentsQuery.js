@@ -14,6 +14,7 @@ const useMonuments = () => {
       ) {
         edges {
           node {
+            id
             frontmatter {
               slug
               title

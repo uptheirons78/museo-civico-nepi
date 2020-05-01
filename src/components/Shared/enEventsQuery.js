@@ -15,6 +15,7 @@ const useEnglishEvents = () => {
         ) {
           edges {
             node {
+              id
               frontmatter {
                 slug
                 title

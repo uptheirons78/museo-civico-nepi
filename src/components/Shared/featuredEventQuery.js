@@ -15,6 +15,7 @@ const useFeaturedEvent = () => {
         ) {
           edges {
             node {
+              id
               frontmatter {
                 slug
                 title

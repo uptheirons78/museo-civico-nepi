@@ -31,11 +31,11 @@ const MonumentiSlider = ({ language }) => {
       style={{ marginBottom: "2rem" }}
       className="home-slider"
     >
-      {featuredMonuments.map(monument => {
+      {featuredMonuments.map((monument) => {
         return (
           <SliderCard
             language={language}
-            key={monument.node.id}
+            key={`${monument.node.frontmatter.title}-${monument.node.id}`}
             image={monument.node.frontmatter.image}
             title={monument.node.frontmatter.title}
             description={monument.node.frontmatter.description}
