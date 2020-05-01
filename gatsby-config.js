@@ -19,6 +19,7 @@ module.exports = {
     },
   },
   plugins: [
+    `gatsby-plugin-sitemap`,
     {
       resolve: "gatsby-plugin-netlify-cms",
       options: {
