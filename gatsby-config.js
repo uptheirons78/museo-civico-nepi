@@ -1,7 +1,7 @@
 module.exports = {
   siteMetadata: {
     title: `Museo Civico di Nepi`,
-    description: `Sito Web del Museo Civico del Comune di Nepi`,
+    description: `Il Museo Civico di Nepi conserva reperti archeologici che illustrano la storia di Nepi e del suo territorio dalla Preistoria sino al Rinascimento.`,
     author: `@uptheirons78`,
     siteUrl: `https://museociviconepi.it`,
     keywords: [

@@ -1,6 +1,6 @@
 ---
 templateKey: monuments
-title: 'Cathedral'
+title: 'The Cathedral'
 slug: 'cathedral'
 date: 2020-02-18T21:00:00.000Z
 description: >-
@@ -9,7 +9,7 @@ category: monuments
 featured: true
 image: https://res.cloudinary.com/museo-civico-di-nepi/image/upload/t_museo/v1587372894/duomo_thumbnail_ktzwop.jpg
 place: Via Luigi Cadorna n. 6
-access: Aperta durante le funzioni religiose
+access: Open during religious functions
 gallery:
   - alt: duomo abside
     image: https://res.cloudinary.com/museo-civico-di-nepi/image/upload/v1587372891/duomo-abside_jsklpu.jpg
@@ -28,52 +28,59 @@ gallery:
   - alt: duomo altare
     image: https://res.cloudinary.com/museo-civico-di-nepi/image/upload/v1587372885/duomo-altare_hvdzqs.jpg
 ---
-### Le Origini
-Secondo la tradizione locale il Duomo, intitolato a **Santa Maria Assunta**, fu edificato sopra un tempio pagano. In effetti la chiesa sorge in un’area occupata anticamente dal foro romano.
+### Origins
 
-L’edificio visibile attualmente è il risultato di una serie rifacimenti che hanno interessato la struttura sino al secolo scorso. Le prime notizie dell’esistenza di una cattedrale a Nepi vengono fatte risalire al **V secolo**, quando le fonti citano per la prima volta un vescovo nepesino.
+According to local traditions the **Cathedral of Santa Maria Assunta** was built on a **pagan temple**. The building as it stands today is the result of a series of renovations ended in the last century. The first historical record of a Cathedral in Nepi dates back to the **5th century**.
 
-Non è possibile stabilire con certezza se questa prima cattedrale sorgesse dove si trova oggi il Duomo. Ad eccezione di alcuni elementi architettonici databili fra l’VIII ed il IX secolo, la  chiesa, infatti, conserva strutture risalenti al XII secolo. A quest’epoca sono riferibili la splendida **cripta ad oratorium** e la parte inferiore del campanile.
+It is not possible to establish if this first Cathedral stood where the Dome is today. With the exception of few 9th century architectural elements the church preserves mainly 12th century elements such as **the marvelous crypt** and the lower part of **the bell tower**.
 
-**La cripta**, di forma rettangolare, è suddivisa in nove piccole navate separate da 24 colonne e presenta 3 absidi sulla parete di fondo. L’elemento di maggior fascino è dato dai capitelli, ognuno di forma diversa dall’altro, ornati con motivi vegetali e con figure umane e mostruose, tipiche del simbolismo dell’arte romanica.
+The **rectangular crypt** is divided in 9 small naves separated by 24 columns and has three apses.
+The capitals are extremely fascinating with their unique vegetable and human and monstrous figures typical of the roman art.
 
-![La Cripta](https://res.cloudinary.com/museo-civico-di-nepi/image/upload/t_museo/v1587372885/duomo_cripta_iajdvz.jpg)
+![The Crypt](https://res.cloudinary.com/museo-civico-di-nepi/image/upload/t_museo/v1587372885/duomo_cripta_iajdvz.jpg)
 
-### La Struttura
-Una epigrafe murata all’interno della chiesa ricorda, a conclusione dei lavori iniziati intorno alla metà del **XII secolo**, la consacrazione della cattedrale nell’anno 1266 da parte del vescovo Lorenzo.
+### The Structure
 
-La struttura, inizialmente a tre navate, fra ‘500 e ‘600 fu sottoposta a vari interventi di restauro ed ampliamento. I più importanti furono il **rifacimento del soffitto della navata centrale** nel 1608 e quello del portico nel 1647.
+An epigraph on a wall records the cathedral **consecration in 1266** by bishop Lorenzo.
 
-Dopo il 1680 iniziarono i lavori della **sopraelevazione del Coro**, seguiti dalla realizzazione della quarta navata.
+The **three apses structure** was renovated in the 17th century. In 1608 the **central apse roof** was renovated and in 1647 the porch. After 1680 the fourth apses was built.
 
-Nel **1752** fu aggiunta la quinta navata, come ricorda l’epigrafe che sormonta l’ingresso laterale della chiesa lungo via Matteotti.
+In **1752** the 5th apse was added as recorded by the epigraph written on the lateral entrance in Via Matteotti.
 
-La cattedrale subì gravi danni sul finire dell’anno 1798, quando, il giorno 2 dicembre, le truppe francesi incendiarono parte della città. Tutte le strutture lignee andarono distrutte nell’incendio insieme a parte degli arredi.
+The cathedral endured serious damages during the fire in 1798 caused by french troops. All the wooden structures and the furnitures were destroyed.
 
-### La Ricostruzione
-L’opera di ricostruzione della chiesa si deve ad **Anselmo Basilici**, vescovo di Nepi **dal 1818 al 1840**. Gli affreschi che decorano il suo interno furono eseguiti, però, solo successivamente. Elemento ricorrente è la figura di Maria, la cui vita è rappresentata in 12 scene sulla navata centrale, che appare come Assunta in Cielo nel catino dell’abside.
+### The Reconstruction
 
-Sulle pareti del Coro due affreschi mostrano la consacrazione episcopale di San Romano e la sua professione di fede nel momento del martirio. I dipinti furono realizzati da Domenico Torti e Ludovico De Mauro fra il 1868 ed il 1873.
+The reconstruction was wanted by Nepi’s bishop Anselmo Basilici. It took place **from 1818 to 1840**.
 
-![Affreschi](https://res.cloudinary.com/museo-civico-di-nepi/image/upload/t_museo/v1587372891/duomo_ottobrata_tozg0r.jpg)
+The **frescos** decorating the inside were realized only after. Maria is the recurring figure of the frescos, whose life is represented in **12 scenes painted on the central nave**.
 
-Nel 1901 fu **sostituita la pavimentazione** che originariamente doveva essere di tipo cosmatesco, ovvero composta da marmi policromi, come è possibile vedere nel frammento murato sotto il portico.
+On the choir walls two frescos show the **episcopal consecration of Saint Romano and his martyrdom**. The paintings were realized by Domenico Torti and Ludovico De Mauro from 1868 to 1873.
 
-### L'altare maggiore ed il trittico del SS. Salvatore
+![Frescos](https://res.cloudinary.com/museo-civico-di-nepi/image/upload/t_museo/v1587372891/duomo_ottobrata_tozg0r.jpg)
+
+In 1901 the paving was substituted. Originally the paving style was ccsmatesque, namely composed by polychrome marbles, as the remaining fragment under the portico shows.
+
+### The High Altar and the Santissimo Salvatore Triptych
+
 Fra le opere di maggior pregio conservate all’interno del Duomo vi è la **decorazione scultorea che riveste l’altare maggiore**. L’opera, raffigurante San Romano disteso con Santa Savinilla nell’atto di coprirlo con il velo sepolcrale, fu scolpita da **Ercole Ferrata**, allievo del Bernini, e collocata per la prima volta sopra l’urna contenente le reliquie del santo nel 1680.
 
 Altra composizione di notevole interesse è il **trittico del SS. Salvatore** posto nella parte presbiteriale. Nel pannello centrale è raffigurato il Salvatore ed in quelli laterali San Tolomeo, San Romano, l’Angelo Gabriele e la Vergine.
 
-![L'Altare Maggiore](https://res.cloudinary.com/museo-civico-di-nepi/image/upload/t_museo/v1587372885/duomo-altare_hvdzqs.jpg "Altare Maggiore")
+The **sculpture decoration of the high altar** is the best preserved in the Cathedral. The work by Ercole Ferrara, Bernini’s pupil, illustrates Saint Romano lying down with Saint Savinilla in the act of covering Jesus with the sepulchral veil. In 1680 the work was placed on the urne containing Saint Romano’s relics.
 
-La tradizione locale attribuisce l’opera al pittore **Giulio Romano**, attribuzione non condivisa dagli studiosi che sembrano concordare, però, per una sua realizzazione intorno alla metà del ‘500.
+In the presbytery we find the **Triptych of “Santissimo Salvatore”**. The central panel illustrated the savior while the two laterals depict Saint Romano, the angel Gabriel and the Virgin Mary.
 
-Nella Cappella del SS.mo Crocefisso, lungo la quinta navata, vi è la pregevole statua lignea realizzata dal maestro **Antonio Ispanico** nel 1533 che raffigura, appunto, il Cristo in croce.
+![High Altar](https://res.cloudinary.com/museo-civico-di-nepi/image/upload/t_museo/v1587372885/duomo-altare_hvdzqs.jpg "High Altar")
 
-### La Sacrestia
-Ad alcuni anni prima risalgono le splendide tavole dipinte da **Antonio del Massaro** detto Il Pastura raffiguranti i Santi Tolomeo e Romano conservate nella sacrestia.
+The local tradition attributes the work to the painter **Giulio Romano**, but some historians date it in the 16th century.
 
-Nella stesso locale sono presenti anche quattro piccoli ritratti dei Santi Apostoli Pietro, Bartolomeo, Giuda Taddeo e Matteo opere seicentesche di Mattia Preti.
-I quattro ritratti facevano parte del ciclo dei ritratti degli Apostoli e furono portate a Nepi da Marcello Anania, precettore dell’artista e vescovo della diocesi fra il 1654 e il 1670.
+The wooden statue depicting the crucified Christ by Antonio Ispanico is placed in the chapel of “Santissimo Crocifisso” along the fifth nave.
 
-In corrispondenza dell’ingresso sinistro della cattedrale una lapide fatta porre dal fratello Mario ne ricorda la figura e la morte il 25 aprile 1670.
+### The Sacristy
+
+The beautiful painted panels by **Antonio del Massaro** known as “Pastura” depicting the Saints Tolomeo and Romano are placed in the sacristy, where is possible to admire also four small 17th century paintings by Mattia Preti illustrating the Saints apostles Pietro, Bartolomeo, Giuda, Taddeo and Matteo.
+
+The **four portraits** belonged to the cycle of apostles and were brought to Nepi by bishop Marcello Anania who was also the patron of the artist.
+
+Next to the left entrance of the cathedral a plaque placed by his brother remembers the bishop’s death in 25th April 1570.

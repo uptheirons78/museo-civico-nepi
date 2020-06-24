@@ -4,9 +4,7 @@ title: The Aqueduct
 slug: the-aqueduct
 date: 2020-03-04T12:10:00.005Z
 description: >-
-  ENGLISH L'Acquedotto di Nepi è una delle architetture più particolari della
-  Tuscia e  del Lazio. Con la sua lunghezza di 285 metri, domina il panorama
-  intorno alle  grandi mura farnesiane del borgo.
+  Nepi’s aqueduct is one of the most peculiar architectures of Tuscia and Lazio. With its 285 meters length it dominates the landscape around the great Farnesian walls of the town.
 category: monuments
 featured: false
 image: https://res.cloudinary.com/museo-civico-di-nepi/image/upload/v1587371908/acquedotto-06_pyyezf.jpg
@@ -14,33 +12,31 @@ place: Piazzale de La Bottata
 access: '-'
 ticket: Free Entrance
 gallery:
-  - alt: Acquedotto di Nepi
+  - alt: Aqueduct of Nepi
     image: https://res.cloudinary.com/museo-civico-di-nepi/image/upload/v1587369825/acquedotto-01.jpg
   - alt: Acquedotto di Nepi
     image: https://res.cloudinary.com/museo-civico-di-nepi/image/upload/v1587371907/acquedotto-02_aj5wor.jpg
-  - alt: Acquedotto di Nepi
+  - alt: Aqueduct of Nepi
     image: https://res.cloudinary.com/museo-civico-di-nepi/image/upload/v1587371913/acquedotto-03_oi7brd.jpg
-  - alt: Acquedotto di Nepi
+  - alt: Aqueduct of Nepi
     image: https://res.cloudinary.com/museo-civico-di-nepi/image/upload/v1587371910/acquedotto-04_syy5zu.jpg
-  - alt: Acquedotto di Nepi
+  - alt: Aqueduct of Nepi
     image: https://res.cloudinary.com/museo-civico-di-nepi/image/upload/v1587371906/acquedotto-05_cg8qet.jpg
-  - alt: Acquedotto di Nepi
+  - alt: Aqueduct of Nepi
     image: https://res.cloudinary.com/museo-civico-di-nepi/image/upload/v1587371908/acquedotto-06_pyyezf.jpg
 ---
-Entrando a Nepi, appoggiato alle **mura farnesiane**, è possibile notare l’imponente acquedotto che si sviluppa su **due ordini di arcate**. La struttura, seppur possa ricordare gli antichi acquedotti romani, è in realtà il risultato di lavori avviati durante il **XVI secolo** e terminati solo nel **1727**.
+Entering the city of Nepi, beside the Farnesian Walls, it is possible to see this large aqueduct with **two orders of arches**. Even though it looks like an old roman aqueduct, it was built in the **16th century** and works ended only in **1727**.
 
-La parte visibile dell’acquedotto, in prossimità del centro abitato, misura **m. 285 di lunghezza** e si compone di **36 arcate**, raggiungendo l’altezza massima di circa m. 20. La necessità di portare l’acqua all’interno dell’abitato era da lungo tempo sentita. Prima della realizzazione dell’acquedotto, per l’approvvigionamento idrico erano utilizzate cisterne per la raccolta dell’acqua piovana, la cui presenza è documentata a partire dall’età romana, o si attingeva l’acqua dei vicini *Rio Puzzolo* e *Rio Falisco*.
+The visible part of the aqueduct is **285 meters long** and it is composed of 36 arches, with a maximum height of almost 20 meters. For many years the town needed a direct water supply inside the walls. Before the realization of the aqueduct, the water was collected in two cisterns collecting rain water, whose presence is documented since roman age, or from the near rivers called _Rio Puzzolo_ and _Rio Falisco_.
 
-Nel **1559** si diede inizio alla ricerca di sorgenti che potessero alimentare la cittadina. Venne individuata una sorgente posta in località *Varano*, alcuni chilometri a Nord-Ovest di Nepi ed iniziarono i lavori di scavo.
+In **1559** researches for springs that could supply the town began. One spring was individuated nearby a place called _Varano_, some kilometers north-West from Nepi.
 
-La maggior parte del tracciato dell’acquedotto sino alla cittadina corre sotterraneo, ma in prossimità delle mura cittadine il dislivello da superare era troppo ampio. Vari architetti, fra i quali il ***Vignola***, tentarono invano di completare l’opera.
+The most part of the aqueduct layout runs underground, but when it reaches the city walls it continues above ground. Many architects, including the **Vignola**, tried to collocate underground the whole aqueduct layout, but none of them succeeded.
 
-![acquedotto di nepi](https://res.cloudinary.com/museo-civico-di-nepi/image/upload/t_museo/v1587547028/acquedotto-sera.jpg "Acquedotto di Nepi")
+![Aqueduct of Nepi](https://res.cloudinary.com/museo-civico-di-nepi/image/upload/t_museo/v1587547028/acquedotto-sera.jpg "Aqueduct of Nepi")
 
-Nel **1702**, su impulso del cardinale *Giuseppe Renato Imperiali*, il progetto fu ripreso e la direzione dei lavori affidata all’architetto*Filippo Barigioni*, con l’ausilio del mastro *Giuseppe Bernascone* incaricato di eseguire le opere in muratura.
+In **1702**, by order of _Cardinal Giuseppe Renato Imperiali_, the aqueduct project restarted. The works were directed by architect _Filippo Barigioni_ with _Master Giuseppe Bernascone_’s assistance.
 
-Nel **1707** era già posato il primo ordine di arcate, ma i lavori si protrassero per anni.
+When the aqueduct was completed, **a fountain designed by Barigioni** was built in the colonnade in front of the City Hall, as memento of the accomplished venture.
 
-Terminata la struttura, si procedette a portare l’acqua sino alla **Piazza del Comune** dove nel **1727**, sotto il portico del Palazzo Comunale, fu collocata la **fontana**, **progettata dal *Barigioni***, **a ricordo dell’impresa compiuta**.
-
-Sebbene siano passati quasi trecento anni, **l’acquedotto continua ad alimentare le fontane pubbliche** ed ad offrire un’affascinante visione di sé.
+Although almost three hundreds years have passed, **this aqueduct keeps supplying water to the public fountains of Nepi**.

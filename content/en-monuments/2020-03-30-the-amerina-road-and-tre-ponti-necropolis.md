@@ -4,7 +4,7 @@ title: The Amerina Road and the Necropolis of "Tre Ponti"
 slug: the-amerina-road-and-the-necropolis-of-tre-ponti
 date: 2020-03-30T12:00:00.000Z
 description: >-
-  English Realizzata nel 241 a.C. la Via Amerina era la principale via di comunicazione tra Roma e l'Umbria dove arrivava fino ad Amelia. Nel Medioevo assunse un ruolo strategico e di primo piano, soprattutto durante l'invasione longobarda. Ancora oggi il suo percorso è chiaramente leggibile in vari tratti del territorio di Nepi. Gli scavi archeologici hanno portato alla luce in più punti il selciato integro della strada, in alcuni punti fiancheggiata da sepolture rupestri di varia tipologia.
+  Built in 241 B.C. the Amerina road was the main way of communication from Rome to Umbria region where it reached the city of Amelia. In the Middle Age it had a strategic role, above all during Longobards invasion. Up till now its path is clearly visible in different part of Nepi's territory. Archaeological excavations showed in different points the road whole pavement in some places it is surrounded by different kind of cave tombs.
 category: monumenti
 featured: false
 image: https://res.cloudinary.com/museo-civico-di-nepi/image/upload/t_museo/v1587372330/amerina-01_juz9ha.jpg
@@ -12,41 +12,41 @@ place: Località Tre Ponti
 access: "-"
 ticket: Free Entrance
 gallery:
-  - alt: via amerina e necrepoli di tre ponti
+  - alt: amerina road and tre ponti necrepolis
     image: https://res.cloudinary.com/museo-civico-di-nepi/image/upload/v1587372330/amerina-01_juz9ha.jpg
-  - alt: via amerina e necrepoli di tre ponti
+  - alt: amerina road and tre ponti necrepolis
     image: https://res.cloudinary.com/museo-civico-di-nepi/image/upload/v1587372343/amerina-02_btsonl.jpg
-  - alt: via amerina e necrepoli di tre ponti
+  - alt: amerina road and tre ponti necrepolis
     image: https://res.cloudinary.com/museo-civico-di-nepi/image/upload/v1587372344/amerina-03_ob2p6e.jpg
-  - alt: via amerina e necrepoli di tre ponti
+  - alt: amerina road and tre ponti necrepolis
     image: https://res.cloudinary.com/museo-civico-di-nepi/image/upload/v1587372345/amerina-04_ly2t5z.jpg
-  - alt: via amerina e necrepoli di tre ponti
+  - alt: amerina road and tre ponti necrepolis
     image: https://res.cloudinary.com/museo-civico-di-nepi/image/upload/v1587372344/amerina-05_qp6nze.jpg
-  - alt: via amerina e necrepoli di tre ponti
+  - alt: amerina road and tre ponti necrepolis
     image: https://res.cloudinary.com/museo-civico-di-nepi/image/upload/v1587372331/amerina-06_ikpdoh.jpg
-  - alt: via amerina e necrepoli di tre ponti
+  - alt: amerina road and tre ponti necrepolis
     image: https://res.cloudinary.com/museo-civico-di-nepi/image/upload/v1587372359/amerina-07_qkvbyj.jpg
-  - alt: via amerina e necrepoli di tre ponti
+  - alt: amerina road and tre ponti necrepolis
     image: https://res.cloudinary.com/museo-civico-di-nepi/image/upload/v1587372345/amerina-08_wdwk5a.jpg
-  - alt: via amerina e necrepoli di tre ponti
+  - alt: amerina road and tre ponti necrepolis
     image: https://res.cloudinary.com/museo-civico-di-nepi/image/upload/v1587372365/amerina-09_zs03vr.jpg
-  - alt: via amerina e necrepoli di tre ponti
+  - alt: amerina road and tre ponti necrepolis
     image: https://res.cloudinary.com/museo-civico-di-nepi/image/upload/v1587372359/amerina-10_cidjmg.jpg
 ---
-L’antica via Amerina metteva in comunicazione Roma con l'Umbria, giungendo sino ad _Ameria_, odierna Amelia, città da cui prende il nome. Il percorso si staccava dall’antica via Cassia all’altezza della stazione di _Vacanas_, all’interno della valle del Baccano, e proseguiva attraversando _Nepet_ (Nepi), _Falerii Novi_, _Castellum Amerinum_ sino ad arrivare a _Ameria_. La distanza totale da Roma ad Amelia era di **56 miglia**, come ricorda **Cicerone** nella sua orazione **“Pro Roscio Amerino”**.
+The ancient Amerina road **connected Rome with Umbria region** arriving in _Ameria_, now called Amelia, the city which gave it the name. The path detached from ancient Cassia road near a place called Vacanas, inside the Baccano Valley, and through _Nepet_ (Nepi), _Falerii Novi_, _Castellum Amerinum_ it reached _Ameria_. The total distance from Rome to Ameria was of **56 miles** as remainded by **Cicero** in its own oration _"Pro Roscio Amerino"_.
 
-La realizzazione della strada è collocata a dopo il **241 a.C.**, anno durante il quale fu distrutta _Falerii Veteres_, il più importante centro dei Falisci, e fondata la città romana di _Falerii Novi_.
+The road was built in **241 b.C**., when the city of _Falerii Veteres_ was destroyed, the most important center of Falisci people, and the roman city of _Falerii Novi_ was founded.
 
-![antica via amerina e necropoli di tre ponti](https://res.cloudinary.com/museo-civico-di-nepi/image/upload/t_museo/v1587372330/amerina-01_juz9ha.jpg)
+![ancient amerina road and the necropolis of tre ponti](https://res.cloudinary.com/museo-civico-di-nepi/image/upload/t_museo/v1587372330/amerina-01_juz9ha.jpg)
 
-In **età romana** la via Amerina costituì la principale arteria per il traffico locale e svolse l‘importante funzione di collegamento fra la via Cassia e la via Flaminia. Un ruolo strategico di primo piano fu assunto, poi, dal suo tracciato in **età alto medievale** quando il territorio della Tuscia fu invaso dai Longobardi. Il controllo del suo percorso assicurò, infatti, il collegamento fra Roma e Ravenna.
+During the **roman age** the Amerina road was the main path for the local traffic and had the important function to connect the Cassia road and the Flaminia once. It also had a strategic role during the **Middle Age** when our territory was inveded by Longobards. The control of its path insured the connection between Rome and Ravenna.
 
-Soppiantata dalla realizzazione della strada moderna collegante Nepi con Civita Castellana, alla fine del ‘700 (1787 – 1789), la via strada fu progressivamente cancellata o modificata nel suo tracciato a seguito delle importanti trasformazioni del paesaggio rurale operate nel corso degli ultimi due secoli.
+In **1787** it was substituted by a modern road between the cities of Nepi and Civita Castellana. The road was modified or erased after some great transformations of our rural landscape in the last two centuries.
 
-Oggi il suo percorso è ancora chiaramente leggibile in vari tratti del territorio di Nepi. Al confine con i comuni di Castel Sant’Elia, Civita Castellana e Fabrica di Roma, in **località “Tre Ponti”**, il tracciato stradale si insinua in una lunga tagliata e, attraversando i dislivelli con l’ausilio di ponti in muratura, finisce per perdersi fra i campi coltivati prima di raggiungere le mura di _Falerii Novi._
+Today its path is still **clearly visible** in different parts of Nepi's territory. Near the borders with the cities of Castel Sant'Elia, Civita Castellana and Fabrica di Roma, in a place known as "Tre Ponti" the road enters in a wide stone cut and through different terrain levels with the help of stone bridges it ends in cultivated fields before reaching the walls of Falerii Novi.
 
-![antica via amerina e necropoli di tre ponti](https://res.cloudinary.com/museo-civico-di-nepi/image/upload/t_museo/v1587372331/amerina-06_ikpdoh.jpg)
+![ancient amerina road and the necropolis of tre ponti](https://res.cloudinary.com/museo-civico-di-nepi/image/upload/t_museo/v1587372331/amerina-06_ikpdoh.jpg)
 
-E’ questo uno dei suoi tratti più belli, caratterizzato da **importanti evidenze archeologiche** collocate all’interno di un ambiente incontaminato, l’ecosistema delle forre. Gli scavi archeologici hanno portato alla luce in più punti il **selciato integro della strada** che è fiancheggiata da **sepolture rupestri** di varia tipologia (tombe ad arcosolio, tombe a camera, tombe a fossa, ecc.) databili per lo più fra il I secolo a.C. ed il II d.C.
+This is for sure one of its best part, characterized by **important archaeological evidences** located within an uncontaminated environment and the ecosystem of the so called "forre" (canyons). Archaeological excavations have brought to light in several places the **intact pavement of the road** which is flanked by **cave tombs** of various types (arcosolium tombs, chamber tombs, pit tombs, etc.) datable to mostly between the 1st century b.C. and the 2nd a.D.
 
-Le più antiche e monumentali sono le **tombe a portico**, come quella detta “Tomba della Regina”, situate a poca distanza dall’area conosciuta come “Cavo degli Zucchi”. Si tratta di un tipo di sepoltura caratterizzato dalla presenza di un portico che precede la camera funeraria e che trova la sua origine nel mondo etrusco, come documentano gli esempi più significativi all’interno delle necropoli di San Giuliano e di Norchia.
+The oldest and most monumental are the so called **portico tombs**, such as the one called **"Queen's Tomb"**, located in a short distance from the area known as **"Cavo degli Zucchi"**. It is a type of burial characterized by the presence of a "portico" that precedes the funeral chamber and which has its origin in the Etruscan world, as documented by the most significant examples inside the necropolises of San Giuliano and Norchia.

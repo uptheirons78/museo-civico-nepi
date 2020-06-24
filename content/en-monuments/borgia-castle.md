@@ -4,7 +4,7 @@ title: 'Borgia Castle'
 slug: 'borgia-castle'
 date: 2020-02-19T10:00:00.000Z
 description: >-
-  The "Borgia Castle", the main monument of Nepi, once owned by the important Catalan family is, today, the result of different remakes which testify the historical continuity of our wonderful town.
+  The "Borgia's Castle" or "Borgia's Fortress" is the main monument of Nepi. Once owned by the important Catalan family is, today, the result of different remakes which testify the historical continuity of our wonderful town.
 category: monuments
 featured: true
 image: >-
@@ -36,72 +36,76 @@ gallery:
   - alt: bastioni farnesiani
     image: https://res.cloudinary.com/museo-civico-di-nepi/image/upload/v1587372721/bastioni-04_mhcrcb.jpg
 ---
-ENGLISH VERSION
-
-### La Storia
+### The History
 
 Fra i monumenti di Nepi, il **“Forte dei Borgia”** è sicuramente il più significativo. Donato al Comune di Nepi nel **1962** dagli allora proprietari, la famiglia Sili, il castello si presentava in uno stato fatiscente. Una lunga opera di recupero, protrattasi per più di venti anni e culminata con un ultimo e massiccio intervento, ha restituito la piena fruibilità del monumento.
 
 Il castello nella tradizione popolare ha assunto il nome di **“Forte dei Borgia”** essendo intimamente legato all’importante famiglia di origine catalana. In realtà, quanto oggi visibile è il risultato di **sovrapposizioni** che testimoniano della lunga continuità storica che caratterizza la cittadina di Nepi.
 
-!["il castello dei borgia"](https://res.cloudinary.com/museo-civico-di-nepi/image/upload/t_museo/v1587373050/forte-01_j9ujv8.jpg)
+**The Borgia’s fortress (Forte dei Borgia)**, tied to the powerful Catalan family, represents the historical richness and continuity of Nepi. Borgia’s Fortress is certainly the most important among the monuments in Nepi.
 
-### Il Nucleo originale
+In **1962** it was donated to the town by the family Sili. The fortress was crumbling. A twenty years long restoration made the castle again available to the citizens and tourists.
 
-Il **nucleo originale della rocca**, infatti, poggia le fondamenta su una **fortificazione di epoca romana** posta a difesa del lato occidentale dell’abitato. Il locale “sotterraneo” del castello conserva inglobata la porta di ingresso alla città di età romana, un arco a tutto sesto, a 15 cunei in peperino e con piedritti composti da quattro filari in blocchi di tufo. Il piano di calpestio presenta ancora in più punti resti di basolato, quanto rimane del **percorso dell’antica Via Amerina** all’interno di Nepi.
+!["Borgia's Castle"](https://res.cloudinary.com/museo-civico-di-nepi/image/upload/t_museo/v1587373050/forte-01_j9ujv8.jpg)
 
-In età bizantina Nepi è ricordata dalle fonti come un centro fortificato. posizionato sull’importante percorso della **Via Amerina**. Lo stato attuale del complesso non conserva, però, strutture edilizie databili con certezza a questo periodo.
+### The Original Fortress Core
 
-Una **torre trapezoidale** fu aggiunta fra la metà del XII e la metà del XIII secolo. Con l’erezione di questa torre venne a formarsi il nucleo della  primitiva rocca, ricordato per la prima volta da una fonte del ‘300. Con l’elezione al pontificato di Alfonso Borgia nel 1455 si aprì per Nepi un periodo di importanti cambiamenti urbanistici che comportarono lavori di restauro della città  e, molto probabilmente, di ampliamento della rocca. Un inventario dei beni del 1477 cita per la prima volta la **“torre rotonda”**.
+The **original core of the fortress** lays its foundations on a **roman ancient castle** which defended the western part of the town. The roman round arch gate with its 15 peperino voussoirs stands in the basement of the building. The “basolato” ruins of **the ancient roman Amerina Road** lay around the gate.
 
-### Rilevanti modifiche
+During the Byzantine age the town was an important center along the **Amerina Road**, but as today there are no building from that period.
 
-Importanti modifiche furono apportate fra il **1479 ed 1483**. I lavori furono eseguiti sotto la direzione del maestro Antonio fiorentino da molti identificato con **Antonio da Sangallo il Vecchio**. La fortezza fu dotata di locali residenziali ed altri se ne aggiunsero sul finire del 1499. Questi ampliamenti furono realizzati sotto Rodrigo Borgia al quale nel 1479 era stata concessa la proprietà di Nepi, confermata, poi, da una bolla di Innocenzo VIII dell’ottobre del 1484.
+A **trapezoidal tower** was built between the 12th and the 13th century. The tower is the original core of the fortress. When Alfonso Borgia became Pope in 1455 Nepi experienced a period of radical urban transformations and the tower saw its first expansion.
 
-Della prima fase dei lavori restano a testimonianza gli **stemmi cardinalizi di Rodrigo** collocati sulle torri rotonda e trapezoidale. Le opere commissionate nel 1499 dovevano conferire un aspetto più marcatamente residenziale alla struttura in previsione della sua prossima donazione alla figlia **Lucrezia**.
+### Important Changes
 
-Prima di questa data è probabile, invece, la realizzazione della **cinta rettangolare difesa da quattro bastioni circolari** che andò ad inglobare e proteggere il nucleo originale della rocca. Conseguentemente alla realizzazione della cinta, l’antico ingresso alla città posto sotto la torre trapezoidale fu chiuso e venne edificata esternamente una nuova porta d’ingresso, l’attuale **Porta Borgiana**.
+The fortress experienced important changes between **1479 and 1483**. The works were led by the master Antonio Fiorentino, recognized by many as **Antonio Sangallo Il Vecchio** ("The Old"). The fortress was provided with many residential spaces. These changes were realized during Rodrigo Borgia’s time, who received the property of Nepi in 1479; the property was confirmed by Innocenzo VIII papal seal in October 1484.
 
-Rodrigo, divenuto papa nel 1492 con il nome di Alessandro VI,  per ricompensare il cardinale **Ascanio Sforza** che lo aveva sostenuto nell’elezione al pontificato, decise di donargli alcune proprietà, fra le quali il castello di Nepi. Il nuovo governatore ne rimase proprietario sino all’estate del 1499, quando contrasti fra il papa e la famiglia Sforza lo costrinsero a riconsegnarlo nelle mani del tesoriere pontificio, Francesco Borgia.
+**The Rodrigo Borgia’s coat of arms** in the tower records the first phase of the works.
+In 1499 other works were commissioned to make the fortress more inviting and elegant for its new owner: **Lucrezia Borgia**.
+
+Probably before this date **rectangular surrounding walls with four circular bastions** were built for defensive purposes. After the erection of the wall, the ancient roman gate was closed and a new entrance door, the present **Porta Borgiana**, was built.
+
+Rodrigo Borgia who became Pope 1492 as Alessandro VI, decided to donate the fortress of Nepi to **Ascanio Sforza** as a reward for his support to the election. Ascanio Sforza owned the castle until the summer of 1499, when the contrast with the Pope obliged him to return the castle to Francesco Borgia.
 
 ### Lucrezia Borgia
 
-Alcune settimane più tardi, con un breve del 9 ottobre, Alessandro VI  investì la figlia Lucrezia del **feudo di Nepi**, comprendente, oltre la città e la rocca, il territorio ed il distretto. Dopo una prima visita della città, Lucrezia tornò a Nepi alla fine di agosto dell’anno successivo, dopo l’assassinio del consorte Alfonso d’Aragona. Qui ella trascorse un periodo di lutto in compagnia del piccolo figlio Rodrigo nato dal matrimonio con Alfonso. Il suo soggiorno nel castello non durò a lungo; rientrata a Roma forse all’inizio del 1501, fu data in sposa ad Alfonso d’Este e partì, quindi, per Ferrara.
+Alessandro VI gave to his daughter Lucrezia **Nepi’s domain**, which included also the surrounding lands besides the fortress. Lucrezia settled definitively in Nepi only in August 1500, after her husbands Alfonso D’Aragona death. She grieved in Nepi for one year with her son Rodrigo. In 1501 she married Alfonso D’Este and moved to Ferrara.
 
-La **signoria di Nepi** fu trasformata in un vasto **ducato** di cui, nel settembre del 1501, Alessandro VI investì il figlioletto Giovanni, affidandone la tutela al cardinale e cugino Francesco Borgia. La morte di Alessandro VI nel 1503 segnò la fine delle ambizioni e della presenza dei Borgia a Nepi.
+The **Signoria of Nepi** was transformed in a **Duchy** and donated by the Pope Alessandro VI to his son Giovanni, whose counsellor was the Cardinal Francesco Borgia. The death of the Pope Alessandro VI in 1503 put an end to the dominion of the Borgias over Nepi.
 
-![il forte dei borgia](https://res.cloudinary.com/museo-civico-di-nepi/image/upload/t_museo/v1587373049/forte_02_nitvfy.jpg)
+![Borgia's Fortress](https://res.cloudinary.com/museo-civico-di-nepi/image/upload/t_museo/v1587373049/forte_02_nitvfy.jpg)
 
-### Bernardo Accolti ed i nuovi lavori
+### Bernardo Accolti and the new works
 
-Il successore al pontificato, Giulio II, dispose, infatti, la riconsegna della rocca al cardinale Ascanio Sforza. La documentazione d’archivio testimonia l’affidamento di nuovi lavori all’interno della rocca nell’anno 1513. Fu iniziata la costruzione di un **nuovo edificio destinato a residenza** che andò ad appoggiarsi, anteponendosi, alla precedente struttura di epoca borgiana che raccordava la torre trapezoidale a quella rotonda.
+Giulio II, the successor of Alessandro VI, gave Nepi to the cardinal Ascanio Sforza. The historical records indicate that the **construction of a new part of the fortress started in 1513**. The building had a residential function and joined the trapezoidal tower to the circular tower.
 
-Della struttura oggi rimane ben poco; il crollo della copertura ha determinato il cedimento del solaio del piano superiore. La facciata del palazzo è caratterizzata dalla presenza di ampie finestre che davano luce al pianterreno e a quello soprastante.
+Today only a small part of this building remains. The facade of the palace is characterized by many large windows which enlightened the first two floors.
 
-Grazie al ritrovamento di un largo stemma in pietra, il completamento dell’edificio residenziale può essere collocato all’epoca di **Bernardo Accolti**, detto “l’Unico”. Personaggio eccentrico e famoso poeta, fu governatore di Nepi e proprietario della rocca dal settembre del 1521 all’inizio del 1535.
+The discovering of a stone coat of arms allows us to date the completion of the residential building in **Bernardo Accolti** time. He was know as “l’Unico” (the Only). He was an eccentric and well known poet. He ruled over Nepi and owned the fortress from September 1521 to the beginning of 1535.
 
-### L'arrivo dei Farnese
+### Farnese Arrival
 
-Paolo III dopo aver tolto Nepi a Bernardo Accolti creò, nel **1537**, il ducato di Castro e Nepi investendone il figlio Pier Luigi. L’arrivo dei Farnese segnò l’inizio di un periodo di **forti cambiamenti nell’assetto urbanistico della cittadina**. I lavori compresero la creazione e l’allargamento di vie e piazze e la costruzione di nuovi edifici. Anche l’interno della rocca fu migliorato, sia nella funzionalità, sia nell’estetica.
+After conquering Nepi from Bernardo Accolti, Paolo III in 1537 created the **Duchy of Castro and Nepi**. He donated it to his son PierLuigi. During Farnese’s dominion, the city experienced important changes. New roads were built, squares were enlarged, and the Fortress was improved.
 
-A realizzare le opere più importanti fu chiamato l’architetto **Antonio da Sangallo il Giovane** cui si devono il progetto del primitivo Palazzo Comunale e quello della chiesa di San Tolomeo, mai portato a termine.
+The architect **Antonio da Sangallo il Giovane** designed the most important works, such as the Town Hall and the San Tolomeo church, which were unfortunately not finished.
 
-![il forte dei borgia](https://res.cloudinary.com/museo-civico-di-nepi/image/upload/t_museo/v1587373628/rocca-01_a772nh.jpg)
+![Borgia's Fortress](https://res.cloudinary.com/museo-civico-di-nepi/image/upload/t_museo/v1587373628/rocca-01_a772nh.jpg)
 
-### I Bastioni Farnesiani
+### The Bastions
 
-L’opera di Antonio da Sangallo il Giovane che deve essere, però, ricordata come maggiormente significativa è la progettazione dell’**imponente cinta cittadina**.
+The main work of Antonio da Sangallo are undoubtedly the city walls. The walls surround the western part of the hill where Nepi stands and they present two imposing polygonal bastions.
 
-La cinta muraria è costituita da una lunga cortina, diretta a chiudere il lato occidentale del promontorio su cui sorge Nepi, fiancheggiata alle estremità da due imponenti bastioni poligonali. Con la sua costruzione il “Forte dei Borgia“ divenne, quindi, il nucleo interno di un complesso più ampio che si estendeva lungo tutto il perimetro occidentale della città.
+These walls made the Borgia’s Fortress the core of an architectural ensemble extending along the western part of the town.
 
-La difesa della cinta muraria cittadina comprendeva **alloggiamenti per i cannoni** nella parte inferiore dei bastioni, **colubrine sugli spalti** e **feritoie per gli archibugi** a difesa delle due nuove porte, Porta Romana e Porta Nica o di Cavaterra.
+To defend the gates of the town (Porta Romana and Porta Nica) cannons, culverins and harquebus were used.
+Porta Romana was decorated with the Paolo III coat of arms.
 
-![I bastioni farnesiani](https://res.cloudinary.com/museo-civico-di-nepi/image/upload/t_museo/v1587372723/bastioni-03_ssplwk.jpg)
+Carts and carriages entered through the central entrance, while pedestrians and horses could enter in the town through lateral posterns.
 
-La prima delle due, sormontata dallo stemma di Paolo III, era la porta più importante della città e permetteva l’ingresso a carri e carrozze. All’occorrenza le due posterule laterali consentivano il transito a piedi o a cavallo senza dover abbassare il ponte levatoio principale.
+![Farnesiani's Bastions](https://res.cloudinary.com/museo-civico-di-nepi/image/upload/t_museo/v1587372723/bastioni-03_ssplwk.jpg)
 
-Le mura vennero dotate di un profondo fossato difensivo che fu colmato dalle acque del Rio Puzzolo e del Rio Falisco, abilmente sfruttate, tramite una condotta, per azionare il mulino situato accanto al ponte di Via della Mola.
+Some moats were built around the wall and were flooded with the water from the Rio Puzzolo and the Rio Falisco, whose water was also used to activate the mill placed in Via della Mola.
 
-Dopo la partenza da Nepi di Pier Luigi Farnese, nel 1545, il complesso del “Forte dei Borgia”, comprendente le mura cittadine, passò di proprietà alla **Camera Apostolica** che lo concesse in enfiteusi a privati riservandosi il diritto di utilizzarlo in caso di guerra.
+After Pier Luigi Farnese departure in 1545, Nepi became property of the Apostolic Camera, which donated the fortress to private owners while keeping the right of using it in war times.
 
-Da questo momento iniziò la progressiva decadenza della struttura, forse culminata con l’incendio della città da parte delle truppe francesi alla fine dell’anno 1798.
+In this moment begins the progressive decay of the fortress culminated with the fire in 1798 caused by French troops.

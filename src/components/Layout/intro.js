@@ -21,11 +21,11 @@ const Intro = ({ language }) => {
           <h3>Comune di Nepi</h3>
           <p>Cultura, Turismo e Politiche Giovanili</p>
           {language === "it" ? (
-            <Link to="/en/" className="language-btn" hidden>
+            <Link to="/en/" className="language-btn">
               EN
             </Link>
           ) : (
-            <Link to="/" className="language-btn" hidden>
+            <Link to="/" className="language-btn">
               IT
             </Link>
           )}
