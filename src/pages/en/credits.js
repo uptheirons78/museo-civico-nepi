@@ -17,7 +17,7 @@ const englishCreditsPage = ({ data }) => {
       <Credits
         language="en"
         data={data}
-        description="We thank the various people who collaborated in the creation of the website of the Museo Civico di Nepi"
+        description="We thank the various people who collaborated in the creation of the website of the Civic Museum of Nepi"
       />
     </Layout>
   );
