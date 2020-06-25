@@ -90,7 +90,7 @@ export const pages = {
       disabled: true,
       subpages: [
         { url: "/en/exhibition-itinerary", name: "exhibition itinerary" },
-        { url: "/en/works", name: "works" },
+        { url: "/en/artworks", name: "artworks" },
       ],
     },
     {
@@ -174,7 +174,7 @@ export const footer_pages = {
       { name: "Contacts", url: "/en/contacts" },
     ],
     collezioni_links: [
-      { name: "Works", url: "/en/works" },
+      { name: "Artworks", url: "/en/artworks" },
       { name: "Monuments", url: "/en/monuments" },
       { name: "Events", url: "/en/events" },
     ],
