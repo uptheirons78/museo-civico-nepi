@@ -1,6 +1,6 @@
 ---
 templateKey: monuments
-title: 'Borgia Castle'
+title: Borgia's Castle
 slug: 'borgia-castle'
 date: 2020-02-19T10:00:00.000Z
 description: >-
