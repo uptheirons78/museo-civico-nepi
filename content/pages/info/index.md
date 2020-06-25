@@ -23,7 +23,7 @@ en:
   close2: December 25 and 26
   entrance: Free Entrance
   pageDescription: >
-    ENGLISH Il Museo Civico di Nepi è aperto al pubblico sei giorni alla settimana per un totale complessivo di 28 ore settimanali. La struttura museale è visitabile anche durante alcune festività, quali Pasqua, 25 aprile, 1 maggio, 2 giugno e 15 agosto, salvo diverse disposizioni.
+    The Civic Museum of Nepi is open to the public 6 days a week for 28 hours per week. The Museum is also open during some feast days such as Easter, the 25th of April, the 1st of May, the 2nd of June and the 15th of August except specific disposals.
   pageTitle: Informations and Tickets
   sectionATitle: Opening Hours
   sectionBTitle: Closed
