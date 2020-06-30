@@ -6,12 +6,12 @@ date: 2019-10-05T21:00:00.000Z
 start: 2019-10-05T12:00:00.000Z
 end:
 description: >-
-  Lettura pubblica di brani tratti dal romanzo di Dario Fo "La figlia del Papa" sulla vita di Lucrezia Borgia con la partecipazione di Ebe Koinè, Annarita Salerno ed Ornella Marcucci.
+  Public lecture from the novel "The Pope's Daughter" by Dario Fo about the life of Lucrezia Borgia featuring Ebe Koinè, Annarita Salerno and Ornella Marcucci.
 category: eventi
 featured: false
 image: https://res.cloudinary.com/museo-civico-di-nepi/image/upload/v1587102195/incontro-05_ywu6by.jpg
-place: Museo Civico di Nepi
-access: '18:30 - 20:00'
+place: Civic Museum of Nepi
+access: '6:30pm - 8:00pm'
 ticket: 'Free Entrance'
 gallery:
   - alt: A Meeting with Lucrezia 2019 Picture 01
@@ -45,23 +45,20 @@ gallery:
     image: >-
       https://res.cloudinary.com/museo-civico-di-nepi/image/upload/v1587102196/incontro-10_sdo8ff.jpg
 ---
-Sabato 5 ottobre la mostra “Incontro con Lucrezia”, allestita presso i locali del Museo Civico, sarà lo scenario di un evento speciale.
+Saturday 5 October the exhibition "A Meeting with Lucrezia", ​​set up at the premises of the Civic Museum of Nepi, will be the setting for a special event.
 
-Nel pomeriggio, a partire dalle 18,30, gli attori di EBE Koinè, della Nuova Torretta e Annarita Salerno interpreteranno una selezione di brani tratti da "La figlia del Papa", romanzo di Dario Fo dedicato alla figura di Lucrezia Borgia.
+In the afternoon, starting at 6.30pm, actors EBE Koinè, Annarita Salerno and others from the local acting company "Nuova Torretta" will read a selection of fragments from "The Pope's Daughter", a novel by Dario Fo dedicated to the figure of Lucrezia Borgia.
 
-Fra le tante opere che in questi ultimi anni hanno descritto la figura di Lucrezia, quella di Dario Fo è forse la più singolare; frutto della ricerca storica e della sensibilità di un grande letterato.
-Il romanzo dipinge un fosco ritratto della società dell’epoca che finisce per esaltare la fragilità e l’umanità di Lucrezia.
+Among many works that described the figure of Lucrezia, the one by Dario Fo is perhaps the most singular; a result of historical research and the sensitivity of a great writer. The novel paints a dark portrait of the society of that time which ends up enhancing Lucrezia's fragility and humanity.
 
-Come scrive il Maestro: “Certo se stacchiamo di netto dal Rinascimento italiano la storia di papa Alessandro VI e dei suoi congiunti ne otteniamo una saga sconvolgente, dove i personaggi si muovono senza alcun rispetto per gli avversari e spesso nei propri stessi confronti.
+As the Master writes: “_Of course if we completely detach the story of Pope Alexander VI and his relatives from the Italian Renaissance we get a shocking saga, where the characters move with no respect for their opponents and often for themselves. The victim to sacrifice every time, since her childhood, is undoubtedly Lucrezia. It is she who is literally thrown both by her father and by her brother on every occasion into the whirlpool of financial and political interests without a shred of pity. No one ever cared about what the sweet daughter really thought_".
 
-La vittima da immolare ogni volta, sin dalla sua infanzia, è senz’altro Lucrezia. È lei che viene buttata tanto dal padre che dal fratello in ogni occasione nel gorgo degli interessi finanziari e politici, senza un briciolo di pietà. Di cosa ne pensi la dolce figliola non ci si preoccupa assolutamente”.
+Despite her great suffering the last period of life spent in Ferrara finally gave Lucrezia that justice she deserved. Appreciated Governor, "The Kind Duchess" was characterized by her religious fervor that led her to found the Monastery of Saint Bernardino and to become a Franciscan tertiary (a nun).
 
-Malgrado le grandi sofferenze patite, l’ultimo periodo di vita trascorso a Ferrara renderà giustizia a Lucrezia. Apprezzata governatrice, “la duchessa gentile” si contraddistinguerà per il suo fervore religioso che la porterà a fondare il monastero di S. Bernardino e a divenire terziaria francescana.
+Lectures from Dario Fo's novel will be alternated with pieces of Renaissance music performed by musicians Patrizia Bugliazzini and Corrado Speranza.
 
-Alle letture dell’opera di Dario Fo saranno alternati brani di musica rinascimentale eseguiti dai musicisti Patrizia Bugliazzini e Corrado Speranza.
+The Councilor for Culture Mr. Paolo Paoletti will bring greetings from the Municipal Administration of Nepi.
 
-A portare i saluti dell’amministrazione comunale, il consigliere delegato alla Cultura Paolo Paoletti.
+The event will be introduced by the director of the Civic Museum of Nepi Mr. Stefano Francocci and the Councilor of "Palio dei Borgia" Mr. Mirko Burti.
 
-Introdurranno l’evento il direttore del Museo Civico, Stefano Francocci e il consigliere dell’Ente Palio dei Borgia, Mirko Burti.
-
-Al termine, vino rosso e biscotti per tutti!
+At the end, red wine and biscuits for everyone!

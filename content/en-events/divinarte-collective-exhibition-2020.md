@@ -11,8 +11,8 @@ category: eventi
 featured: false
 image: >-
   https://res.cloudinary.com/museo-civico-di-nepi/image/upload/v1587106921/divin-07_z5iplq.jpg
-place: Museo Civico di Nepi
-access: Orario di apertura del Museo
+place: Civic Museum of Nepi
+access: Museum Opening Hours
 ticket: 'Free Entrance'
 gallery:
   - alt: Collective Exhibition DivinArte 2020 Picture 01
@@ -34,10 +34,10 @@ gallery:
     image: >-
       https://res.cloudinary.com/museo-civico-di-nepi/image/upload/v1587102171/divin-06_rwo8v4.jpg
 ---
-With a look at the beauties of our past the Cultural Association **"AmorArte"** inaugurates the new year with a collective of contemporary art inside the Museo Civico di Nepi (VT) which can be visited from 13 January to 26 January 2020.
+With a look at the beauties of our past **"AmorArte"** Cultural Association inaugurates the new year with a collective of contemporary art inside the Civic Museum of Nepi which can be visited from 13 January to 26 January 2020.
 
-On this occasion, on Sunday 12th at 5.15 pm, as usual, the **DiVinArte 2019 catalog** will be presented to all the artists who participated in the last September event dedicated to the 500th anniversary of Leonardo da Vinci.
+On this occasion, on Sunday 12 January at 5.15pm, as usual, the **DiVinArte 2019 catalog** will be presented to all the artists who participated in the last September event dedicated to the 500th anniversary of Leonardo da Vinci.
 
-Everything will be accompanied by a **wine tasting** by the sommelier Maurizio Giovannetti of the Enoteca Gustopiù.
+Everything will be accompanied by a **wine tasting** by the sommelier Maurizio Giovannetti of the local wine-shop "Enoteca Gustopiù".
 
 An opportunity not to be missed to be able to admire both the works of the artists and everything inside the Civic Museum of Nepi.

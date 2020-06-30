@@ -6,12 +6,12 @@ date: 2019-06-26T21:00:00.000Z
 start: 2019-06-27T12:00:00.000Z
 end: 2019-07-07T12:00:00.000Z
 description: >-
-  Mostra fotografica organizzata in collaborazione con l'Associazione Culturale Terramare. Passeggiata fotografica e visite guidate al Museo, alle Catacombe di Santa Savinilla ed alla Rocca dei Borgia.
+  Photographic exhibition organized in collaboration with "Terramare" Cultural Association. Photographic walk and guided tours to the Civic Museum of Nepi, the Saint Savinilla Catacombs and the Borgia's Castle.
 category: eventi
 featured: false
 image: https://res.cloudinary.com/museo-civico-di-nepi/image/upload/v1587101965/color-01_nk3ki6.jpg
-place: Museo Civico di Nepi
-access: Orario di apertura del Museo
+place: Civic Museum of Nepi
+access: Museum Opening Hours
 ticket: 'Free Entrance'
 gallery:
   - alt: Colorful 2019 Picture 01
@@ -36,53 +36,52 @@ gallery:
     image: >-
       https://res.cloudinary.com/museo-civico-di-nepi/image/upload/v1587101965/color-07_izw8ip.jpg
 ---
-Proseguono le attività del Museo Civico con una mostra fotografica organizzata in collaborazione con l'Associazione Culturale "Terramare".
+Civic Museum of Nepi activities go on with a photographic exhibition organized in collaboration with "Terramare" Cultural Association.
 
-L'esposizione si terrà a partire da giovedì 27 giugno e sarà visitabile sino a domenica 7 luglio. Durante questi giorni si terranno alcune iniziative, fra le quali, domenica 30 giugno, una passeggiata fotografica lungo il centro storico di Nepi e, nei giorni 29 giugno e 6 luglio, due visite guidate al Museo Civico, alla Catacomba di Santa Savinilla, alla Rocca dei Borgia e alla necropoli dei Tre Ponti.
+Exhibition will start on Thursday 27 June and will last till Sunday 7 July. During these days will take place different activities like a photographic walk along the city center of Nepi on Sunday 30 June or two guided tours to the Civic Museum of Nepi, Saint Savinilla Catacomb, Borgia's Castle and "Tre Ponti" Necropolis on the 29 June and 6 July.
 
-Alla conoscenza del patrimonio culturale di Nepi, si affiancherà anche la cura dell'ambiente. Infatti, l'apertura della mostra sarà anche l'occasione per parlare del tema del "plastic free"; vale a dire della limitazione o meglio della rinuncia all'utilizzo del materiale in plastica monouso (bottiglie, piatti, ecc.), la cui dispersione sconsiderata sta provocando importanti danni all'ecosistema marino, in particolare.
+These activities will take care both on the knowledge of our cultural heritage and our territory. The exhibition will be an occasion to talk about "plastic free"; the limitation or sacrifice to use disposable plastic items (bottles, dishes, etc...) whose reckless dispersal is causing significant damage in particular to the marine ecosystem.
 
-A trattare di questa importante problematica saranno Ennio La Malfa, segretario nazionale di Accademia Kronos Onlus, Rita Vergini e Massimo Petrella dell'associazione SalvaguardiAmo Bracciano.
+Mr Ennio La Malfa, National Secretary of "Accademia Kronos Onlus", Madame Rita Vergini and Mr Massimo Petrella of "SalvaguardiAmo Bracciano" Association will talk about this important topic.
 
-**Calendario Mostra Fotografica per l'VIII Concorso Fotografico a tema"Colorful"**
+**Photographic Exhibition for the 8th Photographic Competition called "Colorful" Calendar**
 
-**Giovedì 27 giugno ore 17,00 (Museo Civico)**
+**Thursday 27 June 5pm (Civic Museum of Nepi)**
 
-Inaugurazione Mostra fotografica, sensibilizzazione al tema del “Plastic free”.
-Interverventi di:
+Photographic Exhibition Opening and discussions about the topic of a "Plastic Free" world.
+Different people will take part at the opening:
 
-Paolo Paoletti (Consigliere delegato alla Cultura – Comune di Nepi)
-Stefano Francocci (Direttore Museo Civico di Nepi)
-Patrizia Bugliazzini (Presidente Associazione “Terramare”)
-Ennio La Malfa (Segretario Nazionale “Accademia Kronos Onlus”)
-Rita Vergini (Associazione SalvaguardiAmo Bracciano)
-Massimo Petrella (Associazione SalvaguardiAmo Bracciano)
+Paolo Paoletti (Cultur Councilor – Comune di Nepi)
+Stefano Francocci (Director of the Civic Museum of Nepi)
+Patrizia Bugliazzini (President of “Terramare” Association)
+Ennio La Malfa (National Secretary of “Accademia Kronos Onlus”)
+Rita Vergini ("SalvaguardiAmo Bracciano" Association)
+Massimo Petrella ("SalvaguardiAmo Bracciano" Association)
 
-Al termine degustazione di Vini delle Cantine Capitani di Trevignano Romano(RM).
+The opening will end with a taste of wines from Cantine Capitani located in the near Trevignano Romano(RM).
 
-**Venerdì 28 giugno ore 17,00 (Museo Civico)**
+**Friday 28 June 5pm (Civic Museum of Nepi)**
 
-“Il museo si racconta: alcuni eccezionali reperti archeologici in esposizione al Museo Civico ”, intervento di Stefano Francocci (Direttore del Museo Civico di Nepi).
-I partecipanti potranno sperimentare la realtà virtuale attraverso l’utilizzo di alcuni visori VR che ricostruiscono l’interno delle tombe della necropoli di Sante Grotte.
+"A tale of our museum: about some exceptional archaeological finds on display in the Civic Museum of Nepi", speech by Stefano Francocci (Director of the Civic Museum of Nepi).
+Participants will be able to experience virtual reality through the use of some VR viewers that reconstruct the interior of the tombs of the near "Sante Grotte" Necropolis.
 
-**Sabato 29 giugno ore 16,00**
+**Saturday 29 June 4pm**
 
-Visita guidata al Museo Civico, alla Rocca dei Borgia e alla Catacomba di Santa Savinilla (a cura del Museo Civico di Nepi).
-Appuntamento al Museo Civico di Nepi, in Via Falisca n. 31, alle ore 15,45.
-La Visita Guidata ha il costo di € 8 (gratuita per i bambini sino a 14 anni) e avrà la durata di circa 3 ore. Necessaria la prenotazione e il raggiungimento del numero minimo di 8 partecipanti adulti.
+Guided tour of the Civic Museum of Nepi, Borgia's Castle and Saint Savinilla Catacomb with the staff of our Civic Museum.
+We will meet in front of the Civic Museum located in Nepi, Via Falisca n. 31 at 3:45pm.
+This guided tour costs 8 Euros (free for children up to 14 years) and will last about 3 hours. Reservation is required and the minimum number of 8 adult participants must be reached.
 
-**Domenica 30 giugno**
+**Sunday 30 June**
 
-Passeggiata fotografica lungo il centro storico di Nepi.
+Photographic walk through the historical center of Nepi.
 
-**Sabato 6 luglio ore 16,30**
+**Saturday 6 July 4:30pm**
 
-Visita guidata al Museo Civico e alla necropoli dei Tre Ponti, lungo il percorso dell’antica Via Amerina (a cura del Museo Civico di Nepi).
-Appuntamento al Museo Civico di Nepi, in Via Falisca n. 31 alle ore 16,15. Si consiglia abbigliamento comodo con pantaloni lunghi, scarpe chiuse o da trekking, giacca leggera e acqua. Lo spostamento all'Antica via Amerina avverrà con auto propria (è a cira 5 km dal centro di Nepi).
-La Visita Guidata ha il costo di € 8 (gratuita per i bambini sino a 14 anni) e avrà la durata di circa 3 ore. Necessaria la prenotazione e il raggiungimento del numero minimo di 8 partecipanti adulti.
+Civic Museum of Nepi and "Tre Ponti" Necropolis guided tours along the Ancient Amerina Road with the staff of our museum.
+We will meet in front of the museum located in Nepi in Via Falisca n. 31 at 4:15pm. Comfortable clothing with long trousers, closed or trekking shoes, light jacket and a bottle of water is recommended. The move to the Ancient Amerina Road will take place with your own car (it is about 5 km far from the center of Nepi.
+This guided tour costs 8 Euros (free for children up to 14 years) and will last about 3 hours. Reservation is required and the minimum number of 8 adult participants must be reached.
 
-**Domenica 7 luglio ore 17,00 (Museo Civico)**
+**Sunday 7 July 5pm (Civic Museum of Nepi)**
 
-Premiazione VIII Concorso Fotografico a tema “Colorful”.
-Al termine degustazione di Vini delle Cantine Capitani di Trevignano Romano(RM) e di prodotti tipici del territorio.
+At the end of the ceremony there will be a taste of wines from Cantine Capitani located in the near Trevignano Romano (RM) and other tipical products from our territory.
 

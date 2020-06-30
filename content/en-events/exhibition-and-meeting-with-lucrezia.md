@@ -6,13 +6,13 @@ date: 2019-09-01T21:00:00.000Z
 start: 2019-09-01T12:00:00.000Z
 end: 2019-10-05T12:00:00.000Z
 description: >-
-  Omaggio a Lucrezia Borgia a cinquecento anni dalla morte. Mostra dell’abito di Lucrezia e di altri costumi e oggetti utilizzati durante il corteo storico del Palio dei Borgia di Nepi.
+  Homage to Lucrezia Borgia five hundred years after her death. Exhibition of Lucrezia's dress and other costumes and objects used during the historical commemoration called "Palio dei Borgia" which takes place yearly in Nepi at the end of May.
 category: eventi
 featured: false
 image: https://res.cloudinary.com/museo-civico-di-nepi/image/upload/v1587102225/mostra-03_egwb3s.jpg
-place: Museo Civico di Nepi
-access: Orario di apertura del museo
-ticket: 'Ingresso Gratuito'
+place: Civic Museum of Nepi
+access: Museum Opening Hours
+ticket: 'Free Entrance'
 gallery:
   - alt: Exhibition and Meeting with Lucrezia 2019 Picture 01
     image: >-
@@ -30,15 +30,14 @@ gallery:
     image: >-
       https://res.cloudinary.com/museo-civico-di-nepi/image/upload/v1587102225/mostra-05_xqclev.jpg
 ---
-A cinquecento anni dalla morte, il Museo Civico di Nepi, in collaborazione con il Comune di Nepi e l’Ente Palio dei Borgia, vuole rendere omaggio ad uno dei personaggi più famosi del Rinascimento italiano: Lucrezia Borgia.
+Five hundreds years after her death, the Civic Museum of Nepi in collaboration with Municipality of Nepi and "Palio dei Borgia" Institution wants to honor one of the most important personality of italian Renaissance: Lucrezia Borgia.
 
-Donna celebre per la sua bellezza, fu una figura controversa; identificata come una sorta di femme fatale a causa delle accuse di incesto che le furono mosse già all’epoca, ma soprattutto per la fama di avvelenatrice con la quale fu presentata dalla letteratura ottocentesca.
+Once famous for her beauty she really was a controversial figure; known as a "femme fatale" because incest accusations against her at that time and above all the fame to be a poisoner which 19th century literature gave her.
 
-In questi ultimi decenni il suo personaggio è stato rivalutato dagli storici, in particolare in virtù dell’ultimo periodo della sua vita quando, come duchessa di Ferrara, dette ampia dimostrazione delle sue doti di abile diplomatica, di politica e di mecenate.
-Lucrezia nel 1499 fu fatta dal padre “Signora di Nepi”. Il corteo storico del Palio dei Borgia ripropone appunto la prima venuta di lei a Nepi, nel settembre dello stesso anno, dove ad attenderla troverà il padre in compagnia di alcuni cardinali.
+During the last ten years her personality was positively reconsidered by historians above all bacause of her last period of life when, as Duchess of Ferrara, she showed her great skills as diplomat, politician and patron. In 1499 she became the "Lady of Nepi". The historical commemoration called "Palio dei Borgia" commemorates the first time she entered Nepi in September of 1499 with her father, Pope Alexander VI, and some Cardinals to wait her in our city.
 
-A partire da oggi, per tutto il mese di settembre all’interno dei locali del Museo Civico si svolgerà la mostra INCONTRO CON LUCREZIA nella quale sarà esposto l’abito di Lucrezia utilizzato durante il corteo storico. Accanto allo sfarzoso costume saranno esposti altri abiti e materiali che documentano il Palio dei Borgia che si svolge a Nepi ogni anno nella prima metà di giugno.
+Starting from today and all along this month of September 2019 inside the Civic Museum of Nepi will be possible to visit the exhibition "A Meeting with Lucrezia" which will give you the possibility to see Lucrezia's dress also used during the yearly historical commemoration. Near this splendid costume will be exhibited other dresses and objects to show the yearly historical commemoration of "Palio dei Borgia".
 
-Un occasione, per chi non l’ha mai vista, per conoscere una delle festività più importanti della città; per chi l’ha vissuta e la vive ogni anno, per rivedersi nelle immagini dei video e riviverne le emozioni.
+This will be an opportunity for anyone who never seen the commemoration to know one of the most important festivity of our city; and for those who already know it to see images and videos of it and to live again all the emotions this commemoration gave us.
 
-Vi aspettiamo!
+We are waiting for you!

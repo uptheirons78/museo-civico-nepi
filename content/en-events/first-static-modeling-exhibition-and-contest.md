@@ -1,17 +1,17 @@
 ---
 templateKey: events
-title: '"Nepimodellismo" Prima Mostra-Concorso di Modellismo Statico'
+title: '"Nepimodellismo" First Static Modeling Esxhibition and Contest 2020'
 slug: 'nepimodellismo-first-static-modeling-exhibition-and-contest-2020'
 date: 2020-02-28T21:00:00.000Z
 start: 2020-02-29T12:00:00.000Z
 end: 2020-03-01T12:00:00.000Z
 description: >-
-  Esposizione di collezioni di figurini storici all'interno del Museo Civico di Nepi e primo concorso di modellismo statico con la partecipazione di alcuni fra i più importanti modellisti italiani.
+  Exhibition of collections of historical figures inside the Civic Museum of Nepi and first static modeling competition with the participation of some of the most important Italian model makers.
 category: events
 featured: true
 image: https://res.cloudinary.com/museo-civico-di-nepi/image/upload/v1587546670/modellismo_01_o8bpdq.jpg
-place: Nepi Civic Museum
-access: 10.00-01.00 AM / 03:00-06:00 PM
+place: Civic Museum of Nepi
+access: 10am - 01pm / 03pm - 06pm
 ticket: Free Entrance
 gallery:
   - alt: NepiModellismo First Modeling Exhibition Picture 01
@@ -39,20 +39,22 @@ gallery:
     image: >-
       https://res.cloudinary.com/museo-civico-di-nepi/image/upload/v1587102246/nepimod-09_aubl1c.jpg
 ---
-Dal 22 febbraio al 1 marzo il Museo Civico di Nepi ospiterà la Ia edizione di “Nepi Modellismo” Mostra / Concorso di Modellismo Statico.
+Starting from February 22 2020 and till March 01 2020 the Civic Museum of Nepi will host the First Edition of "Nepi Modellismo" a static modeling exhibition and contest.
 
-All’interno della prestigiosa sede museale saranno esposti modellini di tutte le categorie (figurini, mezzi terrestri, navali, aerei e spaziali). L’iniziativa si aprirà con la mostra, cui poi seguirà, con l’arrivo di ulteriori modellini dal 28 febbraio, il vero e proprio concorso.
+Inside the prestigious museum venue, models of all kind will be exhibited (figures, land, sea, air and space vehicles). This initiative will start as a simple exhibition, then with the arrival of further models starting from February 28, the actual competition will take place.
 
-La competizione vedrà la partecipazione di alcuni fra i più importanti modellisti italiani, provenienti in larga parte della capitale, ma anche da altre località del Lazio e da fuori regione.
+Some of the most important Italian model makers will partecipate to this competition, coming from the near Rome, from other places in Lazio and, also, from outside our region.
 
-Lo svolgimento della manifestazione sarà anche l’occasione per conoscere la cittadina di Nepi. A tutti i visitatori sarà, infatti, consegnata una card che permetterà uno sconto presso i ristoranti del centro storico aderenti e la visita guidata a tariffa ridotta alla Rocca dei Borgia.
+The event will surely be an opportunity to know the city of Nepi. All visitors will be given
 
-Sarà, inoltre, possibile visitare liberamente il Museo Civico che farà da splendida cornice alla manifestazione.
+A card that allows a discount for different restaurants in Nepi and a reduced-rate guided tour of the Borgia's Castle will be given to any competition partecipant.
 
-La mostra / concorso resterà aperta, secondo il normale orario di apertura del Museo Civico, sino al 1 marzo, giorno durante il quale si svolgerà la premiazione.
+It will also be possible to freely visit the Civic Museum of Nepi which will be the splendid setting for this event.
 
-Il calendario prevede:
+The exhibition / competition will be open, according to the normal opening hours of the Civic Museum of Nepi, until March 1 2020, the day of the awards ceremony.
 
-Sabato 22 febbraio ore 16,00 inaugurazione della mostra.
+Exhibition Calendar:
 
-Domenica 1 marzo ore 15,30 premiazione del concorso
+Saturday 22 February 04pm opening of the exhibition.
+
+Sunday 01 March 3:30pm awards ceremony.
