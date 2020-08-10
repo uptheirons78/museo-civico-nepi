@@ -9,40 +9,41 @@ description: >-
 ---
 #### Data Controller
 
-Dott. **Stefano Francocci**, Director of Museo Civico di Nepi – Via Falisca, 31 – 01036 NEPI (VT) - Italy.
+Mr. **Stefano Francocci**, Director of Civic Museum of Nepi – Via Falisca, 31 – 01036 NEPI (VT) - Italy.
 
 Data Controller email: _museo@comune.nepi.vt.it_
 
-#### Tipologie di Dati raccolti
+#### Different kind of collected data
 
-Fra i Dati Personali raccolti da questa Applicazione, in modo autonomo o tramite terze parti, ci sono: Cookie; Dati di utilizzo. Dettagli completi su ciascuna tipologia di dati raccolti sono forniti nelle sezioni dedicate di questa privacy policy o mediante specifici testi informativi visualizzati prima della raccolta dei dati stessi. I Dati Personali possono essere liberamente forniti dall'Utente o, nel caso di Dati di Utilizzo, raccolti automaticamente durante l'uso di questa Applicazione. Se non diversamente specificato, tutti i Dati richiesti da questa Applicazione sono obbligatori. Se l’Utente rifiuta di comunicarli, potrebbe essere impossibile per questa Applicazione fornire il Servizio. Nei casi in cui questa Applicazione indichi alcuni Dati come facoltativi, gli Utenti sono liberi di astenersi dal comunicare tali Dati, senza che ciò abbia alcuna conseguenza sulla disponibilità del Servizio o sulla sua operatività. Gli Utenti che dovessero avere dubbi su quali Dati siano obbligatori, sono incoraggiati a contattare il Titolare. L’eventuale utilizzo di Cookie - o di altri strumenti di tracciamento - da parte di questa Applicazione o dei titolari dei servizi terzi utilizzati da questa Applicazione, ove non diversamente precisato, ha la finalità di fornire il Servizio richiesto dall'Utente, oltre alle ulteriori finalità descritte nel presente documento e nella Cookie Policy, se disponibile. L'Utente si assume la responsabilità dei Dati Personali di terzi ottenuti, pubblicati o condivisi mediante questa Applicazione e garantisce di avere il diritto di comunicarli o diffonderli, liberando il Titolare da qualsiasi responsabilità verso terzi.
+Among the Personal Data collected by this Application, independently or through third parties, there are: Cookies; Usage data. Complete details on each type of data collected are provided in the dedicated sections of this Privacy Policy or through specific information texts displayed before data are collected. Personal Data may be freely provided by the User or, in the case of Usage Data, collected automatically during the use of this Application. Unless otherwise specified, all the Data requested by this Application are mandatory. If the User refuses to communicate them, it may be impossible for this Application to provide the Service. In cases where this Application indicates some Data as optional, Users are free to refrain from communicating such Data, without this having any consequence on the availability of the Service or on its operation. Users who have doubts about which data are mandatory are encouraged to contact the owner. Any use of Cookies - or other tracking tools - by this Application or by the owners of third party services used by this Application, unless otherwise specified, has the purpose of providing the Service requested by the User, in addition to the additional purposes described in this document and in the Cookie Policy, if available. The User assumes responsibility for the Personal Data of third parties obtained, published or shared through this Application and guarantees that he has the right to communicate or disseminate them, freeing the Owner from any liability to third parties.
 
-#### Modalità e luogo del trattamento dei Dati raccolti
+#### How and where collected data are treated
 
-**Modalità di trattamento**
+**How data are treated**
 
-Il Titolare adotta le opportune misure di sicurezza volte ad impedire l’accesso, la divulgazione, la modifica o la distruzione non autorizzate dei Dati Personali.
- Il trattamento viene effettuato mediante strumenti informatici e/o telematici, con modalità organizzative e con logiche strettamente correlate alle finalità indicate. Oltre al Titolare, in alcuni casi, potrebbero avere accesso ai Dati altri soggetti coinvolti nell’organizzazione di questa Applicazione (personale amministrativo, commerciale, marketing, legali, amministratori di sistema) ovvero soggetti esterni (come fornitori di servizi tecnici terzi, corrieri postali, hosting provider, società informatiche, agenzie di comunicazione) nominati anche, se necessario, Responsabili del Trattamento da parte del Titolare. L’elenco aggiornato dei Responsabili potrà sempre essere richiesto al Titolare del Trattamento.
+Data Controller adopts any appropriate security measures to prevent unauthorized access, disclosure, modification or destruction of Personal Data.
 
-**Base giuridica del trattamento**
+Data treatment is done with IT and/or telematic tools, with organizational methods and with logic strictly related to the purposes indicated. In addition to the Owner, in some cases, other subjects involved in the organization of this Application (administrative, commercial, marketing, legal, system administrators) or external subjects (such as third party technical service providers, postal couriers, hosting provider, IT companies, communication agencies may have access to the Data) also appointed, if necessary, Data Processors by the Owner. The updated list of Managers can always be requested from the Data Controller.
 
-Il Titolare tratta Dati Personali relativi all’Utente in caso sussista una delle seguenti condizioni:
+**Legal basis of data processing**
 
-* l’Utente ha prestato il consenso per una o più finalità specifiche; Nota: in alcuni ordinamenti il Titolare può essere autorizzato a trattare Dati Personali senza che debba sussistere il consenso dell’Utente o un’altra delle basi giuridiche specificate di seguito, fino a quando l’Utente non si opponga (“opt-out”) a tale trattamento. Ciò non è tuttavia applicabile qualora il trattamento di Dati Personali sia regolato dalla legislazione europea in materia di protezione dei Dati Personali;
-* il trattamento è necessario all'esecuzione di un contratto con l’Utente e/o all'esecuzione di misure precontrattuali;
-* il trattamento è necessario per adempiere un obbligo legale al quale è soggetto il Titolare;
-* il trattamento è necessario per l'esecuzione di un compito di interesse pubblico o per l'esercizio di pubblici poteri di cui è investito il Titolare;
-* il trattamento è necessario per il perseguimento del legittimo interesse del Titolare o di terzi.
+Data Controller processes Personal Data relating to the User if one of the following conditions exists:
 
-È comunque sempre possibile richiedere al Titolare di chiarire la concreta base giuridica di ciascun trattamento ed in particolare di specificare se il trattamento sia basato sulla legge, previsto da un contratto o necessario per concludere un contratto.
+* the User has given consent for one or more specific purposes; Note: in some systems, the Data Controller may be authorized to process Personal Data without the User's consent or another of the legal bases specified below, as long as the User does not object ("opt-out") to such data processing. However, this is not applicable if the processing of Personal Data is regulated by European General Data Protection Regulation;
+* processing is necessary for the execution of a contract with the User and / or for the execution of pre-contractual measures;
+* processing is necessary to fulfill a legal obligation to which the Data Controller is subject;
+* processing is necessary for the performance of a public interest task or for the exercise of public powers with which the Data Controller is invested;
+* the processing is necessary for the pursuit of the legitimate interest of the owner or third parties.
 
-**Luogo**
+However, it is always possible to request the Data Controller to clarify the concrete legal basis of each process and in particular to specify whether the process is based on the law, provided for in a contract or necessary to conclude a contract.
 
-I Dati sono trattati presso le sedi operative del Titolare ed in ogni altro luogo in cui le parti coinvolte nel trattamento siano localizzate. Per ulteriori informazioni, contatta il Titolare. I Dati Personali dell’Utente potrebbero essere trasferiti in un paese diverso da quello in cui l’Utente si trova. Per ottenere ulteriori informazioni sul luogo del trattamento l’Utente può fare riferimento alla sezione relativa ai dettagli sul trattamento dei Dati Personali.
+**Where Data are processed**
 
-L’Utente ha diritto a ottenere informazioni in merito alla base giuridica del trasferimento di Dati al di fuori dell’Unione Europea o ad un’organizzazione internazionale di diritto internazionale pubblico o costituita da due o più paesi, come ad esempio l’ONU, nonché in merito alle misure di sicurezza adottate dal Titolare per proteggere i Dati.
+Data are processed at the Data Controller's operating offices and in any other place where the parties involved in the processing are located. For more information, contact the owner. The User's Personal Data may be transferred to a country other than the one in which the User is located. To obtain further information on the place of processing, the User can refer to the section relating to the details on the processing of Personal Data.
 
-L’Utente può verificare se abbia luogo uno dei trasferimenti appena descritti esaminando la sezione di questo documento relativa ai dettagli sul trattamento di Dati Personali o chiedere informazioni al Titolare contattandolo agli estremi riportati in apertura.
+The User has the right to obtain informations about the legal basis for the transfer of Data outside the European Union or to an international organization under public international law or consisting of two or more countries, such as the UN, as well as regarding the security measures taken by the Data Controller to protect Data.
+
+The User can check whether one of the transfers described above takes place by examining the section of this document relating to the details on the processing of Personal Data or requesting information from the Data Controller by contacting him directly.
 
 **Periodo di conservazione**
 

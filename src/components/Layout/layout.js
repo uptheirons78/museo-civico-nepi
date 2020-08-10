@@ -21,10 +21,13 @@ const btnStyle = {
   background: "#FAA916",
 };
 
-const Layout = props => {
+const Layout = (props) => {
   return (
     <ThemeProvider theme={Theme}>
       <Fade>
+        <Pop>
+          <h1 style={{ color: "white" }}>Work in progress...</h1>
+        </Pop>
         <MainWrapper>
           <GlobalStyle />
           <Header language={props.language} />
@@ -63,9 +66,10 @@ const Layout = props => {
 export default Layout;
 
 const MainWrapper = styled.div`
+  display: none;
   max-width: 1050px;
   width: 100%;
-  background: ${props => props.theme.white};
+  background: ${(props) => props.theme.white};
   margin: 0 auto;
   box-shadow: 18px 0 22px -4px rgba(0, 0, 0, 0.6),
     -18px 0 22px -4px rgba(0, 0, 0, 0.6);
@@ -74,3 +78,17 @@ const MainWrapper = styled.div`
     box-shadow: none;
   }
 `;
+
+const Pop = styled.div`
+  width: 100vw;
+  height: 100vh;
+  background-color: #000;
+  position: relative;
+  top: 0;
+  right: 0;
+`;
+
+/**
+ * Per rivedere il sito rimuovere l'elemento Pop e
+ * displey none sul Main Wrapper
+ */
