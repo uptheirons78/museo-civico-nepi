@@ -141,7 +141,7 @@ export const footer_pages = {
     museo_links: [
       { name: "Storia", url: "/storia" },
       { name: "Mission", url: "/mission" },
-      // { name: "Carta dei Servizi", url: "/carta-dei-servizi" },
+      { name: "Carta dei Servizi", url: "/carta-dei-servizi" },
     ],
     info_links: [
       { name: "Orari e tariffe", url: "/info" },
